@@ -3,17 +3,22 @@
 <template>
   <div class="thumbnail-content">
     <div class="overlay">
-      <h1 class="title">FARGO LOGISTICS</h1>
-      <div class="buttons">
+      <h1 class="title">{{ title }}</h1>
+      <div v-if="showButtons" class="buttons">
         <a-button class="btn request-quote" type="primary" size="large">{{ $t('thumbnail.btn-quote') }}</a-button>
         <a-button class="btn learn-more" type="default" size="large">{{ $t('thumbnail.btn-learn-more') }}</a-button>
       </div>
     </div>
-    <img src="@/assets/images/thumbnail.png" alt="thumbnail" class="thumbnail" />
+    <img :src="imageSrc" alt="thumbnail" class="thumbnail" />
   </div>
 </template>
 
 <script setup>
+defineProps({
+  title: String,
+  showButtons: Boolean,
+  imageSrc: String,
+})
 </script>
 
 <style scoped>
@@ -25,10 +30,10 @@
 }
 
 .thumbnail {
-  width: 4500px;
+  width: 3700px;
   height: 100%;
   object-fit: cover;
-  transform: scaleX(-1);
+  /* transform: scaleX(-1); */
   position: absolute;
   top: 0;
   right: 0;
@@ -38,7 +43,7 @@
 .overlay {
   position: absolute;
   top: 50%;
-  right: 20%;
+  right: 15%;
   transform: translateY(-50%);
   text-align: left;
   color: #fff;

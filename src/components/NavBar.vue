@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <a-button type="text" class="logo-button">
-      <span class="logo">LOGO</span>
+      <a href="/" class="logo">LOGO</a>
     </a-button>
 
     <a-menu class="menu" mode="horizontal">
@@ -26,11 +26,11 @@
 import { ref } from 'vue'
 
 const Menu = ref([
-  { name: 'menu.about', href: '#about-us' },
-  { name: 'menu.services', href: '#services' },
-  { name: 'menu.news', href: '#news-insights' },
-  { name: 'menu.careers', href: '#careers' },
-  { name: 'menu.tools', href: '#tools-support' },
+  { name: 'menu.about', href: '/about-us' },
+  { name: 'menu.services', href: '/services' },
+  { name: 'menu.news', href: '/news-insights' },
+  { name: 'menu.careers', href: '/careers' },
+  { name: 'menu.tools', href: '/tools-support' },
 ])
 </script>
 

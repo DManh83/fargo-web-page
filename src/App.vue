@@ -1,7 +1,7 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
-import HomePage from './pages/HomePage/HomePage.vue'
 import Footer from './components/Footer.vue'
+import { RouterView } from 'vue-router';
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import Footer from './components/Footer.vue'
       <NavBar />
     </a-layout-header>
     <a-layout-content class="app-content">
-      <HomePage />
+      <RouterView />
     </a-layout-content>
     <a-layout-footer class="app-footer">
       <Footer />
@@ -38,7 +38,7 @@ import Footer from './components/Footer.vue'
 .app-content {
   min-height: calc(100vh - 64px);
   overflow: hidden;
-  padding-bottom: 260px;
+  /* padding-bottom: 260px; */
 }
 
 .app-footer {
