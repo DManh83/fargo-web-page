@@ -1,6 +1,6 @@
 <template>
   <div class="about-us-container">
-    <BgHeader title="About Us" subtitle="Fargo Logistics" :imageSrc="bgAbout" />
+    <BgHeader title="About Us" subtitle="Fargo Logistics " :imageSrc="bgAbout" />
   </div>
 </template>
 
