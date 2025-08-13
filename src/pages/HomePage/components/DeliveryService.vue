@@ -1,7 +1,7 @@
 <template>
   <div class="delivery-service">
     <div class="delivery-service-content">
-      <h1>Delivery Service</h1>
+      <h1>{{ $t('home.delivery') }}</h1>
       <a-carousel
         :dots="false"
         arrows
@@ -34,7 +34,7 @@
         </div>
       </a-carousel>
       <div class="ds-button">
-        <a-button class="ds-button-item" size="large" type="default">Show All</a-button>
+        <a-button class="ds-button-item" size="large" type="default">{{ $t('home.btn_show_all') }}</a-button>
       </div>
     </div>
   </div>
@@ -113,9 +113,9 @@ h1 {
 /* ===== Custom arrows ===== */
 
 :deep(.slick-arrow.custom-slick-arrow) {
-  width: 30px;
-  height: 30px;
-  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
   color: #000000;
   background: #ffffff;
   transition: ease all 0.3s;

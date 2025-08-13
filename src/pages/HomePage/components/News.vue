@@ -1,8 +1,8 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="solution">
-    <div class="solution-content">
-      <h1>{{ $t('home.solution') }}</h1>
+  <div class="news">
+    <div class="news-content">
+      <h1>{{ $t('home.news') }}</h1>
       <a-carousel
         :dots="false"
         arrows
@@ -10,7 +10,7 @@
         :slides-to-scroll="1"
         :center-mode="true"
         center-padding="0px"
-        class="solution-carousel"
+        class="news-carousel"
       >
         <template #prevArrow>
           <div class="custom-slick-arrow" style="left: -20px; z-index: 1">
@@ -27,17 +27,16 @@
           <a-card class="card-item">
             <img
               src="@/assets/images/Checker.png"
-              :alt="`solution-${item.index}`"
+              :alt="`news-${item.index}`"
               class="card-img"
 
             />
-            <div class="card-title">{{ item.title }}</div>
             <div class="card-description">{{ item.description }}</div>
           </a-card>
         </div>
       </a-carousel>
-      <div class="solution-button">
-        <a-button class="solution-button-item" size="large" type="default">{{ $t('home.btn_show_more') }}</a-button>
+      <div class="news-button">
+        <a-button class="news-button-item" size="large" type="default">{{ $t('home.btn_show_more') }}</a-button>
       </div>
     </div>
   </div>
@@ -47,39 +46,35 @@
 const items = [
   {
     index: 1,
-    title: 'Customs Brokerage',
     description: 'We provide comprehensive customs brokerage services, ensuring smooth import and export processes for our clients.',
   },
   {
     index: 2,
-    title: 'Warehousing',
     description: 'We offer secure and efficient warehousing solutions, providing a safe and organized storage space for your goods.',
   },
   {
     index: 3,
-    title: 'Freight Forwarding',
     description: 'We offer comprehensive freight forwarding services, ensuring timely and efficient transportation of your goods.',
   },
   {
     index: 4,
-    title: 'Supply Chain Management',
     description: 'We offer comprehensive supply chain management services, ensuring seamless and efficient logistics operations for our clients.',
   },
 ]
 </script>
 
 <style scoped>
-.solution {
+.news {
   margin-top: 100px;
   height: 100%;
 }
 
-.solution-content {
+.news-content {
   /* background-image: url('@/assets/images/service_thumb.png'); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 426px;
 
   display: flex;
   flex-direction: column;
@@ -89,7 +84,7 @@ const items = [
   gap: 50px;
 }
 
-.solution-carousel {
+.news-carousel {
   width: 100%;
   max-width: 1300px;
 }
@@ -101,43 +96,44 @@ h1 {
   margin: 0;
 }
 
-.solution-button {
+.news-button {
   padding-top: 10px;
 }
 
-.solution-button-item {
+.news-button-item {
   background-color: #ffb23f;
   color: #052e5e;
   font-weight: bold;
 }
 
 .card-wrapper {
-  width: 380px !important;
-  height: 496px !important;
+  width: 387px !important;
+  height: 300px !important;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .card-item {
-  width: 100%;
-  height: 100%;
+  width: 387px;
+  height: 300px;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .card-img {
-  width: 100%;
-  height: 100%;
+  width: 387px;
+  height: 200px;
 }
 
-.card-title {
-  font-size: 24px;
-  font-weight: 600;
+.card-description {
+  font-size: 16px;
+  font-weight: 400;
   color: #000;
   padding-top: 10px;
+  text-align: center;
 }
 
 /* ===== Custom arrows ===== */
@@ -166,12 +162,12 @@ h1 {
   opacity: 0.5;
 }
 
-.solution-carousel :deep(.slick-slide) {
-  height: 496px;
-  line-height: 496px;
+.news-carousel :deep(.slick-slide) {
+  height: 300px;
+  line-height: 300px;
 }
-.solution-carousel :deep(.slick-slide > div) {
-  height: 496px;
-  line-height: 496px;
+.news-carousel :deep(.slick-slide > div) {
+  height: 300px;
+  line-height: 300px;
 }
 </style>

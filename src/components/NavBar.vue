@@ -7,7 +7,7 @@
     <a-menu class="menu" mode="horizontal">
       <a-menu-item v-for="item in Menu" :key="item.name">
         <a :href="item.href" class="menu-item">
-          {{ item.name }}
+          {{ $t(item.name) }}
         </a>
       </a-menu-item>
     </a-menu>
@@ -26,11 +26,11 @@
 import { ref } from 'vue'
 
 const Menu = ref([
-  { name: 'About us', href: '#about-us' },
-  { name: 'Services', href: '#services' },
-  { name: 'News & Insights', href: '#news-insights' },
-  { name: 'Careers', href: '#careers' },
-  { name: 'Tools & Support', href: '#tools-support' },
+  { name: 'menu.about', href: '#about-us' },
+  { name: 'menu.services', href: '#services' },
+  { name: 'menu.news', href: '#news-insights' },
+  { name: 'menu.careers', href: '#careers' },
+  { name: 'menu.tools', href: '#tools-support' },
 ])
 </script>
 

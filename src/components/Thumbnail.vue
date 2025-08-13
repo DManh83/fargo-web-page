@@ -5,13 +5,16 @@
     <div class="overlay">
       <h1 class="title">FARGO LOGISTICS</h1>
       <div class="buttons">
-        <a-button class="btn request-quote" type="primary" size="large">Request a Quote</a-button>
-        <a-button class="btn learn-more" type="default" size="large">Learn More</a-button>
+        <a-button class="btn request-quote" type="primary" size="large">{{ $t('thumbnail.btn-quote') }}</a-button>
+        <a-button class="btn learn-more" type="default" size="large">{{ $t('thumbnail.btn-learn-more') }}</a-button>
       </div>
     </div>
     <img src="@/assets/images/thumbnail.png" alt="thumbnail" class="thumbnail" />
   </div>
 </template>
+
+<script setup>
+</script>
 
 <style scoped>
 .thumbnail-content {
@@ -22,7 +25,7 @@
 }
 
 .thumbnail {
-  width: 3800px;
+  width: 4500px;
   height: 100%;
   object-fit: cover;
   transform: scaleX(-1);
@@ -30,13 +33,12 @@
   top: 0;
   right: 0;
   z-index: 0;
-  /* inset: 0; */
 }
 
 .overlay {
   position: absolute;
   top: 50%;
-  right: 15%;
+  right: 20%;
   transform: translateY(-50%);
   text-align: left;
   color: #fff;

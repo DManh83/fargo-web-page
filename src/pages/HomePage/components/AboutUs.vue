@@ -4,14 +4,14 @@
       <a-flex justify="space-between">
         <img class="about-us-image" src="@/assets/images/intro_about_us.png" alt="about-us" />
         <a-flex vertical align="flex-start" justify="space-between" :style="{ padding: '32px' }">
-          <h1>About Us</h1>
+          <h1>{{ $t('home.about') }}</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac erat at dolor auctor
             blandit. Donec vitae orci sed dolor cursus ipsum dolor sit amet, consectetur adipis
             dndit. Do psum dolor sit amet, consectetur adipiscing elit. Nulla ac erat at dolor
             auctor blandit.
           </p>
-          <a-button class="read-more-button">Read More</a-button>
+          <a-button class="read-more-button">{{ $t('home.btn_read_more') }}</a-button>
         </a-flex>
       </a-flex>
     </a-card>

@@ -2,7 +2,7 @@
 <template>
   <div class="industries">
     <div class="industries-content">
-      <h1> Industries</h1>
+      <h1>{{ $t('home.industries') }}</h1>
       <a-carousel
         :dots="false"
         arrows
@@ -24,13 +24,8 @@
         </template>
 
         <div v-for="(item, i) in items" :key="i" class="card-wrapper">
-            <img
-              src="@/assets/images/Checker.png"
-              :alt="`industries-${item.index}`"
-              class="img"
-
-            />
-            <div class="title">{{ item.title }}</div>
+          <img src="@/assets/images/Checker.png" :alt="`industries-${item.index}`" class="img" />
+          <div class="title">{{ item.title }}</div>
         </div>
       </a-carousel>
     </div>
@@ -77,7 +72,7 @@ const items = [
 }
 
 .industries-content {
-  background: #052E5E;
+  background: #052e5e;
   height: 430px;
 
   display: flex;
@@ -104,8 +99,9 @@ h1 {
   width: 183px !important;
   height: 250px !important;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .img {
@@ -117,16 +113,17 @@ h1 {
 .title {
   font-size: 16px;
   font-weight: 400;
-  color: #a83b3b;
+  color: #fff;
   padding-top: 20px;
+  line-height: 1.2;
 }
 
 /* ===== Custom arrows ===== */
 
 :deep(.slick-arrow.custom-slick-arrow) {
-  width: 30px;
-  height: 30px;
-  font-size: 30px;
+  width: 35px;
+  height: 35px;
+  font-size: 35px;
   color: #000000;
   background: #ffffff;
   transition: ease all 0.3s;
@@ -147,12 +144,8 @@ h1 {
   opacity: 0.5;
 }
 
-.industries-carousel :deep(.slick-slide) {
-  height: 250px;
-  line-height: 250px;
-}
+.industries-carousel :deep(.slick-slide),
 .industries-carousel :deep(.slick-slide > div) {
   height: 250px;
-  line-height: 250px;
 }
 </style>
