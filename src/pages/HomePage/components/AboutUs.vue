@@ -1,9 +1,14 @@
 <template>
   <div class="about-us-content">
     <a-card>
-      <a-flex justify="space-between">
-        <img class="about-us-image" src="@/assets/images/intro_about_us.png" alt="about-us" />
-        <a-flex vertical align="flex-start" justify="space-between" :style="{ padding: '32px' }">
+      <a-flex justify="space-between" align="center">
+        <img class="about-us-image" :src="introAboutUs" alt="about-us" />
+        <a-flex
+          vertical
+          align="flex-start"
+          justify="space-between"
+          :style="{ padding: '32px', gap: '12px' }"
+        >
           <h1>{{ $t('home.about') }}</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac erat at dolor auctor
@@ -18,6 +23,10 @@
   </div>
 </template>
 
+<script setup>
+import introAboutUs from '@/assets/images/intro_about_us.png'
+</script>
+
 <style scoped>
 .about-us-content {
   width: 65%;
@@ -29,6 +38,12 @@
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.about-us-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .about-us-content {

@@ -41,7 +41,7 @@
           }"
         >
           <a-card class="card-item">
-            <img src="@/assets/images/Checker.png" :alt="`slide-${item.index}`" class="card-img" />
+            <img :src="checker" :alt="`slide-${item.index}`" class="card-img" />
             <div v-if="item?.title" class="card-title">{{ item?.title }}</div>
           </a-card>
         </div>
@@ -54,6 +54,7 @@
 </template>
 
 <script setup>
+import checker from '@/assets/images/Checker.png'
 const { title, items, slidesToShow, slidesToScroll, height, bgImage } = defineProps({
   title: String,
   items: Array,

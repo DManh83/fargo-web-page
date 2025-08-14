@@ -25,7 +25,7 @@
         <div v-for="(n, i) in cards" :key="i" class="card-wrapper">
           <a-card class="card-item">
             <img
-              src="@/assets/images/Checker.png"
+              :src="checker"
               :alt="`delivery-service-${n}`"
               class="card-img"
             />
@@ -41,6 +41,7 @@
 </template>
 
 <script setup>
+import checker from '@/assets/images/Checker.png'
 const cards = [1, 2, 3, 4, 5, 6, 7]
 </script>
 
@@ -56,13 +57,24 @@ const cards = [1, 2, 3, 4, 5, 6, 7]
   background-repeat: no-repeat;
   height: 600px;
 
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   gap: 50px;
+  position: relative;
 }
+
+.delivery-service-content::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #052E5E66;;
+  z-index: 0;
+}
+
 
 .ds-carousel {
   width: 100%;
@@ -74,6 +86,7 @@ h1 {
   font-weight: 600;
   color: #fff;
   margin: 0;
+  z-index: 1;
 }
 
 .ds-button {

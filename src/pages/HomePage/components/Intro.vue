@@ -49,7 +49,7 @@
         title-secondary="Request your free quote now!"
         button-text="Request"
       />
-      <div class="our-clients">
+      <!-- <div class="our-clients">
         <h2 class="our-clients-title">Our Clients & Partners</h2>
         <div class="our-clients-list" dis>
           <img src="@/assets/images/KHAI HOAN.png" alt="client1" class="our-clients-image" />
@@ -57,7 +57,7 @@
           <img src="@/assets/images/logo-siemens.png" alt="client3" class="our-clients-image" />
           <img src="@/assets/images/logo-SSSC.png" alt="client4" class="our-clients-image" />
         </div>
-      </div>
+      </div> -->
       <News />
     </div>
   </div>
@@ -78,6 +78,11 @@ import News from '@/pages/HomePage/components/News.vue'
   height: 350px;
   background-color: #ebf0ff;
   /* padding: 20px; */
+}
+
+.intro-card:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .intro-card-title {

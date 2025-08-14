@@ -26,7 +26,7 @@
         <div v-for="(item, i) in items" :key="i" class="card-wrapper">
           <a-card class="card-item">
             <img
-              src="@/assets/images/Checker.png"
+              :src="checker"
               :alt="`solution-${item.index}`"
               class="card-img"
 
@@ -44,6 +44,8 @@
 </template>
 
 <script setup>
+import checker from '@/assets/images/Checker.png'
+
 const items = [
   {
     index: 1,

@@ -24,7 +24,7 @@
         </template>
 
         <div v-for="(item, i) in items" :key="i" class="card-wrapper">
-          <img src="@/assets/images/Checker.png" :alt="`industries-${item.index}`" class="img" />
+          <img :src="checker" :alt="`industries-${item.index}`" class="img" />
           <div class="title">{{ item.title }}</div>
         </div>
       </a-carousel>
@@ -33,6 +33,8 @@
 </template>
 
 <script setup>
+import checker from '@/assets/images/Checker.png'
+
 const items = [
   {
     index: 1,

@@ -3,8 +3,8 @@ import HomePage from './pages/HomePage/HomePage.vue'
 import AboutUs from './pages/AboutUs/AboutUs.vue'
 
 const routes = [
-  { name: 'home', path: '/', component: HomePage },
-  { name: 'about-us', path: '/about-us', component: AboutUs },
+  { name: 'Home', path: '/', component: HomePage, meta: { hideHeader: true, title: 'Home' } },
+  { name: 'About Us', path: '/about-us', component: AboutUs, meta: { title: 'About Us' } },
 ]
 
 const router = createRouter({

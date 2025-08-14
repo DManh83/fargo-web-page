@@ -25,40 +25,43 @@
 
         <div v-for="(item, i) in items" :key="i" class="card-wrapper">
           <a-card class="card-item">
-            <img
-              src="@/assets/images/Checker.png"
-              :alt="`news-${item.index}`"
-              class="card-img"
-
-            />
+            <img :src="checker" :alt="`news-${item.index}`" class="card-img" />
             <div class="card-description">{{ item.description }}</div>
           </a-card>
         </div>
       </a-carousel>
       <div class="news-button">
-        <a-button class="news-button-item" size="large" type="default">{{ $t('home.btn_show_more') }}</a-button>
+        <a-button class="news-button-item" size="large" type="default">{{
+          $t('home.btn_show_more')
+        }}</a-button>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import checker from '@/assets/images/Checker.png'
+
 const items = [
   {
     index: 1,
-    description: 'We provide comprehensive customs brokerage services, ensuring smooth import and export processes for our clients.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor auctor uctor blandit.',
   },
   {
     index: 2,
-    description: 'We offer secure and efficient warehousing solutions, providing a safe and organized storage space for your goods.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor auctor uctor blandit.',
   },
   {
     index: 3,
-    description: 'We offer comprehensive freight forwarding services, ensuring timely and efficient transportation of your goods.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor auctor uctor blandit.',
   },
   {
     index: 4,
-    description: 'We offer comprehensive supply chain management services, ensuring seamless and efficient logistics operations for our clients.',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor auctor uctor blandit.',
   },
 ]
 </script>
@@ -82,17 +85,19 @@ const items = [
   justify-content: center;
   text-align: center;
   gap: 50px;
+  position: relative;
 }
 
 .news-carousel {
   width: 100%;
   max-width: 1300px;
+  position: relative;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #052E5E;
+  color: #052e5e;
   margin: 0;
 }
 
@@ -110,30 +115,49 @@ h1 {
   width: 387px !important;
   height: 300px !important;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
 }
 
 .card-item {
   width: 387px;
   height: 300px;
+  border: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  justify-content: flex-start;
+
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-item:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 
 .card-img {
   width: 387px;
   height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
+  margin-left: -24px;
+  margin-top: -24px;
+}
+
+.card-item:hover .card-img {
+  transform: scale(1.05);
 }
 
 .card-description {
   font-size: 16px;
   font-weight: 400;
   color: #000;
-  padding-top: 10px;
-  text-align: center;
+  padding-top: 16px;
+  text-align: start;
 }
 
 /* ===== Custom arrows ===== */

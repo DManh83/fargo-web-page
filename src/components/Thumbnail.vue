@@ -5,8 +5,12 @@
     <div class="overlay">
       <h1 class="title">{{ title }}</h1>
       <div v-if="showButtons" class="buttons">
-        <a-button class="btn request-quote" type="primary" size="large">{{ $t('thumbnail.btn-quote') }}</a-button>
-        <a-button class="btn learn-more" type="default" size="large">{{ $t('thumbnail.btn-learn-more') }}</a-button>
+        <a-button class="btn request-quote" type="primary" size="large">{{
+          $t('thumbnail.btn-quote')
+        }}</a-button>
+        <a-button class="btn learn-more" type="default" size="large">{{
+          $t('thumbnail.btn-learn-more')
+        }}</a-button>
       </div>
     </div>
     <img :src="imageSrc" alt="thumbnail" class="thumbnail" />
@@ -29,11 +33,11 @@ defineProps({
   overflow: hidden;
 }
 
+
 .thumbnail {
   width: 3700px;
   height: 100%;
   object-fit: cover;
-  /* transform: scaleX(-1); */
   position: absolute;
   top: 0;
   right: 0;

@@ -2,7 +2,9 @@
 <template>
   <div class="banner">
     <div class="banner-content">
-      <img src="@/assets/images/intro_banner.png" alt="intro-banner" class="banner-image" />
+      <div class="banner-image-container">
+        <img :src="introBanner" alt="intro-banner" class="banner-image" />
+      </div>
       <div class="banner-content-text">
         <h1 class="banner-title">
           {{ titlePrimary }}
@@ -10,13 +12,14 @@
         <h1 class="banner-title">
           {{ titleSecondary }}
         </h1>
-        <a-button class="banner-button" type="primary" size="large"> {{ buttonText }} </a-button>
+        <a-button class="banner-button" type="default" size="large"> {{ buttonText }} </a-button>
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import introBanner from '@/assets/images/intro_banner.png'
 defineProps({
   titlePrimary: String,
   titleSecondary: String,
@@ -29,92 +32,93 @@ defineProps({
 .banner {
   position: relative;
   margin-top: 40px;
-  background: linear-gradient(135deg, #052e5e 0%, #0a4aa8 100%);
+  background: #052e5e;
   border-radius: 16px;
   overflow: hidden;
-  width: 100%;
+  width: 1200px;
+  height: 280px;
   min-height: 280px;
 }
+
+.banner:hover {
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+  cursor: pointer;
+}
+
 .banner-content {
   position: relative;
   display: flex;
   align-items: center;
-  gap: 32px;
-  min-height: 220px;
-  /* chừa chỗ cho ảnh tròn bên trái */
-  padding: 32px 32px 32px 48%;
+  justify-content: space-between;
+}
+
+.banner-image-container {
+  width: 540px;
+  height: 540px;
+  margin-top: -120px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .banner-image {
-  position: absolute;
-  top: -55%;
-  left: -8%;
-  width: 55%;
-  max-width: 560px;
-  aspect-ratio: 1/1;
-  border-radius: 50%;
+  width: 100%;
+  height: 90%;
+  border-radius: 0 50% 50% 0;
   object-fit: cover;
-  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
-  pointer-events: none;
-  user-select: none;
 }
 
 .banner-content-text {
+  width: 50%;
+  height: 540px;
+  margin-top: -120px;
+  margin-right: 50px;
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-start; */
+  justify-content: center;
   align-items: flex-end;
-  gap: 16px;
+  /* gap: 16px; */
 }
 
 .banner-title {
-  margin: 0;
-  color: #ffb23f;
-  font-size: clamp(20px, 2.2vw, 32px);
-  font-weight: 700;
-  line-height: 1.3;
-  flex: 1 1 auto;
+  font-size: 40px;
+  font-weight: 400;
+  font-family: 'Racing Sans One';
+  letter-spacing: 0.04em;
+  color: #FFB23F
 }
 
-/* Nút Ant Design trong banner */
-::v-deep(.banner-button.ant-btn) {
-  height: 48px;
-  padding: 0 24px;
-  border-radius: 999px;
+.banner-button {
+  width: 156px;
+  height: 54px;
+  border-radius: 20px;
+  background-color: #FFB23F;
+  color: #052E5E;
   font-weight: 600;
-  box-shadow: 0 8px 18px rgba(10, 74, 168, 0.28);
-  background: #ffb23f;
-  color: #000000;
-  border: none;
+  font-size: 24px;
 }
-
-::v-deep(.banner-button.ant-btn:focus-visible) {
-  outline: 3px solid rgba(255, 255, 255, 0.6);
-  outline-offset: 2px;
-}
-
-/* Responsive */
-@media (max-width: 1200px) {
-  .banner-content {
-    padding-left: 46%;
+/* @media (max-width: 1690px) {
+  .banner-image-container {
+    width: 480px;
+    height: 480px;
   }
-}
-
-@media (max-width: 992px) {
-  /* Ẩn ảnh tròn để nội dung thoáng hơn */
-  .banner-image {
-    display: none;
-  }
-  .banner-content {
-    padding: 24px;
-    gap: 16px;
-  }
-}
-
-@media (max-width: 480px) {
-  ::v-deep(.banner-button.ant-btn) {
-    width: 100%;
+  .banner-content-text {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: flex-end;
+  }
+  .banner-title {
+    font-size: 38px;
+  }
+  .banner-button {
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
   }
 }
+*/
 </style>

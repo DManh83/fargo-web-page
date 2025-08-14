@@ -4,7 +4,7 @@
     <div class="footer-top">
       <div class="footer-left">
         <div class="logo-container">
-          <span class="logo">LOGO</span>
+          <span class="logo"><img :src="logoFargo" alt="logo" /></span>
           <span class="logo-text">Fargo Logistics Co., Ltd</span>
         </div>
         <div class="contact">
@@ -65,6 +65,10 @@
   </div>
 </template>
 
+<script setup>
+import logoFargo from '@/assets/images/logo_fargo.png'
+</script>
+
 <style scoped>
 .footer-content {
   width: 100%;
@@ -96,11 +100,13 @@
 }
 
 .logo {
-  font-size: 48px;
-  font-weight: 400;
-  color: #fff;
-  font-family: 'Racing Sans One';
-  letter-spacing: 0.04em;
+  width: 200px;
+  height: 64px;
+}
+
+.logo img {
+  width: 80%;
+  height: 90%;
 }
 
 .logo-text {

@@ -1,14 +1,16 @@
 <template>
   <div class="header">
-    <a-button type="text" class="logo-button">
-      <a href="/" class="logo">LOGO</a>
-    </a-button>
+    <div class="logo-container">
+      <RouterLink to="/" class="logo"
+        ><img :src="logoFargo" alt="logo"
+      /></RouterLink>
+    </div>
 
-    <a-menu class="menu" mode="horizontal">
+    <a-menu class="menu" mode="horizontal" :selectedKeys="selectedKeys">
       <a-menu-item v-for="item in Menu" :key="item.name">
-        <a :href="item.href" class="menu-item">
+        <RouterLink :to="item.path" class="menu-item">
           {{ $t(item.name) }}
-        </a>
+        </RouterLink>
       </a-menu-item>
     </a-menu>
     <div>
@@ -23,21 +25,34 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
+import { RouterLink, useRoute } from 'vue-router'
+import logoFargo from '@/assets/images/logo_fargo.png'
 
 const Menu = ref([
-  { name: 'menu.about', href: '/about-us' },
-  { name: 'menu.services', href: '/services' },
-  { name: 'menu.news', href: '/news-insights' },
-  { name: 'menu.careers', href: '/careers' },
-  { name: 'menu.tools', href: '/tools-support' },
+  { name: 'menu.about', path: '/about-us' },
+  { name: 'menu.services', path: '/services' },
+  { name: 'menu.news', path: '/news-insights' },
+  { name: 'menu.careers', path: '/careers' },
+  { name: 'menu.tools', path: '/tools-support' },
 ])
+
+const route = useRoute()
+
+const activeKey = computed(() => {
+  const p = route.path
+  if (p === '/') return '' // Home: không chọn gì
+  const hit = Menu.value.find(m => p === m.path || p.startsWith(m.path + '/'))
+  return hit ? hit.name : ''
+})
+
+const selectedKeys = computed(() => activeKey.value ? [activeKey.value] : [])
 </script>
 
 <style scoped>
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 0 24px;
   background: #fff;
@@ -45,22 +60,29 @@ const Menu = ref([
   z-index: 20;
   width: 100%;
   height: 72px;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.08);
+}
+
+.logo-container {
+  padding: 0;
+  height: 64px;
+  width: 180px;
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
   color: #052e5e;
-  text-decoration: none;
+  align-content: center;
 }
 
-.logo-button {
-  padding: 0;
-  height: 64px;
-  width: 200px;
+.logo img {
+  width: 100%;
+  height: 100%;
 }
 
 .menu {
+  margin-top: 7px;
   justify-content: center;
   width: 35%;
 }
