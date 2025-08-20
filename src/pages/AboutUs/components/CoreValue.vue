@@ -1,5 +1,5 @@
 <template>
-  <div class="core-values">
+  <section class="core-values">
     <h2 class="cv-title">Our core values</h2>
 
     <div class="cv-grid">
@@ -12,7 +12,7 @@
       >
         <div class="cv-row">
           <div class="cv-icon">
-            <RadarChartOutlined />
+            <Global />
           </div>
 
           <div class="cv-text">
@@ -22,10 +22,11 @@
         </div>
       </a-card>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
+import Global from '@/components/Global.vue'
 
 const items = [
   { title: 'Customer Centricity', description: 'Focus on solving real needs and proactively updating shipment status.' },
@@ -110,6 +111,8 @@ const items = [
   line-height: 1.6;
   color: #2b3e5c;
   max-width: 520px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
 }
 
 /* Responsive */

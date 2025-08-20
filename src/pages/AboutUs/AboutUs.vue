@@ -1,28 +1,28 @@
 <template>
-  <div class="about-us-container">
+  <section class="about-us-container">
     <BgHeader
       title="About"
       subtitle="Fargo Logistics "
       :imageSrc="bgAbout"
       :description="description"
     />
-  </div>
-  <div class="who-are-we-container">
+  </section>
+  <section class="who-are-we-container">
     <WhoAreWe />
-  </div>
-  <div class="mission-vision-container">
+  </section>
+  <section class="mission-vision-container">
     <MissionVision />
-  </div>
-  <div class="core-value-container">
+  </section>
+  <section class="core-value-container">
     <CoreValue />
-  </div>
-  <div class="banner-container">
+  </section>
+  <section class="banner-container">
     <Banner
       title-primary="Need a shipping solution?"
       title-secondary="Request your free quote now!"
       button-text="Request"
     />
-  </div>
+  </section>
 </template>
 
 <script setup>

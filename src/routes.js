@@ -3,6 +3,7 @@ import HomePage from './pages/HomePage/HomePage.vue'
 import AboutUs from './pages/AboutUs/AboutUs.vue'
 import NewsInsights from './pages/News&Insights/News&Insights.vue'
 import NewsDetail from './pages/NewsDetail/NewsDetail.vue'
+import Careers from './pages/Careers/Careers.vue'
 
 const routes = [
   { name: 'Home', path: '/', component: HomePage, meta: { hideHeader: true, title: 'Home' } },
@@ -19,6 +20,12 @@ const routes = [
       ]),
       title: 'News Detail',
     },
+  },
+  {
+    name: 'Careers',
+    path: '/careers',
+    component: Careers,
+    meta: { title: 'Careers' },
   },
 ]
 

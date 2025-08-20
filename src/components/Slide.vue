@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="slide">
+  <section class="slide">
     <div
       class="slide-content"
       :style="{
@@ -50,7 +50,7 @@
         <a-button class="slide-button-item" size="large" type="default">Show All</a-button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="solution">
+  <section class="solution">
     <div class="solution-content">
       <h1>{{ $t('home.solution') }}</h1>
       <a-carousel
@@ -13,34 +13,35 @@
         class="solution-carousel"
       >
         <template #prevArrow>
-          <div class="custom-slick-arrow" style="left: -20px; z-index: 1">
+          <div class="custom-slick-arrow" style="left: -30px; z-index: 1">
             <LeftCircleOutlined />
           </div>
         </template>
         <template #nextArrow>
-          <div class="custom-slick-arrow" style="right: -20px; z-index: 1">
+          <div class="custom-slick-arrow" style="right: -30px; z-index: 1">
             <RightCircleOutlined />
           </div>
         </template>
 
         <div v-for="(item, i) in items" :key="i" class="card-wrapper">
           <a-card class="card-item">
-            <img
-              :src="checker"
-              :alt="`solution-${item.index}`"
-              class="card-img"
-
-            />
-            <div class="card-title">{{ item.title }}</div>
-            <div class="card-description">{{ item.description }}</div>
+            <div class="card-img-wrap">
+              <img :src="checker" :alt="`solution-${item.index}`" class="card-img" />
+            </div>
+            <div class="card-content">
+              <div class="card-title">{{ item.title }}</div>
+              <div class="card-description">{{ item.description }}</div>
+            </div>
           </a-card>
         </div>
       </a-carousel>
       <div class="solution-button">
-        <a-button class="solution-button-item" size="large" type="default">{{ $t('home.btn_show_more') }}</a-button>
+        <a-button class="solution-button-item" size="large" type="default">{{
+          $t('home.btn_show_more')
+        }}</a-button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -49,40 +50,52 @@ import checker from '@/assets/images/Checker.png'
 const items = [
   {
     index: 1,
-    title: 'Customs Brokerage',
-    description: 'We provide comprehensive customs brokerage services, ensuring smooth import and export processes for our clients.',
+    title: 'Customs brokerage',
+    description:
+      'Fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
   },
   {
     index: 2,
-    title: 'Warehousing',
-    description: 'We offer secure and efficient warehousing solutions, providing a safe and organized storage space for your goods.',
+    title: 'Cargo insurance',
+    description:
+      'Comprehensive protection for your goods, minimizing risks and securing your cargo throughout the journey.',
   },
   {
     index: 3,
-    title: 'Freight Forwarding',
-    description: 'We offer comprehensive freight forwarding services, ensuring timely and efficient transportation of your goods.',
+    title: 'Warehousing',
+    description:
+      'Safe, modern, and strategically located warehouses to optimize storage and streamline your supply chain.',
   },
   {
-    index: 4,
-    title: 'Supply Chain Management',
-    description: 'We offer comprehensive supply chain management services, ensuring seamless and efficient logistics operations for our clients.',
+    index: 1,
+    title: 'Customs brokerage',
+    description:
+      'Fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
+  },
+  {
+    index: 2,
+    title: 'Cargo insurance',
+    description:
+      'Comprehensive protection for your goods, minimizing risks and securing your cargo throughout the journey.',
+  },
+  {
+    index: 3,
+    title: 'Warehousing',
+    description:
+      'Safe, modern, and strategically located warehouses to optimize storage and streamline your supply chain.',
   },
 ]
 </script>
 
 <style scoped>
 .solution {
+  width: 100%;
   margin-top: 100px;
   height: 100%;
 }
 
 .solution-content {
-  /* background-image: url('@/assets/images/service_thumb.png'); */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 600px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -93,13 +106,13 @@ const items = [
 
 .solution-carousel {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
 }
 
 h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #052E5E;
+  color: #052e5e;
   margin: 0;
 }
 
@@ -121,59 +134,86 @@ h1 {
   justify-content: center;
 }
 
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  padding: 0 12px;
+}
+
+:deep(.card-item .ant-card-body) {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+
 .card-item {
   width: 100%;
   height: 100%;
+  border-radius: 16px;
+  overflow: hidden; /* phòng khi ảnh scale vượt */
   display: flex;
-  /* flex-direction: column; */
-  align-items: center;
-  justify-content: center;
+}
+
+.card-img-wrap {
+  width: 380px !important;
+  height: 330px !important;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0 auto 12px;
 }
 
 .card-img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+  display: block;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card-wrapper:hover .card-img {
+  transform: scale(1.05);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
 }
 
 .card-title {
   font-size: 24px;
   font-weight: 600;
-  color: #000;
-  padding-top: 10px;
+  color: #052e5e;
+  font-family: 'Poppins', sans-serif;
+  text-align: start;
+  padding: 4px 0;
 }
 
+.card-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #052e5e;
+  text-align: start;
+  font-family: 'Poppins', sans-serif;
+}
 /* ===== Custom arrows ===== */
-
 :deep(.slick-arrow.custom-slick-arrow) {
-  width: 30px;
-  height: 30px;
-  font-size: 35px;
-  color: #000000;
-  background: #ffffff;
-  transition: ease all 0.3s;
-  opacity: 0.8;
-  z-index: 1;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  width: 30px; height: 30px; font-size: 35px;
+  color: #000000; background: #ffffff;
+  transition: ease all 0.3s; opacity: 0.8; z-index: 1;
+  border-radius: 50%; position: absolute; top: 50%; transform: translateY(-50%);
 }
+:deep(.slick-arrow.custom-slick-arrow:before) { display: none; }
+:deep(.slick-arrow.custom-slick-arrow:hover) { color: #fff; opacity: 0.5; }
 
-:deep(.slick-arrow.custom-slick-arrow:before) {
-  display: none;
-}
-
-:deep(.slick-arrow.custom-slick-arrow:hover) {
-  color: #fff;
-  opacity: 0.5;
-}
-
-.solution-carousel :deep(.slick-slide) {
-  height: 496px;
-  line-height: 496px;
-}
+/* Căn giữa slide, KHÔNG dùng line-height để khỏi phá layout */
+.solution-carousel :deep(.slick-slide),
 .solution-carousel :deep(.slick-slide > div) {
-  height: 496px;
-  line-height: 496px;
+  height: auto;
+  line-height: normal;
+  display: flex; justify-content: center; align-items: stretch;
 }
 </style>

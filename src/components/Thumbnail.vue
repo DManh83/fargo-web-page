@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <div class="thumbnail-content">
+  <section class="thumbnail-content">
     <div class="overlay">
       <h1 class="title">{{ title }}</h1>
       <div v-if="showButtons" class="buttons">
@@ -14,7 +14,7 @@
       </div>
     </div>
     <img :src="imageSrc" alt="thumbnail" class="thumbnail" />
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -29,7 +29,7 @@ defineProps({
 .thumbnail-content {
   position: relative;
   width: 100%;
-  height: 738px;
+  height: 100%;
   overflow: hidden;
 }
 

@@ -1,23 +1,23 @@
 <template>
-  <div class="thumbnail-container">
+  <section class="thumbnail-container">
     <Thumbnail title="FARGO LOGISTICS" :imageSrc="thumbnail1" showButtons />
-  </div>
-  <div class="about-us-container">
+  </section>
+  <section class="about-us-container">
     <AboutUs />
-  </div>
-  <div class="delivery-service-container">
+  </section>
+  <section class="delivery-service-container">
     <DeliveryService />
-  </div>
-  <div class="solution-container">
+  </section>
+  <section class="solution-container">
     <Solution />
-  </div>
-  <div class="industries-container">
+  </section>
+  <!-- <div class="industries-container">
     <Industries />
-  </div>
-  <div class="intro-container">
+  </div> -->
+  <section class="intro-container">
     <Intro />
-  </div>
-  <div class="thumbnail-container-2">
+  </section>
+  <section class="thumbnail-container-2">
     <div class="top-container">
       <Thumbnail2
         title1="Logistics"
@@ -31,7 +31,7 @@
     <div class="bottom-container" style="margin-top: 50px">
       <Thumbnail2 :imageSrc="thumbnail3" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -39,7 +39,7 @@ import Thumbnail from '@/components/Thumbnail.vue'
 import AboutUs from '@/pages/HomePage/components/AboutUs.vue'
 import DeliveryService from '@/pages/HomePage/components/DeliveryService.vue'
 import Solution from '@/pages/HomePage/components/Solution.vue'
-import Industries from '@/pages/HomePage/components/Industries.vue'
+// import Industries from '@/pages/HomePage/components/Industries.vue'
 import Intro from '@/pages/HomePage/components/Intro.vue'
 import Thumbnail2 from '@/pages/HomePage/components/Thumbnail2.vue'
 
@@ -56,9 +56,9 @@ import thumbnail3 from '@/assets/images/thumbnail3.png'
 }
 
 .about-us-container {
-  width: 100%;
+  width: 1200px;
   height: 344px;
-  margin-left: 16%;
+  margin: 0 auto;
 }
 
 .delivery-service-container {
@@ -69,24 +69,28 @@ import thumbnail3 from '@/assets/images/thumbnail3.png'
 }
 
 .solution-container {
-  width: 100%;
+  width: 1200px;
   height: 603px;
   margin-top: 50px;
+  margin: 0 auto;
+  margin-bottom: 100px;
   /* margin-left: 16%; */
 }
 
-.industries-container {
+/* .industries-container {
   width: 100%;
   height: 430px;
   margin-top: 50px;
-  /* margin-left: 16%; */
+  margin-left: 16%;
 }
+*/
 
 .intro-container {
-  width: 100%;
+  width: 1200px;
   height: 100%;
-  margin-top: 50px;
-  /* margin-left: 16%; */
+  margin-top: 100px;
+  margin: 0 auto;
+  margin-bottom: 100px;
 }
 
 .thumbnail-container-2 {

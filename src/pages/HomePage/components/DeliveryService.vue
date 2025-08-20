@@ -1,5 +1,5 @@
 <template>
-  <div class="delivery-service">
+  <section class="delivery-service">
     <div class="delivery-service-content">
       <h1>{{ $t('home.delivery') }}</h1>
       <a-carousel
@@ -12,52 +12,90 @@
         class="ds-carousel"
       >
         <template #prevArrow>
-          <div class="custom-slick-arrow" style="left: -20px; z-index: 1">
+          <div class="custom-slick-arrow" style="left: -30px; z-index: 1">
             <LeftCircleOutlined />
           </div>
         </template>
         <template #nextArrow>
-          <div class="custom-slick-arrow" style="right: -20px; z-index: 1">
+          <div class="custom-slick-arrow" style="right: -30px; z-index: 1">
             <RightCircleOutlined />
           </div>
         </template>
 
-        <div v-for="(n, i) in cards" :key="i" class="card-wrapper">
-          <a-card class="card-item">
-            <img
-              :src="checker"
-              :alt="`delivery-service-${n}`"
-              class="card-img"
-            />
-            <div class="card-title">Air Freight</div>
-          </a-card>
+        <div v-for="n in cards" :key="n.id" class="card-wrapper">
+          <div class="card-item">
+            <img :src="checker" :alt="`delivery-service-${n}`" class="card-img" />
+            <div class="card-title">{{ n.title }}</div>
+          </div>
         </div>
       </a-carousel>
       <div class="ds-button">
-        <a-button class="ds-button-item" size="large" type="default">{{ $t('home.btn_show_all') }}</a-button>
+        <a-button class="ds-button-item" size="large" type="default">{{
+          $t('home.btn_show_all')
+        }}</a-button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
 import checker from '@/assets/images/Checker.png'
-const cards = [1, 2, 3, 4, 5, 6, 7]
+const cards = [
+  {
+    id: 1,
+    title: 'Air Freight',
+  },
+  {
+    id: 2,
+    title: 'Sea Freight',
+  },
+  {
+    id: 3,
+    title: 'Inland trucking & Cross border',
+  },
+  {
+    id: 4,
+    title: 'Rail Freight',
+  },
+  {
+    id: 1,
+    title: 'Air Freight',
+  },
+  {
+    id: 2,
+    title: 'Sea Freight',
+  },
+  {
+    id: 3,
+    title: 'Inland trucking & Cross border',
+  },
+  {
+    id: 4,
+    title: 'Rail Freight',
+  },
+]
 </script>
 
 <style scoped>
 .delivery-service {
+  position: relative;
+  isolation: isolate;
   height: 100%;
+  background: url('@/assets/images/service_thumb.png') center/cover no-repeat;
+}
+
+.delivery-service::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: rgba(5, 46, 94, 0.4);
+  z-index: 0;
 }
 
 .delivery-service-content {
-  background-image: url('@/assets/images/service_thumb.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 600px;
-
-
+  width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -65,20 +103,12 @@ const cards = [1, 2, 3, 4, 5, 6, 7]
   text-align: center;
   gap: 50px;
   position: relative;
+  z-index: 1;
 }
-
-.delivery-service-content::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: #052E5E66;;
-  z-index: 0;
-}
-
 
 .ds-carousel {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
 }
 
 h1 {
@@ -100,8 +130,8 @@ h1 {
 }
 
 .card-wrapper {
-  width: 280px !important;
-  height: 310px !important;
+  width: 290px !important;
+  height: 330px !important;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,11 +146,23 @@ h1 {
   justify-content: center;
 }
 
+.card-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
 .card-title {
   font-size: 24px;
   font-weight: 600;
   color: #000;
-  padding-top: 10px;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
 
 /* ===== Custom arrows ===== */
@@ -148,5 +190,4 @@ h1 {
   color: #fff;
   opacity: 0.5;
 }
-
 </style>

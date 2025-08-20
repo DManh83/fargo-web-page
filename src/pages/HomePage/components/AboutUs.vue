@@ -1,5 +1,5 @@
 <template>
-  <div class="about-us-content">
+  <section class="about-us-content">
     <a-card>
       <a-flex justify="space-between" align="center">
         <img class="about-us-image" :src="introAboutUs" alt="about-us" />
@@ -11,16 +11,13 @@
         >
           <h1>{{ $t('home.about') }}</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac erat at dolor auctor
-            blandit. Donec vitae orci sed dolor cursus ipsum dolor sit amet, consectetur adipis
-            dndit. Do psum dolor sit amet, consectetur adipiscing elit. Nulla ac erat at dolor
-            auctor blandit.
+            Fargo Logistics provides reliable and efficient logistics and supply chain solutions. With expertise in maritime transport and global trade, we ensure safe, on-time deliveries and end-to-end services tailored to your business needs.
           </p>
           <a-button class="read-more-button">{{ $t('home.btn_read_more') }}</a-button>
         </a-flex>
       </a-flex>
     </a-card>
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -29,7 +26,7 @@ import introAboutUs from '@/assets/images/intro_about_us.png'
 
 <style scoped>
 .about-us-content {
-  width: 65%;
+  width: 100%;
   height: 344px;
 }
 
@@ -57,5 +54,21 @@ import introAboutUs from '@/assets/images/intro_about_us.png'
   background-color: #ffb23f;
   color: #052e5e;
   font-weight: bold;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #052e5e;
+  line-height: 1.1;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0%;
+
 }
 </style>

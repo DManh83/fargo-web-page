@@ -1,5 +1,5 @@
 <template>
-  <div class="news-list">
+  <section class="news-list">
     <div v-for="item in items" :key="item.id" class="news-item">
       <img :src="item.image" alt="thumbnail" class="news-item_image" />
       <div class="news-item_content">
@@ -7,7 +7,7 @@
         <p class="news-item_date">{{ item.date }}</p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

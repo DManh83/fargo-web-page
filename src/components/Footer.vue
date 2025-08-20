@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="footer-content">
+  <section class="footer-content">
     <div class="footer-top">
       <div class="footer-left">
         <div class="logo-container">
@@ -62,11 +62,11 @@
     <div class="footer-bottom">
       <span class="footer-bottom-text">Copyright © 2025 Fargo Logistics Co., Ltd</span>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
-import logoFargo from '@/assets/images/logo_fargo.png'
+import logoFargo from '@/assets/images/logo_fargo 2.png'
 </script>
 
 <style scoped>

@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <div class="thumbnail-content">
+  <section class="thumbnail-content">
     <div class="overlay">
       <div class="overlay-title">
         <span class="title">{{ title }}</span>
@@ -11,7 +11,7 @@
       </div>
     </div>
     <img :src="imageSrc" alt="thumbnail" class="thumbnail" />
-  </div>
+  </section>
   <div class="description">
     <span>{{ description }}</span>
   </div>
@@ -76,7 +76,8 @@ defineProps({
   margin-bottom: -50px;
 }
 .overlay-subtitle {
-  text-align: right;
+  text-align: left;
+  margin-left: 13%;
 }
 
 .title {

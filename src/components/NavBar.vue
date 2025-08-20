@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <section class="header">
     <div class="logo-container">
       <RouterLink to="/" class="logo"
         ><img :src="logoFargo" alt="logo"
@@ -21,7 +21,7 @@
         <GlobalOutlined :style="{ fontSize: '24px' }" />
       </a-button>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

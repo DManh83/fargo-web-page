@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="news">
+  <section class="news">
     <div class="news-content">
       <h1>{{ $t('home.news') }}</h1>
       <a-carousel
@@ -13,21 +13,21 @@
         class="news-carousel"
       >
         <template #prevArrow>
-          <div class="custom-slick-arrow" style="left: -20px; z-index: 1">
+          <div class="custom-slick-arrow" style="left: -30px; z-index: 1">
             <LeftCircleOutlined />
           </div>
         </template>
         <template #nextArrow>
-          <div class="custom-slick-arrow" style="right: -20px; z-index: 1">
+          <div class="custom-slick-arrow" style="right: -30px; z-index: 1">
             <RightCircleOutlined />
           </div>
         </template>
 
-        <div v-for="(item, i) in items" :key="i" class="card-wrapper">
-          <a-card class="card-item">
+        <div v-for="(item, i) in items" :key="i" class="card-item">
+          <div class="card-img-wrap">
             <img :src="checker" :alt="`news-${item.index}`" class="card-img" />
-            <div class="card-description">{{ item.description }}</div>
-          </a-card>
+          </div>
+          <div class="card-description">{{ item.description }}</div>
         </div>
       </a-carousel>
       <div class="news-button">
@@ -36,7 +36,7 @@
         }}</a-button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>
@@ -46,22 +46,32 @@ const items = [
   {
     index: 1,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor auctor uctor blandit.',
+      'A closer look at how shifting trade agreements and emerging markets are reshaping global shipping lanes and logistics operations.',
   },
   {
     index: 2,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor auctor uctor blandit.',
+      'Exploring how artificial intelligence, automation, and smart technologies are revolutionizing supply chains and improving efficiency.',
   },
   {
     index: 3,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor auctor uctor blandit.',
+      'Highlighting the rise of eco-friendly logistics practices, from cleaner fuels to carbon-neutral supply chains in international trade.',
   },
   {
-    index: 4,
+    index: 1,
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. dolor auctor uctor blandit.',
+      'A closer look at how shifting trade agreements and emerging markets are reshaping global shipping lanes and logistics operations.',
+  },
+  {
+    index: 2,
+    description:
+      'Exploring how artificial intelligence, automation, and smart technologies are revolutionizing supply chains and improving efficiency.',
+  },
+  {
+    index: 3,
+    description:
+      'Highlighting the rise of eco-friendly logistics practices, from cleaner fuels to carbon-neutral supply chains in international trade.',
   },
 ]
 </script>
@@ -73,12 +83,6 @@ const items = [
 }
 
 .news-content {
-  /* background-image: url('@/assets/images/service_thumb.png'); */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 426px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +94,7 @@ const items = [
 
 .news-carousel {
   width: 100%;
-  max-width: 1300px;
+  max-width: 1200px;
   position: relative;
 }
 
@@ -99,6 +103,7 @@ h1 {
   font-weight: 600;
   color: #052e5e;
   margin: 0;
+  margin-bottom: 20px;
 }
 
 .news-button {
@@ -111,53 +116,49 @@ h1 {
   font-weight: bold;
 }
 
-.card-wrapper {
+.card-item {
   width: 387px !important;
   height: 300px !important;
-  display: flex;
-  align-items: stretch;
-}
-
-.card-item {
-  width: 387px;
-  height: 300px;
   border: none;
+  border-radius: 16px;
+  position: relative;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
+  align-items: center;
   justify-content: flex-start;
-
-  border-radius: 16px;
-  overflow: hidden;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.card-item:hover {
-  transform: translateY(-4px);
+.card-img-wrap {
+  width: 380px !important;
+  height: 200px !important;
+  border-radius: 16px;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+
+.card-item:hover .card-img {
+  transform: scale(1.05);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
 
 .card-img {
-  width: 387px;
-  height: 200px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform 0.35s ease;
-  margin-left: -24px;
-  margin-top: -24px;
-}
-
-.card-item:hover .card-img {
-  transform: scale(1.05);
+  transition: transform 0.3s ease; /* quan trọng */
 }
 
 .card-description {
   font-size: 16px;
   font-weight: 400;
   color: #000;
-  padding-top: 16px;
   text-align: start;
+  width: 100%;
+  max-width: 380px;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* ===== Custom arrows ===== */
@@ -184,14 +185,5 @@ h1 {
 :deep(.slick-arrow.custom-slick-arrow:hover) {
   color: #fff;
   opacity: 0.5;
-}
-
-.news-carousel :deep(.slick-slide) {
-  height: 300px;
-  line-height: 300px;
-}
-.news-carousel :deep(.slick-slide > div) {
-  height: 300px;
-  line-height: 300px;
 }
 </style>

@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="container">
+  <section class="container">
     <div class="who-are-we-image">
       <img src="@/assets/images/who-are-we.png" alt="who-are-we" />
     </div>
@@ -10,14 +10,11 @@
       </div>
       <div class="who-are-we-description">
         <span
-          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac erat at dolor auctor
-          blandit. Donec vitae orci sed dolor cursus ipsum dolor sit amet, consectetur adipis Nulla
-          ac erat at dolor auctor blandit.auctor blandit.lor auctor blandit.lor auctor auctor
-          blandit.lor auctor blandit.</span
+          >At Fargo Logistics, we are more than a logistics provider – we are your trusted partner in global trade. With a passionate and experienced team, we deliver innovative solutions in shipping, supply chain, and logistics management. Our goal is to simplify complex processes, ensure reliability, and create long-term value for our customers. Together, we move goods, connect markets, and build success across the globe.</span
         >
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup></script>
@@ -62,6 +59,7 @@
   font-size: 20px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
 }
 
 </style>

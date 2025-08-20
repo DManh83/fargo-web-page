@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="banner">
+  <section class="banner">
     <div class="banner-content">
       <div class="banner-image-container">
         <img :src="introBanner" alt="intro-banner" class="banner-image" />
@@ -15,7 +15,7 @@
         <a-button class="banner-button" type="default" size="large"> {{ buttonText }} </a-button>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <div class="thumbnail-content">
+  <section class="thumbnail-content">
     <div v-if="showOverlay" class="overlay">
       <div class="overlay-content">
         <div class="overlay-content-top">
@@ -15,7 +15,7 @@
       </div>
     </div>
     <img :src="imageSrc" alt="thumbnail" class="thumbnail" />
-  </div>
+  </section>
 </template>
 
 <script setup>

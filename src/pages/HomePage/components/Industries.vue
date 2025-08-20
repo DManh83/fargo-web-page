@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
-  <div class="industries">
+  <section class="industries">
     <div class="industries-content">
       <h1>{{ $t('home.industries') }}</h1>
       <a-carousel
@@ -29,7 +29,7 @@
         </div>
       </a-carousel>
     </div>
-  </div>
+  </section>
 </template>
 
 <script setup>

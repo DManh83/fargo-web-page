@@ -1,27 +1,27 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <div class="news-container">
+  <section class="news-container">
     <BgHeader
       title="About"
       subtitle="News & Insights"
       :imageSrc="bgNews"
       :description="description"
     />
-  </div>
-  <div class="featured-news-container">
+  </section>
+  <section class="featured-news-container">
     <FeaturedNews />
-  </div>
-  <div class="latest-news-container">
+  </section>
+  <section class="latest-news-container">
     <LatestNews />
-  </div>
-  <div class="banner-container">
+  </section>
+  <section class="banner-container">
     <Banner
       title-primary="Need a shipping solution?"
       title-secondary="Request your free quote now!"
       button-text="Request"
     />
-  </div>
+  </section>
 </template>
 
 <script setup>
