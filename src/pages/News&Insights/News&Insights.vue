@@ -27,9 +27,8 @@
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
 import bgNews from '@/assets/images/news-insights.png'
-import FeaturedNews from './components/FeaturedNews.vue'
+import { LatestNews, FeaturedNews } from './components'
 import Banner from '@/components/Banner.vue'
-import LatestNews from './components/LatestNews.vue'
 
 const description = `"In logistics, every move matters — stay informed, stay ahead"`
 </script>

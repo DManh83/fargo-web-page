@@ -1,0 +1,6 @@
+export { default as AboutUs } from './AboutUs.vue'
+export { default as DeliveryService } from './DeliveryService.vue'
+export { default as Industries } from './Industries.vue'
+export { default as Intro } from './Intro.vue'
+export { default as Solution } from './Solution.vue'
+export { default as Thumbnail2 } from './Thumbnail2.vue'

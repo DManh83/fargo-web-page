@@ -13,7 +13,9 @@
           <p>
             Fargo Logistics provides reliable and efficient logistics and supply chain solutions. With expertise in maritime transport and global trade, we ensure safe, on-time deliveries and end-to-end services tailored to your business needs.
           </p>
-          <a-button class="read-more-button">{{ $t('home.btn_read_more') }}</a-button>
+          <a-button class="read-more-button" @click="router.push('/about-us')">{{
+            $t('home.btn_read_more')
+          }}</a-button>
         </a-flex>
       </a-flex>
     </a-card>
@@ -22,6 +24,9 @@
 
 <script setup>
 import introAboutUs from '@/assets/images/intro_about_us.png'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 </script>
 
 <style scoped>

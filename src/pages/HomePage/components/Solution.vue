@@ -23,10 +23,10 @@
           </div>
         </template>
 
-        <div v-for="(item, i) in items" :key="i" class="card-wrapper">
+        <div v-for="(item, i) in solutions" :key="i" class="card-wrapper">
           <a-card class="card-item">
             <div class="card-img-wrap">
-              <img :src="checker" :alt="`solution-${item.index}`" class="card-img" />
+              <img :src="item.image[0]" :alt="`solution-${item.index}`" class="card-img" />
             </div>
             <div class="card-content">
               <div class="card-title">{{ item.title }}</div>
@@ -45,46 +45,7 @@
 </template>
 
 <script setup>
-import checker from '@/assets/images/Checker.png'
-
-const items = [
-  {
-    index: 1,
-    title: 'Customs brokerage',
-    description:
-      'Fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
-  },
-  {
-    index: 2,
-    title: 'Cargo insurance',
-    description:
-      'Comprehensive protection for your goods, minimizing risks and securing your cargo throughout the journey.',
-  },
-  {
-    index: 3,
-    title: 'Warehousing',
-    description:
-      'Safe, modern, and strategically located warehouses to optimize storage and streamline your supply chain.',
-  },
-  {
-    index: 1,
-    title: 'Customs brokerage',
-    description:
-      'Fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
-  },
-  {
-    index: 2,
-    title: 'Cargo insurance',
-    description:
-      'Comprehensive protection for your goods, minimizing risks and securing your cargo throughout the journey.',
-  },
-  {
-    index: 3,
-    title: 'Warehousing',
-    description:
-      'Safe, modern, and strategically located warehouses to optimize storage and streamline your supply chain.',
-  },
-]
+import { solutions } from '@/data/solutions'
 </script>
 
 <style scoped>
@@ -114,10 +75,6 @@ h1 {
   font-weight: 600;
   color: #052e5e;
   margin: 0;
-}
-
-.solution-button {
-  padding-top: 10px;
 }
 
 .solution-button-item {
@@ -207,7 +164,7 @@ h1 {
   border-radius: 50%; position: absolute; top: 50%; transform: translateY(-50%);
 }
 :deep(.slick-arrow.custom-slick-arrow:before) { display: none; }
-:deep(.slick-arrow.custom-slick-arrow:hover) { color: #fff; opacity: 0.5; }
+:deep(.slick-arrow.custom-slick-arrow:hover) { color: #5e5c5c; opacity: 0.5; }
 
 /* Căn giữa slide, KHÔNG dùng line-height để khỏi phá layout */
 .solution-carousel :deep(.slick-slide),

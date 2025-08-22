@@ -7,15 +7,16 @@
         title-primary="Need a shipping solution?"
         title-secondary="Request your free quote now!"
         button-text="Request"
+        style="margin-bottom: 50px"
       />
-      <News />
+      <FeaturedNews />
     </div>
   </section>
 </template>
 
 <script setup>
 import Banner from '@/components/Banner.vue'
-import News from '@/pages/HomePage/components/News.vue'
+import FeaturedNews from '@/components/FeaturedNews.vue'
 import WhyFargo from '@/components/WhyFargo.vue'
 import { ref } from 'vue'
 

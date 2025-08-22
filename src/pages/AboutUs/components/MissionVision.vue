@@ -37,7 +37,7 @@
 
 .content {
   width: 523px;
-  height: 267px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

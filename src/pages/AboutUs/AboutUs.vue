@@ -28,9 +28,7 @@
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
 import Banner from '@/components/Banner.vue'
-import WhoAreWe from './components/WhoAreWe.vue'
-import MissionVision from './components/MissionVision.vue'
-import CoreValue from './components/CoreValue.vue'
+import { WhoAreWe, MissionVision, CoreValue } from './components'
 import bgAbout from '@/assets/images/bg_about.png'
 
 const description = `"Driven by Precision, Powered by Trust"`

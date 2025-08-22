@@ -4,7 +4,7 @@ import { computed } from 'vue';
 
 const props = defineProps({
   title: String,
-  description: Array,
+  paragraphs: Array,
   imageSrc: String,
   height: String,
   reverse: Boolean,
@@ -22,8 +22,8 @@ const stylesVars = computed(() => ({
     </div>
     <div class="content">
       <h2 class="title">{{ title }}</h2>
-      <div class="description">
-        <p v-for="item in description" :key="item">{{ item }}</p>
+      <div class="paragraphs">
+        <p v-for="item in paragraphs" :key="item">{{ item }}</p>
       </div>
     </div>
   </section>
@@ -69,7 +69,7 @@ const stylesVars = computed(() => ({
   color: #052e5e;
   font-family: 'Poppins', sans-serif;
 }
-.content .description {
+.content .paragraphs {
   font-size: 16px;
   font-weight: 400;
   color: #000;

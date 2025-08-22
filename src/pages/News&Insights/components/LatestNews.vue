@@ -4,11 +4,7 @@
 
     <!-- Grid -->
     <div class="news-grid">
-      <article
-        v-for="item in pagedItems"
-        :key="item.id"
-        class="news-card"
-      >
+      <article v-for="item in pagedItems" :key="item.id" class="news-card">
         <img :src="item.image" alt="" class="news-card_img" />
         <h3 class="news-card_title">{{ item.title }}</h3>
         <p class="news-card_date">{{ item.date }}</p>
@@ -21,8 +17,8 @@
         v-model:current="page"
         :total="items.length"
         :pageSize="pageSize"
-        show-less-items
-        show-size-changer="false"
+        :show-less-items="false"
+        :show-size-changer="false"
       />
     </div>
   </section>
@@ -30,21 +26,20 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import { news } from '@/data/news'
 
 const page = ref(1)
 const pageSize = 9
 
 // Fake data
-const placeholder =
-  'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360"><rect width="100%" height="100%" fill="%23f3f4f6"/><text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="%239ca3af" font-size="20">Image</text></svg>'
 
 const items = ref(
-  Array.from({ length: 50 }).map((_, i) => ({
+  Array.from({ length: news.length }).map((_, i) => ({
     id: i + 1,
-    image: placeholder,
-    title: `Lorem ipsum dolor sit amet, consectetur pıscing elit. #${i + 1}`,
-    date: '25/6/2025',
-  }))
+    image: news[i].image[0],
+    title: news[i].title,
+    date: news[i].date,
+  })),
 )
 
 const pagedItems = computed(() => {
@@ -102,6 +97,11 @@ const pagedItems = computed(() => {
   font-weight: 700;
   color: #0b2b5b;
   margin: 0 0 6px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 .news-card_date {

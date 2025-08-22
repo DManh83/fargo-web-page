@@ -6,6 +6,10 @@ import Header from './components/Header.vue';
 import { computed } from 'vue';
 
 const route = useRoute()
+// const router = useRouter()
+// router.afterEach(() => {
+//   window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
+// })
 
 const breadcrumb = computed(() => {
   const crumbs = []

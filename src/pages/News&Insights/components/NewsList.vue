@@ -1,16 +1,5 @@
-<template>
-  <section class="news-list">
-    <div v-for="item in items" :key="item.id" class="news-item">
-      <img :src="item.image" alt="thumbnail" class="news-item_image" />
-      <div class="news-item_content">
-        <h3 class="news-item_title">{{ item.title }}</h3>
-        <p class="news-item_date">{{ item.date }}</p>
-      </div>
-    </div>
-  </section>
-</template>
-
 <script setup>
+import { formatDate } from '@/utils/formatDate'
 defineProps({
   items: {
     type: Array,
@@ -18,6 +7,18 @@ defineProps({
   },
 })
 </script>
+
+<template>
+  <section class="news-list">
+    <div v-for="item in items" :key="item.id" class="news-item">
+      <img :src="item.image[0]" alt="thumbnail" class="news-item_image" />
+      <div class="news-item_content">
+        <h3 class="news-item_title">{{ item.title }}</h3>
+        <p class="news-item_date">{{ formatDate(item.date) }}</p>
+      </div>
+    </div>
+  </section>
+</template>
 
 <style scoped>
 .news-list {
@@ -36,7 +37,7 @@ defineProps({
 /* image */
 .news-item_image {
   width: 120px;
-  height: 80px;
+  height: 120px;
   border-radius: 8px;
   object-fit: cover;
   background: #f0f0f0;

@@ -1,3 +1,37 @@
+<script setup>
+import { ref, onMounted } from 'vue'
+import { useStore } from 'vuex'
+import { RouterLink } from 'vue-router'
+import NewsList from './NewsList.vue'
+import { formatDate } from '@/utils/formatDate'
+import { news } from '@/data/news'
+import { onImgErr } from '@/utils/imgErr'
+
+const store = useStore()
+
+const activeKey = ref('1')
+
+const allNews = news
+const featuredNews = allNews.filter((it) => it.featured)
+
+const fargoNews = allNews
+  .filter((it) => it.category === 'fargoNews')
+  .map((it) => ({ ...it, date: formatDate(it.date) }))
+const marketUpdates = allNews
+  .filter((it) => it.category === 'marketUpdates')
+  .map((it) => ({ ...it, date: formatDate(it.date) }))
+
+onMounted(() => {
+  store.dispatch('news/setItems', [...allNews])
+})
+
+function remember(it) {
+  store.dispatch('news/setItem', it)
+}
+
+
+</script>
+
 <template>
   <section class="fn">
     <h2 class="fn_title">Featured News</h2>
@@ -5,28 +39,38 @@
     <div class="fn_grid">
       <!-- Big card -->
       <RouterLink
-        v-if="items[0]"
+        v-if="featuredNews[0]"
         class="fn_card fn_card-big"
-        :to="{ name: 'News Detail', params: { id: items[0].id }, query: { title: items[0].title } }"
+        :to="{
+          name: 'News Detail',
+          params: { id: featuredNews[0].id },
+          query: { title: featuredNews[0].title },
+        }"
+        @click="remember(featuredNews[0])"
       >
         <div class="fn_thumb">
-          <img :src="items[0].image" :alt="items[0].title" @error="onImgErr" />
+          <img :src="featuredNews[0].image[0]" :alt="featuredNews[0].title" @error="onImgErr" />
         </div>
         <div class="fn_meta">
-          <h3 class="fn_headline">{{ items[0].title }}</h3>
-          <p class="fn_date">{{ formatDate(items[0].date) }}</p>
+          <h3 class="fn_headline">{{ featuredNews[0].title }}</h3>
+          <p class="fn_date">{{ formatDate(featuredNews[0].date) }}</p>
         </div>
       </RouterLink>
 
       <!-- Small cards -->
       <RouterLink
-        v-for="(it, i) in items.slice(1, 3)"
+        v-for="(it, i) in featuredNews.slice(1, 3)"
         :key="it.title + i"
         class="fn_card fn_card-small"
-        :to="{ name: 'News Detail', params: { id: it.id }, query: { title: it.title } }"
+        :to="{
+          name: 'News Detail',
+          params: { id: it.id },
+          query: { title: it.title },
+        }"
+        @click="remember(it)"
       >
         <div class="fn_thumb fn_thumb-sm">
-          <img :src="it.image" :alt="it.title" @error="onImgErr" />
+          <img :src="it.image[0]" :alt="it.title" @error="onImgErr" />
         </div>
         <div class="fn_meta">
           <h3 class="fn_headline fn_headline-sm">{{ it.title }}</h3>
@@ -49,105 +93,6 @@
     </a-tabs>
   </section>
 </template>
-
-<script setup>
-import { reactive, ref } from 'vue'
-import { RouterLink } from 'vue-router'
-import check from '@/assets/images/Checker.png'
-import NewsList from './NewsList.vue'
-
-const activeKey = ref('1')
-
-const items = reactive([
-  {
-    id: 1,
-    title: 'Title 1',
-    date: '2025-05-31',
-    image: check,
-  },
-  {
-    id: 2,
-    title: 'Title 2',
-    date: '2025-07-04',
-    image: check,
-  },
-  {
-    id: 3,
-    title:
-      'Title 3',
-    date: '2025-07-06',
-    image: check,
-  },
-])
-
-const allNews = [
-  {
-    id: 4,
-    title: 'Title 4',
-    date: 'Jul 14, 2025',
-    image: check,
-  },
-  {
-    id: 5,
-    title: 'Title 5',
-    date: 'Jul 15, 2025',
-    image: check,
-  },
-  {
-    id: 6,
-    title: 'Title 6',
-    date: 'Jul 16, 2025',
-    image: check,
-  },
-
-  {
-    id: 7,
-    title: 'Title 7',
-    date: 'Jul 17, 2025',
-    image: check,
-  },
-
-  {
-    id: 8,
-    title: 'Title 8',
-    date: 'Jul 18, 2025',
-    image: check,
-  },
-]
-
-const fargoNews = [
-  {
-    id: 6,
-    title: 'Title 6',
-    date: 'Jul 16, 2025',
-    image: check,
-  },
-]
-
-const marketUpdates = [
-  {
-    id: 4,
-    title: 'Title 4',
-    date: 'Jul 14, 2025',
-    image: check,
-  },
-]
-
-function formatDate(iso) {
-  const d = new Date(iso)
-  return d.toLocaleDateString('en-US', {
-    month: 'short',
-    day: 'numeric',
-    year: 'numeric',
-  })
-}
-
-function onImgErr(e) {
-  // fallback dạng ô caro nhạt giống mockup
-  e.target.style.display = 'none'
-  e.target.parentElement.classList.add('is-empty')
-}
-</script>
 
 <style scoped>
 .fn {

@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import router from './routes'
+import store from './store'
 import i18n, { setLocale } from './i18n'
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/reset.css'
@@ -9,7 +10,7 @@ import * as Icons from '@ant-design/icons-vue'
 
 const app = createApp(App)
 
-app.use(router).use(Antd).use(i18n)
+app.use(router).use(Antd).use(i18n).use(store)
 
 app.config.globalProperties.$setLang = setLocale
 

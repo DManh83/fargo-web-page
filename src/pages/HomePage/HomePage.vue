@@ -36,12 +36,7 @@
 
 <script setup>
 import Thumbnail from '@/components/Thumbnail.vue'
-import AboutUs from '@/pages/HomePage/components/AboutUs.vue'
-import DeliveryService from '@/pages/HomePage/components/DeliveryService.vue'
-import Solution from '@/pages/HomePage/components/Solution.vue'
-// import Industries from '@/pages/HomePage/components/Industries.vue'
-import Intro from '@/pages/HomePage/components/Intro.vue'
-import Thumbnail2 from '@/pages/HomePage/components/Thumbnail2.vue'
+import { AboutUs, DeliveryService, Solution, Intro, Thumbnail2 } from './components'
 
 import thumbnail1 from '@/assets/images/thumbnail.png'
 import thumbnail2 from '@/assets/images/thumbnail2.png'

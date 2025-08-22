@@ -1,0 +1,5 @@
+export { default as FeaturedNews } from './FeaturedNews.vue'
+export { default as LatestNews } from './LatestNews.vue'
+export { default as NewsList } from './NewsList.vue'
+export { default as NewRender } from './NewsRender.vue'
+export { default as Related } from './Related.vue'
