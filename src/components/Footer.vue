@@ -43,7 +43,6 @@
           <span class="title">Services</span>
           <ul>
             <li>Transportation</li>
-            <li>Industries</li>
             <li>Logistics and Supply chain</li>
           </ul>
         </div>

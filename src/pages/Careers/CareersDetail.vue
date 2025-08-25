@@ -13,8 +13,6 @@ const bgDescription = `"Drive the world forward — join the future of logistics
 
 const item = computed(() => store.getters['career/currentItem'])
 
-console.log(item.value)
-
 function sampleSize(arr, n) {
   const a = arr.slice()
   const k = Math.min(n, a.length)
@@ -29,14 +27,17 @@ const related = computed(() => {
   const currentId = item.value?.id
   const pool = (careers || []).filter((it) => it && it.id !== currentId)
 
-  const picked = sampleSize(pool, 3)
+  const picked = sampleSize(pool, 4)
   return picked.map((it) => ({
     id: it.id,
     title: it.title,
     description: it.description,
     mode: it.mode,
+    paragraphs: it.paragraphs,
   }))
 })
+
+console.log(related.value)
 </script>
 
 <template>
@@ -52,7 +53,7 @@ const related = computed(() => {
     </div>
   </section>
   <section class="other-jobs-container">
-    <Jobs :isDivider="false" :title="`Other Jobs`" />
+    <Jobs :isDivider="false" :title="`Other Career Opportunities`" />
   </section>
 </template>
 

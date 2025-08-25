@@ -3,8 +3,6 @@
 import { EnvironmentOutlined } from '@ant-design/icons-vue'
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
-import { computed } from 'vue'
-import { careers } from '@/data/careers'
 
 const store = useStore()
 const router = useRouter()
@@ -14,29 +12,6 @@ defineProps({
     type: Array,
     default: () => [],
   },
-})
-function sampleSize(arr, n) {
-  const a = arr.slice()
-  const k = Math.min(n, a.length)
-  for (let i = 0; i < k; i++) {
-    const r = i + Math.floor(Math.random() * (a.length - i))
-    ;[a[i], a[r]] = [a[r], a[i]]
-  }
-  return a.slice(0, k)
-}
-
-const related = computed(() => {
-  const currentId = careers?.id
-  const pool = (careers || [])
-    .filter(it => it && it.id !== currentId)
-
-  const picked = sampleSize(pool, 4)
-  return picked.map(it => ({
-    id: it.id,
-    title: it.title,
-    description: it.description,
-    mode: it.mode,
-  }))
 })
 
 const clickViewDetail = (job) => {
@@ -52,7 +27,7 @@ const clickViewDetail = (job) => {
 <template>
   <section class="related">
     <aside class="side">
-      <a-card v-for="item in related" :key="item.id" class="job-card">
+      <a-card v-for="item in items" :key="item.id" class="job-card">
         <h3 class="job-title">{{ item.title }}</h3>
 
         <div class="job-meta">
@@ -90,7 +65,7 @@ const clickViewDetail = (job) => {
   transition:
     box-shadow 0.2s ease,
     transform 0.2s ease;
-  margin-bottom: 12px;
+  margin: 12px 0;
 }
 .job-card:hover {
   box-shadow: 0 8px 24px rgba(2, 33, 102, 0.08);

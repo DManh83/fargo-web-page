@@ -69,15 +69,18 @@ defineProps({
   z-index: 2;
   display: flex;
   flex-direction: column;
+  width: 920px;
 }
 
 .overlay-title {
   margin-right: 650px;
   margin-bottom: -50px;
+  width: auto;
 }
 .overlay-subtitle {
   text-align: left;
   margin-left: 13%;
+  width: auto;
 }
 
 .title {

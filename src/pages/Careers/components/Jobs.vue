@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <section class="jobs-container">
+  <section class="container">
     <div class="header">
       <div v-if="isDivider" class="subtitle">
         <h3>WORKING WITH</h3>
@@ -35,14 +35,13 @@ defineProps({
 </script>
 
 <style scoped>
-.jobs-container {
+.container {
   width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
 }
 .header {
   width: 100%;

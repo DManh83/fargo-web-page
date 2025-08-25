@@ -1,9 +1,9 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import Footer from './components/Footer.vue'
-import { RouterView, useRoute } from 'vue-router';
-import Header from './components/Header.vue';
-import { computed } from 'vue';
+import { RouterView, useRoute } from 'vue-router'
+import Header from './components/Header.vue'
+import { computed } from 'vue'
 
 const route = useRoute()
 // const router = useRouter()
@@ -24,17 +24,20 @@ const breadcrumb = computed(() => {
     } else {
       const title = record.meta?.title || record.name
       if (title) {
-        items = [{
-          title,
-          path: idx < route.matched.length - 1
-            ? { name: record.name, params: route.params, query: route.query }
-            : undefined
-        }]
+        items = [
+          {
+            title,
+            path:
+              idx < route.matched.length - 1
+                ? { name: record.name, params: route.params, query: route.query }
+                : undefined,
+          },
+        ]
       }
     }
 
-    items.forEach(i => {
-      if (!crumbs.some(c => c.title === i.title)) crumbs.push(i)
+    items.forEach((i) => {
+      if (!crumbs.some((c) => c.title === i.title)) crumbs.push(i)
     })
   })
 
@@ -84,7 +87,7 @@ const showHeader = computed(() => !route.meta?.hideHeader)
 /* Cho phép content cuộn */
 .app-content {
   min-height: calc(100vh - 64px);
-  overflow: hidden;
+  /* overflow: visible; */
   /* padding-bottom: 260px; */
 }
 

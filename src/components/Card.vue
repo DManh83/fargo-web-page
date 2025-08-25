@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
-import { computed } from 'vue';
+import { computed } from 'vue'
 
 const props = defineProps({
   title: String,
@@ -8,11 +8,24 @@ const props = defineProps({
   imageSrc: String,
   height: String,
   reverse: Boolean,
-});
+  buttonText: String,
+  center: String,
+  grid: String,
+  titleSize: String,
+  gap: String,
+  titleColor: String,
+  textColor: String,
+})
 
 const stylesVars = computed(() => ({
   '--ib-h': props.height || '388px',
-}));
+  '--center': props.center || 'flex-start',
+  '--grid': props.grid || '1fr 1fr',
+  '--title-size': props.titleSize || '32px',
+  '--gap': props.gap || '80px',
+  '--text-color': props.textColor || '#000',
+  '--title-color': props.titleColor || '#052e5e',
+}))
 </script>
 
 <template>
@@ -21,9 +34,14 @@ const stylesVars = computed(() => ({
       <img :src="imageSrc" alt="Checker" />
     </div>
     <div class="content">
-      <h2 class="title">{{ title }}</h2>
-      <div class="paragraphs">
+      <h2 v-if="title" class="title">{{ title }}</h2>
+      <div v-if="paragraphs" class="paragraphs">
         <p v-for="item in paragraphs" :key="item">{{ item }}</p>
+      </div>
+      <div v-if="buttonText" class="button">
+        <a-button type="primary" class="button-text" size="large">
+          {{ buttonText }}
+        </a-button>
       </div>
     </div>
   </section>
@@ -32,17 +50,17 @@ const stylesVars = computed(() => ({
 <style scoped>
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "media content";
+  grid-template-columns: var(--grid);
+  grid-template-areas: 'media content';
   align-items: center;
   justify-content: space-between;
-  gap: 80px;
+  gap: var(--gap);
   width: 100%;
   /* height: 388px; */
 }
 
 .container.is-reverse {
-  grid-template-areas: "content media";
+  grid-template-areas: 'content media';
 }
 
 .media {
@@ -61,19 +79,29 @@ const stylesVars = computed(() => ({
   grid-area: content;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
+  justify-content: var(--center);
+  align-items: var(--center);
 }
 .content .title {
-  font-size: 32px;
+  font-size: var(--title-size);
+  font-weight: 600;
+  color: var(--title-color);
+  font-family: 'Poppins', sans-serif;
+  text-align: var(--center);
+}
+.content .paragraphs {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+}
+.button-text {
+  font-size: 16px;
+  background-color: #ffb23f;
   font-weight: 600;
   color: #052e5e;
   font-family: 'Poppins', sans-serif;
-}
-.content .paragraphs {
-  font-size: 16px;
-  font-weight: 400;
-  color: #000;
-  font-family: 'Poppins', sans-serif;
-  gap: 12px;
 }
 </style>

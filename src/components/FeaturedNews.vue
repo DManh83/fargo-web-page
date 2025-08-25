@@ -2,7 +2,7 @@
 <template>
   <section class="news">
     <a-divider v-if="isDivider" class="divider" />
-    <h1 :style="{ textAlign: align }">Featured News</h1>
+    <h1 :style="{ textAlign: align }">{{ title }}</h1>
     <div class="news-content">
       <a-carousel
         :dots="false"
@@ -63,6 +63,10 @@ const store = useStore()
 const router = useRouter()
 
 defineProps({
+  title: {
+    type: String,
+    default: 'Featured News',
+  },
   isDivider: {
     type: Boolean,
     default: false,
