@@ -71,7 +71,7 @@ import customerSupport from '@/assets/images/customer_support.png'
 import RelatedSolutions from '@/components/RelatedSolutions.vue'
 import SpecializedLogistics from '@/components/SpecializedLogistics.vue'
 import RelatedServices from '@/components/RelatedServices.vue'
-import logisticsAndSupplyChainRSE from '@/assets/images/logistics_and_supply_chain_rse.png'
+import overviewLasc from '@/assets/images/overview_lasc.png'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import Banner from '@/components/Banner.vue'
 import seaFreight from '@/assets/images/sea_freight.png'
@@ -92,7 +92,7 @@ const items = [
 
 const relatedServices = {
   title: 'Logistics and Supply chain ',
-  imageSrc: logisticsAndSupplyChainRSE,
+  imageSrc: overviewLasc,
   paragraphs: [
     `We deliver integrated logistics and supply chain solutions, including freight forwarding, warehousing, and distribution. With advanced systems and a global network, Fargo Logistics ensures efficiency, cost savings, and reliability across every shipment.`,
   ],

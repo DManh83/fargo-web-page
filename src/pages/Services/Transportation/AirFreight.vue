@@ -174,7 +174,7 @@ const relatedSolutions = [
     title: 'Air Freight',
     image: airFreight,
     paragraphs: [
-      'Air freight is a fast and efficient way to transport goods across the world, with reliable schedules and competitive rates.',
+      'Fast and flexible solutions for urgent shipments. Designed to meet tight deadlines worldwide.',
     ],
     height: '356px',
     titleColor: '#ffff',
