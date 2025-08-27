@@ -7,6 +7,10 @@
       :paragraphs="item.paragraphs"
       titleColor="#ffff"
       textColor="#ffff"
+      height="187px"
+      titleSize="20px"
+      pSize="16px"
+      gap="20px"
     />
   </section>
 </template>
@@ -24,7 +28,7 @@ defineProps({
 <style scoped>
 .rse {
   width: 1200px;
-  height: 100%;
+  height: 50%;
   margin: 50px auto;
 }
 h1 {

@@ -26,13 +26,13 @@
               </a-menu-item>
             </a-sub-menu>
 
-            <a-menu-item v-else :key="`child-${child.name}`">
+            <a-menu-item v-else :key="child.name">
               <RouterLink :to="child.path">{{ $t(child.name) }}</RouterLink>
             </a-menu-item>
           </template>
         </a-sub-menu>
         <!-- If no children -->
-        <a-menu-item v-else :key="`menu-${item.name}`">
+        <a-menu-item v-else :key="item.name">
           <RouterLink :to="item.path">{{ $t(item.name) }}</RouterLink>
         </a-menu-item>
       </template>
@@ -83,7 +83,14 @@ const Menu = ref([
   },
   { name: 'menu.news', path: '/news-insights' },
   { name: 'menu.careers', path: '/careers' },
-  { name: 'menu.tools', path: '/tools-support' },
+  {
+    name: 'menu.support',
+    children: [
+      { name: 'menu.quoteRequest', path: '/support/quote-request' },
+      { name: 'menu.faqs', path: '/support/faqs' },
+      { name: 'menu.contactUs', path: '/support/contact-us' },
+    ],
+  },
 ])
 
 const route = useRoute()

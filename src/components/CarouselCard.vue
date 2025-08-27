@@ -54,6 +54,10 @@ defineProps({
     type: String,
     default: 'Logistics and Supply Chain',
   },
+  titleColor: {
+    type: String,
+    default: '#052e5e',
+  },
 })
 
 </script>
@@ -83,7 +87,7 @@ defineProps({
 h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #052e5e;
+  color: v-bind(titleColor);
   margin: 0;
 }
 
@@ -169,7 +173,7 @@ h1 {
 /* ===== Custom arrows ===== */
 :deep(.slick-arrow.custom-slick-arrow) {
   width: 30px; height: 30px; font-size: 35px;
-  color: #000000; background: #ffffff;
+  color: #000000;
   transition: ease all 0.3s; opacity: 0.8; z-index: 1;
   border-radius: 50%; position: absolute; top: 50%; transform: translateY(-50%);
 }

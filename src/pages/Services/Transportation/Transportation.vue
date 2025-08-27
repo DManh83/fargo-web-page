@@ -33,6 +33,7 @@
         :reverse="item.reverse"
         :grid="item.grid"
         titleSize="20px"
+        pSize="16px"
         gap="40px"
       />
     </div>
@@ -61,6 +62,12 @@
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
 import Card from '@/components/Card.vue'
+import RelatedSolutions from '@/components/RelatedSolutions.vue'
+import SpecializedLogistics from '@/components/SpecializedLogistics.vue'
+import RelatedServices from '@/components/RelatedServices.vue'
+import FeaturedNews from '@/components/FeaturedNews.vue'
+import Banner from '@/components/Banner.vue'
+
 import bgTransportation from '@/assets/images/bg_transportation.png'
 import introAboutUs from '@/assets/images/intro_about_us.png'
 import overviewTransportation from '@/assets/images/overview_transportation.png'
@@ -68,12 +75,7 @@ import globalCoverage from '@/assets/images/global_coverage.png'
 import costEfficiency from '@/assets/images/cost_efficiency.png'
 import onTimeDelivery from '@/assets/images/on_time_delivery.png'
 import customerSupport from '@/assets/images/customer_support.png'
-import RelatedSolutions from '@/components/RelatedSolutions.vue'
-import SpecializedLogistics from '@/components/SpecializedLogistics.vue'
-import RelatedServices from '@/components/RelatedServices.vue'
 import overviewLasc from '@/assets/images/overview_lasc.png'
-import FeaturedNews from '@/components/FeaturedNews.vue'
-import Banner from '@/components/Banner.vue'
 import seaFreight from '@/assets/images/sea_freight.png'
 import airFreight from '@/assets/images/air_freight.png'
 

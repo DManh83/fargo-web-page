@@ -12,7 +12,7 @@
         <h1 class="banner-title">
           {{ titleSecondary }}
         </h1>
-        <a-button class="banner-button" type="default" size="large"> {{ buttonText }} </a-button>
+        <a-button class="banner-button" type="default" size="large" @click="handleClick"> {{ buttonText }} </a-button>
       </div>
     </div>
   </section>
@@ -20,12 +20,20 @@
 
 <script setup>
 import introBanner from '@/assets/images/intro_banner.png'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
 defineProps({
   titlePrimary: String,
   titleSecondary: String,
   buttonText: String,
   imageSrc: String,
 })
+
+const handleClick = () => {
+  router.push('/support/quote-request')
+}
 </script>
 
 <style scoped>

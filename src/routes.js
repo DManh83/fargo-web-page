@@ -13,6 +13,9 @@ import CustomsBroker from './pages/Services/Logistics/CustomsBroker.vue'
 import CargoInsurance from './pages/Services/Logistics/CargoInsurance.vue'
 import WarehouseStorage from './pages/Services/Logistics/WarehouseStorage.vue'
 import ECommerce from './pages/Services/Logistics/ECommerce.vue'
+import QuoteRequest from './pages/Support/QuoteRequest.vue'
+import FAQs from './pages/Support/FAQs.vue'
+import ContactUs from './pages/Support/ContactUs.vue'
 
 const routes = [
   { name: 'Home', path: '/', component: HomePage, meta: { hideHeader: true, title: 'Home' } },
@@ -52,7 +55,13 @@ const routes = [
     name: 'Transportation',
     path: '/transportation',
     component: Transportation,
-    meta: { title: 'Transportation' }
+    meta: {
+      title: 'Transportation',
+      breadcrumb: () => ([
+        { title: 'Services' },
+        { title: 'Transportation' },
+      ]),
+    }
   },
   {
     name: 'Sea Freight',
@@ -61,6 +70,7 @@ const routes = [
     meta: {
       title: 'Sea Freight',
       breadcrumb: () => ([
+        { title: 'Services' },
         { title: 'Transportation', path: '/transportation' },
         { title: 'Sea Freight' }
       ]),
@@ -73,6 +83,7 @@ const routes = [
     meta: {
       title: 'Air Freight',
       breadcrumb: () => ([
+        { title: 'Services' },
         { title: 'Transportation', path: '/transportation' },
         { title: 'Air Freight' }
       ]),
@@ -84,6 +95,10 @@ const routes = [
     component: LogisticsSupplyChain,
     meta: {
       title: 'Logistics and Supply Chain',
+      breadcrumb: () => ([
+        { title: 'Services' },
+        { title: 'Logistics and Supply Chain' },
+      ]),
     }
   },
   {
@@ -93,6 +108,7 @@ const routes = [
     meta: {
       title: 'Customs Broker',
       breadcrumb: () => ([
+        { title: 'Services' },
         { title: 'Logistics and Supply Chain', path: '/logistics-and-supply-chain' },
         { title: 'Customs Broker' }
       ]),
@@ -105,6 +121,7 @@ const routes = [
     meta: {
       title: 'Cargo Insurance',
       breadcrumb: () => ([
+        { title: 'Services' },
         { title: 'Logistics and Supply Chain', path: '/logistics-and-supply-chain' },
         { title: 'Cargo Insurance' }
       ]),
@@ -117,6 +134,7 @@ const routes = [
     meta: {
       title: 'Warehouse and Storage',
       breadcrumb: () => ([
+        { title: 'Services' },
         { title: 'Logistics and Supply Chain', path: '/logistics-and-supply-chain' },
         { title: 'Warehouse and Storage' }
       ]),
@@ -129,12 +147,48 @@ const routes = [
     meta: {
       title: 'E-Commerce',
       breadcrumb: () => ([
+        { title: 'Services' },
         { title: 'Logistics and Supply Chain', path: '/logistics-and-supply-chain' },
         { title: 'E-Commerce' }
       ]),
     }
   },
-
+  {
+    name: 'Quote Request',
+    path: '/support/quote-request',
+    component: QuoteRequest,
+    meta: {
+      title: 'Quote Request',
+      breadcrumb: () => ([
+        { title: 'Support' },
+        { title: 'Quote Request' }
+      ]),
+    }
+  },
+  {
+    name: 'FAQs',
+    path: '/support/faqs',
+    component: FAQs,
+    meta: {
+      title: 'FAQs',
+      breadcrumb: () => ([
+        { title: 'Support' },
+        { title: 'FAQs' }
+      ]),
+    }
+  },
+  {
+    name: 'Contact Us',
+    path: '/support/contact-us',
+    component: ContactUs,
+    meta: {
+      title: 'Contact Us',
+      breadcrumb: () => ([
+        { title: 'Support' },
+        { title: 'Contact Us' }
+      ]),
+    }
+  },
 ]
 
 const router = createRouter({

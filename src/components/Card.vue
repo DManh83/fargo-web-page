@@ -12,6 +12,7 @@ const props = defineProps({
   center: String,
   grid: String,
   titleSize: String,
+  pSize: String,
   gap: String,
   titleColor: String,
   textColor: String,
@@ -25,6 +26,7 @@ const stylesVars = computed(() => ({
   '--gap': props.gap || '80px',
   '--text-color': props.textColor || '#000',
   '--title-color': props.titleColor || '#052e5e',
+  '--p-size': props.pSize || '20px',
 }))
 </script>
 
@@ -91,7 +93,7 @@ const stylesVars = computed(() => ({
   text-align: var(--center);
 }
 .content .paragraphs {
-  font-size: 20px;
+  font-size: var(--p-size);
   font-weight: 400;
   line-height: 1.2;
   color: var(--text-color);

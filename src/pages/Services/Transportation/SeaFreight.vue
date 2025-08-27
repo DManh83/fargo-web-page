@@ -33,6 +33,7 @@
         :reverse="item.reverse"
         :grid="item.grid"
         titleSize="20px"
+        pSize="16px"
         gap="40px"
       />
     </div>
@@ -58,21 +59,23 @@
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
 import Card from '@/components/Card.vue'
+import RelatedSolutions from '@/components/RelatedSolutions.vue'
+import FeaturedNews from '@/components/FeaturedNews.vue'
+import Banner from '@/components/Banner.vue'
+import CarouselCard from '@/components/CarouselCard.vue'
+
 import bgTransportation from '@/assets/images/bg_transportation.png'
 import introAboutUs from '@/assets/images/intro_about_us.png'
 import overviewSea from '@/assets/images/overview_sea.png'
+import airFreight from '@/assets/images/air_freight.png'
 import wideGlobalNetwork from '@/assets/images/wide_global_network.png'
 import costSavings from '@/assets/images/cost_savings.png'
 import flexibleOptions from '@/assets/images/flexible_options.png'
 import safeAndReliable from '@/assets/images/safe_and_reliable.png'
-import CarouselCard from '@/components/CarouselCard.vue'
 import LCL from '@/assets/images/LCL.png'
 import FCL from '@/assets/images/FCL.png'
 import CLAS from '@/assets/images/clas.png'
 import BC from '@/assets/images/bc.png'
-import RelatedSolutions from '@/components/RelatedSolutions.vue'
-import FeaturedNews from '@/components/FeaturedNews.vue'
-import Banner from '@/components/Banner.vue'
 
 const bgDescription = `"Beyond Shipping, We Move Possibilities"`
 const overviewList = [
@@ -171,10 +174,10 @@ const services = [
 ]
 const relatedSolutions = [
   {
-    title: 'Sea Freight',
-    image: overviewSea,
+    title: 'Air Freight',
+    image: airFreight,
     paragraphs: [
-      'Sea freight is a fast and efficient way to transport goods across the world, with reliable schedules and competitive rates.',
+      'Fast and flexible solutions for urgent shipments. Designed to meet tight deadlines worldwide.',
     ],
     height: '356px',
     titleColor: '#ffff',

@@ -33,6 +33,7 @@
         :reverse="item.reverse"
         :grid="item.grid"
         titleSize="20px"
+        pSize="16px"
         gap="40px"
       />
     </div>
@@ -58,17 +59,19 @@
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
 import Card from '@/components/Card.vue'
+import CarouselCard from '@/components/CarouselCard.vue'
+import RelatedSolutions from '@/components/RelatedSolutions.vue'
+import FeaturedNews from '@/components/FeaturedNews.vue'
+import Banner from '@/components/Banner.vue'
+
 import airFreight from '@/assets/images/air_freight.png'
+import overviewSea from '@/assets/images/overview_sea.png'
 import aboutAirFreight from '@/assets/images/about_air_freight.png'
 import overviewAir from '@/assets/images/overview_air.png'
 import speedAndEfficiency from '@/assets/images/speed_and_efficiency.png'
 import globalReach from '@/assets/images/wide_global_network.png'
 import secureHandling from '@/assets/images/secure_handling.png'
 import flexibleSolutions from '@/assets/images/flexible_solutions.png'
-import CarouselCard from '@/components/CarouselCard.vue'
-import RelatedSolutions from '@/components/RelatedSolutions.vue'
-import FeaturedNews from '@/components/FeaturedNews.vue'
-import Banner from '@/components/Banner.vue'
 import LCL from '@/assets/images/LCL.png'
 import FCL from '@/assets/images/FCL.png'
 import CLAS from '@/assets/images/clas.png'
@@ -171,10 +174,10 @@ const services = [
 ]
 const relatedSolutions = [
   {
-    title: 'Air Freight',
-    image: airFreight,
+    title: 'Sea Freight',
+    image: overviewSea,
     paragraphs: [
-      'Fast and flexible solutions for urgent shipments. Designed to meet tight deadlines worldwide.',
+      'Sea freight is a fast and efficient way to transport goods across the world, with reliable schedules and competitive rates.',
     ],
     height: '356px',
     titleColor: '#ffff',
@@ -182,6 +185,7 @@ const relatedSolutions = [
     reverse: true,
   },
 ]
+
 </script>
 
 <style scoped>
