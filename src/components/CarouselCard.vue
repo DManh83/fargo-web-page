@@ -2,7 +2,7 @@
 <template>
   <section class="cc">
     <div class="cc-content">
-      <h1>{{ title }}</h1>
+      <h1>{{ $t(title) }}</h1>
       <a-carousel
         :dots="false"
         arrows
@@ -24,13 +24,18 @@
         </template>
 
         <div v-for="(item, i) in items" :key="i" class="card-wrapper">
-          <a-card class="card-item">
+          <a-card class="card-item" @click="handleClick(item)">
             <div class="card-img-wrap">
               <img :src="item.image[0]" :alt="`solution-${item.index}`" class="card-img" />
             </div>
             <div class="card-content">
               <div class="card-title">{{ item.title }}</div>
-              <div class="card-description">{{ item.description }}</div>
+              <a-tooltip placement="bottomLeft">
+                <template #title>
+                  <span>{{ $t(item.description) }}</span>
+                </template>
+                <div class="card-description">{{ $t(item.description) }}</div>
+              </a-tooltip>
             </div>
           </a-card>
         </div>
@@ -45,6 +50,10 @@
 </template>
 
 <script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter()
+
 defineProps({
   items: {
     type: Array,
@@ -52,7 +61,7 @@ defineProps({
   },
   title: {
     type: String,
-    default: 'Logistics and Supply Chain',
+    default: 'services.solution',
   },
   titleColor: {
     type: String,
@@ -60,6 +69,11 @@ defineProps({
   },
 })
 
+function handleClick(item) {
+  if (item.id) {
+    router.push(`/${item.id}`)
+  }
+}
 </script>
 
 <style scoped>
@@ -128,6 +142,7 @@ h1 {
   border-radius: 16px;
   overflow: hidden; /* phòng khi ảnh scale vượt */
   display: flex;
+  cursor: pointer;
 }
 
 .card-img-wrap {
@@ -151,7 +166,6 @@ h1 {
 .card-wrapper:hover .card-img {
   transform: scale(1.05);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
 }
 
 .card-title {
@@ -169,6 +183,10 @@ h1 {
   color: #052e5e;
   text-align: start;
   font-family: 'Poppins', sans-serif;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 /* ===== Custom arrows ===== */
 :deep(.slick-arrow.custom-slick-arrow) {

@@ -1,8 +1,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="Cargo Insurance"
+      :title="$t('about.about')"
+      :subtitle="$t('services.cargoInsurance.title')"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
@@ -36,7 +36,7 @@
       class="title"
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      Advantages
+      {{ $t('services.advantages') }}
     </h1>
     <div
       v-for="item in advantagesList"
@@ -67,17 +67,13 @@
       margin: 50px auto;
     "
   >
-    <CarouselCard title="Related Solutions" :items="relatedSolutions" titleColor="#ffffff" />
+    <CarouselCard :title="$t('services.relatedSolutions')" :items="i18nSolutions" titleColor="#ffffff" />
   </section>
   <section style="margin: 50px auto">
     <FeaturedNews title="News" />
   </section>
   <section class="banner-container" style="width: 1200px; margin: 50px auto">
-    <Banner
-      title-primary="Need a shipping solution?"
-      title-secondary="Request your free quote now!"
-      button-text="Request"
-    />
+    <Banner />
   </section>
 </template>
 
@@ -88,7 +84,8 @@ import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import Banner from '@/components/Banner.vue'
-
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
 import { solutions } from '@/data/solutions'
 
 import overviewCargoInsurance from '@/assets/images/cargo_insurance.png'
@@ -98,36 +95,38 @@ import costProtection from '@/assets/images/cost_protection.png'
 import flexibleOptions from '@/assets/images/flexible_options.png'
 import peaceOfMind from '@/assets/images/peace_of_mind.png'
 
-const bgDescription = `"Smart moves. Strong supply chains"`
+const { t } = useI18n()
 
-const overviewList = [
+const bgDescription = `services.logisticsAndSupplyChain.description`
+
+const overviewList = computed(() => [
   {
     id: 1,
-    title: `Contact us today to receive a tailored logistics quote for your international shipping needs.`,
+    title: t('contact.description'),
 
     imageSrc: introCargoInsurance,
     height: '388px',
     reverse: false,
-    buttonText: 'Request a Quote',
+    buttonText: t('btn.requestQuote'),
     center: 'center',
   },
   {
     id: 2,
-    title: 'Overview',
+    title: t('services.overview'),
     paragraphs: [
-      `Cargo insurance protects shipments from loss or damage during sea, air, or land transit. It covers accidents, natural disasters, and theft, helping businesses reduce risks and maintain financial security. With tailored plans, companies gain peace of mind and stronger trust across the supply chain.`,
+      t('services.cargoInsurance.overviewDescription'),
     ],
     imageSrc: overviewCargoInsurance,
     height: '388px',
     reverse: true,
   },
-]
+])
 const advantagesList = [
   {
     id: 1,
-    title: 'Comprehensive Coverage',
+    title: t('services.cargoInsurance.comprehensiveCoverage'),
     paragraphs: [
-      `We protect cargo against accidents, natural disasters, and theft, ensuring goods remain safe, fully protected, and financially secure throughout the entire international journey.`,
+      t('services.cargoInsurance.comprehensiveCoverageDescription'),
     ],
     imageSrc: comprehensiveCoverage,
     height: '221px',
@@ -136,9 +135,9 @@ const advantagesList = [
   },
   {
     id: 2,
-    title: 'Cost Protection',
+    title: t('services.cargoInsurance.costProtection'),
     paragraphs: [
-      `Insurance reduces unexpected losses and prevents major financial setbacks, giving businesses greater stability, confidence, and resilience in their ongoing global trading activities.`,
+      t('services.cargoInsurance.costProtectionDescription'),
     ],
     imageSrc: costProtection,
     height: '221px',
@@ -147,9 +146,9 @@ const advantagesList = [
   },
   {
     id: 3,
-    title: 'Flexible Options',
+    title: t('services.cargoInsurance.flexibleOptions'),
     paragraphs: [
-      `Policies can be tailored to shipment size, transport mode, and client requirements, providing reliable, practical solutions that fit every unique logistics operation worldwide.`,
+      t('services.cargoInsurance.flexibleOptionsDescription'),
     ],
     imageSrc: flexibleOptions,
     height: '221px',
@@ -158,9 +157,9 @@ const advantagesList = [
   },
   {
     id: 4,
-    title: 'Peace of Mind',
+    title: t('services.cargoInsurance.peaceOfMind'),
     paragraphs: [
-      `With strong protection and trusted support, companies can focus on growth while knowing their valuable cargo is always insured, monitored, and completely safeguarded everywhere.`,
+      t('services.cargoInsurance.peaceOfMindDescription'),
     ],
     imageSrc: peaceOfMind,
     height: '221px',
@@ -169,5 +168,13 @@ const advantagesList = [
   },
 ]
 
-const relatedSolutions = solutions.filter((solution) => solution.title !== 'Cargo insurance')
+const i18nSolutions = computed(() => {
+  const relatedSolutions = solutions.filter((solution) => solution.title !== t(`services.cargoInsurance.title`))
+  return relatedSolutions.map(solution => ({
+    ...solution,
+    title: t(`services.${solution.title}`),
+    description: t(`services.${solution.description}`)
+  }))
+})
+
 </script>

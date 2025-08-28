@@ -4,7 +4,7 @@ export default {
     services: '服务',
     careers: '职业',
     news: '新闻 & 洞察',
-    tools: '工具 & 支持',
+    support: '工具 & 支持',
     transportation: '运输',
     sea: '海运',
     air: '空运',
@@ -13,5 +13,8 @@ export default {
     cargoInsurance: '货物保险',
     warehouseAndStorage: '仓库和存储',
     eCommerce: '电子商务',
+    quoteRequest: '报价请求',
+    faqs: '常见问题',
+    contactUs: '联系我们',
   },
 };

@@ -5,27 +5,27 @@ import e_commerce from '@/assets/images/e_commerce.png'
 
 export const solutions = [
   {
-    id: 1,
-    title: 'Customs brokerage',
-    description: 'Fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
+    id: 'logistics-and-supply-chain/customs-broker',
+    title: 'customsBrokerage.title',
+    description: 'customsBrokerage.description',
     image: [customs_brokerage],
   },
   {
-    id: 2,
-    title: 'Cargo insurance',
-    description: 'Comprehensive protection for your goods, minimizing risks and securing your cargo throughout the journey.',
+    id: 'logistics-and-supply-chain/cargo-insurance',
+    title: 'cargoInsurance.title',
+    description: 'cargoInsurance.description',
     image: [cargo_insurance],
   },
   {
-    id: 3,
-    title: 'Warehousing',
-    description: 'Safe, modern, and strategically located warehouses to optimize storage and streamline your supply chain.',
+    id: 'logistics-and-supply-chain/warehouse-and-storage',
+    title: 'warehousing.title',
+    description: 'warehousing.description',
     image: [warehousing],
   },
   {
-    id: 4,
-    title: 'E-commerce (Air-express)',
-    description: 'Efficient air-express solutions designed for e-commerce, delivering speed, reliability, and global reach.',
+    id: 'logistics-and-supply-chain/e-commerce',
+    title: 'eCommerce.title',
+    description: 'eCommerce.description',
     image: [e_commerce],
   },
 

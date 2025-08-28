@@ -1,15 +1,13 @@
 <script setup>
 import NavBar from './components/NavBar.vue'
 import Footer from './components/Footer.vue'
-import { RouterView, useRoute } from 'vue-router'
 import Header from './components/Header.vue'
+import { RouterView, useRoute } from 'vue-router'
 import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 
 const route = useRoute()
-// const router = useRouter()
-// router.afterEach(() => {
-//   window.scrollTo({ top: 0, left: 0, behavior: 'smooth' })
-// })
+const { t } = useI18n()
 
 const breadcrumb = computed(() => {
   const crumbs = []
@@ -22,35 +20,43 @@ const breadcrumb = computed(() => {
     } else if (Array.isArray(record.meta?.breadcrumb)) {
       items = record.meta.breadcrumb
     } else {
+      const titleKey = record.meta?.titleKey
       const title = record.meta?.title || record.name
-      if (title) {
-        items = [
-          {
-            title,
-            path:
-              idx < route.matched.length - 1
-                ? { name: record.name, params: route.params, query: route.query }
-                : undefined,
-          },
-        ]
+      if (titleKey || title) {
+        items = [{
+          titleKey,
+          title,
+          path: idx < route.matched.length - 1
+            ? { name: record.name, params: route.params, query: route.query }
+            : undefined,
+        }]
       }
     }
 
     items.forEach((i) => {
-      if (!crumbs.some((c) => c.title === i.title)) crumbs.push(i)
+      const key = i.titleKey || i.title
+      if (!crumbs.some((c) => (c.titleKey || c.title) === key)) crumbs.push(i)
     })
   })
 
-  if (!crumbs.length || (crumbs[0].path !== '/' && crumbs[0].title !== 'Home')) {
-    crumbs.unshift({ title: 'Home', path: '/' })
+  // Thêm "Home" ở đầu nếu thiếu
+  if (!crumbs.length || (crumbs[0].path !== '/' && (crumbs[0].titleKey !== 'routes.home' && crumbs[0].title !== 'Home'))) {
+    crumbs.unshift({ titleKey: 'routes.home', path: '/' })
   }
 
+  // Link chỉ tới các crumb trước cùng (crumb cuối không có path)
   if (crumbs.length) crumbs[crumbs.length - 1].path = undefined
-  return crumbs
+
+  // DỊCH ở đây: nếu có noI18n => giữ nguyên title; nếu có titleKey => t(titleKey); ngược lại dùng title nguyên bản
+  return crumbs.map(c => ({
+    ...c,
+    title: c.noI18n ? c.title : (c.titleKey ? t(c.titleKey) : c.title),
+  }))
 })
 
 const showHeader = computed(() => !route.meta?.hideHeader)
 </script>
+
 
 <template>
   <a-layout class="app-layout">

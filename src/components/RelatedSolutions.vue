@@ -3,10 +3,10 @@
   <section class="rs">
     <div class="rs-container">
       <div class="rs-title">
-        <h1>{{ title }}</h1>
+        <h1>{{ $t('services.relatedSolutions') }}</h1>
       </div>
       <div v-if="items.length > 1" class="rs-content">
-        <div v-for="item in items" :key="item.id" class="rs-item">
+        <div v-for="item in items" :key="item.id" class="rs-item" @click="handleClick(item)">
           <div class="rs-item-image">
             <img :src="item.image" alt="Related Solutions" />
           </div>
@@ -15,7 +15,7 @@
           </div>
         </div>
       </div>
-      <div v-else class="rs-content">
+      <div v-else class="rs-content" @click="handleClick(items[0])">
         <Card
           :title="items[0].title"
           :imageSrc="items[0].image"
@@ -32,6 +32,9 @@
 
 <script setup>
 import Card from './Card.vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 defineProps({
   items: {
@@ -43,6 +46,12 @@ defineProps({
     default: 'Related Solutions',
   },
 })
+
+function handleClick(item) {
+  if (item.id) {
+    router.push(`/${item.id}`)
+  }
+}
 </script>
 
 <style scoped>
@@ -53,8 +62,6 @@ defineProps({
   align-items: center;
   background-color: #052e5e;
   clip-path: ellipse(100% 100% at 50% 100%);
-  left: 50%;
-  pointer-events: none;
 }
 
 .rs-container {
@@ -78,6 +85,7 @@ defineProps({
   flex-direction: row;
   justify-content: space-between;
   gap: 20px;
+  cursor: pointer;
 }
 .rs-items {
   display: flex;
@@ -89,6 +97,7 @@ defineProps({
   flex-direction: column;
   gap: 20px;
   align-items: center;
+  cursor: pointer;
 }
 .rs-item-image {
   width: 590px;

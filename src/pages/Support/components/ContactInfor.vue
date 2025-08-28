@@ -3,7 +3,7 @@
     <h1
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      Contact Information
+      {{ $t('support.contactUs.contactInformation') }}
     </h1>
     <div
       class="contact-info-content"
@@ -31,7 +31,7 @@
             font-family: 'Poppins', sans-serif;
           "
         >
-          50 Street No. 1, Cityland Residential Area, Hanh Thong Ward, Ho Chi Minh City, Vietnam
+          {{ $t('support.contactUs.address') }}
         </p>
       </div>
       <div class="phone" style="display: flex; gap: 10px">

@@ -1,11 +1,11 @@
 <template>
   <section class="why-fargo">
-    <h1 class="why-fargo-title">Why Fargo Logistics?</h1>
+    <h1 class="why-fargo-title">{{ $t('intro.title') }}</h1>
     <div class="cards">
       <a-card class="card" v-for="card in cards" :key="card.id">
-        <h2 class="title">{{ card.title }}</h2>
+        <h2 class="title">{{ $t(card.title) }}</h2>
         <p class="content">
-          {{ card.content }}
+          {{ $t(card.content) }}
         </p>
       </a-card>
     </div>

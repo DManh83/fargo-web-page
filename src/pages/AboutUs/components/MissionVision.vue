@@ -2,16 +2,16 @@
   <section class="container">
     <div class="content">
       <div class="title">
-        <span>Mission & Vision</span>
+        <span>{{ $t('about.missionVision') }}</span>
       </div>
       <div class="description">
         <div class="our_mission">
-          <span style="font-size: 20px; font-weight: 500; font-style: italic;">Our Mission</span>
-          <span style="font-size: 20px; font-weight: 300;">At Fargo Logistics, our mission is to provide reliable, efficient, and innovative logistics solutions that empower businesses to grow globally. We are dedicated to ensuring every shipment is handled with care, delivered on time, and optimized for cost and efficiency.</span>
+          <span style="font-size: 20px; font-weight: 500; font-style: italic;">{{ $t('about.ourMission') }}</span>
+          <span style="font-size: 20px; font-weight: 300;">{{ $t('about.ourMissionDescription') }}</span>
         </div>
         <div class="our_vision">
-          <span style="font-size: 20px; font-weight: 500; font-style: italic;">Our Vision</span>
-          <span style="font-size: 20px; font-weight: 300;">We aim to become a leading logistics partner recognized worldwide for excellence, sustainability, and customer-centric services. With continuous innovation and a strong global network, we strive to connect markets, create value, and shape the future of global trade.</span>
+          <span style="font-size: 20px; font-weight: 500; font-style: italic;">{{ $t('about.ourVision') }}</span>
+          <span style="font-size: 20px; font-weight: 300;">{{ $t('about.ourVisionDescription') }}</span>
         </div>
       </div>
     </div>

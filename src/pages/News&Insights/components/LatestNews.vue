@@ -1,14 +1,24 @@
 <template>
   <section class="latest-news">
-    <h1 class="latest-news_title">Latest News</h1>
+    <h1 class="latest-news_title">{{ $t('news.latestNews') }}</h1>
 
     <!-- Grid -->
     <div class="news-grid">
-      <article v-for="item in pagedItems" :key="item.id" class="news-card">
-        <img :src="item.image" alt="" class="news-card_img" />
+      <RouterLink
+        v-for="item in pagedItems"
+        :key="item.id"
+        class="news-card"
+        :to="{
+          name: 'News Detail',
+          params: { id: item.id },
+          query: { title: item.title },
+        }"
+        @click="remember(item)"
+      >
+        <img :src="item.image[0]" alt="" class="news-card_img" />
         <h3 class="news-card_title">{{ item.title }}</h3>
         <p class="news-card_date">{{ item.date }}</p>
-      </article>
+      </RouterLink>
     </div>
 
     <!-- Pagination -->
@@ -27,6 +37,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { news } from '@/data/news'
+import { remember } from '@/utils/remember'
 
 const page = ref(1)
 const pageSize = 9
@@ -36,10 +47,10 @@ const pageSize = 9
 const items = ref(
   Array.from({ length: news.length }).map((_, i) => ({
     id: i + 1,
-    image: news[i].image[0],
+    image: news[i].image,
     title: news[i].title,
     date: news[i].date,
-  })),
+  })).sort((a, b) => new Date(b.date) - new Date(a.date))
 )
 
 const pagedItems = computed(() => {

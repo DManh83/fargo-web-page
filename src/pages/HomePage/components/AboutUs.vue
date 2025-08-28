@@ -7,14 +7,14 @@
           vertical
           align="flex-start"
           justify="space-between"
-          :style="{ padding: '32px', gap: '12px' }"
+          :style="{ padding: '32px', gap: '10px' }"
         >
-          <h1>{{ $t('home.about') }}</h1>
+          <h1>{{ $t('about.title') }}</h1>
           <p>
-            Fargo Logistics provides reliable and efficient logistics and supply chain solutions. With expertise in maritime transport and global trade, we ensure safe, on-time deliveries and end-to-end services tailored to your business needs.
+            {{ $t('about.bannerDescription') }}
           </p>
           <a-button class="read-more-button" @click="router.push('/about-us')">{{
-            $t('home.btn_read_more')
+            $t('btn.readMore')
           }}</a-button>
         </a-flex>
       </a-flex>
@@ -52,7 +52,6 @@ const router = useRouter()
   display: flex;
   align-items: center;
   justify-content: center;
-  /* gap: 100px; */
 }
 
 .read-more-button {
@@ -73,7 +72,7 @@ p {
   font-size: 20px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  letter-spacing: 0%;
-
+  letter-spacing: 0.01em;
+  line-height: 1.3;
 }
 </style>

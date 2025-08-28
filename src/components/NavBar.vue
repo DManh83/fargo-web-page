@@ -37,12 +37,18 @@
         </a-menu-item>
       </template>
     </a-menu>
-    <div>
+    <div style="display: flex; align-items: center;">
       <a-button type="text" class="search-button">
         <SearchOutlined :style="{ fontSize: '24px' }" />
       </a-button>
-      <a-button type="text" class="language-button">
-        <GlobalOutlined :style="{ fontSize: '24px' }" />
+      <a-button type="text" class="us-button" @click="setLocale('en-US')">
+        <img :src="us" alt="us"/>
+      </a-button>
+      <a-button type="text" class="vn-button" @click="setLocale('vi-VN')">
+        <img :src="vn" alt="vn" />
+      </a-button>
+      <a-button type="text" class="cn-button" @click="setLocale('zh-CN')">
+        <img :src="cn" alt="cn" />
       </a-button>
     </div>
   </section>
@@ -51,7 +57,11 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
+import { setLocale } from '@/i18n'
 import logoFargo from '@/assets/images/logo_fargo.png'
+import us from '@/assets/images/us.png'
+import vn from '@/assets/images/vn.png'
+import cn from '@/assets/images/cn.png'
 
 const Menu = ref([
   { name: 'menu.about', path: '/about-us' },
@@ -112,6 +122,7 @@ const activeKey = computed(() => {
 })
 
 const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
+
 </script>
 
 <style scoped>
@@ -152,9 +163,11 @@ const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
   width: 35%;
 }
 
-.menu-item {
+.menu :deep(.ant-menu-title-content) {
   font-size: 16px;
   font-weight: 600;
-  color: #052e5e;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
 }
+
 </style>

@@ -1,13 +1,13 @@
 <template>
   <section class="delivery-service">
     <div class="delivery-service-content">
-      <h1>{{ $t('home.delivery') }}</h1>
+      <h1>{{ $t('services.delivery') }}</h1>
       <div class="flex">
         <div v-for="n in cards" :key="n.id" class="wrapper">
-          <div class="item">
+          <RouterLink :to="`/${n.id}`" class="item">
             <img :src="n.image[0]" :alt="n.title" class="img" />
             <div class="title">{{ n.title }}</div>
-          </div>
+          </RouterLink>
         </div>
       </div>
     </div>
@@ -17,18 +17,24 @@
 <script setup>
 import air_freight from '@/assets/images/air_freight.png'
 import sea_freight from '@/assets/images/sea_freight.png'
-const cards = [
+import { RouterLink } from 'vue-router'
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
+
+const { t } = useI18n()
+
+const cards = computed(() => [
   {
-    id: 1,
-    title: 'Air Freight',
+    id: 'transportation/air-freight',
+    title: t('services.airFreight.title'),
     image: [air_freight],
   },
   {
-    id: 2,
-    title: 'Sea Freight',
+    id: 'transportation/sea-freight',
+    title: t('services.seaFreight.title'),
     image: [sea_freight],
   },
-]
+])
 </script>
 
 <style scoped>

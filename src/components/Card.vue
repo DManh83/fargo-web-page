@@ -1,6 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 import { computed } from 'vue'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
 
 const props = defineProps({
   title: String,
@@ -16,6 +19,7 @@ const props = defineProps({
   gap: String,
   titleColor: String,
   textColor: String,
+  path: String,
 })
 
 const stylesVars = computed(() => ({
@@ -27,11 +31,21 @@ const stylesVars = computed(() => ({
   '--text-color': props.textColor || '#000',
   '--title-color': props.titleColor || '#052e5e',
   '--p-size': props.pSize || '20px',
+  '--cursor': props.path ? 'pointer' : 'default',
 }))
+
+function handleClick() {
+  router.push(`/support/quote-request`)
+}
+function handleCardClick(path) {
+  if (path) {
+    router.push(path)
+  }
+}
 </script>
 
 <template>
-  <section class="container" :style="stylesVars" :class="{ 'is-reverse': props.reverse }">
+  <section class="container" :style="stylesVars" :class="{ 'is-reverse': props.reverse }" @click="handleCardClick(props.path)">
     <div class="media">
       <img :src="imageSrc" alt="Checker" />
     </div>
@@ -41,7 +55,7 @@ const stylesVars = computed(() => ({
         <p v-for="item in paragraphs" :key="item">{{ item }}</p>
       </div>
       <div v-if="buttonText" class="button">
-        <a-button type="primary" class="button-text" size="large">
+        <a-button type="primary" class="button-text" size="large" @click="handleClick">
           {{ buttonText }}
         </a-button>
       </div>
@@ -59,6 +73,7 @@ const stylesVars = computed(() => ({
   gap: var(--gap);
   width: 100%;
   /* height: 388px; */
+  cursor: var(--cursor);
 }
 
 .container.is-reverse {

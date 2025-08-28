@@ -9,7 +9,7 @@
     <DeliveryService />
   </section>
   <section class="carousel-card-container">
-    <CarouselCard :items="solutions" />
+    <CarouselCard :items="i18nSolutions" />
   </section>
   <!-- <div class="industries-container">
     <Industries />
@@ -43,6 +43,18 @@ import thumbnail1 from '@/assets/images/thumbnail.png'
 import thumbnail2 from '@/assets/images/thumbnail2.png'
 import thumbnail3 from '@/assets/images/thumbnail3.png'
 import { solutions } from '@/data/solutions'
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
+
+const { t } = useI18n()
+
+const i18nSolutions = computed(() => {
+  return solutions.map(solution => ({
+    ...solution,
+    title: t(`services.${solution.title}`),
+    description: t(`services.${solution.description}`)
+  }))
+})
 </script>
 
 <style scoped>

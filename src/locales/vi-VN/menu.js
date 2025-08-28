@@ -4,7 +4,7 @@ export default {
     services: 'Dịch vụ',
     careers: 'Tuyển dụng',
     news: 'Tin tức & Thông tin',
-    tools: 'Công cụ & Hỗ trợ',
+    support: 'Công cụ & Hỗ trợ',
     transportation: 'Vận tải',
     sea: 'Vận tải biển',
     air: 'Vận tải hàng không',
@@ -13,5 +13,8 @@ export default {
     cargoInsurance: 'Bảo hiểm hàng hóa',
     warehouseAndStorage: 'Kho và kho bãi',
     eCommerce: 'Thương mại điện tử',
+    quoteRequest: 'Yêu cầu báo giá',
+    faqs: 'Câu hỏi thường gặp',
+    contactUs: 'Liên hệ',
   },
 };

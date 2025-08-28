@@ -1,6 +1,6 @@
 <template>
   <section class="core-values">
-    <h2 class="cv-title">Our core values</h2>
+    <h2 class="cv-title">{{ $t('about.ourCoreValues') }}</h2>
 
     <div class="cv-grid">
       <a-card
@@ -16,8 +16,8 @@
           </div>
 
           <div class="cv-text">
-            <div class="cv-card-title">{{ item.title }}</div>
-            <div class="cv-card-desc">{{ item.description }}</div>
+            <div class="cv-card-title">{{ $t(`about.${item.title}`) }}</div>
+            <div class="cv-card-desc">{{ $t(`about.${item.description}`) }}</div>
           </div>
         </div>
       </a-card>
@@ -29,12 +29,12 @@
 import Global from '@/components/Global.vue'
 
 const items = [
-  { title: 'Customer Centricity', description: 'Focus on solving real needs and proactively updating shipment status.' },
-  { title: 'On Time Reliability', description: 'Deliver on time, every time, on every route.' },
-  { title: 'Transparency & Integrity', description: 'Clear information, transparent pricing – surcharges – documentation, always do what we say.' },
-  { title: 'Safety & Compliance', description: 'Comply with customs laws, warehouse/transport safety standards.' },
-  { title: 'Operational Excellence & Continuous Improvement', description: 'Standardize processes, use data to reduce costs and lead times.' },
-  { title: 'Sustainability & Social Responsibility', description: 'Provide eco-friendly solutions and maintain ethical supply chain partnerships.' }
+  { title: 'customerCentricity', description: 'customerCentricityDescription' },
+  { title: 'onTimeReliability', description: 'onTimeReliabilityDescription' },
+  { title: 'transparencyIntegrity', description: 'transparencyIntegrityDescription' },
+  { title: 'safetyCompliance', description: 'safetyComplianceDescription' },
+  { title: 'operationalExcellenceContinuousImprovement', description: 'operationalExcellenceContinuousImprovementDescription' },
+  { title: 'sustainabilitySocialResponsibility', description: 'sustainabilitySocialResponsibilityDescription' }
 ]
 </script>
 

@@ -1,0 +1,23 @@
+export default {
+  routes: {
+    home: 'Home',
+    aboutUs: 'About Us',
+    news: 'News & Insights',
+    careers: 'Careers',
+    services: 'Services',
+    transportation: 'Transportation',
+    logisticsAndSupplyChain: 'Logistics and Supply Chain',
+    customsBroker: 'Customs Broker',
+    cargoInsurance: 'Cargo Insurance',
+    warehouseAndStorage: 'Warehouse and Storage',
+    eCommerce: 'E-Commerce',
+    seaFreight: 'Sea Freight',
+    airFreight: 'Air Freight',
+    support: 'Support',
+    quoteRequest: 'Quote Request',
+    faqs: 'FAQs',
+    contactUs: 'Contact Us',
+    trackAndTrace: 'Track & Trace',
+    resources: 'Resources',
+  },
+};

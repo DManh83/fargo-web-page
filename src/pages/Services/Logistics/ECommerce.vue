@@ -1,8 +1,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="E-Commerce"
+      :title="$t('about.about')"
+      :subtitle="$t('services.eCommerce.title')"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
@@ -36,7 +36,7 @@
       class="title"
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      Advantages
+      {{ $t('services.advantages') }}
     </h1>
     <div
       v-for="item in advantagesList"
@@ -67,7 +67,7 @@
       margin: 50px auto;
     "
   >
-    <CarouselCard title="Related Solutions" :items="relatedSolutions" titleColor="#ffffff" />
+    <CarouselCard :title="$t('services.relatedSolutions')" :items="i18nSolutions" titleColor="#ffffff" />
   </section>
   <section style="margin: 50px auto">
     <FeaturedNews title="News" />
@@ -88,6 +88,8 @@ import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import Banner from '@/components/Banner.vue'
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
 
 import { solutions } from '@/data/solutions'
 
@@ -98,36 +100,37 @@ import scalableSolutions from '@/assets/images/scalable_solutions.png'
 import customerExperience from '@/assets/images/customer_experience.png'
 import technologyDriven from '@/assets/images/technology_driven.png'
 
-const bgDescription = `"Smart moves. Strong supply chains"`
+const { t } = useI18n()
+const bgDescription = `services.logisticsAndSupplyChain.description`
 
-const overviewList = [
+const overviewList = computed(() => [
   {
     id: 1,
-    title: `Contact us today to receive a tailored logistics quote for your international shipping needs.`,
+    title: t('contact.description'),
 
     imageSrc: introECommerce,
     height: '388px',
     reverse: false,
-    buttonText: 'Request a Quote',
+    buttonText: t('btn.requestQuote'),
     center: 'center',
   },
   {
     id: 2,
-    title: 'Overview',
+    title: t('services.overview'),
     paragraphs: [
-      `Our e-commerce logistics solutions ensure fast order fulfillment, reliable delivery, and real-time tracking. We help businesses handle high volumes efficiently while keeping customers satisfied and loyal. With scalable systems and smart technology, companies can expand operations smoothly and stay competitive in the digital marketplace.`,
+      t('services.eCommerce.overviewDescription'),
     ],
     imageSrc: overviewECommerce,
     height: '388px',
     reverse: true,
   },
-]
-const advantagesList = [
+])
+const advantagesList = computed(() => [
   {
     id: 1,
-    title: 'Fast Fulfillment',
+    title: t('services.eCommerce.fastFulfillment'),
     paragraphs: [
-      `We process and dispatch orders quickly, ensuring customers receive their purchases on time, with accuracy, and consistent quality service delivery.`,
+      t('services.eCommerce.fastFulfillmentDescription'),
     ],
     imageSrc: fastFulfillment,
     height: '221px',
@@ -136,9 +139,9 @@ const advantagesList = [
   },
   {
     id: 2,
-    title: 'Scalable Solutions',
+    title: t('services.eCommerce.scalableSolutions'),
     paragraphs: [
-      `Our systems adapt to seasonal peaks, promotions, or business growth, giving companies reliable support for sustainable long-term expansion worldwide.`,
+      t('services.eCommerce.scalableSolutionsDescription'),
     ],
     imageSrc: scalableSolutions,
     height: '221px',
@@ -147,9 +150,9 @@ const advantagesList = [
   },
   {
     id: 3,
-    title: 'Customer Experience',
+    title: t('services.eCommerce.customerExperience'),
     paragraphs: [
-      `By offering accurate tracking, flexible delivery options, and timely communication, we enhance customer trust, satisfaction, and overall strong brand loyalty.`,
+      t('services.eCommerce.customerExperienceDescription'),
     ],
     imageSrc: customerExperience,
     height: '221px',
@@ -160,14 +163,21 @@ const advantagesList = [
     id: 4,
     title: 'Technology Driven',
     paragraphs: [
-      `We integrate advanced platforms and smart analytics to optimize operations, improve decision-making, and deliver stronger results across the entire e-commerce supply chain.`,
+      t('services.eCommerce.technologyDrivenDescription'),
     ],
     imageSrc: technologyDriven,
     height: '221px',
     reverse: true,
     grid: '1.4fr 1fr',
   },
-]
+])
 
-const relatedSolutions = solutions.filter((solution) => solution.title !== 'E-commerce (Air-express)')
+const i18nSolutions = computed(() => {
+  const relatedSolutions = solutions.filter((solution) => solution.title !== t(`services.eCommerce.title`))
+  return relatedSolutions.map(solution => ({
+    ...solution,
+    title: t(`services.${solution.title}`),
+    description: t(`services.${solution.description}`)
+  }))
+})
 </script>

@@ -1,6 +1,6 @@
 <template>
   <section class="rse">
-    <h1>Related Services</h1>
+    <h1>{{ $t('services.relatedServices') }}</h1>
     <Card
       :title="item.title"
       :imageSrc="item.imageSrc"
@@ -11,6 +11,7 @@
       titleSize="20px"
       pSize="16px"
       gap="20px"
+      :path="item.path"
     />
   </section>
 </template>

@@ -35,6 +35,7 @@ const mainPost = computed(() => {
         date: it.date,
         image: it.image || [checker],
         paragraphs: formatToParagraphs(it.paragraphs),
+        children: it.children || [],
       }
     : {
         id: route.params.id,
@@ -87,7 +88,7 @@ const related = computed(() => {
             <path fill="currentColor" d="M12 8a4 4 0 1 0 .001 8.001A4 4 0 0 0 12 8" />
           </svg>
         </span>
-        <span class="cat">Fargo’s News</span>
+        <span class="cat">{{ $t('news.fargoNews') }}</span>
         <span class="sep">|</span>
         <time>{{ formatDate(mainPost.date) }}</time>
       </div>

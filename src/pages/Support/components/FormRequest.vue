@@ -1,93 +1,93 @@
 <template>
   <div class="form-request">
     <a-form layout="vertical" :model="form" class="form-request-form">
-      <a-form-item label="Full name">
-        <a-input v-model:value="form.fullName" size="large" placeholder="Enter your full name" />
+      <a-form-item :label="$t('form.fullName')">
+        <a-input v-model:value="form.fullName" size="large" :placeholder="$t('form.fullNamePlaceholder')" />
       </a-form-item>
-      <a-form-item label="Phone number">
+      <a-form-item :label="$t('form.phoneNumber')">
         <a-input
           v-model:value="form.phoneNumber"
           size="large"
-          placeholder="Enter your phone number"
+          :placeholder="$t('form.phoneNumberPlaceholder')"
         />
       </a-form-item>
-      <a-form-item label="Email">
-        <a-input v-model:value="form.email" size="large" placeholder="Enter your email" />
+      <a-form-item :label="$t('form.email')">
+        <a-input v-model:value="form.email" size="large" :placeholder="$t('form.emailPlaceholder')" />
       </a-form-item>
-      <a-form-item label="Company name">
+      <a-form-item :label="$t('form.companyName')">
         <a-input
           v-model:value="form.companyName"
           size="large"
-          placeholder="Enter your company name"
+          :placeholder="$t('form.companyNamePlaceholder')"
         />
       </a-form-item>
-      <a-form-item label="Type of business">
+      <a-form-item :label="$t('form.typeOfBusiness')">
         <a-radio-group
           v-model:value="form.typeOfBusiness"
           size="large"
           style="display: flex; gap: 100px"
         >
-          <a-radio value="individual">Individual</a-radio>
-          <a-radio value="enterprise">Enterprise</a-radio>
+          <a-radio value="individual">{{ $t('form.individual') }}</a-radio>
+          <a-radio value="enterprise">{{ $t('form.enterprise') }}</a-radio>
         </a-radio-group>
       </a-form-item>
       <div class="form-request-form-group">
-        <a-form-item label="Commodities">
+        <a-form-item :label="$t('form.commodities')">
           <a-select v-model:value="form.commodities" size="large">
-            <a-select-option value="dry">Dry</a-select-option>
-            <a-select-option value="refrigerated">Refrigerated</a-select-option>
-            <a-select-option value="liquid">Liquid</a-select-option>
-            <a-select-option value="hazardous">Hazardous</a-select-option>
-            <a-select-option value="other">Other</a-select-option>
+            <a-select-option value="dry">{{ $t('form.dry') }}</a-select-option>
+            <a-select-option value="refrigerated">{{ $t('form.refrigerated') }}</a-select-option>
+            <a-select-option value="liquid">{{ $t('form.liquid') }}</a-select-option>
+            <a-select-option value="hazardous">{{ $t('form.hazardous') }}</a-select-option>
+            <a-select-option value="other">{{ $t('form.other') }}</a-select-option>
           </a-select>
         </a-form-item>
-        <a-form-item label="Service">
+        <a-form-item :label="$t('form.service')">
           <a-select v-model:value="form.service" size="large">
-            <a-select-option value="air">Air Freight</a-select-option>
-            <a-select-option value="sea">Sea Freight</a-select-option>
+            <a-select-option value="air">{{ $t('form.airFreight') }}</a-select-option>
+            <a-select-option value="sea">{{ $t('form.seaFreight') }}</a-select-option>
           </a-select>
         </a-form-item>
       </div>
       <div class="form-request-form-group">
-        <a-form-item label="Commodities name">
+        <a-form-item :label="$t('form.commoditiesName')">
           <a-input
             v-model:value="form.commoditiesName"
             size="large"
-            placeholder="Enter name of commodities"
+            :placeholder="$t('form.commoditiesNamePlaceholder')"
           />
         </a-form-item>
-        <a-form-item label="Industries">
+        <a-form-item :label="$t('form.industries')">
           <a-select v-model:value="form.industries" size="large">
-            <a-select-option value="agriculture">Agriculture</a-select-option>
-            <a-select-option value="construction">Construction</a-select-option>
-            <a-select-option value="energy">Energy</a-select-option>
-            <a-select-option value="food">Food</a-select-option>
-            <a-select-option value="other">Other</a-select-option>
+            <a-select-option value="agriculture">{{ $t('form.agriculture') }}</a-select-option>
+            <a-select-option value="construction">{{ $t('form.construction') }}</a-select-option>
+            <a-select-option value="energy">{{ $t('form.energy') }}</a-select-option>
+            <a-select-option value="food">{{ $t('form.food') }}</a-select-option>
+            <a-select-option value="other">{{ $t('form.other') }}</a-select-option>
           </a-select>
         </a-form-item>
       </div>
-      <a-form-item label="On-Demand Service">
+      <a-form-item :label="$t('form.onDemandService')">
         <a-input
           v-model:value="form.onDemandService"
           size="large"
-          placeholder="Eg. Air Freight, Sea Freight,..."
+          :placeholder="$t('form.onDemandServicePlaceholder')"
         />
       </a-form-item>
-      <a-form-item label="Estimated Origin and Destination">
+      <a-form-item :label="$t('form.estimatedOriginAndDestination')">
         <a-input
           v-model:value="form.estimatedOriginAndDestination"
           size="large"
-          placeholder="Enter origin and destination"
+          :placeholder="$t('form.estimatedOriginAndDestinationPlaceholder')"
         />
       </a-form-item>
       <div class="form-request-form-group">
-        <a-form-item label="Transportation">
+        <a-form-item :label="$t('form.transportation')">
           <a-select v-model:value="form.transportation" size="large">
-            <a-select-option value="air">Air Freight</a-select-option>
-            <a-select-option value="sea">Sea Freight</a-select-option>
+            <a-select-option value="air">{{ $t('form.airFreight') }}</a-select-option>
+            <a-select-option value="sea">{{ $t('form.seaFreight') }}</a-select-option>
           </a-select>
         </a-form-item>
-        <a-form-item label="Cargo Availability Date">
+        <a-form-item :label="$t('form.cargoAvailabilityDate')">
           <a-date-picker
             v-model:value="form.cargoAvailabilityDate"
             size="large"
@@ -96,22 +96,22 @@
           />
         </a-form-item>
       </div>
-      <a-form-item label="Message">
+      <a-form-item :label="$t('form.message')">
         <a-textarea
           v-model:value="form.message"
           size="large"
-          placeholder="Enter message"
+          :placeholder="$t('form.messagePlaceholder')"
           :rows="4"
         />
       </a-form-item>
       <a-form-item>
         <a-checkbox v-model:checked="form.termsAndConditions">
-          By checking this box, i confirm that i have read and agree to the
-          <RouterLink to="/terms-and-conditions">Terms & Policies</RouterLink>
+          {{ $t('form.termsAndConditions') }}
+          <RouterLink to="/terms-and-conditions">{{ $t('form.termsAndConditionsLink') }}</RouterLink>
         </a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-button type="primary" @click="handleSubmit" size="large">Submit</a-button>
+        <a-button type="primary" @click="handleSubmit" size="large">{{ $t('btn.submit') }}</a-button>
       </a-form-item>
     </a-form>
   </div>

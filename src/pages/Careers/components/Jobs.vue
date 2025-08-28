@@ -4,10 +4,10 @@
   <section class="container">
     <div class="header">
       <div v-if="isDivider" class="subtitle">
-        <h3>WORKING WITH</h3>
+        <h3>{{ $t('careers.workingWith') }}</h3>
         <a-divider class="divider" />
       </div>
-      <h1>{{ title }}</h1>
+      <h1>{{ $t('careers.openingPositions') }}</h1>
     </div>
     <div style="margin-top: 40px">
       <Search />

@@ -1,8 +1,8 @@
 <template>
   <section class="about-us-container">
     <BgHeader
-      title="About"
-      subtitle="Fargo Logistics "
+      :title="$t('about.about')"
+      :subtitle="subtitle"
       :imageSrc="bgAbout"
       :description="description"
     />
@@ -17,11 +17,7 @@
     <CoreValue />
   </section>
   <section class="banner-container">
-    <Banner
-      title-primary="Need a shipping solution?"
-      title-secondary="Request your free quote now!"
-      button-text="Request"
-    />
+    <Banner />
   </section>
 </template>
 
@@ -31,7 +27,8 @@ import Banner from '@/components/Banner.vue'
 import { WhoAreWe, MissionVision, CoreValue } from './components'
 import bgAbout from '@/assets/images/bg_about.png'
 
-const description = `"Driven by Precision, Powered by Trust"`
+const description = 'about.description'
+const subtitle = 'about.subtitle'
 </script>
 
 <style scoped>

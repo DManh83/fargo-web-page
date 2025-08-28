@@ -1,44 +1,44 @@
 <template>
   <div class="form-request">
-    <h1 style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif">Contact Fargo Logistics</h1>
+    <h1 style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif">{{ $t('support.contactUs.contactFargoLogistics') }}</h1>
     <a-form layout="vertical" :model="form" class="form-request-form">
-      <a-form-item label="Full name">
-        <a-input v-model:value="form.fullName" size="large" placeholder="Enter your full name" />
+      <a-form-item :label="$t('form.fullName')">
+        <a-input v-model:value="form.fullName" size="large" :placeholder="$t('form.fullNamePlaceholder')" />
       </a-form-item>
-      <a-form-item label="Phone number">
+      <a-form-item :label="$t('form.phoneNumber')">
         <a-input
           v-model:value="form.phoneNumber"
           size="large"
-          placeholder="Enter your phone number"
+          :placeholder="$t('form.phoneNumberPlaceholder')"
         />
       </a-form-item>
-      <a-form-item label="Email">
-        <a-input v-model:value="form.email" size="large" placeholder="Enter your email" />
+      <a-form-item :label="$t('form.email')">
+        <a-input v-model:value="form.email" size="large" :placeholder="$t('form.emailPlaceholder')" />
       </a-form-item>
-      <a-form-item label="Company name">
+      <a-form-item :label="$t('form.companyName')">
         <a-input
           v-model:value="form.companyName"
           size="large"
-          placeholder="Enter your company name"
+          :placeholder="$t('form.companyNamePlaceholder')"
         />
       </a-form-item>
 
-      <a-form-item label="Message">
+      <a-form-item :label="$t('form.message')">
         <a-textarea
           v-model:value="form.message"
           size="large"
-          placeholder="Enter message"
+          :placeholder="$t('form.messagePlaceholder')"
           :rows="4"
         />
       </a-form-item>
       <a-form-item>
         <a-checkbox v-model:checked="form.termsAndConditions">
-          By checking this box, i confirm that i have read and agree to the
-          <RouterLink to="/terms-and-conditions">Terms & Policies</RouterLink>
+          {{ $t('form.termsAndConditionsPlaceholder') }}
+          <RouterLink to="/terms-and-conditions">{{ $t('form.termsAndConditionsLinkPlaceholder') }}</RouterLink>
         </a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-button type="primary" @click="handleSubmit" size="large">Submit</a-button>
+        <a-button type="primary" @click="handleSubmit" size="large">{{ $t('btn.submit') }}</a-button>
       </a-form-item>
     </a-form>
   </div>

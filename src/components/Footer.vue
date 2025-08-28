@@ -11,8 +11,7 @@
           <div class="address">
             <EnvironmentOutlined class="address-icon" />
             <span class="address-text"
-              >50 Street No. 1, Cityland Residential Area, Hanh Thong Ward, Ho Chi Minh City,
-              Vietnam</span
+              >{{ $t('contact.address') }}</span
             >
           </div>
           <div class="phone">
@@ -32,28 +31,28 @@
       </div>
       <div class="footer-right">
         <div class="about-us">
-          <span class="title">About Us</span>
+          <span class="title">{{ $t('routes.aboutUs') }}</span>
           <ul>
-            <li>News & Insights</li>
-            <li>Careers</li>
-            <li>About Us</li>
+            <li @click="handleClick('/news-insights')">{{ $t('routes.newsInsights') }}</li>
+            <li @click="handleClick('/careers')">{{ $t('routes.careers') }}</li>
+            <li @click="handleClick('/about-us')">{{ $t('routes.aboutUs') }}</li>
           </ul>
         </div>
         <div class="services">
-          <span class="title">Services</span>
+          <span class="title">{{ $t('routes.services') }}</span>
           <ul>
-            <li>Transportation</li>
-            <li>Logistics and Supply chain</li>
+            <li @click="handleClick('/transportation')">{{ $t('routes.transportation') }}</li>
+            <li @click="handleClick('/logistics-and-supply-chain')">{{ $t('routes.logisticsAndSupplyChain') }}</li>
           </ul>
         </div>
         <div class="support" style="margin-right: 10%; margin-top: 40px">
-          <span class="title">Support</span>
+          <span class="title">{{ $t('routes.support') }}</span>
           <ul>
-            <li>Quote-request</li>
-            <li>FAQs</li>
-            <li>Track & Trace</li>
-            <li>Contact Us</li>
-            <li>Resources</li>
+            <li @click="handleClick('/support/quote-request')">{{ $t('routes.quoteRequest') }}</li>
+            <li @click="handleClick('/support/faqs')">{{ $t('routes.faqs') }}</li>
+            <li>{{ $t('routes.trackAndTrace') }}</li>
+            <li @click="handleClick('/support/contact-us')">{{ $t('routes.contactUs') }}</li>
+            <li>{{ $t('routes.resources') }}</li>
           </ul>
         </div>
       </div>
@@ -66,6 +65,13 @@
 
 <script setup>
 import logoFargo from '@/assets/images/logo_fargo 2.png'
+import { useRouter } from 'vue-router'
+
+const router = useRouter()
+
+function handleClick(path) {
+  router.push(path)
+}
 </script>
 
 <style scoped>
@@ -208,6 +214,7 @@ li {
   letter-spacing: 0.04em;
   line-height: 1.4;
   text-align: left;
+  cursor: pointer;
 }
 
 .footer-bottom {

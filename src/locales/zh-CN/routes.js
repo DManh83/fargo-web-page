@@ -1,0 +1,23 @@
+export default {
+  routes: {
+    home: '首页',
+    aboutUs: '关于我们',
+    newsInsights: '新闻和见解',
+    careers: '职业',
+    services: '服务',
+    transportation: '运输',
+    logisticsAndSupplyChain: '物流和供应链',
+    customsBroker: '报关代理',
+    cargoInsurance: '货物保险',
+    warehouseAndStorage: '仓储',
+    eCommerce: '电子商务',
+    seaFreight: '海运',
+    airFreight: '空运',
+    support: '支持',
+    quoteRequest: '报价请求',
+    faqs: '常见问题',
+    contactUs: '联系我们',
+    trackAndTrace: '跟踪和追踪',
+    resources: '资源',
+  },
+};

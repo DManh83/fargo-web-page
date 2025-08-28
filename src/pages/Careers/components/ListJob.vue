@@ -12,8 +12,8 @@
         <p class="job-desc">{{ item.description }}</p>
 
         <div class="card-actions">
-          <a-button class="btn" type="primary">APPLY NOW</a-button>
-          <a-button class="btn" @click="clickViewDetail(item)">View Detail</a-button>
+          <a-button class="btn" type="primary">{{ $t('btn.applyNow') }}</a-button>
+          <a-button class="btn" @click="clickViewDetail(item)">{{ $t('btn.viewDetail') }}</a-button>
         </div>
       </a-card>
     </div>

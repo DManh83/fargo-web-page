@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="sl">
-    <h1>Specialized Logistics</h1>
+    <h1> {{ $t('services.specializedLogistics') }} </h1>
     <div class="sl-content">
       <a-carousel
         :dots="false"
@@ -24,12 +24,12 @@
         </template>
 
         <div v-for="(item, i) in items" :key="i" class="card-item">
-          <RouterLink :to="`/logistics-and-supply-chain/specialized-logistics/${item.id}`">
+          <!-- <RouterLink :to="`/logistics-and-supply-chain/specialized-logistics/${item.id}`"> -->
             <div class="card-img-wrap">
               <img :src="item.image" :alt="`sl-${item.id}`" class="card-img" />
             </div>
             <div class="card-title">{{ item.title }}</div>
-          </RouterLink>
+          <!-- </RouterLink> -->
         </div>
       </a-carousel>
     </div>
@@ -37,40 +37,44 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router'
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
+
 import frozenGoodsLogistics from '@/assets/images/frozen_goods_logistics.png'
 import projectCargo from '@/assets/images/project_cargo.png'
 import oogBreakBulk from '@/assets/images/oog_break_bulk.png'
 import dangerousGoodsTransportation from '@/assets/images/dangerous_goods_transportation.png'
 import healthcareLogistics from '@/assets/images/healthcare_logistics.png'
 
-const items = [
+const { t } = useI18n()
+
+const items = computed(() => [
   {
     id: 1,
-    title: 'Frozen goods logistics',
+    title: t('services.frozenGoodsLogistics'),
     image: frozenGoodsLogistics,
   },
   {
     id: 2,
-    title: 'Project cargo',
+    title: t('services.projectCargo'),
     image: projectCargo,
   },
   {
     id: 3,
-    title: 'OOG & Break bulk',
+    title: t('services.oogBreakBulk'),
     image: oogBreakBulk,
   },
   {
     id: 4,
-    title: 'Dangerous goods transportation',
+    title: t('services.dangerousGoodsTransportation'),
     image: dangerousGoodsTransportation,
   },
   {
     id: 5,
-    title: 'Healthcare logistics',
+    title: t('services.healthcareLogistics'),
     image: healthcareLogistics,
   },
-]
+])
 </script>
 
 <style scoped>

@@ -6,10 +6,10 @@
       <h1 class="title">{{ title }}</h1>
       <div v-if="showButtons" class="buttons">
         <a-button class="btn request-quote" type="primary" size="large">{{
-          $t('thumbnail.btn-quote')
+          $t('btn.requestQuote')
         }}</a-button>
         <a-button class="btn learn-more" type="default" size="large">{{
-          $t('thumbnail.btn-learn-more')
+          $t('btn.learnMore')
         }}</a-button>
       </div>
     </div>

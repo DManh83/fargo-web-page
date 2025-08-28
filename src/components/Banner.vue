@@ -7,12 +7,12 @@
       </div>
       <div class="banner-content-text">
         <h1 class="banner-title">
-          {{ titlePrimary }}
+          {{ $t('intro.bannerTitle') }}
         </h1>
         <h1 class="banner-title">
-          {{ titleSecondary }}
+          {{ $t('intro.bannerSubtitle') }}
         </h1>
-        <a-button class="banner-button" type="default" size="large" @click="handleClick"> {{ buttonText }} </a-button>
+        <a-button class="banner-button" type="default" size="large" @click="handleClick"> {{ $t('btn.request') }} </a-button>
       </div>
     </div>
   </section>

@@ -34,7 +34,7 @@ function remember(it) {
 
 <template>
   <section class="fn">
-    <h2 class="fn_title">Featured News</h2>
+    <h2 class="fn_title">{{ $t('news.Featured News') }}</h2>
 
     <div class="fn_grid">
       <!-- Big card -->
@@ -81,13 +81,13 @@ function remember(it) {
   </section>
   <section class="tabs">
     <a-tabs v-model:activeKey="activeKey">
-      <a-tab-pane key="1" tab="All">
+      <a-tab-pane key="1" :tab="$t('news.all')">
         <NewsList :items="allNews" />
       </a-tab-pane>
-      <a-tab-pane key="2" tab="Fargo’s News" force-render>
+      <a-tab-pane key="2" :tab="$t('news.fargoNews')" force-render>
         <NewsList :items="fargoNews" />
       </a-tab-pane>
-      <a-tab-pane key="3" tab="Market Updates">
+      <a-tab-pane key="3" :tab="$t('news.marketUpdates')">
         <NewsList :items="marketUpdates" />
       </a-tab-pane>
     </a-tabs>

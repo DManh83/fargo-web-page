@@ -1,8 +1,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="Quote-Request"
+      :title="$t('about.about')"
+      :subtitle="$t('support.quoteRequest.title')"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
@@ -11,12 +11,12 @@
     <h1
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      Quote-request
+      {{ $t('support.quoteRequest.title') }}
     </h1>
     <span
       style="font-size: 16px; font-weight: 400; color: #434343; font-family: 'Poppins', sans-serif"
     >
-      Please provide your details so we can offer the most suitable transportation consultation
+      {{ $t('support.quoteRequest.description') }}
     </span>
   </section>
   <section class="container">
@@ -25,11 +25,7 @@
     <QuickLink />
   </section>
   <section style="width: 1200px; margin: 50px auto">
-    <Banner
-      title-primary="Need a shipping solution?"
-      title-secondary="Request your free quote now!"
-      button-text="Request"
-    />
+    <Banner />
   </section>
 </template>
 
@@ -40,7 +36,7 @@ import FormRequest from './components/FormRequest.vue'
 import QuickLink from './components/QuickLink.vue'
 import Banner from '@/components/Banner.vue'
 
-const bgDescription = `"Powerful tools. Reliable support"`
+const bgDescription = `support.description`
 </script>
 <style scoped>
 .container {

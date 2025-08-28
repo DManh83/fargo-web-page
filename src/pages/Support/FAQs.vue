@@ -1,8 +1,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="FAQs"
+      :title="$t('about.about')"
+      :subtitle="$t('support.faqs.title')"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
@@ -11,23 +11,19 @@
     <h1
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      Frequently asked questions
+      {{ $t('support.faqs.subtitle') }}
     </h1>
     <span
       style="font-size: 16px; font-weight: 400; color: #434343; font-family: 'Poppins', sans-serif"
     >
-      Common questions about our logistics services.
+      {{ $t('support.faqs.description') }}
     </span>
   </section>
   <section>
     <SearchFAQs />
   </section>
   <section style="width: 1200px; margin: 100px auto">
-    <Banner
-      title-primary="Need a shipping solution?"
-      title-secondary="Request your free quote now!"
-      button-text="Request"
-    />
+    <Banner/>
   </section>
 </template>
 
@@ -37,5 +33,5 @@ import bgTransportation from '@/assets/images/bg_transportation.png'
 import Banner from '@/components/Banner.vue'
 import SearchFAQs from './components/SearchFAQs.vue'
 
-const bgDescription = `"Powerful tools. Reliable support"`
+const bgDescription = `support.description`
 </script>

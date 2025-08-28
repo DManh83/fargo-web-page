@@ -6,11 +6,11 @@
     </div>
     <div class="who-are-we-content">
       <div class="who-are-we-title">
-        <span>Who are we?</span>
+        <span>{{ $t('about.whoAreWe') }}</span>
       </div>
       <div class="who-are-we-description">
         <span
-          >At Fargo Logistics, we are more than a logistics provider – we are your trusted partner in global trade. With a passionate and experienced team, we deliver innovative solutions in shipping, supply chain, and logistics management. Our goal is to simplify complex processes, ensure reliability, and create long-term value for our customers. Together, we move goods, connect markets, and build success across the globe.</span
+          >{{ $t('about.whoAreWeDescription') }}</span
         >
       </div>
     </div>

@@ -26,16 +26,57 @@
     <div>
       <p v-for="(p, i) in item.paragraphs.slice(1)" :key="i">{{ p }}</p>
     </div>
+    <div v-if="children && children.length > 0" class="children">
+      <div v-for="(child, i) in children" :key="i">
+        <h2>{{ child.title }}</h2>
+        <p>{{ child.paragraphs[0] }}</p>
+        <div class="hero">
+          <a-carousel
+            v-if="child.image && child.image.length > 0"
+            autoplay
+            dots
+            arrows
+            effect="fade"
+          >
+            <template #prevArrow>
+              <div class="custom-slick-arrow" style="left: 10px; z-index: 1">
+                <LeftCircleOutlined />
+              </div>
+            </template>
+            <template #nextArrow>
+              <div class="custom-slick-arrow" style="right: 10px; z-index: 1">
+                <RightCircleOutlined />
+              </div>
+            </template>
+            <template v-for="img in child.image" :key="img">
+              <div class="hero_slide">
+                <img :src="img" alt="" @error="onImgErr" />
+              </div>
+            </template>
+          </a-carousel>
+        </div>
+        <p v-for="(p, i) in child.paragraphs.slice(1)" :key="i">{{ p }}</p>
+      </div>
+    </div>
   </article>
 </template>
 
 <script setup>
 import { onImgErr } from '@/utils/imgErr'
-defineProps({
+import { formatToParagraphs } from '@/utils/formatToParagraphs'
+import { computed } from 'vue'
+
+const props = defineProps({
   item: {
     type: Object,
     default: () => ({}),
   },
+})
+const children = computed(() => {
+  return props.item.children.map((child) => ({
+    ...child,
+    paragraphs: formatToParagraphs(child.paragraphs),
+  }))
 })
 </script>
 
@@ -94,7 +135,11 @@ defineProps({
   margin: 0 0 14px 0;
 }
 
-
+.children {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 
 /* divider */
 :deep(.ant-divider) {

@@ -3,8 +3,8 @@
 <template>
   <section class="news-container">
     <BgHeader
-      title="About"
-      subtitle="News & Insights"
+      :title="$t('about.about')"
+      :subtitle="$t('news.title')"
       :imageSrc="bgNews"
       :description="description"
     />
@@ -30,7 +30,7 @@ import bgNews from '@/assets/images/news-insights.png'
 import { LatestNews, FeaturedNews } from './components'
 import Banner from '@/components/Banner.vue'
 
-const description = `"In logistics, every move matters — stay informed, stay ahead"`
+const description = `news.description`
 </script>
 
 <style scoped>

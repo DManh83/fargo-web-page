@@ -2,8 +2,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="Air Freight"
+      :title="$t('about.about')"
+      :subtitle="$t('services.airFreight.title')"
       :imageSrc="airFreight"
       :description="bgDescription"
     />
@@ -22,7 +22,7 @@
     </div>
   </section>
   <section class="advantages-container">
-    <h1 class="title">Advantages</h1>
+    <h1 class="title">{{ $t('services.advantages') }}</h1>
     <div v-for="item in advantagesList" :key="item.id" class="advantages-list">
       <Card
         :title="item.title"
@@ -39,7 +39,7 @@
     </div>
   </section>
   <section class="service-container">
-    <CarouselCard :items="services" title="Our Services" />
+    <CarouselCard :items="services" :title="$t('services.services')" />
   </section>
   <section class="related-solutions-container">
     <RelatedSolutions :items="relatedSolutions" />
@@ -48,11 +48,7 @@
     <FeaturedNews title="News" />
   </section>
   <section class="banner-container">
-    <Banner
-      title-primary="Need a shipping solution?"
-      title-secondary="Request your free quote now!"
-      button-text="Request"
-    />
+    <Banner />
   </section>
 </template>
 
@@ -63,6 +59,8 @@ import CarouselCard from '@/components/CarouselCard.vue'
 import RelatedSolutions from '@/components/RelatedSolutions.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import Banner from '@/components/Banner.vue'
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
 
 import airFreight from '@/assets/images/air_freight.png'
 import overviewSea from '@/assets/images/overview_sea.png'
@@ -77,35 +75,35 @@ import FCL from '@/assets/images/FCL.png'
 import CLAS from '@/assets/images/clas.png'
 import BC from '@/assets/images/bc.png'
 
-const bgDescription = `"Beyond Shipping, We Move Possibilities"`
-const overviewList = [
+const { t } = useI18n()
+
+const bgDescription = 'services.transportationDescription'
+const overviewList = computed(() => [
   {
     id: 1,
-    title: `Contact us today to receive a tailored logistics quote for your international shipping needs.`,
+    title: t('contact.description'),
 
     imageSrc: aboutAirFreight,
     height: '388px',
     reverse: false,
-    buttonText: 'Request a Quote',
+    buttonText: t('btn.requestQuote'),
     center: 'center',
   },
   {
     id: 2,
-    title: 'Overview',
-    paragraphs: [
-      `Sea freight remains the most cost-effective and reliable method for transporting large volumes across international markets. Fargo Logistics offers both FCL (Full Container Load) and LCL (Less-than-Container Load) services with flexible schedules and competitive rates. With strong partnerships with major carriers, we ensure smooth operations, safe handling, and timely delivery for all shipments.`,
-    ],
+    title: t('services.overview'),
+    paragraphs: [t('services.airFreight.overviewDescription')],
     imageSrc: overviewAir,
     height: '388px',
     reverse: true,
   },
-]
-const advantagesList = [
+])
+const advantagesList = computed(() => [
   {
     id: 1,
-    title: 'Speed and Efficiency',
+    title: t('services.airFreight.speedAndEfficiency'),
     paragraphs: [
-      `Air freight provides the fastest possible transit times available, making it the best choice for urgent, time-critical, and high-value shipments across international markets.`,
+      t('services.airFreight.speedAndEfficiencyDescription'),
     ],
     imageSrc: speedAndEfficiency,
     height: '221px',
@@ -114,9 +112,9 @@ const advantagesList = [
   },
   {
     id: 2,
-    title: 'Global Reach',
+    title: t('services.airFreight.globalReach'),
     paragraphs: [
-      `With access to major international airports worldwide and long-term partnerships with leading airlines, we guarantee extensive coverage across all key global trade routes.`,
+      t('services.airFreight.globalReachDescription'),
     ],
     imageSrc: globalReach,
     height: '221px',
@@ -125,9 +123,9 @@ const advantagesList = [
   },
   {
     id: 3,
-    title: 'Secure Handling',
+    title: t('services.airFreight.secureHandling'),
     paragraphs: [
-      `Every shipment is carefully handled under strict safety protocols and constant professional supervision, minimizing risks and ensuring products always arrive in perfect condition.`,
+      t('services.airFreight.secureHandlingDescription'),
     ],
     imageSrc: secureHandling,
     height: '221px',
@@ -136,56 +134,52 @@ const advantagesList = [
   },
   {
     id: 4,
-    title: 'Flexible Solutions',
+    title: t('services.airFreight.flexibleSolutions'),
     paragraphs: [
-      `We provide express, charter, and consolidated air freight services, carefully tailored and customized to meet diverse customer requirements and complex cargo demands.`,
+      t('services.airFreight.flexibleSolutionsDescription'),
     ],
     imageSrc: flexibleSolutions,
     height: '221px',
     reverse: true,
     grid: '1.4fr 1fr',
   },
-]
-const services = [
+])
+const services = computed(() => [
   {
-    title: 'LCL (Less Than Container Load)',
-    description:
-      'Cost-effective solution for smaller shipments, combining multiple cargos into one container with reliable schedules.',
+    title: t('services.lcl'),
+    description: t('services.lclDescription'),
     image: [LCL],
   },
   {
-    title: 'FCL (Full Container Load)',
-    description:
-      'Dedicated containers for a single customer, ensuring faster handling, greater security, and optimized delivery times.',
+    title: t('services.fcl'),
+    description: t('services.fclDescription'),
     image: [FCL],
   },
   {
-    title: 'Customs legal advisory services',
-    description:
-      'Professional support for customs clearance and compliance, reducing delays and ensuring smooth cross-border trade.',
+    title: t('services.customsLegalAdvisoryServices'),
+    description: t('services.customsLegalAdvisoryServicesDescription'),
     image: [CLAS],
   },
   {
-    title: "Buyer's consolidation",
-    description:
-      'Consolidate goods from multiple suppliers into one shipment, lowering costs and simplifying international logistics.',
+    title: t('services.buyersConsolidation'),
+    description: t('services.buyersConsolidationDescription'),
     image: [BC],
   },
-]
-const relatedSolutions = [
+])
+const relatedSolutions = computed(() => [
   {
-    title: 'Sea Freight',
+    id: 'transportation/sea-freight',
+    title: t('services.seaFreight.title'),
     image: overviewSea,
     paragraphs: [
-      'Sea freight is a fast and efficient way to transport goods across the world, with reliable schedules and competitive rates.',
+      t('services.seaFreight.description'),
     ],
     height: '356px',
     titleColor: '#ffff',
     textColor: '#ffff',
     reverse: true,
   },
-]
-
+])
 </script>
 
 <style scoped>

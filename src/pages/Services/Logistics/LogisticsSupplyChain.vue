@@ -2,8 +2,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="Logistics and Supply chain"
+      :title="$t('about.about')"
+      :subtitle="$t('services.logisticsAndSupplyChain.title')"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
@@ -37,7 +37,7 @@
       class="title"
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      Advantages
+      {{ $t('services.advantages') }}
     </h1>
     <div
       v-for="item in advantagesList"
@@ -68,7 +68,7 @@
       margin: 50px auto;
     "
   >
-    <CarouselCard :items="solutions" titleColor="#ffffff" />
+    <CarouselCard :items="i18nSolutions" titleColor="#ffffff" />
   </section>
   <section style="margin: 50px auto">
     <SpecializedLogistics />
@@ -109,7 +109,8 @@ import SpecializedLogistics from '@/components/SpecializedLogistics.vue'
 import RelatedServices from '@/components/RelatedServices.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import Banner from '@/components/Banner.vue'
-
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
 import { solutions } from '@/data/solutions'
 
 import overviewLasc from '@/assets/images/overview_lasc.png'
@@ -120,36 +121,38 @@ import technologyIntegration from '@/assets/images/technology_integration.png'
 import customerSupport from '@/assets/images/customer_support2.png'
 import overviewTransportation from '@/assets/images/overview_transportation.png'
 
-const bgDescription = `"Smart moves. Strong supply chains"`
+const { t } = useI18n()
 
-const overviewList = [
+const bgDescription = 'services.logisticsAndSupplyChain.description'
+
+const overviewList = computed(() => [
   {
     id: 1,
-    title: `Contact us today to receive a tailored logistics quote for your international shipping needs.`,
+    title: t('contact.description'),
 
     imageSrc: aboutLasc,
     height: '388px',
     reverse: false,
-    buttonText: 'Request a Quote',
+    buttonText: t('btn.requestQuote'),
     center: 'center',
   },
   {
     id: 2,
-    title: 'Overview',
+    title: t('services.overview'),
     paragraphs: [
-      `Sea freight remains the most cost-effective and reliable method for transporting large volumes across international markets. Fargo Logistics offers both FCL (Full Container Load) and LCL (Less-than-Container Load) services with flexible schedules and competitive rates. With strong partnerships with major carriers, we ensure smooth operations, safe handling, and timely delivery for all shipments.`,
+      t('services.logisticsAndSupplyChain.relatedSolutionsDescription'),
     ],
     imageSrc: overviewLasc,
     height: '388px',
     reverse: true,
   },
-]
-const advantagesList = [
+])
+const advantagesList = computed(() => [
   {
     id: 1,
-    title: 'Global Network',
+    title: t('services.logisticsAndSupplyChain.globalNetwork'),
     paragraphs: [
-      `With offices and partners worldwide, we guarantee smooth cross-border operations, giving customers access to an extensive logistics infrastructure system.`,
+      t('services.logisticsAndSupplyChain.globalNetworkDescription'),
     ],
     imageSrc: globalNetwork,
     height: '221px',
@@ -158,9 +161,9 @@ const advantagesList = [
   },
   {
     id: 2,
-    title: 'Cost Optimization',
+    title: t('services.logisticsAndSupplyChain.costOptimization'),
     paragraphs: [
-      `Our solutions are tailored to reduce unnecessary costs while maintaining high-quality service, helping clients achieve efficiency and sustainable business growth.`,
+      t('services.logisticsAndSupplyChain.costOptimizationDescription'),
     ],
     imageSrc: costOptimization,
     height: '221px',
@@ -169,9 +172,9 @@ const advantagesList = [
   },
   {
     id: 3,
-    title: 'Technology Integration',
+    title: t('services.logisticsAndSupplyChain.technologyIntegration'),
     paragraphs: [
-      `We apply smart tracking systems and digital platforms to provide real-time shipment visibility, transparency, and operational control.`,
+      t('services.logisticsAndSupplyChain.technologyIntegrationDescription'),
     ],
     imageSrc: technologyIntegration,
     height: '221px',
@@ -180,24 +183,31 @@ const advantagesList = [
   },
   {
     id: 4,
-    title: 'Customer Support',
+    title: t('services.logisticsAndSupplyChain.customerSupport'),
     paragraphs: [
-      `A dedicated service team is available 24/7, ensuring responsive communication and professional handling of every shipping requirement request.`,
+      t('services.logisticsAndSupplyChain.customerSupportDescription'),
     ],
     imageSrc: customerSupport,
     height: '221px',
     reverse: true,
     grid: '1.4fr 1fr',
   },
-]
-
-const relatedServices = {
-  title: 'Logistics and Supply chain ',
+])
+const i18nSolutions = computed(() => {
+  return solutions.map(solution => ({
+    ...solution,
+    title: t(`services.${solution.title}`),
+    description: t(`services.${solution.description}`)
+  }))
+})
+const relatedServices = computed(() => ({
+  title: t('services.transportation.title'),
   imageSrc: overviewTransportation,
   paragraphs: [
-    `We deliver integrated logistics and supply chain solutions, including freight forwarding, warehousing, and distribution. With advanced systems and a global network, Fargo Logistics ensures efficiency, cost savings, and reliability across every shipment.`,
+    t('services.transportation.relatedSolutionsDescription'),
   ],
-}
+  path: '/transportation',
+}))
 </script>
 
 <style scoped></style>

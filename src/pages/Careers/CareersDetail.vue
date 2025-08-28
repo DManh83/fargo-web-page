@@ -9,7 +9,7 @@ import { computed } from 'vue'
 import { useStore } from 'vuex'
 
 const store = useStore()
-const bgDescription = `"Drive the world forward — join the future of logistics"`
+const bgDescription = `careers.description`
 
 const item = computed(() => store.getters['career/currentItem'])
 
@@ -42,7 +42,7 @@ console.log(related.value)
 
 <template>
   <section>
-    <BgHeader title="About" subtitle="Careers" :imageSrc="bgCareers" :description="bgDescription" />
+    <BgHeader :title="$t('about.about')" :subtitle="$t('careers.title')" :imageSrc="bgCareers" :description="bgDescription" />
   </section>
   <section class="grid">
     <div class="job-render-container">

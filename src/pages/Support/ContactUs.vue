@@ -1,15 +1,18 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="Contact Us"
+      :title="$t('about.about')"
+      :subtitle="$t('support.contactUs.title')"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
   </section>
-  <section style="width: 1200px; margin: 100px auto; display: flex; gap: 50px">
+  <section style="width: 1200px; margin: 100px auto 50px; display: flex; gap: 50px">
     <FormContact />
     <ContactInfor />
+  </section>
+  <section style="width: 1200px; margin: 50px auto">
+    <Banner/>
   </section>
 </template>
 
@@ -18,6 +21,7 @@ import BgHeader from '@/components/BgHeader.vue'
 import bgTransportation from '@/assets/images/bg_transportation.png'
 import FormContact from './components/FormContact.vue'
 import ContactInfor from './components/ContactInfor.vue'
+import Banner from '@/components/Banner.vue'
 
-const bgDescription = `"Powerful tools. Reliable support"`
+const bgDescription = `support.description`
 </script>

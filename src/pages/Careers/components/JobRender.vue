@@ -1,6 +1,6 @@
 <template>
   <article class="job-render">
-    <h1>We are hiring - {{ item.title }}</h1>
+    <h1>{{ $t('careers.weAreHiring') }} - {{ item.title }}</h1>
     <div v-for="p in item.paragraphs" :key="p.id" class="job-render-content">
       <h2>{{ p.title }}</h2>
       <ul v-for="it in p.content" :key="it" class="job-render-content-item">

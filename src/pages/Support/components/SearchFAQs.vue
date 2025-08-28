@@ -1,7 +1,7 @@
 <template>
   <section style="width: 1200px; margin: 50px auto">
     <a-form-item>
-      <a-input placeholder="Search FAQs" style="height: 54px; font-size: 16px; font-weight: 400; font-family: 'Poppins', sans-serif">
+      <a-input :placeholder="$t('form.searchFAQs')" style="height: 54px; font-size: 16px; font-weight: 400; font-family: 'Poppins', sans-serif">
         <template #prefix>
           <SearchOutlined style="font-size: 24px; color: #BEBDBF; margin-right: 10px" />
         </template>

@@ -1,8 +1,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="Customs Broker"
+      :title="$t('about.about')"
+      :subtitle="$t('services.customsBrokerage.title')"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
@@ -36,7 +36,7 @@
       class="title"
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      Advantages
+      {{ $t('services.advantages') }}
     </h1>
     <div
       v-for="item in advantagesList"
@@ -67,7 +67,7 @@
       margin: 50px auto;
     "
   >
-    <CarouselCard title="Related Solutions" :items="relatedSolutions" titleColor="#ffffff" />
+    <CarouselCard :title="$t('services.relatedSolutions')" :items="i18nSolutions" titleColor="#ffffff" />
   </section>
   <section style="margin: 50px auto">
     <FeaturedNews title="News" />
@@ -88,6 +88,8 @@ import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import Banner from '@/components/Banner.vue'
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
 
 import { solutions } from '@/data/solutions'
 
@@ -98,37 +100,39 @@ import timeEfficiency from '@/assets/images/time_efficiency.png'
 import costSavings2 from '@/assets/images/cost_savings2.png'
 import customerSupport from '@/assets/images/customer_support.png'
 
+const { t } = useI18n()
 
-const bgDescription = `"Smart moves. Strong supply chains"`
 
-const overviewList = [
+const bgDescription = `services.logisticsAndSupplyChain.description`
+
+const overviewList = computed(() => [
   {
     id: 1,
-    title: `Contact us today to receive a tailored logistics quote for your international shipping needs.`,
+    title: t('contact.description'),
 
     imageSrc: introCustomsBroker,
     height: '388px',
     reverse: false,
-    buttonText: 'Request a Quote',
+    buttonText: t('btn.requestQuote'),
     center: 'center',
   },
   {
     id: 2,
-    title: 'Overview',
+    title: t('services.overview'),
     paragraphs: [
-      `Our customs brokerage services simplify complex clearance procedures and ensure compliance with all international trade regulations. With a team of experienced specialists, we provide guidance on documentation, tariffs, and duties, helping businesses avoid delays at borders. By combining efficiency with accuracy, we make sure every shipment is processed quickly and smoothly for global trade success.`,
+      t('services.customsBrokerage.overviewDescription'),
     ],
     imageSrc: overviewCustomsBroker,
     height: '388px',
     reverse: true,
   },
-]
-const advantagesList = [
+])
+const advantagesList = computed(() => [
   {
     id: 1,
-    title: 'Regulatory Expertise',
+    title: t('services.customsBrokerage.regulatoryExpertise'),
     paragraphs: [
-      `Our specialists understand customs laws and provide accurate guidance to minimize risks, avoid costly errors, and ensure smooth customs clearance processes.`,
+      t('services.customsBrokerage.regulatoryExpertiseDescription'),
     ],
     imageSrc: regulatoryExpertise,
     height: '221px',
@@ -137,9 +141,9 @@ const advantagesList = [
   },
   {
     id: 2,
-    title: 'Time Efficiency',
+    title: t('services.customsBrokerage.timeEfficiency'),
     paragraphs: [
-      `We streamline documentation and coordinate with customs authorities to reduce delays, allowing shipments to pass through quickly and efficiently every time.`,
+      t('services.customsBrokerage.timeEfficiencyDescription'),
     ],
     imageSrc: timeEfficiency,
     height: '221px',
@@ -148,9 +152,9 @@ const advantagesList = [
   },
   {
     id: 3,
-    title: 'Cost Savings',
+    title: t('services.customsBrokerage.costSavings'),
     paragraphs: [
-      `By optimizing tariff classifications and duty management, we help companies cut expenses while staying fully compliant with global trade regulations standards.`,
+      t('services.customsBrokerage.costSavingsDescription'),
     ],
     imageSrc: costSavings2,
     height: '221px',
@@ -159,18 +163,25 @@ const advantagesList = [
   },
   {
     id: 4,
-    title: 'Dedicated Support',
+    title: t('services.customsBrokerage.dedicatedSupport'),
     paragraphs: [
-      `Our team offers 24/7 assistance with clear updates and proactive solutions, ensuring clients receive reliable service at every logistics shipment stage worldwide.`,
+      t('services.customsBrokerage.dedicatedSupportDescription'),
     ],
     imageSrc: customerSupport,
     height: '221px',
     reverse: true,
     grid: '1.4fr 1fr',
   },
-]
+])
 
-const relatedSolutions = solutions.filter((solution) => solution.title !== 'Customs brokerage')
+const i18nSolutions = computed(() => {
+  const relatedSolutions = solutions.filter((solution) => solution.title !== t(`services.customsBrokerage.title`))
+  return relatedSolutions.map(solution => ({
+    ...solution,
+    title: t(`services.${solution.title}`),
+    description: t(`services.${solution.description}`)
+  }))
+})
 </script>
 
 <style scoped></style>

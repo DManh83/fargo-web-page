@@ -2,7 +2,7 @@
 <template>
   <section class="news">
     <a-divider v-if="isDivider" class="divider" />
-    <h1 :style="{ textAlign: align }">{{ title }}</h1>
+    <h1 :style="{ textAlign: align }">{{ $t(`news.${title}`) }}</h1>
     <div class="news-content">
       <a-carousel
         :dots="false"
@@ -46,7 +46,7 @@
           size="large"
           type="default"
           @click="router.push('/news-insights')"
-          >{{ $t('home.btn_show_more') }}</a-button
+          >{{ $t('btn.showMore') }}</a-button
         >
       </div>
     </div>
@@ -78,7 +78,14 @@ defineProps({
   },
 })
 
-const items = [...news, ...news]
+function shuffle(array) {
+  return array
+    .map((item) => ({ item, sort: Math.random() }))
+    .sort((a, b) => a.sort - b.sort)
+    .map(({ item }) => item)
+}
+
+const items = shuffle([...news])
 
 onMounted(() => {
   store.dispatch('news/setItems', [...items])
@@ -161,7 +168,7 @@ h1 {
 
 .card-title {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: #000;
   text-align: start;
   width: 100%;
@@ -171,6 +178,7 @@ h1 {
   -webkit-line-clamp: 2; /* WebKit-specific property to limit the number of lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
+  margin-left: 5px;
 }
 
 .divider {

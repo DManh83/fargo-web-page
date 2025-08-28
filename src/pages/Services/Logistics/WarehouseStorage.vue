@@ -1,8 +1,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="Warehouse and Storage"
+      :title="$t('about.about')"
+      :subtitle="$t('services.warehousing.title')"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
@@ -36,7 +36,7 @@
       class="title"
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      Advantages
+      {{ $t('services.advantages') }}
     </h1>
     <div
       v-for="item in advantagesList"
@@ -67,7 +67,7 @@
       margin: 50px auto;
     "
   >
-    <CarouselCard title="Related Solutions" :items="relatedSolutions" titleColor="#ffffff" />
+    <CarouselCard :title="$t('services.relatedSolutions')" :items="i18nSolutions" titleColor="#ffffff" />
   </section>
   <section style="margin: 50px auto">
     <FeaturedNews title="News" />
@@ -88,7 +88,8 @@ import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import Banner from '@/components/Banner.vue'
-
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
 import { solutions } from '@/data/solutions'
 
 import overviewWarehousing from '@/assets/images/warehousing.png'
@@ -98,36 +99,38 @@ import flexibleSolutions from '@/assets/images/flexible_solutions2.png'
 import costEfficiency from '@/assets/images/cost_efficiency.png'
 import technologyIntegration from '@/assets/images/technology_integration2.png'
 
-const bgDescription = `"Smart moves. Strong supply chains"`
+const { t } = useI18n()
 
-const overviewList = [
+const bgDescription = `services.logisticsAndSupplyChain.description`
+
+const overviewList = computed(() => [
   {
     id: 1,
-    title: `Contact us today to receive a tailored logistics quote for your international shipping needs.`,
+    title: t('contact.description'),
 
     imageSrc: introWarehousing,
     height: '388px',
     reverse: false,
-    buttonText: 'Request a Quote',
+    buttonText: t('btn.requestQuote'),
     center: 'center',
   },
   {
     id: 2,
-    title: 'Overview',
+    title: t('services.overview'),
     paragraphs: [
-      `Our warehouse and storage services ensure goods are kept safe, organized, and accessible at all times. With modern facilities and advanced monitoring, we provide flexible short-term and long-term solutions. These services help businesses optimize inventory management, reduce costs, and maintain a smooth supply chain.`,
+      t('services.warehousing.overviewDescription'),
     ],
     imageSrc: overviewWarehousing,
     height: '388px',
     reverse: true,
   },
-]
-const advantagesList = [
+])
+const advantagesList = computed(() => [
   {
     id: 1,
-    title: 'Secure Facilities',
+    title: t('services.warehousing.secureFacilities'),
     paragraphs: [
-      `Our warehouses are fully equipped with advanced security, monitoring, and fire prevention systems, ensuring goods remain safe under every possible condition worldwide.`,
+      t('services.warehousing.secureFacilitiesDescription'),
     ],
     imageSrc: secureFacilities,
     height: '221px',
@@ -136,9 +139,9 @@ const advantagesList = [
   },
   {
     id: 2,
-    title: 'Flexible Solutions',
+    title: t('services.warehousing.flexibleSolutions'),
     paragraphs: [
-      `We provide both short-term and long-term storage options, allowing businesses to adapt quickly and manage inventory with greater efficiency and flexibility.`,
+      t('services.warehousing.flexibleSolutionsDescription'),
     ],
     imageSrc: flexibleSolutions,
     height: '221px',
@@ -147,9 +150,9 @@ const advantagesList = [
   },
   {
     id: 3,
-    title: 'Cost Efficiency',
+    title: t('services.warehousing.costEfficiency'),
     paragraphs: [
-      `Optimized storage plans reduce handling expenses and help companies achieve better supply chain savings without compromising overall service quality levels.`,
+      t('services.warehousing.costEfficiencyDescription'),
     ],
     imageSrc: costEfficiency,
     height: '221px',
@@ -158,16 +161,23 @@ const advantagesList = [
   },
   {
     id: 4,
-    title: 'Technology Integration',
+    title: t('services.warehousing.technologyIntegration'),
     paragraphs: [
-      `With real-time tracking and smart warehouse management tools, clients can monitor inventory, plan operations, and improve productivity seamlessly every single day.`,
+      t('services.warehousing.technologyIntegrationDescription'),
     ],
     imageSrc: technologyIntegration,
     height: '221px',
     reverse: true,
     grid: '1.4fr 1fr',
   },
-]
+])
 
-const relatedSolutions = solutions.filter((solution) => solution.title !== 'Warehousing')
+const i18nSolutions = computed(() => {
+  const relatedSolutions = solutions.filter((solution) => solution.title !== t(`services.warehousing.title`))
+  return relatedSolutions.map(solution => ({
+    ...solution,
+    title: t(`services.${solution.title}`),
+    description: t(`services.${solution.description}`)
+  }))
+})
 </script>

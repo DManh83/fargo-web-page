@@ -18,35 +18,40 @@ import FAQs from './pages/Support/FAQs.vue'
 import ContactUs from './pages/Support/ContactUs.vue'
 
 const routes = [
-  { name: 'Home', path: '/', component: HomePage, meta: { hideHeader: true, title: 'Home' } },
-  { name: 'About Us', path: '/about-us', component: AboutUs, meta: { title: 'About Us' } },
-  { name: 'News & Insights', path: '/news-insights', component: NewsInsights, meta: { title: 'News & Insights' } },
+  { name: 'Home', path: '/', component: HomePage, meta: { hideHeader: true, titleKey: 'routes.home' } },
+  { name: 'About Us', path: '/about-us', component: AboutUs, meta: { titleKey: 'routes.aboutUs' } },
+  { name: 'News & Insights', path: '/news-insights', component: NewsInsights, meta: { titleKey: 'routes.newsInsights' } },
   {
     name: 'News Detail',
     path: '/news-insights/:id',
     component: NewsDetail,
     meta: {
-      breadcrumb: (route) => ([
-        { title: 'News & Insights', path: '/news-insights' },
-        { title: route.query.title || 'News detail' }
-      ]),
-      title: 'News Detail',
+      titleKey: 'routes.newsDetail',
+      breadcrumb: (route) => {
+        const hasTitle = !!route.query.title
+        return [
+          { titleKey: 'routes.newsInsights', path: '/news-insights' },
+          hasTitle
+            ? { title: route.query.title, noI18n: true } // KHÔNG dịch tiêu đề bài viết
+            : { titleKey: 'routes.newsDetail' },         // fallback: dịch key
+        ]
+      },
     },
   },
   {
     name: 'Careers',
     path: '/careers',
     component: Careers,
-    meta: { title: 'Careers' },
+    meta: { titleKey: 'routes.careers' },
   },
   {
     name: 'Careers Detail',
     path: '/careers/:id',
     component: CareersDetail,
     meta: {
-      title: 'Careers Detail',
+      titleKey: 'routes.careersDetail',
       breadcrumb: (route) => ([
-        { title: 'Careers', path: '/careers' },
+        { titleKey: 'routes.careers', path: '/careers' },
         { title: route.query.title || 'Careers detail' }
       ]),
     },
@@ -56,10 +61,10 @@ const routes = [
     path: '/transportation',
     component: Transportation,
     meta: {
-      title: 'Transportation',
+      titleKey: 'routes.transportation',
       breadcrumb: () => ([
-        { title: 'Services' },
-        { title: 'Transportation' },
+        { titleKey: 'routes.services' },
+        { titleKey: 'routes.transportation' },
       ]),
     }
   },
@@ -70,9 +75,9 @@ const routes = [
     meta: {
       title: 'Sea Freight',
       breadcrumb: () => ([
-        { title: 'Services' },
-        { title: 'Transportation', path: '/transportation' },
-        { title: 'Sea Freight' }
+        { titleKey: 'routes.services' },
+        { titleKey: 'routes.transportation', path: '/transportation' },
+        { titleKey: 'routes.seaFreight' }
       ]),
     }
   },
@@ -83,9 +88,9 @@ const routes = [
     meta: {
       title: 'Air Freight',
       breadcrumb: () => ([
-        { title: 'Services' },
-        { title: 'Transportation', path: '/transportation' },
-        { title: 'Air Freight' }
+        { titleKey: 'routes.services' },
+        { titleKey: 'routes.transportation', path: '/transportation' },
+        { titleKey: 'routes.airFreight' }
       ]),
     }
   },
@@ -94,10 +99,10 @@ const routes = [
     path: '/logistics-and-supply-chain',
     component: LogisticsSupplyChain,
     meta: {
-      title: 'Logistics and Supply Chain',
+      titleKey: 'routes.logisticsAndSupplyChain',
       breadcrumb: () => ([
-        { title: 'Services' },
-        { title: 'Logistics and Supply Chain' },
+        { titleKey: 'routes.services' },
+        { titleKey: 'routes.logisticsAndSupplyChain' },
       ]),
     }
   },
@@ -106,11 +111,11 @@ const routes = [
     path: '/logistics-and-supply-chain/customs-broker',
     component: CustomsBroker,
     meta: {
-      title: 'Customs Broker',
+      titleKey: 'routes.customsBroker',
       breadcrumb: () => ([
-        { title: 'Services' },
-        { title: 'Logistics and Supply Chain', path: '/logistics-and-supply-chain' },
-        { title: 'Customs Broker' }
+        { titleKey: 'routes.services' },
+        { titleKey: 'routes.logisticsAndSupplyChain', path: '/logistics-and-supply-chain' },
+        { titleKey: 'routes.customsBroker' }
       ]),
     }
   },
@@ -119,11 +124,11 @@ const routes = [
     path: '/logistics-and-supply-chain/cargo-insurance',
     component: CargoInsurance,
     meta: {
-      title: 'Cargo Insurance',
+      titleKey: 'routes.cargoInsurance',
       breadcrumb: () => ([
-        { title: 'Services' },
-        { title: 'Logistics and Supply Chain', path: '/logistics-and-supply-chain' },
-        { title: 'Cargo Insurance' }
+        { titleKey: 'routes.services' },
+        { titleKey: 'routes.logisticsAndSupplyChain', path: '/logistics-and-supply-chain' },
+        { titleKey: 'routes.cargoInsurance' }
       ]),
     }
   },
@@ -132,11 +137,11 @@ const routes = [
     path: '/logistics-and-supply-chain/warehouse-and-storage',
     component: WarehouseStorage,
     meta: {
-      title: 'Warehouse and Storage',
+      titleKey: 'routes.warehouseAndStorage',
       breadcrumb: () => ([
-        { title: 'Services' },
-        { title: 'Logistics and Supply Chain', path: '/logistics-and-supply-chain' },
-        { title: 'Warehouse and Storage' }
+        { titleKey: 'routes.services' },
+        { titleKey: 'routes.logisticsAndSupplyChain', path: '/logistics-and-supply-chain' },
+        { titleKey: 'routes.warehouseAndStorage' }
       ]),
     }
   },
@@ -145,11 +150,11 @@ const routes = [
     path: '/logistics-and-supply-chain/e-commerce',
     component: ECommerce,
     meta: {
-      title: 'E-Commerce',
+      titleKey: 'routes.eCommerce',
       breadcrumb: () => ([
-        { title: 'Services' },
-        { title: 'Logistics and Supply Chain', path: '/logistics-and-supply-chain' },
-        { title: 'E-Commerce' }
+        { titleKey: 'routes.services' },
+        { titleKey: 'routes.logisticsAndSupplyChain', path: '/logistics-and-supply-chain' },
+        { titleKey: 'routes.eCommerce' }
       ]),
     }
   },
@@ -158,10 +163,10 @@ const routes = [
     path: '/support/quote-request',
     component: QuoteRequest,
     meta: {
-      title: 'Quote Request',
+      titleKey: 'routes.quoteRequest',
       breadcrumb: () => ([
-        { title: 'Support' },
-        { title: 'Quote Request' }
+        { titleKey: 'routes.support' },
+        { titleKey: 'routes.quoteRequest' }
       ]),
     }
   },
@@ -170,10 +175,10 @@ const routes = [
     path: '/support/faqs',
     component: FAQs,
     meta: {
-      title: 'FAQs',
+      titleKey: 'routes.faqs',
       breadcrumb: () => ([
-        { title: 'Support' },
-        { title: 'FAQs' }
+        { titleKey: 'routes.support' },
+        { titleKey: 'routes.faqs' }
       ]),
     }
   },
@@ -182,10 +187,10 @@ const routes = [
     path: '/support/contact-us',
     component: ContactUs,
     meta: {
-      title: 'Contact Us',
+      titleKey: 'routes.contactUs',
       breadcrumb: () => ([
-        { title: 'Support' },
-        { title: 'Contact Us' }
+        { titleKey: 'routes.support' },
+        { titleKey: 'routes.contactUs' }
       ]),
     }
   },

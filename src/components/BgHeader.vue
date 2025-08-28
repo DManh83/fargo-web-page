@@ -7,13 +7,13 @@
         <span class="title">{{ title }}</span>
       </div>
       <div class="overlay-subtitle">
-        <span class="subtitle">{{ subtitle }}</span>
+        <span class="subtitle">{{ $t(subtitle) }}</span>
       </div>
     </div>
     <img :src="imageSrc" alt="thumbnail" class="thumbnail" />
   </section>
   <div class="description">
-    <span>{{ description }}</span>
+    <span>{{ $t(description) }}</span>
   </div>
 </template>
 
@@ -60,21 +60,21 @@ defineProps({
 }
 
 .overlay {
+  width: 1200px;
   position: absolute;
   top: 40%;
-  right: 30%;
+  right: 20%;
   transform: translateY(-50%);
   text-align: left;
   color: #fff;
   z-index: 2;
   display: flex;
   flex-direction: column;
-  width: 920px;
 }
 
 .overlay-title {
   margin-right: 650px;
-  margin-bottom: -50px;
+  margin-bottom: -20px;
   width: auto;
 }
 .overlay-subtitle {

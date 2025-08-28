@@ -1,0 +1,23 @@
+export default {
+  routes: {
+    home: 'Trang chủ',
+    aboutUs: 'Về chúng tôi',
+    newsInsights: 'Tin tức và ý kiến',
+    careers: 'Nghề nghiệp',
+    services: 'Dịch vụ',
+    transportation: 'Vận chuyển',
+    logisticsAndSupplyChain: 'Logistics và Supply Chain',
+    customsBroker: 'Môi giới hải quan',
+    cargoInsurance: 'Bảo hiểm hàng hóa',
+    warehouseAndStorage: 'Kho hàng',
+    eCommerce: 'Thương mại điện tử',
+    seaFreight: 'Vận chuyển biển',
+    airFreight: 'Vận chuyển không',
+    support: 'Hỗ trợ',
+    quoteRequest: 'Yêu cầu báo giá',
+    faqs: 'Câu hỏi thường gặp',
+    contactUs: 'Liên hệ',
+    trackAndTrace: 'Theo dõi và theo dõi',
+    resources: 'Tài nguyên',
+  },
+};

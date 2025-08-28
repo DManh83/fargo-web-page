@@ -6,7 +6,7 @@
       v-model:value="job"
       show-search
       allow-clear
-      placeholder="Jobs"
+      :placeholder="$t('search.jobs')"
       style="width: 387px"
       :options="jobs"
     />
@@ -15,7 +15,7 @@
       v-model:value="position"
       show-search
       allow-clear
-      placeholder="Positions"
+      :placeholder="$t('search.positions')"
       style="width: 285px"
       :options="positions"
     />
@@ -23,7 +23,7 @@
       class="select"
       v-model:value="location"
       show-search
-      placeholder="Location"
+      :placeholder="$t('search.location')"
       style="width: 285px"
       :options="locations"
     />
@@ -42,7 +42,7 @@
       <template #icon>
         <SearchOutlined />
       </template>
-      Search
+      {{ $t('search.search') }}
     </a-button>
   </section>
 </template>

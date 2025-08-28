@@ -2,8 +2,8 @@
 <template>
   <section>
     <BgHeader
-      title="About"
-      subtitle="Transportation"
+      :title="$t('about.about')"
+      :subtitle="subtitle"
       :imageSrc="bgTransportation"
       :description="bgDescription"
     />
@@ -22,7 +22,7 @@
     </div>
   </section>
   <section class="advantages-container">
-    <h1 class="title">Advantages</h1>
+    <h1 class="title">{{ t('services.advantages') }}</h1>
     <div v-for="item in advantagesList" :key="item.id" class="advantages-list">
       <Card
         :title="item.title"
@@ -39,7 +39,7 @@
     </div>
   </section>
   <section class="related-solutions-container">
-    <RelatedSolutions :items="items" title="Transportation Solutions" />
+    <RelatedSolutions :items="items" :title="t('services.transportationSolutions')" />
   </section>
   <section class="specialized-logistics-container">
     <SpecializedLogistics />
@@ -52,9 +52,6 @@
   </section>
   <section class="banner-container">
     <Banner
-      title-primary="Need a shipping solution?"
-      title-secondary="Request your free quote now!"
-      button-text="Request"
     />
   </section>
 </template>
@@ -67,6 +64,8 @@ import SpecializedLogistics from '@/components/SpecializedLogistics.vue'
 import RelatedServices from '@/components/RelatedServices.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import Banner from '@/components/Banner.vue'
+import { useI18n } from 'vue-i18n'
+import { computed } from 'vue'
 
 import bgTransportation from '@/assets/images/bg_transportation.png'
 import introAboutUs from '@/assets/images/intro_about_us.png'
@@ -79,56 +78,62 @@ import overviewLasc from '@/assets/images/overview_lasc.png'
 import seaFreight from '@/assets/images/sea_freight.png'
 import airFreight from '@/assets/images/air_freight.png'
 
-const items = [
+const { t } = useI18n()
+
+const bgDescription = 'services.transportationDescription'
+const subtitle = 'services.transportation.title'
+
+const items = computed(() => [
   {
-    id: 1,
-    title: 'Air Freight',
+    id: 'transportation/air-freight',
+    title: t('services.airFreight.title'),
     image: airFreight,
   },
   {
-    id: 2,
-    title: 'Sea Freight',
+    id: 'transportation/sea-freight',
+    title: t('services.seaFreight.title'),
     image: seaFreight,
   },
-]
+])
 
-const relatedServices = {
-  title: 'Logistics and Supply chain ',
+const relatedServices = computed(() => ({
+  title: t('services.logisticsAndSupplyChain.title'),
   imageSrc: overviewLasc,
   paragraphs: [
-    `We deliver integrated logistics and supply chain solutions, including freight forwarding, warehousing, and distribution. With advanced systems and a global network, Fargo Logistics ensures efficiency, cost savings, and reliability across every shipment.`,
+    t('services.logisticsAndSupplyChain.relatedSolutionsDescription'),
   ],
-}
+  path: '/logistics-and-supply-chain',
+}))
 
-const bgDescription = `"Beyond Shipping, We Move Possibilities"`
-const overviewList = [
+const overviewList = computed(() => [
   {
     id: 1,
-    title: `Contact us today to receive a tailored logistics quote for your international shipping needs.`,
+    title: t('contact.description'),
 
     imageSrc: introAboutUs,
     height: '388px',
     reverse: false,
-    buttonText: 'Request a Quote',
+    buttonText: t('btn.requestQuote'),
     center: 'center',
   },
   {
     id: 2,
-    title: 'Overview',
+    title: t('services.overview'),
     paragraphs: [
-      `At Fargo Logistics, our transportation services cover sea, air, and land solutions tailored to meet the needs of global trade. With a strong network of partners and advanced tracking technology, we ensure shipments are delivered safely, on time, and cost-effectively. From international freight forwarding to domestic distribution, we provide seamless logistics that connect businesses and markets worldwide.`,
+      t('services.transportation.overviewDescription'),
     ],
     imageSrc: overviewTransportation,
     height: '388px',
     reverse: true,
   },
-]
-const advantagesList = [
+])
+
+const advantagesList = computed(() => [
   {
     id: 1,
-    title: 'Global Coverage',
+    title: t('services.transportation.globalCoverage'),
     paragraphs: [
-      `With an extensive international network of partners and agents, Fargo Logistics connects major trade hubs worldwide. We provide seamless shipping across sea, air, and land, ensuring businesses can expand their reach with confidence.`,
+      t('services.transportation.globalCoverageDescription'),
     ],
     imageSrc: globalCoverage,
     height: '221px',
@@ -137,9 +142,9 @@ const advantagesList = [
   },
   {
     id: 2,
-    title: 'Cost Efficiency',
+    title: t('services.transportation.costEfficiency'),
     paragraphs: [
-      `Our team focuses on optimizing shipping routes and consolidating cargo to minimize costs. By collaborating with trusted carriers, we deliver competitive pricing without compromising service quality.`,
+      t('services.transportation.costEfficiencyDescription'),
     ],
     imageSrc: costEfficiency,
     height: '221px',
@@ -148,9 +153,9 @@ const advantagesList = [
   },
   {
     id: 3,
-    title: 'On-Time Delivery',
+    title: t('services.transportation.onTimeDelivery'),
     paragraphs: [
-      `Through advanced planning, real-time tracking, and proactive communication, we guarantee timely deliveries. Our process minimizes delays, keeping your supply chain reliable and efficient.`,
+      t('services.transportation.onTimeDeliveryDescription'),
     ],
     imageSrc: onTimeDelivery,
     height: '221px',
@@ -159,16 +164,16 @@ const advantagesList = [
   },
   {
     id: 4,
-    title: 'Customer Support',
+    title: t('services.transportation.customerSupport'),
     paragraphs: [
-      `We pride ourselves on offering personalized, 24/7 customer care. From inquiries to problem-solving, our dedicated team ensures smooth operations and peace of mind for every client.`,
+      t('services.transportation.customerSupportDescription'),
     ],
     imageSrc: customerSupport,
     height: '221px',
     reverse: true,
     grid: '1.4fr 1fr',
   },
-]
+])
 </script>
 
 <style scoped>
