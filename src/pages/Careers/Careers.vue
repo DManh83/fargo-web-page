@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section>
-    <BgHeader title="About" subtitle="Careers" :imageSrc="bgCareers" :description="bgDescription" />
+    <BgHeader :title="$t('about.about')" :subtitle="$t('careers.title')" :imageSrc="bgCareers" :description="bgDescription" />
   </section>
   <section v-for="card in cardList" :key="card.id" class="card-container">
     <Card
