@@ -35,11 +35,11 @@
             >
               <a-collapse-panel
                 v-for="item in col"
-                :key="item.id"
-                :header="item.question"
+                :key="item.key"
+                :header="`${item.id}. ${$t(item.question)}`"
                 class="faq-item"
               >
-                <p class="answer">{{ item.answer }}</p>
+                <p class="answer">{{ $t(item.answer) }}</p>
               </a-collapse-panel>
             </a-collapse>
           </a-col>
@@ -53,17 +53,20 @@
 import { ref, computed, h } from 'vue'
 import { SearchOutlined, PlusOutlined } from '@ant-design/icons-vue'
 import { faqs } from '@/data/fags'
+import { useI18n } from 'vue-i18n'
 
-const categories = [
-  { key: 'domestic', label: 'Domestic Transportation' },
-  { key: 'export', label: 'Export' },
-  { key: 'import', label: 'Import' },
-  { key: 'order', label: 'Order Support' },
-  { key: 'status', label: 'Check Status' },
-  { key: 'billing', label: 'Payment & Invoice' },
-]
+const { t } = useI18n()
 
-const activeCategory = ref(categories[0].key)
+const categories = computed(() => [
+  { key: 'domestic', label: t('support.faqs.domesticTransportation') },
+  { key: 'export', label: t('support.faqs.export') },
+  { key: 'import', label: t('support.faqs.import') },
+  { key: 'order', label: t('support.faqs.orderSupport') },
+  { key: 'status', label: t('support.faqs.checkStatus') },
+  { key: 'billing', label: t('support.faqs.paymentInvoice') },
+])
+
+const activeCategory = ref(categories.value[0].key)
 const keyword = ref('')
 
 const filteredFaqs = computed(() => {
@@ -79,7 +82,7 @@ const filteredFaqs = computed(() => {
   // Tạo id duy nhất theo category để tránh trùng key giữa các category
   return filtered.map((q) => ({
     ...q,
-    id: `${activeCategory.value}-${q.id}`,
+    key: `${activeCategory.value}-${q.id}`,
   }))
 })
 

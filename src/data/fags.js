@@ -6,37 +6,28 @@ export const faqs = [
     qa: [
       {
         id: 1,
-        question: 'What logistics services do you provide?',
-        answer: 'We provide door-to-door pickup, warehousing, packing, and last-mile delivery nationwide.',
+        question: 'support.faqs.qa.domestic.question1',
+        answer: 'support.faqs.qa.domestic.answer1',
       },
       {
         id: 2,
-        question: 'How long does domestic delivery take?',
-        answer: 'Standard 2–4 working days; express 24–48 hours for major cities.',
+        question: 'support.faqs.qa.domestic.question2',
+        answer: 'support.faqs.qa.domestic.answer2',
       },
-
       {
         id: 3,
-        question: 'Do you offer cash on delivery (COD)?',
-        answer: 'Yes, COD is available for eligible sellers with weekly remittance.',
+        question: 'support.faqs.qa.domestic.question3',
+        answer: 'support.faqs.qa.domestic.answer3',
       },
-
       {
         id: 4,
-        question: 'What items are restricted?',
-        answer: 'Hazardous materials, flammables, perishables without cold chain, and items prohibited by law.',
+        question: 'support.faqs.qa.domestic.question4',
+        answer: 'support.faqs.qa.domestic.answer4',
       },
-
       {
         id: 5,
-        question: 'How do I track my shipment?',
-        answer: 'Use the tracking code in your order page or our mobile app to see real-time status.',
-      },
-
-      {
-        id: 6,
-        question: 'What if my parcel is damaged?',
-        answer: 'Report within 24h with photos; our team will verify and compensate per policy.',
+        question: 'support.faqs.qa.domestic.question5',
+        answer: 'support.faqs.qa.domestic.answer5',
       },
 
     ]
@@ -49,18 +40,13 @@ export const faqs = [
     qa: [
       {
         id: 1,
-        question: 'What export services are available?',
-        answer: 'Air freight, sea freight (FCL/LCL), customs clearance, and insurance.',
+        question: 'support.faqs.qa.export.question1',
+        answer: 'support.faqs.qa.export.answer1',
       },
       {
         id: 2,
-        question: 'What documents are required for export?',
-        answer: 'Commercial invoice, packing list, contract, and any licenses depending on HS code.',
-      },
-      {
-        id: 3,
-        question: 'How are export rates calculated?',
-        answer: 'By chargeable weight/volume, route, seasonality, and surcharges (FSC, SSC, etc.).',
+        question: 'support.faqs.qa.export.question2',
+        answer: 'support.faqs.qa.export.answer2',
       },
     ]
   },
@@ -69,10 +55,7 @@ export const faqs = [
   {
     id: 3,
     category: 'import',
-    qa: [
-      { id: 1, question: 'Do you handle DDP import?', answer: 'Yes, we can provide DDP including duties & taxes for select origins.' },
-      { id: 2, question: 'How long does customs clearance take?', answer: 'Typically 1–2 days if documents are complete; inspections may extend the time.' },
-    ]
+    qa: []
   },
 
   // Order Support
@@ -80,8 +63,11 @@ export const faqs = [
     id: 4,
     category: 'order',
     qa: [
-      { id: 1, question: 'How to create a pickup?', answer: 'Schedule in the dashboard before 3pm; same-day pickup in inner cities.' },
-      { id: 2, question: 'Can I change the delivery address?', answer: 'Yes within 12h after handover; fees may apply depending on the zone.' },
+      {
+        id: 1,
+        question: 'support.faqs.qa.order.question1',
+        answer: 'support.faqs.qa.order.answer1',
+      },
     ]
   },
 
@@ -90,8 +76,12 @@ export const faqs = [
     id: 5,
     category: 'status',
     qa: [
-      { id: 1, question: 'Why is my parcel delayed?', answer: 'Weather, high season, address issues, or security checks may cause delays.' },
-      { id: 2, question: 'What are the tracking statuses?', answer: 'Picked up → In transit → Out for delivery → Delivered/Failed → Returned.' },
+      {
+        id: 1,
+        question: 'support.faqs.qa.status.question1',
+        answer: 'support.faqs.qa.status.answer1',
+      },
+
     ]
   },
 
@@ -100,8 +90,11 @@ export const faqs = [
     id: 6,
     category: 'billing',
     qa: [
-      { id: 1, question: 'Payment methods?', answer: 'Bank transfer, e-wallet, and monthly invoice for contracted customers.' },
-      { id: 2, question: 'How do I get an invoice?', answer: 'Invoices are issued monthly and downloadable in the Billing section.' },
+      {
+        id: 1,
+        question: 'support.faqs.qa.billing.question1',
+        answer: 'support.faqs.qa.billing.answer1',
+      },
     ]
   },
 ]
