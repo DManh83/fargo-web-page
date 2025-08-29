@@ -9,7 +9,7 @@ export default {
     logisticsAndSupplyChain: '物流和供应链',
     customsBroker: '报关代理',
     cargoInsurance: '货物保险',
-    warehouseAndStorage: '仓储',
+    warehouseAndStorage: '仓储和物流',
     eCommerce: '电子商务',
     seaFreight: '海运',
     airFreight: '空运',

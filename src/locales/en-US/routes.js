@@ -2,7 +2,7 @@ export default {
   routes: {
     home: 'Home',
     aboutUs: 'About Us',
-    news: 'News & Insights',
+    newsInsights: 'News & Insights',
     careers: 'Careers',
     services: 'Services',
     transportation: 'Transportation',

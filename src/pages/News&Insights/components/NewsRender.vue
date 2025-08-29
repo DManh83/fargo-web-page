@@ -30,9 +30,8 @@
       <div v-for="(child, i) in children" :key="i">
         <h2>{{ child.title }}</h2>
         <p>{{ child.paragraphs[0] }}</p>
-        <div class="hero">
+        <div v-if="child.image" class="hero">
           <a-carousel
-            v-if="child.image && child.image.length > 0"
             autoplay
             dots
             arrows
@@ -48,11 +47,11 @@
                 <RightCircleOutlined />
               </div>
             </template>
-            <template v-for="img in child.image" :key="img">
-              <div class="hero_slide">
-                <img :src="img" alt="" @error="onImgErr" />
-              </div>
-            </template>
+              <template v-for="img in child.image" :key="img">
+                <div class="hero_slide">
+                  <img :src="img" alt="" @error="onImgErr" />
+                </div>
+              </template>
           </a-carousel>
         </div>
         <p v-for="(p, i) in child.paragraphs.slice(1)" :key="i">{{ p }}</p>

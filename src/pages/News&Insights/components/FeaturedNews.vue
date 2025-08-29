@@ -12,7 +12,7 @@ const store = useStore()
 const activeKey = ref('1')
 
 const allNews = news
-const featuredNews = allNews.filter((it) => it.featured)
+const featuredNews = allNews.filter((it) => it.featured).sort(() => Math.random() - 0.5)
 
 const fargoNews = allNews
   .filter((it) => it.category === 'fargoNews')

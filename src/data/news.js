@@ -15,6 +15,7 @@ import news7_1 from '@/assets/images/news7_1.jpg'
 import news7_2 from '@/assets/images/news7_2.jpg'
 import news7_3 from '@/assets/images/news7_3.jpg'
 import news7_4 from '@/assets/images/news7_4.jpg'
+import news8_1 from '@/assets/images/news8_1.jpg'
 
 
 export const news = [
@@ -239,5 +240,61 @@ export const news = [
     date: '2025-08-26',
     image: [news7_1, news7_2, news7_3, news7_4],
     category: 'fargoNews',
+  },
+  {
+    id: 8,
+    title: `Chỉ còn 24h trước khi De Minimis bị xoá sổ - E-commerce xuyên biên giới đứng trước bước ngoặt lịch sử`,
+    paragraphs:
+    `Trong một động thái gây chấn động chuỗi cung ứng toàn cầu, chính quyền Trump tuyên bố kết thúc vĩnh viễn quy định miễn thuế cho các gói hàng nhập khẩu có giá trị dưới 800 USD. Quy định này sẽ hết hiệu lực từ 0h01 sáng ngày 30/8 (giờ Mỹ).
+    `,
+    date: '2025-08-29',
+    image: [news8_1],
+    category: 'fargoNews',
+    featured: true,
+    children: [
+      {
+        id: 1,
+        title: `Chấm dứt “lỗ hổng de minimis”`,
+        paragraphs:
+        `Từ năm 1938, hàng hóa nhập khẩu giá trị nhỏ được hưởng miễn thuế nhằm hỗ trợ thương mại.
+        Năm 2015, ngưỡng được nâng từ 200 USD lên 800 USD, tạo điều kiện cho thương mại điện tử phát triển mạnh.
+        Tuy nhiên, sau khi Mỹ áp thuế cao với Trung Quốc, mô hình trực tiếp bán hàng xuyên biên giới của các nền tảng như Shein, Temu bùng nổ.
+        Hậu quả: số lượng bưu kiện miễn thuế tăng gấp gần 10 lần, từ 139 triệu (2015) lên 1,36 tỷ (2024).
+        `,
+      },
+      {
+        id: 2,
+        title: `Lý do Mỹ hành động`,
+        paragraphs:
+        `Chính quyền Trump cho rằng:
+        Miễn thuế đã trở thành “cửa ngõ” đưa fentanyl và tiền chất ma túy vào Mỹ.
+        Tạo thất thu thuế quan khổng lồ, ước tính lên tới 10 tỷ USD/năm.
+        Peter Navarro – cố vấn thương mại Nhà Trắng – nhấn mạnh:
+        “Kết thúc lỗ hổng chết người này sẽ cứu sống hàng ngàn người Mỹ và tăng thu cho ngân khố.”
+        `,
+      },
+      {
+        id: 3,
+        title: `Cơ chế thuế mới`,
+        paragraphs:
+        `Trong 6 tháng chuyển tiếp, các cơ quan bưu chính nước ngoài có thể chọn:
+        Thuế suất cố định:
+        80 USD/gói từ các nước thuế dưới 16% (Anh, EU).
+        160 USD/gói từ nước có thuế 16–25% (Indonesia, Việt Nam).
+        200 USD/gói từ nước trên 25% (Trung Quốc, Brazil, Ấn Độ, Canada).
+        Hoặc áp dụng thuế suất ad valorem (theo giá trị khai báo).
+        Sau 28/2/2026, bắt buộc thuế theo giá trị.
+        Các hãng chuyển phát nhanh như FedEx, UPS, DHL phải thu hộ thuế và hoàn tất thủ tục hải quan.
+        `,
+      },
+      {
+        id: 4,
+        title: `Ảnh hưởng toàn cầu`,
+        paragraphs:
+        `Một số bưu điện quốc tế đã tạm ngừng gửi hàng sang Mỹ vì thay đổi quá gấp.
+        Tuy vậy, Anh, Canada, Ukraine xác nhận vẫn tiếp tục vận chuyển.
+        `,
+      }
+    ]
   }
 ]
