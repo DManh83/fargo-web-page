@@ -1,9 +1,12 @@
 <template>
   <section style="width: 1200px; margin: 50px auto">
     <a-form-item>
-      <a-input :placeholder="$t('form.searchFAQs')" style="height: 54px; font-size: 16px; font-weight: 400; font-family: 'Poppins', sans-serif">
+      <a-input
+        :placeholder="$t('form.searchFAQs')"
+        style="height: 54px; font-size: 16px; font-weight: 400; font-family: 'Poppins', sans-serif"
+      >
         <template #prefix>
-          <SearchOutlined style="font-size: 24px; color: #BEBDBF; margin-right: 10px" />
+          <SearchOutlined style="font-size: 24px; color: #bebdbf; margin-right: 10px" />
         </template>
       </a-input>
     </a-form-item>
@@ -11,16 +14,8 @@
       <!-- Left: categories -->
       <a-col :span="6">
         <div class="menu-card">
-          <a-menu
-            mode="inline"
-            :selectedKeys="[activeCategory]"
-            class="faq-menu"
-          >
-            <a-menu-item
-              v-for="c in categories"
-              :key="c.key"
-              @click="activeCategory = c.key"
-            >
+          <a-menu mode="inline" :selectedKeys="[activeCategory]" class="faq-menu">
+            <a-menu-item v-for="c in categories" :key="c.key" @click="activeCategory = c.key">
               {{ c.label }}
             </a-menu-item>
           </a-menu>
@@ -73,25 +68,23 @@ const keyword = ref('')
 
 const filteredFaqs = computed(() => {
   const kw = keyword.value.trim().toLowerCase()
-  const cat = faqs.find(f => f.category === activeCategory.value)
+  const cat = faqs.find((f) => f.category === activeCategory.value)
   const list = cat?.qa ?? []
   const filtered = kw
     ? list.filter(
-        q =>
-          q.question.toLowerCase().includes(kw) ||
-          q.answer.toLowerCase().includes(kw),
+        (q) => q.question.toLowerCase().includes(kw) || q.answer.toLowerCase().includes(kw),
       )
     : list
 
   // Tạo id duy nhất theo category để tránh trùng key giữa các category
-  return filtered.map(q => ({
+  return filtered.map((q) => ({
     ...q,
     id: `${activeCategory.value}-${q.id}`,
   }))
 })
 
 const columns = computed(() => {
-  const cols = [[], []]        // 2 columns
+  const cols = [[], []] // 2 columns
   filteredFaqs.value.forEach((item, i) => {
     cols[i % 2].push(item)
   })
@@ -108,12 +101,15 @@ const expandIcon = ({ isActive }) =>
   })
 </script>
 
-
 <style scoped>
 .faq-menu {
   width: 100%;
   background: #eef6ff;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .faq-menu :deep(.ant-menu-item) {
   height: 40px;
@@ -136,7 +132,7 @@ const expandIcon = ({ isActive }) =>
 
 .faq-item :deep(.ant-collapse-header) {
   background: #e8f0fe;
-  border-radius: 12px;
+  border-radius: 12px !important;
   padding: 12px 16px !important;
   font-weight: 600;
   font-size: 16px;
@@ -144,7 +140,7 @@ const expandIcon = ({ isActive }) =>
 }
 .faq-item :deep(.ant-collapse-content) {
   background: #fff;
-  border-radius: 12px;
+  border-radius: 12px !important;
   border: 1px solid #f0f0f0;
   margin-top: 8px;
   font-size: 16px;
