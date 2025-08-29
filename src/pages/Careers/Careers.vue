@@ -15,7 +15,7 @@
   <section class="why-fargo-container">
     <WhyFargo :cards="cards" />
   </section>
-  <section class="jobs-container">
+  <section v-if="careers.length > 0" class="jobs-container">
     <Jobs />
   </section>
 </template>
@@ -32,6 +32,7 @@ const { t } = useI18n()
 import job_opportunities from '@/assets/images/job_opportunities.png'
 import working_environment from '@/assets/images/working_environment.png'
 import company_culture from '@/assets/images/company_culture.png'
+import { careers } from '@/data/careers'
 
 const bgDescription = `careers.description`
 const cardList = computed(() => [
