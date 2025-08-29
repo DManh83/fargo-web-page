@@ -36,7 +36,12 @@
             <div class="card-img-wrap">
               <img :src="item.image[0]" :alt="`news-${item.index}`" class="card-img" />
             </div>
-            <div class="card-title">{{ item.title }}</div>
+            <a-tooltip placement="bottomLeft">
+              <template #title>
+                <span>{{ item.title }}</span>
+              </template>
+              <div class="card-title">{{ item.title }}</div>
+            </a-tooltip>
           </RouterLink>
         </div>
       </a-carousel>
@@ -46,8 +51,9 @@
           size="large"
           type="default"
           @click="router.push('/news-insights')"
-          >{{ $t('btn.showMore') }}</a-button
         >
+          {{ $t('btn.showMore') }}
+        </a-button>
       </div>
     </div>
   </section>

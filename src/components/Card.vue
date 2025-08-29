@@ -71,7 +71,8 @@ function handleCardClick(path) {
   align-items: center;
   justify-content: space-between;
   gap: var(--gap);
-  width: 100%;
+  /* max-width: 1200px; */
+  width: 1200px;
   /* height: 388px; */
   cursor: var(--cursor);
 }
