@@ -1,6 +1,6 @@
 export default {
   careers: {
-    title: 'Nghề nghiệp',
+    title: 'Tuyển dụng',
     description: `"Điều khiển thế giới tiến lên — tham gia tương lai của logistics"`,
     jobOpportunities: 'Cơ hội nghề nghiệp',
     jobOpportunitiesDescription1: 'Tại Fargo Logistics, chúng tôi cung cấp một loạt cơ hội nghề nghiệp trong logistics, vận hành, dịch vụ khách hàng và quản lý. Mục tiêu của chúng tôi là thu hút những người có đam mê phát triển và cam kết với chất lượng.',
