@@ -27,8 +27,8 @@ const messages = loadLocaleMessages();
 const i18n = createI18n({
   legacy: true,
   globalInjection: true,
-  locale: localStorage.getItem('lang') || 'en-US',
-  fallbackLocale: 'en-US',
+  locale: localStorage.getItem('lang') || 'vi-VN',
+  fallbackLocale: 'vi-VN',
   messages,
 });
 

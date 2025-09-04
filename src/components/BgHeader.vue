@@ -62,9 +62,8 @@ defineProps({
 .overlay {
   width: 1200px;
   position: absolute;
-  top: 40%;
-  right: 20%;
-  transform: translateY(-50%);
+  top: 20%;
+  left: 10%;
   text-align: left;
   color: #fff;
   z-index: 2;

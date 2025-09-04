@@ -5,7 +5,7 @@
     </div>
 
     <a-menu class="menu" mode="horizontal" :selectedKeys="selectedKeys">
-      <template v-for="item in Menu" :key="item.name">
+      <template v-for="item in menu" :key="item.name">
         <!-- Nếu có children -->
         <a-sub-menu v-if="item.children" :key="item.name">
           <template #title>
@@ -41,11 +41,11 @@
       <a-button type="text" class="search-button">
         <SearchOutlined :style="{ fontSize: '24px' }" />
       </a-button>
-      <a-button type="text" class="us-button" @click="setLocale('en-US')">
-        <img :src="us" alt="us"/>
-      </a-button>
       <a-button type="text" class="vn-button" @click="setLocale('vi-VN')">
         <img :src="vn" alt="vn" />
+      </a-button>
+      <a-button type="text" class="us-button" @click="setLocale('en-US')">
+        <img :src="us" alt="us"/>
       </a-button>
       <a-button type="text" class="cn-button" @click="setLocale('zh-CN')">
         <img :src="cn" alt="cn" />
@@ -63,7 +63,7 @@ import us from '@/assets/images/us.png'
 import vn from '@/assets/images/vn.png'
 import cn from '@/assets/images/cn.png'
 
-const Menu = ref([
+const menu = ref([
   { name: 'menu.about', path: '/about-us' },
   {
     name: 'menu.services',
@@ -118,7 +118,7 @@ const activeKey = computed(() => {
     }
     return ''
   }
-  return findPath(Menu.value)
+  return findPath(menu.value)
 })
 
 const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
