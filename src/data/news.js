@@ -1,21 +1,25 @@
-import news1_img1 from '@/assets/images/news1_img1.webp'
-import news2_img1 from '@/assets/images/news2_img1.webp'
-import news3_img1 from '@/assets/images/news3_img1.webp'
-import news3_img2 from '@/assets/images/news3_img2.webp'
-import news3_img3 from '@/assets/images/news3_img3.webp'
-import news3_img4 from '@/assets/images/news3_img4.webp'
-import news3_img5 from '@/assets/images/news3_img5.webp'
-import news5_1 from '@/assets/images/news5_1.jpg'
-import news4_1 from '@/assets/images/news4_1.png'
-import news4_2 from '@/assets/images/news4_2.png'
-import news4_1_1 from '@/assets/images/news4_1_1.png'
-import news4_1_2 from '@/assets/images/news4_1_2.png'
-import news6_1 from '@/assets/images/news6_1.jpg'
-import news7_1 from '@/assets/images/news7_1.jpg'
-import news7_2 from '@/assets/images/news7_2.jpg'
-import news7_3 from '@/assets/images/news7_3.jpg'
-import news7_4 from '@/assets/images/news7_4.jpg'
-import news8_1 from '@/assets/images/news8_1.jpg'
+import news1_img1 from '@/assets/images/news/news1_img1.webp'
+import news2_img1 from '@/assets/images/news/news2_img1.webp'
+import news3_img1 from '@/assets/images/news/news3_img1.webp'
+import news3_img2 from '@/assets/images/news/news3_img2.webp'
+import news3_img3 from '@/assets/images/news/news3_img3.webp'
+import news3_img4 from '@/assets/images/news/news3_img4.webp'
+import news3_img5 from '@/assets/images/news/news3_img5.webp'
+import news5_1 from '@/assets/images/news/news5_1.jpg'
+import news4_1 from '@/assets/images/news/news4_1.png'
+import news4_2 from '@/assets/images/news/news4_2.png'
+import news4_1_1 from '@/assets/images/news/news4_1_1.png'
+import news4_1_2 from '@/assets/images/news/news4_1_2.png'
+import news6_1 from '@/assets/images/news/news6_1.jpg'
+import news7_1 from '@/assets/images/news/news7_1.jpg'
+import news7_2 from '@/assets/images/news/news7_2.jpg'
+import news7_3 from '@/assets/images/news/news7_3.jpg'
+import news7_4 from '@/assets/images/news/news7_4.jpg'
+import news8_1 from '@/assets/images/news/news8_1.jpg'
+import news9_1 from '@/assets/images/news/news9_1.jpg'
+import news10_1 from '@/assets/images/news/news10_1.webp'
+import news11_1 from '@/assets/images/news/news11_1.jpg'
+import news11_2 from '@/assets/images/news/news11_2.jpg'
 
 
 export const news = [
@@ -296,5 +300,78 @@ export const news = [
         `,
       }
     ]
-  }
+  },
+  {
+    id: 9,
+    title: `Điều gì sẽ xảy ra nếu các mức thuế quan của Trump bị hủy bỏ?`,
+    paragraphs:
+    `Washington, 3/9 (Reuters) – Tổng thống Mỹ Donald Trump cho biết Mỹ có thể phải “unwind” (hủy bỏ) các thỏa thuận thương mại đã ký với Liên minh châu Âu (EU), Nhật Bản, Hàn Quốc và nhiều đối tác khác nếu thua trong vụ kiện thuế quan tại Tòa án Tối cao. Ông cảnh báo: thất bại sẽ khiến nước Mỹ “chịu tổn thất nặng nề.”
+    Lời cảnh báo mạnh mẽ từ Nhà Trắng
+    Phát biểu tại Nhà Trắng, Trump khẳng định chính quyền của ông sẽ yêu cầu Tòa án Tối cao đảo ngược phán quyết từ Tòa phúc thẩm tuần trước – nơi nhiều mức thuế quan bị kết luận là “trái pháp luật.” Tuy vậy, ông vẫn tin rằng chính quyền sẽ giành chiến thắng.
+    Trump nói:
+    “Chúng ta đã đạt thỏa thuận với EU, họ trả cho chúng ta gần 1 nghìn tỷ USD. Họ hài lòng. Các thỏa thuận đã hoàn tất. Nhưng nếu thua kiện, có lẽ chúng ta sẽ phải hủy bỏ tất cả.”
+    Hệ quả tiềm ẩn
+    Theo Trump, việc gỡ bỏ thuế quan sẽ gây thiệt hại lớn cho Mỹ. Tuy nhiên, các chuyên gia thương mại nhấn mạnh rằng chính nhà nhập khẩu Mỹ chứ không phải công ty nước ngoài mới là bên trả thuế. Nhiều nhà kinh tế cảnh báo thuế quan có thể làm gia tăng lạm phát trong nước.
+    Ryan Majerus, cựu quan chức thương mại Mỹ, nhận định các thỏa thuận với EU, Nhật, Hàn vốn chỉ mang tính “khung,” có thể điều chỉnh. Phát biểu của Trump được xem như “nỗ lực gia tăng đòn bẩy” trước Tòa án Tối cao.
+    Vụ kiện thuế quan chưa có tiền lệ
+    Phán quyết của tòa phúc thẩm tập trung vào các mức thuế “có đi có lại” áp dụng từ tháng 4, cùng một loạt thuế bổ sung với Trung Quốc, Canada và Mexico. Những thuế này được cho là ngoài phạm vi quyền lực hợp pháp.
+    Giới quan sát đánh giá với tỷ lệ 6/3 thẩm phán do đảng Cộng hòa bổ nhiệm, Trump có thể có lợi thế nhất định. Tuy nhiên, tính chất chưa có tiền lệ của vụ kiện khiến kết quả rất khó dự đoán.
+    Phản ứng chính trị
+    Thượng nghị sĩ Ron Wyden – Chủ tịch phe Dân chủ tại Ủy ban Tài chính Thượng viện – chỉ trích phát biểu của Trump gây thêm hỗn loạn:
+    “Chính quyền Trump không thể đưa ra lập trường rõ ràng liệu các thỏa thuận thương mại này còn giá trị nếu thuế quan bị hủy bỏ.”
+    -Johnvu-
+    `,
+    date: '2025-09-05',
+    image: [news9_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 10,
+    title: `Toto khai trương nhà máy, tăng cường chuỗi cung ứng tại Mỹ`,
+    paragraphs:
+    `Toto khai trương nhà máy 224 triệu USD tại Georgia nhằm mở rộng công suất sản xuất bồn cầu cao cấp và tăng khả năng chống chịu chuỗi cung ứng khu vực.
+    Theo thông cáo ngày 22/8, nhà máy ba tầng Morrow với diện tích gần 34.000 m2 sẽ giúp nâng công suất sản xuất bồn cầu liền khối cao cấp lên thêm 150%. Toto cho biết sẽ chuyển một phần lớn hoạt động từ các nhà máy ở châu Á sang Bắc Mỹ, giảm thời gian giao hàng, đồng thời hướng tới mục tiêu phát triển bền vững dài hạn.
+    "Khoản đầu tư này khẳng định vị thế dẫn đầu của chúng tôi trong lĩnh vực thiết bị vệ sinh cao cấp, đồng thời tạo ra mạng lưới sản xuất linh hoạt và bền vững hơn", ông Taro Muroi, CEO Toto Mỹ, nhấn mạnh.
+    Việc mở rộng sản xuất tại chỗ dự kiến giúp tập đoàn rút ngắn thời gian đưa sản phẩm ra thị trường, giảm khoảng cách vận chuyển, giao hàng kịp thời hơn và cắt giảm khí thải carbon từ hoạt động logistics.
+    Nhà máy Morrow dành gần một nửa diện tích để sản xuất khoảng 300.000 bồn cầu liền khối mỗi năm - dòng sản phẩm chiến lược tại Bắc Mỹ. Khi đi vào hoạt động trong mùa thu năm nay, nhà máy mới sẽ nâng tổng công suất khu vực lên khoảng một triệu sản phẩm một năm, tính cả các cơ sở tại Morrow, Lakewood (Georgia) và Mexico.
+    Cơ sở này tạo việc làm cho 420 lao động địa phương, được trang bị hệ thống đúc áp lực cao cho phép sản xuất những mẫu bồn cầu kích thước lớn và thiết kế phức tạp, mở rộng danh mục sản phẩm cao cấp tại Bắc Mỹ.
+    Ngoài ra, Toto cũng ứng dụng công nghệ số để nâng cao hiệu quả vận hành. Mỗi sản phẩm được gắn mã QR chịu nhiệt, giúp theo dõi theo thời gian thực, kiểm soát chất lượng và phân tích dữ liệu nhằm tối ưu hóa quy trình sản xuất.
+    Thế Đan (theo Supply Chain Dive)
+    `,
+    date: '2025-09-05',
+    image: [news10_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 11,
+    title: `COSCO & OOCL SẼ ĐỐI MẶT PHÍ CẢNG MỸ LÊN TỚI 2 TỶ USD`,
+    paragraphs:
+    `Từ 14/10/2025, Mỹ sẽ bắt đầu thu phí cảng mới với tàu đóng tại Trung Quốc và tàu do hãng Trung Quốc vận hành khi cập cảng Mỹ:
+ 
+    Tàu đóng tại Trung Quốc: cao hơn giữa 18 USD/tấn dung tích tịnh hoặc 120 USD/container.
+    Tàu do hãng Trung Quốc vận hành: 50 USD/tấn dung tích tịnh.
+    Các mức phí sẽ tăng dần trong 4 năm tới nhằm thúc đẩy ngành đóng tàu Mỹ.
+
+    Theo HSBC, nếu không điều chỉnh mạng lưới:
+    Cosco có thể chịu 1,5-2 tỷ USD/năm (~600 USD/FEU, chiếm ~5% doanh thu).
+    OOCL ước tính mất 654 triệu USD, chiếm ~7% doanh thu, lợi nhuận có thể giảm 2/3.
+
+    Tình hình toàn ngành:
+    Chỉ ~15% chuyến ghé cảng Mỹ năm 2024 dùng tàu đóng tại Trung Quốc → tác động chung hạn chế.
+    Tuy nhiên, phí mới có thể gây hiệu ứng phụ:
+    Các hãng giữ lại tàu cũ lâu hơn → kéo dài dư cung.
+    Giảm linh hoạt khi triển khai tàu mới (nếu chỉ có tàu Trung Quốc).
+    Ocean Alliance (Cosco, OOCL, CMA CGM, Evergreen) buộc phải tái cơ cấu đội tàu. Cosco/OOCL dồn tàu sang tuyến khác, còn CMA CGM/Evergreen gánh nhiều hơn ở tuyến Mỹ
+
+    Phản ứng:
+    Cosco: cho rằng phí này làm méo mó thị trường.
+    OOCL: sẽ giảm phụ thuộc Mỹ, chuyển hướng thương mại sang nơi khác.
+    Maersk & các hãng lớn khác (Hapag-Lloyd, ONE, CMA CGM, Evergreen) đã luân chuyển tàu, tránh phí. Maersk cũng khẳng định không phát sinh chi phí và không áp phụ phí.
+
+    Chính sách mới nhắm trực diện vào Trung Quốc, tạo áp lực lớn lên Cosco & OOCL, đồng thời có thể khiến năng lực cung ứng biến động nếu các hãng phải tái cơ cấu mạng lưới toàn cầu.
+    `,
+    date: '2025-09-09',
+    image: [news11_1, news11_2],
+    category: 'fargoNews',
+  },
 ]

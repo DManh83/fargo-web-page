@@ -4,7 +4,7 @@
       :title="$t('about.about')"
       :subtitle="$t('support.faqs.title')"
       :imageSrc="bgTransportation"
-      :description="bgDescription"
+      :description="$t('support.description')"
     />
   </section>
   <section style="width: 1200px; display: flex; flex-direction: column; margin: 50px auto">
@@ -33,5 +33,4 @@ import bgTransportation from '@/assets/images/bg_transportation.png'
 import Banner from '@/components/Banner.vue'
 import SearchFAQs from './components/SearchFAQs.vue'
 
-const bgDescription = `support.description`
 </script>

@@ -4,7 +4,7 @@
       :title="$t('about.about')"
       :subtitle="$t('services.cargoInsurance.title')"
       :imageSrc="bgTransportation"
-      :description="bgDescription"
+      :description="$t('services.logisticsAndSupplyChain.description')"
     />
   </section>
   <section class="overview-container" style="margin: 50px auto 0; width: 1200px; height: auto">
@@ -96,8 +96,6 @@ import flexibleOptions from '@/assets/images/flexible_options.png'
 import peaceOfMind from '@/assets/images/peace_of_mind.png'
 
 const { t } = useI18n()
-
-const bgDescription = `services.logisticsAndSupplyChain.description`
 
 const overviewList = computed(() => [
   {

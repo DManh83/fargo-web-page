@@ -4,7 +4,7 @@
       :title="$t('about.about')"
       :subtitle="$t('support.contactUs.title')"
       :imageSrc="bgTransportation"
-      :description="bgDescription"
+      :description="$t('support.description')"
     />
   </section>
   <section style="width: 1200px; margin: 100px auto 50px; display: flex; gap: 50px">
@@ -23,5 +23,4 @@ import FormContact from './components/FormContact.vue'
 import ContactInfor from './components/ContactInfor.vue'
 import Banner from '@/components/Banner.vue'
 
-const bgDescription = `support.description`
 </script>

@@ -64,7 +64,7 @@ import { news } from '@/data/news'
 import { defineProps } from 'vue'
 import { onMounted } from 'vue'
 import { useStore } from 'vuex'
-import { useRouter } from 'vue-router'
+import { useRouter, RouterLink } from 'vue-router'
 const store = useStore()
 const router = useRouter()
 

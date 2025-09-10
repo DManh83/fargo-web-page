@@ -5,17 +5,17 @@
     </div>
 
     <a-menu class="menu" mode="horizontal" :selectedKeys="selectedKeys">
-      <template v-for="item in menu" :key="item.name">
-        <!-- Nếu có children -->
+      <template v-for="item in menu">
+        <!-- if item has children -->
         <a-sub-menu v-if="item.children" :key="item.name">
           <template #title>
-            <!-- Nếu có path thì làm RouterLink cho tiêu đề -->
+            <!-- if item has path then make RouterLink for title -->
             <RouterLink v-if="item.path" :to="item.path">{{ $t(item.name) }}</RouterLink>
             <span v-else>{{ $t(item.name) }}</span>
           </template>
 
-          <!-- render children -->
-          <template v-for="child in item.children" :key="child.name">
+          <!-- render children of item -->
+          <template v-for="child in item.children">
             <a-sub-menu v-if="child.children" :key="child.name">
               <template #title>
                 <RouterLink v-if="child.path" :to="child.path">{{ $t(child.name) }}</RouterLink>
@@ -31,13 +31,13 @@
             </a-menu-item>
           </template>
         </a-sub-menu>
-        <!-- If no children -->
+        <!-- if item has no children -->
         <a-menu-item v-else :key="item.name">
           <RouterLink :to="item.path">{{ $t(item.name) }}</RouterLink>
         </a-menu-item>
       </template>
     </a-menu>
-    <div style="display: flex; align-items: center;">
+    <div style="display: flex; align-items: center">
       <a-button type="text" class="search-button">
         <SearchOutlined :style="{ fontSize: '24px' }" />
       </a-button>
@@ -45,7 +45,7 @@
         <img :src="vn" alt="vn" />
       </a-button>
       <a-button type="text" class="us-button" @click="setLocale('en-US')">
-        <img :src="us" alt="us"/>
+        <img :src="us" alt="us" />
       </a-button>
       <a-button type="text" class="cn-button" @click="setLocale('zh-CN')">
         <img :src="cn" alt="cn" />
@@ -122,7 +122,6 @@ const activeKey = computed(() => {
 })
 
 const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
-
 </script>
 
 <style scoped>
@@ -169,5 +168,4 @@ const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
   color: #000;
   font-family: 'Poppins', sans-serif;
 }
-
 </style>

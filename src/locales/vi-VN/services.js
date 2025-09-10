@@ -64,6 +64,7 @@ export default {
     // eCommerceDescription: 'Giải pháp chuyển phát nhanh hàng không hiệu quả được thiết kế cho thương mại điện tử, cung cấp tốc độ, độ tin cậy và phạm vi toàn cầu.',
     transportation: {
       title: 'Vận chuyển',
+      description: `"Vượt qua vận chuyển, chúng tôi di chuyển khả năng"`,
       overviewDescription: `Tại Fargo Logistics, dịch vụ vận chuyển của chúng tôi bao gồm các giải pháp vận chuyển biển, không khí và đất được tùy chỉnh để đáp ứng nhu cầu của thương mại quốc tế. Với mạng lưới đối tác mạnh mẽ và công nghệ theo dõi tiên tiến, chúng tôi đảm bảo rằng hàng hóa được vận chuyển an toàn, đúng hạn và có hiệu quả. Từ vận chuyển hàng hóa quốc tế đến phân phối trong nước, chúng tôi cung cấp logistícs liên tục để kết nối doanh nghiệp và thị trường trên toàn cầu.`,
       relatedSolutionsDescription: `Chúng tôi cung cấp giải pháp vận chuyển biển, không khí và đất được tùy chỉnh để đáp ứng nhu cầu của thương mại quốc tế. Với mạng lưới đối tác mạnh mẽ và công nghệ theo dõi tiên tiến, chúng tôi đảm bảo rằng hàng hóa được vận chuyển an toàn, đúng hạn và có hiệu quả. Từ vận chuyển hàng hóa quốc tế đến phân phối trong nước, chúng tôi cung cấp logistícs liên tục để kết nối doanh nghiệp và thị trường trên toàn cầu.`,
       globalCoverage: 'Phạm vi toàn cầu',
@@ -75,7 +76,6 @@ export default {
       customerSupport: 'Hỗ trợ khách hàng',
       customerSupportDescription: `Chúng tôi tự hào về việc cung cấp dịch vụ khách hàng tốt nhất, 24/7. Từ hỏi đáp đến giải quyết vấn đề, đội ngũ của chúng tôi đảm bảo hoạt động mượt mà và bình tâm cho mọi khách hàng.`,
     },
-    transportationDescription: `"Vượt qua vận chuyển, chúng tôi di chuyển khả năng"`,
     overview: 'Tổng quan',
     transportationSolutions: 'Giải pháp vận chuyển',
     specializedLogistics: 'Logistics chuyên sâu',
@@ -86,7 +86,7 @@ export default {
     healthcareLogistics: 'Logistics sức khỏe',
     logisticsAndSupplyChain: {
       title: 'Logistics và chuỗi cung ứng',
-      description: `"Vượt qua vận chuyển, chúng tôi di chuyển khả năng"`,
+      description: `"Những bước đi thông minh. Chuỗi cung ứng mạnh mẽ"`,
       relatedSolutionsDescription: `Chúng tôi cung cấp logistics liên tục và giải pháp chuỗi cung ứng, bao gồm vận chuyển hàng hóa, kho hàng và phân phối. Với hệ thống tiên tiến và mạng lưới quốc tế, Fargo Logistics đảm bảo hiệu quả, tiết kiệm chi phí và độ tin cậy trên mọi lô hàng.`,
       overviewDescription: `Dịch vụ logistics và chuỗi cung ứng của chúng tôi được xây dựng dựa trên quan hệ đối tác toàn cầu, công nghệ hiện đại và đội ngũ giàu kinh nghiệm. Chúng tôi tập trung vào độ tin cậy, an toàn và hiệu quả chi phí để cung cấp các giải pháp vận chuyển quốc tế liền mạch. Với chuyên môn về vận tải đường biển, đường hàng không và đường bộ, chúng tôi đảm bảo mọi hàng hóa đều đến đích đúng giờ và trong tình trạng hoàn hảo.`,
       globalNetwork: 'Mạng lưới quốc tế',

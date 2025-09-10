@@ -24,8 +24,6 @@ const item = computed(() => {
 
 console.log(items)
 
-const description = `"In logistics, every move matters — stay informed, stay ahead"`
-
 const mainPost = computed(() => {
   const it = item.value
   return it
@@ -75,7 +73,7 @@ const related = computed(() => {
 
 <template>
   <section>
-    <BgHeader title="About" subtitle="News" :imageSrc="bgNews" :description="description" />
+    <BgHeader :title="$t('about.about')" :subtitle="$t('news.title')" :imageSrc="bgNews" :description="$t('news.description')" />
   </section>
 
   <section class="content-container">

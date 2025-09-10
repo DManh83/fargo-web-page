@@ -7,13 +7,13 @@
         <span class="title">{{ title }}</span>
       </div>
       <div class="overlay-subtitle">
-        <span class="subtitle">{{ $t(subtitle) }}</span>
+        <span class="subtitle">{{ subtitle }}</span>
       </div>
     </div>
     <img :src="imageSrc" alt="thumbnail" class="thumbnail" />
   </section>
   <div class="description">
-    <span>{{ $t(description) }}</span>
+    <span>{{ description }}</span>
   </div>
 </template>
 

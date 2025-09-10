@@ -32,9 +32,9 @@
               <div class="card-title">{{ item.title }}</div>
               <a-tooltip placement="bottomLeft">
                 <template #title>
-                  <span>{{ $t(item.description) }}</span>
+                  <span>{{ item.description }}</span>
                 </template>
-                <div class="card-description">{{ $t(item.description) }}</div>
+                <div class="card-description">{{ item.description }}</div>
               </a-tooltip>
             </div>
           </a-card>

@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section>
-    <BgHeader :title="$t('about.about')" :subtitle="$t('careers.title')" :imageSrc="bgCareers" :description="bgDescription" />
+    <BgHeader :title="$t('about.about')" :subtitle="$t('careers.title')" :imageSrc="bgCareers" :description="$t('careers.description')" />
   </section>
   <section v-for="card in cardList" :key="card.id" class="card-container">
     <Card
@@ -34,7 +34,6 @@ import working_environment from '@/assets/images/working_environment.png'
 import company_culture from '@/assets/images/company_culture.png'
 import { careers } from '@/data/careers'
 
-const bgDescription = `careers.description`
 const cardList = computed(() => [
   {
     id: 1,

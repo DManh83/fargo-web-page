@@ -38,6 +38,7 @@
 import { ref, computed } from 'vue'
 import { news } from '@/data/news'
 import { remember } from '@/utils/remember'
+import { RouterLink } from 'vue-router'
 
 const page = ref(1)
 const pageSize = 9

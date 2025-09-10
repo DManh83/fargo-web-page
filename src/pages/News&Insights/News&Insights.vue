@@ -6,7 +6,7 @@
       :title="$t('about.about')"
       :subtitle="$t('news.title')"
       :imageSrc="bgNews"
-      :description="description"
+      :description="$t('news.description')"
     />
   </section>
   <section class="featured-news-container">
@@ -30,7 +30,6 @@ import bgNews from '@/assets/images/news-insights.png'
 import { LatestNews, FeaturedNews } from './components'
 import Banner from '@/components/Banner.vue'
 
-const description = `news.description`
 </script>
 
 <style scoped>

@@ -2,9 +2,9 @@
   <section class="about-us-container">
     <BgHeader
       :title="$t('about.about')"
-      :subtitle="subtitle"
+      :subtitle="$t('about.subtitle')"
       :imageSrc="bgAbout"
-      :description="description"
+      :description="$t('about.description')"
     />
   </section>
   <section class="who-are-we-container">
@@ -27,8 +27,6 @@ import Banner from '@/components/Banner.vue'
 import { WhoAreWe, MissionVision, CoreValue } from './components'
 import bgAbout from '@/assets/images/bg_about.png'
 
-const description = 'about.description'
-const subtitle = 'about.subtitle'
 </script>
 
 <style scoped>

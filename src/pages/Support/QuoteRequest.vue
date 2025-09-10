@@ -4,7 +4,7 @@
       :title="$t('about.about')"
       :subtitle="$t('support.quoteRequest.title')"
       :imageSrc="bgTransportation"
-      :description="bgDescription"
+      :description="$t('support.description')"
     />
   </section>
   <section style="width: 1200px; display: flex; flex-direction: column; margin: 50px auto">
@@ -36,7 +36,6 @@ import FormRequest from './components/FormRequest.vue'
 import QuickLink from './components/QuickLink.vue'
 import Banner from '@/components/Banner.vue'
 
-const bgDescription = `support.description`
 </script>
 <style scoped>
 .container {

@@ -5,7 +5,7 @@
       :title="$t('about.about')"
       :subtitle="$t('services.airFreight.title')"
       :imageSrc="airFreight"
-      :description="bgDescription"
+      :description="$t('services.transportation.description')"
     />
   </section>
   <section class="overview-container">
@@ -77,7 +77,6 @@ import BC from '@/assets/images/bc.png'
 
 const { t } = useI18n()
 
-const bgDescription = 'services.transportationDescription'
 const overviewList = computed(() => [
   {
     id: 1,

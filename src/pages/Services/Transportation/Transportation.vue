@@ -3,9 +3,9 @@
   <section>
     <BgHeader
       :title="$t('about.about')"
-      :subtitle="subtitle"
+      :subtitle="$t('services.transportation.title')"
       :imageSrc="bgTransportation"
-      :description="bgDescription"
+      :description="$t('services.transportation.description')"
     />
   </section>
   <section class="overview-container">
@@ -79,9 +79,6 @@ import seaFreight from '@/assets/images/sea_freight.png'
 import airFreight from '@/assets/images/air_freight.png'
 
 const { t } = useI18n()
-
-const bgDescription = 'services.transportationDescription'
-const subtitle = 'services.transportation.title'
 
 const items = computed(() => [
   {

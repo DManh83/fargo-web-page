@@ -59,11 +59,11 @@ export default {
       technologyDrivenDescription: 'We integrate advanced platforms and smart analytics to optimize operations, improve decision-making, and deliver stronger results across the entire e-commerce supply chain.',
     },
 
-    transportationDescription: `"Beyond Shipping, We Move Possibilities"`,
     overview: 'Overview',
     advantages: 'Advantages',
     transportation: {
       title: 'Transportation',
+      description: `"Beyond Shipping, We Move Possibilities"`,
       overviewDescription: `At Fargo Logistics, our transportation services cover sea, air, and land solutions tailored to meet the needs of global trade. With a strong network of partners and advanced tracking technology, we ensure shipments are delivered safely, on time, and cost-effectively. From international freight forwarding to domestic distribution, we provide seamless logistics that connect businesses and markets worldwide.`,
       relatedSolutionsDescription: `We offer reliable sea, air, and inland transport solutions, ensuring shipments are delivered on time and in perfect condition. Our global network and advanced systems keep every delivery smooth and efficient.`,
       globalCoverage: 'Global Coverage',

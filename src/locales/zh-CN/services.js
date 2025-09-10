@@ -9,60 +9,78 @@ export default {
     customsBrokerage: {
       title: '报关代理',
       description: '快速可靠的海关清关服务，确保您的货物符合法规并顺利跨越边境。',
-      overviewDescription: '报关代理是物流的重要组成部分，提供快速可靠的海关清关服务，确保您的货物符合法规并顺利跨越边境。',
+      overviewDescription:
+        '报关代理是物流的重要组成部分，提供快速可靠的海关清关服务，确保您的货物符合法规并顺利跨越边境。',
       regulatoryExpertise: '监管专业知识',
-      regulatoryExpertiseDescription: '我们的专家了解海关法规，并提供准确指导以降低风险、避免昂贵错误并确保顺畅的海关清关流程。',
+      regulatoryExpertiseDescription:
+        '我们的专家了解海关法规，并提供准确指导以降低风险、避免昂贵错误并确保顺畅的海关清关流程。',
       timeEfficiency: '时间效率',
-      timeEfficiencyDescription: '我们简化文件流程并协调与海关当局合作，减少延误，确保每次货物都能快速高效地通过。',
+      timeEfficiencyDescription:
+        '我们简化文件流程并协调与海关当局合作，减少延误，确保每次货物都能快速高效地通过。',
       costSavings: '成本节省',
-      costSavingsDescription: '通过优化关税分类和关税管理，我们帮助企业降低成本，同时完全遵守全球贸易法规标准。',
+      costSavingsDescription:
+        '通过优化关税分类和关税管理，我们帮助企业降低成本，同时完全遵守全球贸易法规标准。',
       dedicatedSupport: '专属支持',
-      dedicatedSupportDescription: '我们的团队提供 24/7 协助，提供清晰更新和主动解决方案，确保客户在全球物流运输的每个阶段都能获得可靠服务。',
+      dedicatedSupportDescription:
+        '我们的团队提供 24/7 协助，提供清晰更新和主动解决方案，确保客户在全球物流运输的每个阶段都能获得可靠服务。',
     },
     cargoInsurance: {
       title: '货物保险',
       description: '全面保护您的货物，最大限度地降低风险并确保货物在整个旅程中的安全。',
-      overviewDescription: '货物保险保护货物免受海上、空中或陆地运输过程中的损失或损坏。它包括事故、自然灾害和盗窃，帮助企业降低风险并维持财务安全。通过量身定制的计划，企业可以安心专注于发展，同时知道他们的宝贵货物始终受到保险、监控和全面保护。',
+      overviewDescription:
+        '货物保险保护货物免受海上、空中或陆地运输过程中的损失或损坏。它包括事故、自然灾害和盗窃，帮助企业降低风险并维持财务安全。通过量身定制的计划，企业可以安心专注于发展，同时知道他们的宝贵货物始终受到保险、监控和全面保护。',
       comprehensiveCoverage: '全面覆盖',
-      comprehensiveCoverageDescription: '我们保护货物免受事故、自然灾害和盗窃的影响，确保货物保持安全、完全受保护并保持财务安全。',
+      comprehensiveCoverageDescription:
+        '我们保护货物免受事故、自然灾害和盗窃的影响，确保货物保持安全、完全受保护并保持财务安全。',
       costProtection: '成本保护',
-      costProtectionDescription: '保险可以减少意外损失并防止重大财务损失，帮助企业更加稳定、自信和灵活地进行国际贸易活动。',
+      costProtectionDescription:
+        '保险可以减少意外损失并防止重大财务损失，帮助企业更加稳定、自信和灵活地进行国际贸易活动。',
       flexibleOptions: '灵活选项',
-      flexibleOptionsDescription: '保险可以定制以适应货物大小、运输方式和客户需求，提供可靠、实用的解决方案，适合每个独特的物流操作。',
+      flexibleOptionsDescription:
+        '保险可以定制以适应货物大小、运输方式和客户需求，提供可靠、实用的解决方案，适合每个独特的物流操作。',
       peaceOfMind: '安心',
-      peaceOfMindDescription: '通过强大的保护和可信赖的支持，企业可以专注于发展，同时知道他们的宝贵货物始终受到保险、监控和全面保护。',
+      peaceOfMindDescription:
+        '通过强大的保护和可信赖的支持，企业可以专注于发展，同时知道他们的宝贵货物始终受到保险、监控和全面保护。',
     },
     warehousing: {
       title: '仓储和仓库',
       description: '安全、现代且战略位置的仓库，优化存储并简化您的供应链。',
-      overviewDescription: '仓储是物流的重要组成部分，提供安全、温度控制的存储解决方案。Fargo Logistics 提供从短期存储到长期解决方案的多种仓储解决方案，确保您的货物始终安全且安全。',
+      overviewDescription:
+        '仓储是物流的重要组成部分，提供安全、温度控制的存储解决方案。Fargo Logistics 提供从短期存储到长期解决方案的多种仓储解决方案，确保您的货物始终安全且安全。',
       secureFacilities: '安全设施',
-      secureFacilitiesDescription: '我们的仓库配备了先进的安保、监控和防火系统，确保货物在全球范围内始终保持安全。',
+      secureFacilitiesDescription:
+        '我们的仓库配备了先进的安保、监控和防火系统，确保货物在全球范围内始终保持安全。',
       flexibleSolutions: '灵活解决方案',
-      flexibleSolutionsDescription: '我们提供短期和长期存储选项，允许企业快速适应并更高效地管理库存。',
+      flexibleSolutionsDescription:
+        '我们提供短期和长期存储选项，允许企业快速适应并更高效地管理库存。',
       costEfficiency: '成本效率',
       costEfficiencyDescription: '优化存储计划可以降低处理费用并帮助企业实现更好的供应链成本节省。',
       technologyIntegration: '技术整合',
-      technologyIntegrationDescription: '通过实时跟踪和智能仓库管理工具，客户可以监控库存、规划操作并无缝提高生产力。',
+      technologyIntegrationDescription:
+        '通过实时跟踪和智能仓库管理工具，客户可以监控库存、规划操作并无缝提高生产力。',
     },
     eCommerce: {
       title: '电子商务（空运快递）',
       description: '为电子商务设计的空运快递解决方案，提供速度、可靠性和全球覆盖。',
-      overviewDescription: '电子商务（空运快递）是为电子商务设计的空运快递解决方案，提供速度、可靠性和全球覆盖。Fargo Logistics 提供定制的空运快递服务，确保及时交付和无缝物流。',
+      overviewDescription:
+        '电子商务（空运快递）是为电子商务设计的空运快递解决方案，提供速度、可靠性和全球覆盖。Fargo Logistics 提供定制的空运快递服务，确保及时交付和无缝物流。',
       fastFulfillment: '快速履约',
-      fastFulfillmentDescription: '我们快速处理和分发订单，确保客户按时收到他们的购买，准确且一致的高质量服务交付。',
+      fastFulfillmentDescription:
+        '我们快速处理和分发订单，确保客户按时收到他们的购买，准确且一致的高质量服务交付。',
       scalableSolutions: '可扩展解决方案',
-      scalableSolutionsDescription: '我们的系统适应季节性高峰、促销或业务增长，为全球可持续长期扩张提供可靠的支持。',
+      scalableSolutionsDescription:
+        '我们的系统适应季节性高峰、促销或业务增长，为全球可持续长期扩张提供可靠的支持。',
       customerExperience: '客户体验',
-      customerExperienceDescription: '通过提供准确的跟踪、灵活的交付选项和及时的沟通，我们提高客户信任、满意度和整体强大的品牌忠诚度。',
+      customerExperienceDescription:
+        '通过提供准确的跟踪、灵活的交付选项和及时的沟通，我们提高客户信任、满意度和整体强大的品牌忠诚度。',
       technologyDriven: '技术驱动',
-      technologyDrivenDescription: '我们集成先进的平台和智能分析，优化运营、改善决策并提高整个电子商务供应链的强大结果。',
+      technologyDrivenDescription:
+        '我们集成先进的平台和智能分析，优化运营、改善决策并提高整个电子商务供应链的强大结果。',
     },
     // customsBrokerageDescription: '快速可靠的海关清关服务，确保您的货物符合法规并顺利跨越边境。',
     // cargoInsuranceDescription: '全面保护您的货物，最大限度地降低风险并确保货物在整个旅程中的安全。',
     // warehousingDescription: '安全、现代且战略位置的仓库，优化存储并简化您的供应链。',
     // eCommerceDescription: '为电子商务设计的空运快递解决方案，提供速度、可靠性和全球覆盖。',
-    transportationDescription: `"超越运输，我们移动可能性"`,
     overview: '概览',
     overviewTransportationDescription: `在 Fargo Logistics，我们的运输服务涵盖海运、空运和陆运解决方案，满足全球贸易的需求。凭借强大的合作伙伴网络和先进的跟踪技术，我们确保货物安全、准时交付，并实现成本效益。从国际货运代理到国内分销，我们提供无缝物流，连接全球企业和市场。`,
     overviewSeaFreightDescription: `海运仍然是运输大量货物到国际市场的最经济和可靠的方法。Fargo Logistics 提供 FCL（整箱装载）和 LCL（拼箱装载）服务，具有灵活的日程安排和有竞争力的费率。凭借与主要承运人的强大合作伙伴关系，我们确保顺畅操作、安全处理和及时交付所有货物。`,
@@ -70,6 +88,7 @@ export default {
     advantages: '优势',
     transportation: {
       title: '运输',
+      description: `"除了航运，我们传递无限可能"`,
       overviewDescription: `在 Fargo Logistics，我们的运输服务涵盖海运、空运和陆运解决方案，满足全球贸易的需求。凭借强大的合作伙伴网络和先进的跟踪技术，我们确保货物安全、准时交付，并实现成本效益。从国际货运代理到国内分销，我们提供无缝物流，连接全球企业和市场。`,
       relatedSolutionsDescription: `我们提供定制的海运、空运和陆运解决方案，满足国际贸易的需求。凭借强大的合作伙伴网络和先进的跟踪技术，我们确保货物安全、准时交付，并实现成本效益。从国际货运代理到国内分销，我们提供无缝物流，连接全球企业和市场。`,
       globalCoverage: '全球覆盖',
@@ -90,7 +109,7 @@ export default {
     healthcareLogistics: '医疗物流',
     logisticsAndSupplyChain: {
       title: '物流和供应链',
-      description: `"超越运输，我们移动可能性"`,
+      description: `"明智之举，强大的供应链"`,
       relatedSolutionsDescription: `我们提供整合的物流和供应链解决方案，包括货运代理、仓储和分销。凭借先进的系统和全球网络，Fargo Logistics 确保每个货物的效率、成本节省和可靠性。`,
       overviewDescription: `我们的物流和供应链服务以全球合作伙伴关系、现代技术和经验丰富的团队为基础。我们注重可靠性、安全性和成本效益，提供无缝衔接的国际运输解决方案。凭借在海运、空运和内陆运输领域的专业知识，我们确保每件货物都能按时完好无损地抵达目的地。`,
       globalNetwork: '全球网络',
@@ -139,4 +158,4 @@ export default {
     },
     relatedSolutions: '相关解决方案',
   },
-};
+}

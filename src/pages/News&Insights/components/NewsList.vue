@@ -2,6 +2,7 @@
 import { ref, computed } from 'vue'
 import { formatDate } from '@/utils/formatDate'
 import { remember } from '@/utils/remember'
+import { RouterLink } from 'vue-router'
 
 const props = defineProps({
   items: {
