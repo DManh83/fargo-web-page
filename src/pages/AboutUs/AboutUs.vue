@@ -26,7 +26,6 @@ import BgHeader from '../../components/BgHeader.vue'
 import Banner from '@/components/Banner.vue'
 import { WhoAreWe, MissionVision, CoreValue } from './components'
 import bgAbout from '@/assets/images/bg_about.png'
-
 </script>
 
 <style scoped>

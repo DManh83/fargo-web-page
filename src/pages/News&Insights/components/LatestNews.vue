@@ -13,7 +13,7 @@
           params: { id: item.id },
           query: { title: item.title },
         }"
-        @click="remember(item)"
+        @click="remember(store, item, 'news')"
       >
         <img :src="item.image[0]" alt="" class="news-card_img" />
         <h3 class="news-card_title">{{ item.title }}</h3>
@@ -39,6 +39,9 @@ import { ref, computed } from 'vue'
 import { news } from '@/data/news'
 import { remember } from '@/utils/remember'
 import { RouterLink } from 'vue-router'
+import { useStore } from 'vuex'
+
+const store = useStore()
 
 const page = ref(1)
 const pageSize = 9

@@ -31,11 +31,14 @@
               params: { id: item.id },
               query: { title: item.title },
             }"
-            @click="remember(item)"
+            @click="remember(store, item, 'news')"
           >
-            <div class="card-img-wrap">
-              <img :src="item.image[0]" :alt="`news-${item.index}`" class="card-img" />
+            <div v-if="item.image && item.image.length > 0">
+              <div class="card-img-wrap">
+                <img :src="item.image[0]" :alt="`news-${item.index}`" class="card-img" />
+              </div>
             </div>
+
             <a-tooltip placement="bottomLeft">
               <template #title>
                 <span>{{ item.title }}</span>
@@ -65,6 +68,7 @@ import { defineProps } from 'vue'
 import { onMounted } from 'vue'
 import { useStore } from 'vuex'
 import { useRouter, RouterLink } from 'vue-router'
+import { remember } from '@/utils/remember'
 const store = useStore()
 const router = useRouter()
 
@@ -96,10 +100,6 @@ const items = shuffle([...news])
 onMounted(() => {
   store.dispatch('news/setItems', [...items])
 })
-
-function remember(it) {
-  store.dispatch('news/setItem', it)
-}
 </script>
 
 <style scoped>

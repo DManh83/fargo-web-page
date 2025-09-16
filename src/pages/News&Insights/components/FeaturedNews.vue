@@ -6,6 +6,7 @@ import NewsList from './NewsList.vue'
 import { formatDate } from '@/utils/formatDate'
 import { news } from '@/data/news'
 import { onImgErr } from '@/utils/imgErr'
+import { remember } from '@/utils/remember'
 
 const store = useStore()
 
@@ -25,11 +26,6 @@ onMounted(() => {
   store.dispatch('news/setItems', [...allNews])
 })
 
-function remember(it) {
-  store.dispatch('news/setItem', it)
-}
-
-
 </script>
 
 <template>
@@ -46,9 +42,9 @@ function remember(it) {
           params: { id: featuredNews[0].id },
           query: { title: featuredNews[0].title },
         }"
-        @click="remember(featuredNews[0])"
+        @click="remember(store, featuredNews[0], 'news')"
       >
-        <div class="fn_thumb">
+        <div v-if="featuredNews[0].image && featuredNews[0].image.length > 0" class="fn_thumb">
           <img :src="featuredNews[0].image[0]" :alt="featuredNews[0].title" @error="onImgErr" />
         </div>
         <div class="fn_meta">
@@ -67,9 +63,9 @@ function remember(it) {
           params: { id: it.id },
           query: { title: it.title },
         }"
-        @click="remember(it)"
+        @click="remember(store, it, 'news')"
       >
-        <div class="fn_thumb fn_thumb-sm">
+        <div v-if="it.image && it.image.length > 0" class="fn_thumb fn_thumb-sm">
           <img :src="it.image[0]" :alt="it.title" @error="onImgErr" />
         </div>
         <div class="fn_meta">

@@ -22,8 +22,6 @@ const item = computed(() => {
   return byId || store.getters['news/currentItem'] || null
 })
 
-console.log(items)
-
 const mainPost = computed(() => {
   const it = item.value
   return it
@@ -86,7 +84,7 @@ const related = computed(() => {
             <path fill="currentColor" d="M12 8a4 4 0 1 0 .001 8.001A4 4 0 0 0 12 8" />
           </svg>
         </span>
-        <span class="cat">{{ $t('news.fargoNews') }}</span>
+        <span class="cat">{{ $t(`news.${item.category}`) }}</span>
         <span class="sep">|</span>
         <time>{{ formatDate(mainPost.date) }}</time>
       </div>

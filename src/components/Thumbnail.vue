@@ -5,12 +5,16 @@
     <div class="overlay">
       <h1 class="title">{{ title }}</h1>
       <div v-if="showButtons" class="buttons">
-        <a-button class="btn request-quote" type="primary" size="large">{{
-          $t('btn.requestQuote')
-        }}</a-button>
-        <a-button class="btn learn-more" type="default" size="large">{{
-          $t('btn.learnMore')
-        }}</a-button>
+        <RouterLink to="/support/quote-request">
+          <a-button class="btn request-quote" type="primary" size="large">{{
+            $t('btn.requestQuote')
+          }}</a-button>
+        </RouterLink>
+        <RouterLink to="/about-us">
+          <a-button class="btn learn-more" type="default" size="large">{{
+            $t('btn.learnMore')
+          }}</a-button>
+        </RouterLink>
       </div>
     </div>
     <img :src="imageSrc" alt="thumbnail" class="thumbnail" />

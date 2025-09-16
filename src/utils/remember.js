@@ -1,3 +1,3 @@
-export const remember = (store, items, key) => {
-  store.dispatch(`${key}/setItems`, [...items])
+export const remember = (store, item, key) => {
+  store.dispatch(`${key}/setItem`, item)
 }

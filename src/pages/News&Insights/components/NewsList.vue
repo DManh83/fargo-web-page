@@ -3,6 +3,9 @@ import { ref, computed } from 'vue'
 import { formatDate } from '@/utils/formatDate'
 import { remember } from '@/utils/remember'
 import { RouterLink } from 'vue-router'
+import { useStore } from 'vuex'
+
+const store = useStore()
 
 const props = defineProps({
   items: {
@@ -18,7 +21,7 @@ const pageSize = 9
 
 const its = ref(
   Array.from({ length: props.items.length }).map((_, i) => ({
-    id: i + 1,
+    id: props.items[i].id,
     image: props.items[i].image,
     title: props.items[i].title,
     date: props.items[i].date,
@@ -43,7 +46,7 @@ const pagedItems = computed(() => {
           params: { id: item.id },
           query: { title: item.title },
         }"
-        @click="remember(item)"
+        @click="remember(store, item, 'news')"
       >
         <img :src="item.image[0]" alt="thumbnail" class="news-item_image" />
         <div class="news-item_content">

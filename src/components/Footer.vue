@@ -10,9 +10,7 @@
         <div class="contact">
           <div class="address">
             <EnvironmentOutlined class="address-icon" />
-            <span class="address-text"
-              >{{ $t('contact.address') }}</span
-            >
+            <span class="address-text">{{ $t('contact.address') }}</span>
           </div>
           <div class="phone">
             <PhoneOutlined class="phone-icon" />
@@ -30,30 +28,36 @@
         </div>
       </div>
       <div class="footer-right">
-        <div class="about-us">
-          <span class="title">{{ $t('routes.aboutUs') }}</span>
-          <ul>
-            <li @click="handleClick('/news-insights')">{{ $t('routes.newsInsights') }}</li>
-            <li @click="handleClick('/careers')">{{ $t('routes.careers') }}</li>
-            <li @click="handleClick('/about-us')">{{ $t('routes.aboutUs') }}</li>
-          </ul>
-        </div>
-        <div class="services">
-          <span class="title">{{ $t('routes.services') }}</span>
-          <ul>
-            <li @click="handleClick('/transportation')">{{ $t('routes.transportation') }}</li>
-            <li @click="handleClick('/logistics-and-supply-chain')">{{ $t('routes.logisticsAndSupplyChain') }}</li>
-          </ul>
-        </div>
-        <div class="support" style="margin-right: 10%; margin-top: 40px">
-          <span class="title">{{ $t('routes.support') }}</span>
-          <ul>
-            <li @click="handleClick('/support/quote-request')">{{ $t('routes.quoteRequest') }}</li>
-            <li @click="handleClick('/support/faqs')">{{ $t('routes.faqs') }}</li>
-            <li>{{ $t('routes.trackAndTrace') }}</li>
-            <li @click="handleClick('/support/contact-us')">{{ $t('routes.contactUs') }}</li>
-            <li>{{ $t('routes.resources') }}</li>
-          </ul>
+        <div class="footer-right-content">
+          <div class="about-us">
+            <span class="title">{{ $t('routes.aboutUs') }}</span>
+            <ul>
+              <li @click="handleClick('/news-insights')">{{ $t('routes.newsInsights') }}</li>
+              <li @click="handleClick('/careers')">{{ $t('routes.careers') }}</li>
+              <li @click="handleClick('/about-us')">{{ $t('routes.aboutUs') }}</li>
+            </ul>
+          </div>
+          <div class="services">
+            <span class="title">{{ $t('routes.services') }}</span>
+            <ul>
+              <li @click="handleClick('/transportation')">{{ $t('routes.transportation') }}</li>
+              <li @click="handleClick('/logistics-and-supply-chain')">
+                {{ $t('routes.logisticsAndSupplyChain') }}
+              </li>
+            </ul>
+          </div>
+          <div class="support">
+            <span class="title">{{ $t('routes.support') }}</span>
+            <ul>
+              <li @click="handleClick('/support/quote-request')">
+                {{ $t('routes.quoteRequest') }}
+              </li>
+              <li @click="handleClick('/support/faqs')">{{ $t('routes.faqs') }}</li>
+              <li>{{ $t('routes.trackAndTrace') }}</li>
+              <li @click="handleClick('/support/contact-us')">{{ $t('routes.contactUs') }}</li>
+              <li>{{ $t('routes.resources') }}</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -180,9 +184,12 @@ function handleClick(path) {
   width: 50%;
   height: 100%;
   background-color: #052e5e;
+  align-content: center;
+}
+
+.footer-right-content {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .about-us,

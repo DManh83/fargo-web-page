@@ -35,7 +35,6 @@ import { ref, onMounted, computed } from 'vue'
 import { useStore } from 'vuex'
 import { useRouter } from 'vue-router'
 import { careers } from '@/data/careers'
-// import { remember } from '@/utils/remember'
 
 const router = useRouter()
 const store = useStore()
@@ -46,7 +45,7 @@ const pageSize = 9
 // Base 6 cards like your screenshot
 const items = ref(
   Array.from({ length: careers.length }).map((_, i) => ({
-    id: i + 1,
+    id: careers[i].id,
     title: careers[i].title,
     description: careers[i].description,
     paragraphs: careers[i].paragraphs,
