@@ -35,6 +35,8 @@ const i18n = createI18n({
 export function setLocale(lang) {
   localStorage.setItem('lang', lang)
   i18n.global.locale = lang
+  const htmlLang = (lang || 'vi-VN').split('-')[0]
+  document.documentElement.setAttribute('lang', htmlLang)
 }
 
 export default i18n

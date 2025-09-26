@@ -92,9 +92,14 @@ const handleClick = () => {
 .banner-title {
   font-size: 40px;
   font-weight: 400;
-  font-family: 'Racing Sans One';
+  font-family: var(--font-accent);
   letter-spacing: 0.04em;
   color: #FFB23F
+}
+.banner-title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 36px !important;
+  font-weight: 800 !important;
 }
 
 .banner-button {

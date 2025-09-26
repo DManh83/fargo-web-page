@@ -59,7 +59,7 @@ export default {
       title: 'Liên hệ chúng tôi',
       contactFargoLogistics: 'Liên hệ Fargo Logistics',
       contactInformation: 'Thông tin liên hệ',
-      address: 'Số 50, Đường 1, Khu dân cư Cityland, Phường Hành Thông, Thành phố Hồ Chí Minh, Việt Nam',
+      address: 'Số 50, Đường 1, Khu dân cư Cityland, Phường Hạnh Thông, Thành phố Hồ Chí Minh, Việt Nam',
     },
   },
 }

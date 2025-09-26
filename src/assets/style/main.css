@@ -1,0 +1,8 @@
+:root {
+  --font-vi: 'Roboto', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  --font-accent: 'Racing Sans One', var(--font-vi);
+}
+
+body {
+  font-family: var(--font-vi);
+}

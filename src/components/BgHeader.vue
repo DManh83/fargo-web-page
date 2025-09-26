@@ -101,6 +101,12 @@ defineProps({
   margin: none;
   justify-self: end;
 }
+.subtitle:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 96px !important;
+  font-weight: 700 !important;
+  font-style: italic;
+}
 .description {
   height: 81px;
   background-color: #052e5e;
@@ -116,5 +122,11 @@ defineProps({
   line-height: 129%;
   letter-spacing: 0.04em;
   color: #ffffff;
+}
+.description span:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 400 !important;
+  font-style: italic;
 }
 </style>

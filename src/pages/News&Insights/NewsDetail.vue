@@ -4,7 +4,6 @@ import { useRoute } from 'vue-router'
 import { useStore } from 'vuex'
 import BgHeader from '@/components/BgHeader.vue'
 import bgNews from '@/assets/images/news-insights.png'
-import checker from '@/assets/images/Checker.png'
 import Banner from '@/components/Banner.vue'
 import { formatDate } from '@/utils/formatDate'
 import {  NewRender, Related } from './components'
@@ -29,7 +28,7 @@ const mainPost = computed(() => {
         id: it.id,
         title: it.title,
         date: it.date,
-        image: it.image || [checker],
+        image: it.image || [],
         paragraphs: formatToParagraphs(it.paragraphs),
         children: it.children || [],
       }
@@ -37,7 +36,7 @@ const mainPost = computed(() => {
         id: route.params.id,
         title: pageTitle.value,
         date: '2025-07-11',
-        image: checker,
+        image: [],
         paragraphs: ['Loading content...', 'If this persists, please try again later.'],
       }
 })
@@ -63,7 +62,7 @@ const related = computed(() => {
     id: it.id,
     title: it.title,
     date: it.date,
-    image: it.image || [checker],
+    image: it.image || [],
   }))
 })
 

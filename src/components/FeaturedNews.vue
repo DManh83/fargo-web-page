@@ -33,9 +33,14 @@
             }"
             @click="remember(store, item, 'news')"
           >
-            <div v-if="item.image && item.image.length > 0">
+            <div>
               <div class="card-img-wrap">
-                <img :src="item.image[0]" :alt="`news-${item.index}`" class="card-img" />
+                <img
+                  :src="item.image && item.image.length > 0 && item.image[0]"
+                  :alt="`news-${item.id}`"
+                  class="card-img"
+                  @error="onImgErr"
+                />
               </div>
             </div>
 
@@ -69,6 +74,7 @@ import { onMounted } from 'vue'
 import { useStore } from 'vuex'
 import { useRouter, RouterLink } from 'vue-router'
 import { remember } from '@/utils/remember'
+import { onImgErr } from '@/utils/imgErr'
 const store = useStore()
 const router = useRouter()
 
@@ -179,7 +185,7 @@ h1 {
   text-align: start;
   width: 100%;
   max-width: 380px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-vi);
   display: -webkit-box;
   -webkit-line-clamp: 2; /* WebKit-specific property to limit the number of lines */
   -webkit-box-orient: vertical;

@@ -69,7 +69,12 @@ onMounted(() => {
           <img :src="it.image[0]" :alt="it.title" @error="onImgErr" />
         </div>
         <div class="fn_meta">
-          <h3 class="fn_headline fn_headline-sm">{{ it.title }}</h3>
+          <a-tooltip placement="bottomLeft">
+            <template #title>
+              <span>{{ it.title }}</span>
+            </template>
+            <h3 class="fn_headline fn_headline-sm">{{ it.title }}</h3>
+          </a-tooltip>
           <p class="fn_date">{{ formatDate(it.date) }}</p>
         </div>
       </RouterLink>
@@ -97,11 +102,11 @@ onMounted(() => {
   /* padding: 0 16px 24px; */
 }
 .fn_title {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 800;
   color: #0b2e5e;
   margin: 16px 0 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-vi);
   margin-bottom: 30px;
 }
 
@@ -118,6 +123,7 @@ onMounted(() => {
   color: inherit;
 }
 .fn_card:hover .fn_headline {
+  font-family: var(--font-vi);
   text-decoration: underline;
 }
 
@@ -169,7 +175,7 @@ onMounted(() => {
   line-height: 1.35;
   color: #0b2e5e;
   margin: 0 0 6px;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-vi);
 }
 .fn_headline-sm {
   font-size: 18px;
@@ -179,7 +185,7 @@ onMounted(() => {
   -webkit-line-clamp: 2; /* WebKit-specific property to limit the number of lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-vi);
 }
 .fn_date {
   font-size: 13px;

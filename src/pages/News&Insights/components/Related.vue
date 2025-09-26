@@ -9,10 +9,19 @@
         :to="{ name: 'News Detail', params: { id: item.id }, query: { title: item.title } }"
       >
         <div class="side_thumb">
-          <img :src="item.image[0]" alt="" @error="onImgErr" />
+          <img
+            :src="item.image && item.image.length > 0 && item.image[0]"
+            :alt="`news-${item.id}`"
+            @error="onImgErr"
+          />
         </div>
         <div class="side_meta">
-          <h4 class="side_headline">{{ item.title }}</h4>
+          <a-tooltip placement="bottomLeft">
+            <template #title>
+              <span>{{ item.title }}</span>
+            </template>
+            <h4 class="side_headline">{{ item.title }}</h4>
+          </a-tooltip>
           <p class="side_date">{{ formatDate(item.date) }}</p>
         </div>
       </RouterLink>
@@ -64,6 +73,7 @@ defineProps({
   margin-bottom: 12px;
 }
 .side_item:hover .side_headline {
+  font-family: var(--font-vi);
   text-decoration: underline;
 }
 
@@ -81,13 +91,14 @@ defineProps({
 }
 
 .side_headline {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   color: #0b2e5e;
   margin: 4px 0 6px;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
+  font-family: var(--font-vi);
   overflow: hidden;
 }
 .side_date {

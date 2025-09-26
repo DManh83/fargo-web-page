@@ -5,7 +5,7 @@ import store from './store'
 import i18n, { setLocale } from './i18n'
 import Antd from 'ant-design-vue'
 import 'ant-design-vue/dist/reset.css'
-
+import './assets/style/main.css'
 import * as Icons from '@ant-design/icons-vue'
 
 const app = createApp(App)

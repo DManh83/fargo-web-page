@@ -164,6 +164,12 @@ function handleClick(path) {
   text-align: left;
 }
 
+.address-text:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
 .info {
   display: flex;
   align-items: center;
@@ -207,6 +213,12 @@ function handleClick(path) {
   color: #fff;
   font-family: 'Racing Sans One';
   margin-bottom: 20px;
+}
+.title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+  font-style: italic;
 }
 
 ul {

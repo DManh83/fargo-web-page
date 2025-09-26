@@ -15,8 +15,18 @@
         }"
         @click="remember(store, item, 'news')"
       >
-        <img :src="item.image[0]" alt="" class="news-card_img" />
-        <h3 class="news-card_title">{{ item.title }}</h3>
+        <img
+          :src="item.image && item.image.length > 0 && item.image[0]"
+          alt=""
+          @error="onImgErr"
+          class="news-card_img"
+        />
+        <a-tooltip placement="bottomLeft">
+          <template #title>
+            <span>{{ item.title }}</span>
+          </template>
+          <h3 class="news-card_title">{{ item.title }}</h3>
+        </a-tooltip>
         <p class="news-card_date">{{ item.date }}</p>
       </RouterLink>
     </div>
@@ -40,6 +50,7 @@ import { news } from '@/data/news'
 import { remember } from '@/utils/remember'
 import { RouterLink } from 'vue-router'
 import { useStore } from 'vuex'
+import { onImgErr } from '@/utils/imgErr'
 
 const store = useStore()
 
@@ -49,12 +60,14 @@ const pageSize = 9
 // Fake data
 
 const items = ref(
-  Array.from({ length: news.length }).map((_, i) => ({
-    id: i + 1,
-    image: news[i].image,
-    title: news[i].title,
-    date: news[i].date,
-  })).sort((a, b) => new Date(b.date) - new Date(a.date))
+  Array.from({ length: news.length })
+    .map((_, i) => ({
+      id: i + 1,
+      image: news[i].image,
+      title: news[i].title,
+      date: news[i].date,
+    }))
+    .sort((a, b) => new Date(b.date) - new Date(a.date)),
 )
 
 const pagedItems = computed(() => {
@@ -116,7 +129,7 @@ const pagedItems = computed(() => {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font-vi);
 }
 
 .news-card_date {

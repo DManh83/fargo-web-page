@@ -3,7 +3,7 @@
     <div>
       <p>{{ item.paragraphs[0] }}</p>
     </div>
-    <div class="hero">
+    <div v-if="item.image && item.image.length > 0 && item.image[0] !== checker" class="hero">
       <a-carousel autoplay dots arrows effect="fade">
         <template #prevArrow>
           <div class="custom-slick-arrow" style="left: 10px; z-index: 1">
@@ -30,7 +30,7 @@
       <div v-for="(child, i) in children" :key="i">
         <h2>{{ child.title }}</h2>
         <p>{{ child.paragraphs[0] }}</p>
-        <div v-if="child.image" class="hero">
+        <div v-if="child.image && child.image.length > 0" class="hero">
           <a-carousel
             autoplay
             dots
@@ -64,6 +64,7 @@
 import { onImgErr } from '@/utils/imgErr'
 import { formatToParagraphs } from '@/utils/formatToParagraphs'
 import { computed } from 'vue'
+import checker from '@/assets/images/Checker.png'
 
 const props = defineProps({
   item: {
