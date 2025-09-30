@@ -46,9 +46,9 @@
 
             <a-tooltip placement="bottomLeft">
               <template #title>
-                <span>{{ item.title }}</span>
+                <span>{{ t(item.title) }}</span>
               </template>
-              <div class="card-title">{{ item.title }}</div>
+              <div class="card-title">{{ t(item.title) }}</div>
             </a-tooltip>
           </RouterLink>
         </div>
@@ -75,8 +75,11 @@ import { useStore } from 'vuex'
 import { useRouter, RouterLink } from 'vue-router'
 import { remember } from '@/utils/remember'
 import { onImgErr } from '@/utils/imgErr'
+import { useI18n } from 'vue-i18n'
+
 const store = useStore()
 const router = useRouter()
+const { t } = useI18n()
 
 defineProps({
   title: {

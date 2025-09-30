@@ -2,8 +2,8 @@
 <template>
   <a-breadcrumb>
     <a-breadcrumb-item v-for="item in breadcrumb" :key="item.title">
-      <RouterLink v-if="item.path" :to="item.path">{{ item.title }}</RouterLink>
-      <span v-else>{{ item.title }}</span>
+      <RouterLink v-if="item.path" :to="item.path">{{ $t(item.title) }}</RouterLink>
+      <span v-else>{{ $t(item.title) }}</span>
     </a-breadcrumb-item>
   </a-breadcrumb>
 </template>

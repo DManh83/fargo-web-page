@@ -18,9 +18,9 @@
         <div class="side_meta">
           <a-tooltip placement="bottomLeft">
             <template #title>
-              <span>{{ item.title }}</span>
+              <span>{{ t(item.title) }}</span>
             </template>
-            <h4 class="side_headline">{{ item.title }}</h4>
+            <h4 class="side_headline">{{ t(item.title) }}</h4>
           </a-tooltip>
           <p class="side_date">{{ formatDate(item.date) }}</p>
         </div>
@@ -33,6 +33,9 @@
 import { RouterLink } from 'vue-router'
 import { formatDate } from '@/utils/formatDate'
 import { onImgErr } from '@/utils/imgErr'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 defineProps({
   items: {

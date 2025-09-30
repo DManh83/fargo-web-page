@@ -7,8 +7,10 @@ import { formatDate } from '@/utils/formatDate'
 import { news } from '@/data/news'
 import { onImgErr } from '@/utils/imgErr'
 import { remember } from '@/utils/remember'
+import { useI18n } from 'vue-i18n'
 
 const store = useStore()
+const { t } = useI18n()
 
 const activeKey = ref('1')
 
@@ -48,7 +50,7 @@ onMounted(() => {
           <img :src="featuredNews[0].image[0]" :alt="featuredNews[0].title" @error="onImgErr" />
         </div>
         <div class="fn_meta">
-          <h3 class="fn_headline">{{ featuredNews[0].title }}</h3>
+          <h3 class="fn_headline">{{ t(featuredNews[0].title) }}</h3>
           <p class="fn_date">{{ formatDate(featuredNews[0].date) }}</p>
         </div>
       </RouterLink>
@@ -71,9 +73,9 @@ onMounted(() => {
         <div class="fn_meta">
           <a-tooltip placement="bottomLeft">
             <template #title>
-              <span>{{ it.title }}</span>
+              <span>{{ t(it.title) }}</span>
             </template>
-            <h3 class="fn_headline fn_headline-sm">{{ it.title }}</h3>
+            <h3 class="fn_headline fn_headline-sm">{{ t(it.title) }}</h3>
           </a-tooltip>
           <p class="fn_date">{{ formatDate(it.date) }}</p>
         </div>

@@ -1,9 +1,9 @@
 <template>
   <article class="new-render">
     <div>
-      <p>{{ item.paragraphs[0] }}</p>
+      <p>{{ itemRender.paragraphs[0] }}</p>
     </div>
-    <div v-if="item.image && item.image.length > 0 && item.image[0] !== checker" class="hero">
+    <div v-if="itemRender.image && itemRender.image.length > 0 && itemRender.image[0] !== checker" class="hero">
       <a-carousel autoplay dots arrows effect="fade">
         <template #prevArrow>
           <div class="custom-slick-arrow" style="left: 10px; z-index: 1">
@@ -15,16 +15,16 @@
             <RightCircleOutlined />
           </div>
         </template>
-        <template v-for="img in item.image" :key="img">
+        <template v-for="img in itemRender.image" :key="img">
           <div class="hero_slide">
-            <img :src="img" alt="" @error="onImgErr" />
+            <img :src="img" :alt="itemRender.id" @error="onImgErr" />
           </div>
         </template>
       </a-carousel>
     </div>
 
     <div>
-      <p v-for="(p, i) in item.paragraphs.slice(1)" :key="i">{{ p }}</p>
+      <p v-for="(p, i) in itemRender.paragraphs.slice(1)" :key="i">{{ p }}</p>
     </div>
     <div v-if="children && children.length > 0" class="children">
       <div v-for="(child, i) in children" :key="i">
@@ -65,6 +65,9 @@ import { onImgErr } from '@/utils/imgErr'
 import { formatToParagraphs } from '@/utils/formatToParagraphs'
 import { computed } from 'vue'
 import checker from '@/assets/images/Checker.png'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 const props = defineProps({
   item: {
@@ -72,12 +75,27 @@ const props = defineProps({
     default: () => ({}),
   },
 })
-const children = computed(() => {
-  return props.item.children.map((child) => ({
-    ...child,
-    paragraphs: formatToParagraphs(child.paragraphs),
-  }))
+
+const safeT = (key, fallback = '') => {
+  if (!key || (typeof key !== 'string' && typeof key !== 'number')) return fallback
+  return t(key)
+}
+
+const itemRender = computed(() => {
+  return {
+    ...props.item,
+    paragraphs: props.item.paragraphs ? formatToParagraphs(safeT(props.item.paragraphs)) : [],
+  }
 })
+
+const children = computed(() =>
+  (props.item?.children ?? []).map((child) => {
+    const title = safeT(child.title, '')
+    const paraText = safeT(child.paragraphs, '')
+    const paragraphs = formatToParagraphs(paraText)
+    return { ...child, title, paragraphs }
+  })
+)
 </script>
 
 <style scoped>

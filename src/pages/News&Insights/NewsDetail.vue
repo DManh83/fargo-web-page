@@ -7,12 +7,14 @@ import bgNews from '@/assets/images/news-insights.png'
 import Banner from '@/components/Banner.vue'
 import { formatDate } from '@/utils/formatDate'
 import {  NewRender, Related } from './components'
-import { formatToParagraphs } from '@/utils/formatToParagraphs'
 import FeaturedNews from '@/components/FeaturedNews.vue'
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 
 const route = useRoute()
 const store = useStore()
-const pageTitle = computed(() => route.query.title || 'Title random news')
+const pageTitle = computed(() => t(route.query.title) || 'Title random news')
 
 const items = computed(() => store.getters['news/all'])
 
@@ -29,7 +31,7 @@ const mainPost = computed(() => {
         title: it.title,
         date: it.date,
         image: it.image || [],
-        paragraphs: formatToParagraphs(it.paragraphs),
+        paragraphs: it.paragraphs,
         children: it.children || [],
       }
     : {

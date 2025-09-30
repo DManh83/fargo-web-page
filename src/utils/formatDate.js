@@ -1,4 +1,5 @@
 export const formatDate = (iso) => {
   const d = new Date(iso)
-  return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+  const lang = localStorage.getItem('lang')
+  return d.toLocaleDateString(lang, { month: 'short', day: 'numeric', year: 'numeric' })
 }

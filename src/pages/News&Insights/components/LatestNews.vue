@@ -17,17 +17,17 @@
       >
         <img
           :src="item.image && item.image.length > 0 && item.image[0]"
-          alt=""
+          :alt="item.id"
           @error="onImgErr"
           class="news-card_img"
         />
         <a-tooltip placement="bottomLeft">
           <template #title>
-            <span>{{ item.title }}</span>
+            <span>{{ t(item.title) }}</span>
           </template>
-          <h3 class="news-card_title">{{ item.title }}</h3>
+          <h3 class="news-card_title">{{ t(item.title) }}</h3>
         </a-tooltip>
-        <p class="news-card_date">{{ item.date }}</p>
+        <p class="news-card_date">{{ formatDate(item.date) }}</p>
       </RouterLink>
     </div>
 
@@ -51,8 +51,11 @@ import { remember } from '@/utils/remember'
 import { RouterLink } from 'vue-router'
 import { useStore } from 'vuex'
 import { onImgErr } from '@/utils/imgErr'
+import { useI18n } from 'vue-i18n'
+import { formatDate } from '@/utils/formatDate'
 
 const store = useStore()
+const { t } = useI18n()
 
 const page = ref(1)
 const pageSize = 9
@@ -62,7 +65,7 @@ const pageSize = 9
 const items = ref(
   Array.from({ length: news.length })
     .map((_, i) => ({
-      id: i + 1,
+      id: news[i].id,
       image: news[i].image,
       title: news[i].title,
       date: news[i].date,

@@ -4,8 +4,10 @@ import { formatDate } from '@/utils/formatDate'
 import { remember } from '@/utils/remember'
 import { RouterLink } from 'vue-router'
 import { useStore } from 'vuex'
+import { useI18n } from 'vue-i18n'
 
 const store = useStore()
+const { t } = useI18n()
 
 const props = defineProps({
   items: {
@@ -48,9 +50,14 @@ const pagedItems = computed(() => {
         }"
         @click="remember(store, item, 'news')"
       >
-        <img :src="item.image[0]" alt="thumbnail" class="news-item_image" />
+        <img
+          :src="item.image && item.image.length > 0 && item.image[0]"
+          :alt="t(item.id)"
+          class="news-item_image"
+          @error="onImgErr"
+        />
         <div class="news-item_content">
-          <h3 class="news-item_title">{{ item.title }}</h3>
+          <h3 class="news-item_title">{{ t(item.title) }}</h3>
           <p class="news-item_date">{{ formatDate(item.date) }}</p>
         </div>
       </RouterLink>
