@@ -19,10 +19,9 @@ const featuredNews = allNews.filter((it) => it.featured).sort(() => Math.random(
 
 const fargoNews = allNews
   .filter((it) => it.category === 'fargoNews')
-  .map((it) => ({ ...it, date: formatDate(it.date) }))
+
 const marketUpdates = allNews
   .filter((it) => it.category === 'marketUpdates')
-  .map((it) => ({ ...it, date: formatDate(it.date) }))
 
 onMounted(() => {
   store.dispatch('news/setItems', [...allNews])
