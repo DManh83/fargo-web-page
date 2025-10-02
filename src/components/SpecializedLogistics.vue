@@ -169,6 +169,11 @@ h1 {
   padding: 10px;
   z-index: 2;
 }
+.card-title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
 
 :deep(.slick-arrow.custom-slick-arrow) {
   width: 30px;

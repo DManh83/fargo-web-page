@@ -134,7 +134,11 @@ const locations = ref([
   font-family: 'Poppins', sans-serif;
   color: #5B5B5B;
 }
-
+.select :deep(.ant-select-selection-item:lang(vi)) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
 .select :deep(.ant-select-selection-placeholder) {
   display: flex;
   align-items: center;
@@ -143,5 +147,10 @@ const locations = ref([
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   color: #5B5B5B;
+}
+.select :deep(.ant-select-selection-placeholder:lang(vi)) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
 }
 </style>

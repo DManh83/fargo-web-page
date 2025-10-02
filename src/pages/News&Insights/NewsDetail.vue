@@ -131,7 +131,11 @@ const related = computed(() => {
   margin: 0 0 8px;
   font-family: 'Poppins', sans-serif;
 }
-
+.title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
 .meta {
   display: flex;
   align-items: center;
@@ -148,11 +152,21 @@ const related = computed(() => {
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
 }
+.meta .cat:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
 .meta .sep {
   opacity: 0.6;
   font-weight: 500;
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
+}
+.meta .sep:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
 }
 
 .grid {

@@ -52,6 +52,9 @@ defineProps({
   margin-top: 46px;
   font-family: 'Poppins', sans-serif;
 }
+.header:lang(vi) {
+  font-family: var(--font-vi) !important;
+}
 .subtitle {
   width: 119px;
   display: flex;

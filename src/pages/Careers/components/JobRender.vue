@@ -28,6 +28,7 @@ defineProps({
   font-size: 16px;
   line-height: 1.75;
 }
+
 h1 {
   font-size: 32px;
   font-weight: 600;
@@ -36,6 +37,13 @@ h1 {
   margin: 0 0 8px;
   font-family: 'Poppins', sans-serif;
 }
+
+h1:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+
 h2 {
   font-size: 16px;
   font-weight: 500;
@@ -44,12 +52,22 @@ h2 {
   margin: 0 0 8px;
   font-family: 'Poppins', sans-serif;
 }
+h2:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
+}
 li {
   font-size: 16px;
   font-weight: 400;
   color: #000000;
   font-family: 'Poppins', sans-serif;
   line-height: 1.2;
+}
+li:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
 }
 .divider {
   margin: 20px 0;

@@ -2,6 +2,7 @@
   <section style="width: 1200px; margin: 50px auto">
     <a-form-item>
       <a-input
+        class="search-input"
         :placeholder="$t('form.searchFAQs')"
         style="height: 54px; font-size: 16px; font-weight: 400; font-family: 'Poppins', sans-serif"
       >
@@ -123,6 +124,11 @@ const expandIcon = ({ isActive }) =>
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
+.faq-menu :deep(.ant-menu-item) :lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
 .faq-menu :deep(.ant-menu-item-selected) {
   background: #d9e8ff !important;
   font-weight: 600;
@@ -141,6 +147,11 @@ const expandIcon = ({ isActive }) =>
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
 }
+.faq-item :deep(.ant-collapse-header) :lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
 .faq-item :deep(.ant-collapse-content) {
   background: #fff;
   border-radius: 12px !important;
@@ -150,9 +161,19 @@ const expandIcon = ({ isActive }) =>
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
+.faq-item :deep(.ant-collapse-content) :lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
 .answer {
   margin: 8px 0 0;
   color: #4b5563;
   line-height: 1.6;
+}
+.search-input:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
 }
 </style>

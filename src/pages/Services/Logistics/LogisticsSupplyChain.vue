@@ -208,4 +208,10 @@ const relatedServices = computed(() => ({
 }))
 </script>
 
-<style scoped></style>
+<style scoped>
+.title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+</style>

@@ -176,6 +176,11 @@ h1 {
   text-align: start;
   padding: 4px 0;
 }
+.card-title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
 
 .card-description {
   font-size: 16px;
@@ -187,6 +192,11 @@ h1 {
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+.card-description:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
 }
 /* ===== Custom arrows ===== */
 :deep(.slick-arrow.custom-slick-arrow) {

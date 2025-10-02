@@ -65,6 +65,11 @@ defineProps({
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;
 }
+.title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 70px !important;
+  font-weight: 400 !important;
+}
 
 .buttons {
   display: flex;

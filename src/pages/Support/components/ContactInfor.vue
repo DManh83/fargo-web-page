@@ -3,7 +3,7 @@
     <h1
       style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
     >
-      {{ $t('support.contactUs.contactInformation') }}
+      {{ t('support.contactUs.contactInformation') }}
     </h1>
     <div
       class="contact-info-content"
@@ -31,7 +31,7 @@
             font-family: 'Poppins', sans-serif;
           "
         >
-          {{ $t('support.contactUs.address') }}
+          {{ t('support.contactUs.address') }}
         </p>
       </div>
       <div class="phone" style="display: flex; gap: 10px">
@@ -63,3 +63,22 @@
     </div>
   </div>
 </template>
+
+<script setup>
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+</script>
+
+<style scoped>
+h1:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+p:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+</style>

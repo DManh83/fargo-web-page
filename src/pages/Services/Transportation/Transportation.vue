@@ -197,6 +197,11 @@ const advantagesList = computed(() => [
   color: #052e5e;
   font-family: 'Poppins', sans-serif;
 }
+.advantages-container .title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
 .advantages-list {
   margin-top: 30px;
 }

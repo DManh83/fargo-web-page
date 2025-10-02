@@ -73,6 +73,11 @@ const form = ref({
   color: #000000;
   font-family: 'Poppins', sans-serif;
 }
+:deep(.ant-form-item-label) :lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+}
 
 .form-request-form-group {
   display: flex;
@@ -82,5 +87,10 @@ const form = ref({
 
 .form-request-form-group :deep(.ant-form-item) {
   width: 100%;
+}
+h1:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
 }
 </style>

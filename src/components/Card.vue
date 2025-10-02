@@ -108,6 +108,11 @@ function handleCardClick(path) {
   font-family: 'Poppins', sans-serif;
   text-align: var(--center);
 }
+.content .title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: var(--title-size) !important;
+  font-weight: 600 !important;
+}
 .content .paragraphs {
   font-size: var(--p-size);
   font-weight: 400;
@@ -115,11 +120,21 @@ function handleCardClick(path) {
   color: var(--text-color);
   font-family: 'Poppins', sans-serif;
 }
+.content .paragraphs:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: var(--p-size) !important;
+  font-weight: 400 !important;
+}
 .button-text {
   font-size: 16px;
   background-color: #ffb23f;
   font-weight: 600;
   color: #052e5e;
   font-family: 'Poppins', sans-serif;
+}
+.button-text:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
 }
 </style>

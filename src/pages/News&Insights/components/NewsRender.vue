@@ -148,7 +148,11 @@ const children = computed(() =>
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
 }
-
+.content p:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
 .new-render > div:last-of-type p {
   margin: 0 0 14px 0;
 }

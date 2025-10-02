@@ -13,6 +13,7 @@ const app = createApp(App)
 app.use(router).use(Antd).use(i18n).use(store)
 
 app.config.globalProperties.$setLang = setLocale
+localStorage.setItem('lang', 'vi-VN')
 
 for (const [key, component] of Object.entries(Icons)) {
   app.component(key, component)

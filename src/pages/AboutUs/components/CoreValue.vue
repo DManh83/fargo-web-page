@@ -114,6 +114,11 @@ const items = [
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
+.cv-card-desc:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 15px !important;
+  font-weight: 400 !important;
+}
 
 /* Responsive */
 @media (max-width: 1200px) {

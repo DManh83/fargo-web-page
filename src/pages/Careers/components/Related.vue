@@ -80,6 +80,11 @@ const clickViewDetail = (job) => {
   letter-spacing: 0.2px;
   font-family: 'Poppins', sans-serif;
 }
+.job-title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 24px !important;
+  font-weight: 600 !important;
+}
 
 .job-meta {
   display: inline-flex;

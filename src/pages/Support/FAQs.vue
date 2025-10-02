@@ -34,3 +34,16 @@ import Banner from '@/components/Banner.vue'
 import SearchFAQs from './components/SearchFAQs.vue'
 
 </script>
+
+<style scoped>
+h1:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+span:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+</style>

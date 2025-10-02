@@ -48,4 +48,14 @@ li {
   font-family: 'Poppins', sans-serif;
   padding-top: 5px;
 }
+li:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+h1:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
 </style>

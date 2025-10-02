@@ -111,5 +111,9 @@ defineProps({
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
-
+.side_date:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}
 </style>

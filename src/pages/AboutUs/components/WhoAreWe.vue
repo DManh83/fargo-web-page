@@ -54,12 +54,20 @@
   margin-bottom: 25px;
   font-family: 'Poppins', sans-serif;
 }
-
+.who-are-we-title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
 .who-are-we-description {
   font-size: 20px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
 }
-
+.who-are-we-description:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
+}
 </style>

@@ -80,6 +80,11 @@ function handleClick(item) {
   color: #fff;
   font-family: 'Poppins', sans-serif;
 }
+.rs-title h1:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
 .rs-content {
   display: flex;
   flex-direction: row;
@@ -109,6 +114,11 @@ function handleClick(item) {
   font-weight: 600;
   color: #fff;
   font-family: 'Poppins', sans-serif;
+}
+.rs-item-title h2:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
 }
 .rs-item-image img {
   width: 100%;

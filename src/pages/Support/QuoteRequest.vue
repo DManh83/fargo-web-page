@@ -47,4 +47,14 @@ import Banner from '@/components/Banner.vue'
 .divider {
   height: 1100px;
 }
+h1:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+span:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
 </style>

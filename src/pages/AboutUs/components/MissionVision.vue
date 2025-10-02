@@ -51,6 +51,11 @@
   margin-bottom: 25px;
   font-family: 'Poppins', sans-serif;
 }
+.title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
 
 .description {
   font-family: 'Poppins', sans-serif;
@@ -60,6 +65,12 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: 20px;
+}
+
+.description:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 500 !important;
 }
 
 .our_mission, .our_vision {

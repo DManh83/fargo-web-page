@@ -67,6 +67,11 @@ h1 {
   color: #052e5e;
   line-height: 1.1;
 }
+h1:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
 
 p {
   font-size: 20px;
@@ -74,5 +79,10 @@ p {
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.01em;
   line-height: 1.3;
+}
+p:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 20px !important;
+  font-weight: 400 !important;
 }
 </style>

@@ -180,3 +180,11 @@ const i18nSolutions = computed(() => {
   }))
 })
 </script>
+
+<style>
+.title:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+</style> 

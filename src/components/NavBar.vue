@@ -168,4 +168,10 @@ const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
   color: #000;
   font-family: 'Poppins', sans-serif;
 }
+
+.menu :deep(.ant-menu-title-content:lang(vi)) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
 </style>
