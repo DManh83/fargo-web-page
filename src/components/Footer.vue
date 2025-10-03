@@ -18,7 +18,7 @@
           </div>
           <div class="email">
             <MailOutlined class="email-icon" />
-            <span class="email-text">fargologistics.import@gmail.com</span>
+            <span class="email-text">info@fll.vn</span>
           </div>
         </div>
         <div class="info">

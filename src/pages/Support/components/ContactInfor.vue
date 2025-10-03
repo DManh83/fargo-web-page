@@ -62,7 +62,7 @@
             font-family: 'Poppins', sans-serif;
           "
         >
-          fargologistics.import@gmail.com
+          info@fll.vn
         </p>
       </div>
     </div>
