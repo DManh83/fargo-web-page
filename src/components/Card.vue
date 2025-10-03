@@ -29,7 +29,7 @@ const stylesVars = computed(() => ({
   '--title-size': props.titleSize || '32px',
   '--gap': props.gap || '80px',
   '--text-color': props.textColor || '#000',
-  '--title-color': props.titleColor || '#052e5e',
+  '--title-color': props.titleColor || 'var(--secondary)',
   '--p-size': props.pSize || '20px',
   '--cursor': props.path ? 'pointer' : 'default',
 }))
@@ -45,7 +45,12 @@ function handleCardClick(path) {
 </script>
 
 <template>
-  <section class="container" :style="stylesVars" :class="{ 'is-reverse': props.reverse }" @click="handleCardClick(props.path)">
+  <section
+    class="container"
+    :style="stylesVars"
+    :class="{ 'is-reverse': props.reverse }"
+    @click="handleCardClick(props.path)"
+  >
     <div class="media">
       <img :src="imageSrc" alt="Checker" />
     </div>
@@ -127,9 +132,9 @@ function handleCardClick(path) {
 }
 .button-text {
   font-size: 16px;
-  background-color: #ffb23f;
+  background-color: #f49f1c;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   font-family: 'Poppins', sans-serif;
 }
 .button-text:lang(vi) {

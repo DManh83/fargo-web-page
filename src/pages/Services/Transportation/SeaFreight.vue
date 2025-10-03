@@ -48,8 +48,7 @@
     <FeaturedNews title="News" />
   </section>
   <section class="banner-container">
-    <Banner
-    />
+    <Banner />
   </section>
 </template>
 
@@ -92,9 +91,7 @@ const overviewList = computed(() => [
   {
     id: 2,
     title: t('services.overview'),
-    paragraphs: [
-      t('services.seaFreight.overviewDescription'),
-    ],
+    paragraphs: [t('services.seaFreight.overviewDescription')],
     imageSrc: overviewSea,
     height: '388px',
     reverse: true,
@@ -104,9 +101,7 @@ const advantagesList = computed(() => [
   {
     id: 1,
     title: t('services.seaFreight.wideGlobalNetwork'),
-    paragraphs: [
-      t('services.seaFreight.wideGlobalNetworkDescription'),
-    ],
+    paragraphs: [t('services.seaFreight.wideGlobalNetworkDescription')],
     imageSrc: wideGlobalNetwork,
     height: '221px',
     reverse: false,
@@ -115,9 +110,7 @@ const advantagesList = computed(() => [
   {
     id: 2,
     title: t('services.seaFreight.costSavings'),
-    paragraphs: [
-      t('services.seaFreight.costSavingsDescription'),
-    ],
+    paragraphs: [t('services.seaFreight.costSavingsDescription')],
     imageSrc: costSavings,
     height: '221px',
     reverse: true,
@@ -126,9 +119,7 @@ const advantagesList = computed(() => [
   {
     id: 3,
     title: t('services.seaFreight.flexibleOptions'),
-    paragraphs: [
-      t('services.seaFreight.flexibleOptionsDescription'),
-    ],
+    paragraphs: [t('services.seaFreight.flexibleOptionsDescription')],
     imageSrc: flexibleOptions,
     height: '221px',
     reverse: false,
@@ -137,9 +128,7 @@ const advantagesList = computed(() => [
   {
     id: 4,
     title: t('services.seaFreight.safeAndReliable'),
-    paragraphs: [
-      t('services.seaFreight.safeAndReliableDescription'),
-    ],
+    paragraphs: [t('services.seaFreight.safeAndReliableDescription')],
     imageSrc: safeAndReliable,
     height: '221px',
     reverse: true,
@@ -149,26 +138,22 @@ const advantagesList = computed(() => [
 const services = computed(() => [
   {
     title: t('services.lcl'),
-    description:
-      t('services.lclDescription'),
+    description: t('services.lclDescription'),
     image: [LCL],
   },
   {
     title: t('services.fcl'),
-    description:
-      t('services.fclDescription'),
+    description: t('services.fclDescription'),
     image: [FCL],
   },
   {
     title: t('services.customsLegalAdvisoryServices'),
-    description:
-      t('services.customsLegalAdvisoryServicesDescription'),
+    description: t('services.customsLegalAdvisoryServicesDescription'),
     image: [CLAS],
   },
   {
     title: t('services.buyersConsolidation'),
-    description:
-      t('services.buyersConsolidationDescription'),
+    description: t('services.buyersConsolidationDescription'),
     image: [BC],
   },
 ])
@@ -177,12 +162,10 @@ const relatedSolutions = computed(() => [
     id: 'transportation/air-freight',
     title: t('services.airFreight.title'),
     image: airFreight,
-    paragraphs: [
-      t('services.airFreight.description'),
-    ],
+    paragraphs: [t('services.airFreight.description')],
     height: '356px',
-    titleColor: '#ffff',
-    textColor: '#ffff',
+    titleColor: 'var(--primary)',
+    textColor: 'var(--primary)',
     reverse: true,
   },
 ])
@@ -209,7 +192,7 @@ const relatedSolutions = computed(() => [
 .advantages-container .title {
   font-size: 32px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   font-family: 'Poppins', sans-serif;
 }
 .advantages-container .title:lang(vi) {

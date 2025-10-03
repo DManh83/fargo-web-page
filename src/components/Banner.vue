@@ -12,7 +12,9 @@
         <h1 class="banner-title">
           {{ $t('intro.bannerSubtitle') }}
         </h1>
-        <a-button class="banner-button" type="default" size="large" @click="handleClick"> {{ $t('btn.request') }} </a-button>
+        <a-button class="banner-button" type="default" size="large" @click="handleClick">
+          {{ $t('btn.request') }}
+        </a-button>
       </div>
     </div>
   </section>
@@ -40,7 +42,7 @@ const handleClick = () => {
 .banner {
   position: relative;
   margin-top: 40px;
-  background: #052e5e;
+  background: var(--secondary);
   border-radius: 16px;
   overflow: hidden;
   width: 1200px;
@@ -94,7 +96,7 @@ const handleClick = () => {
   font-weight: 400;
   font-family: var(--font-accent);
   letter-spacing: 0.04em;
-  color: #FFB23F
+  color: #f49f1c;
 }
 .banner-title:lang(vi) {
   font-family: var(--font-vi) !important;
@@ -106,8 +108,8 @@ const handleClick = () => {
   width: 156px;
   height: 54px;
   border-radius: 20px;
-  background-color: #FFB23F;
-  color: #052E5E;
+  background-color: #f49f1c;
+  color: var(--secondary);
   font-weight: 600;
   font-size: 24px;
 }

@@ -23,13 +23,16 @@ const breadcrumb = computed(() => {
       const titleKey = record.meta?.titleKey
       const title = record.meta?.title || record.name
       if (titleKey || title) {
-        items = [{
-          titleKey,
-          title,
-          path: idx < route.matched.length - 1
-            ? { name: record.name, params: route.params, query: route.query }
-            : undefined,
-        }]
+        items = [
+          {
+            titleKey,
+            title,
+            path:
+              idx < route.matched.length - 1
+                ? { name: record.name, params: route.params, query: route.query }
+                : undefined,
+          },
+        ]
       }
     }
 
@@ -40,7 +43,10 @@ const breadcrumb = computed(() => {
   })
 
   // Thêm "Home" ở đầu nếu thiếu
-  if (!crumbs.length || (crumbs[0].path !== '/' && (crumbs[0].titleKey !== 'routes.home' && crumbs[0].title !== 'Home'))) {
+  if (
+    !crumbs.length ||
+    (crumbs[0].path !== '/' && crumbs[0].titleKey !== 'routes.home' && crumbs[0].title !== 'Home')
+  ) {
     crumbs.unshift({ titleKey: 'routes.home', path: '/' })
   }
 
@@ -48,15 +54,14 @@ const breadcrumb = computed(() => {
   if (crumbs.length) crumbs[crumbs.length - 1].path = undefined
 
   // DỊCH ở đây: nếu có noI18n => giữ nguyên title; nếu có titleKey => t(titleKey); ngược lại dùng title nguyên bản
-  return crumbs.map(c => ({
+  return crumbs.map((c) => ({
     ...c,
-    title: c.noI18n ? c.title : (c.titleKey ? t(c.titleKey) : c.title),
+    title: c.noI18n ? c.title : c.titleKey ? t(c.titleKey) : c.title,
   }))
 })
 
 const showHeader = computed(() => !route.meta?.hideHeader)
 </script>
-
 
 <template>
   <a-layout class="app-layout">
@@ -75,7 +80,7 @@ const showHeader = computed(() => !route.meta?.hideHeader)
 
 <style scoped>
 .app-layout {
-  background: #fff;
+  background: var(--primary);
   max-width: 1920px;
   min-width: 1200px;
 }
@@ -86,7 +91,7 @@ const showHeader = computed(() => !route.meta?.hideHeader)
   top: 0;
   z-index: 1000;
   height: auto;
-  background: #fff;
+  background: var(--primary);
   padding: 0;
 }
 
@@ -102,7 +107,7 @@ const showHeader = computed(() => !route.meta?.hideHeader)
   bottom: 0;
   left: 0;
   right: 0;
-  background: #052e5e;
+  background: var(--secondary);
   text-align: center;
 }
 </style>

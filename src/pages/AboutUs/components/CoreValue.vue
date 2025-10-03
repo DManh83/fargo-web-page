@@ -51,7 +51,7 @@ const items = [
   font-size: 36px;
   line-height: 1.2;
   font-weight: 800;
-  color: #0b2e5e; /* xanh đậm */
+  color: var(--secondary); /* xanh đậm */
 }
 
 .cv-grid {
@@ -62,7 +62,7 @@ const items = [
 
 /* Card */
 .cv-card {
-  background: #ebf1ff;            /* xanh nhạt như hình */
+  background: #C8D9E6;            /* xanh nhạt như hình */
   border-radius: 16px;
   box-shadow: 0 2px 10px rgba(9, 35, 74, 0.06);
   transition: transform .15s ease, box-shadow .15s ease;
@@ -88,7 +88,7 @@ const items = [
   border-radius: 12px;
   display: grid;
   place-items: center;
-  color: #0b2e5e;
+  color: var(--secondary);
   flex: 0 0 56px;
 }
 .cv-icon :deep(svg) {
@@ -103,7 +103,7 @@ const items = [
 .cv-card-title {
   font-size: 20px;     /* có thể tăng 22–24 nếu muốn giống hơn */
   font-weight: 700;
-  color: #0b2e5e;
+  color: var(--secondary);
 }
 
 .cv-card-desc {

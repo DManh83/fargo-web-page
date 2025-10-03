@@ -55,7 +55,7 @@ defineProps({
 
 .side {
   height: fit-content;
-  background: #e5f1fd;
+  background: #C8D9E6;
   border-radius: 12px;
   margin: 12px 0;
 }

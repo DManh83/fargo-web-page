@@ -32,10 +32,10 @@
       style="
         width: 153px;
         height: 54px;
-        background-color: #ffb23f;
+        background-color: #f49f1c;
         font-size: 20px;
         font-weight: 500;
-        color: #fff;
+        color: var(--primary);
         font-family: 'Poppins', sans-serif;
       "
     >
@@ -132,7 +132,7 @@ const locations = ref([
   font-size: 20px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  color: #5B5B5B;
+  color: #5b5b5b;
 }
 .select :deep(.ant-select-selection-item:lang(vi)) {
   font-family: var(--font-vi) !important;
@@ -146,7 +146,7 @@ const locations = ref([
   font-size: 20px;
   font-weight: 400;
   font-family: 'Poppins', sans-serif;
-  color: #5B5B5B;
+  color: #5b5b5b;
 }
 .select :deep(.ant-select-selection-placeholder:lang(vi)) {
   font-family: var(--font-vi) !important;

@@ -22,7 +22,7 @@ defineProps({
 .why-fargo-title {
   font-size: 35px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   margin-bottom: 50px;
 }
 
@@ -40,7 +40,7 @@ defineProps({
   align-items: center;
   width: 30%;
   height: 350px;
-  background-color: #CEE5FF;
+  background-color: #C8D9E6;
   /* padding: 20px; */
 }
 
@@ -52,7 +52,7 @@ defineProps({
 .title {
   font-size: 24px;
   font-weight: 600;
-  color: #000000;
+  color: var(--secondary);
   margin-bottom: 30px;
 }
 

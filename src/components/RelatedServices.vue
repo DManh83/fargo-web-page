@@ -5,8 +5,8 @@
       :title="item.title"
       :imageSrc="item.imageSrc"
       :paragraphs="item.paragraphs"
-      titleColor="#ffff"
-      textColor="#ffff"
+      titleColor="var(--primary)"
+      textColor="var(--primary)"
       height="187px"
       titleSize="20px"
       pSize="16px"
@@ -35,7 +35,7 @@ defineProps({
 h1 {
   font-size: 32px;
   font-weight: 600;
-  color: #ffff;
+  color: var(--primary);
   font-family: 'Poppins', sans-serif;
   text-align: center;
   margin-bottom: 40px;

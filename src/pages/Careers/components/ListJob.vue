@@ -109,7 +109,7 @@ const clickViewDetail = (job) => {
 
 .job-title {
   margin: 0 0 6px;
-  color: #052e5e; /* deep blue heading */
+  color: var(--secondary); /* deep blue heading */
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.2px;
@@ -165,7 +165,7 @@ const clickViewDetail = (job) => {
   padding: 0 10px;
   border-radius: 10px;
   border: 1px solid #c7d2fe;
-  background: #ffffff;
+  background: var(--primary);
   color: #0a56cc;
   font-weight: 700;
   font-size: 13px;
@@ -182,7 +182,7 @@ const clickViewDetail = (job) => {
 }
 .page-pill.active {
   background: #0a56cc;
-  color: #ffffff;
+  color: var(--primary);
   border-color: #0a56cc;
 }
 .page-pill.icon {

@@ -74,7 +74,7 @@ const items = [
 }
 
 .industries-content {
-  background: #052e5e;
+  background: var(--secondary);
   height: 430px;
 
   display: flex;
@@ -93,7 +93,7 @@ const items = [
 h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #fff;
+  color: var(--primary);
   margin: 0;
 }
 
@@ -115,7 +115,7 @@ h1 {
 .title {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: var(--primary);
   padding-top: 20px;
   line-height: 1.2;
 }
@@ -127,7 +127,7 @@ h1 {
   height: 35px;
   font-size: 35px;
   color: #000000;
-  background: #ffffff;
+  background: var(--primary);
   transition: ease all 0.3s;
   opacity: 0.8;
   z-index: 1;
@@ -142,7 +142,7 @@ h1 {
 }
 
 :deep(.slick-arrow.custom-slick-arrow:hover) {
-  color: #fff;
+  color: var(--primary);
   opacity: 0.5;
 }
 

@@ -1,20 +1,25 @@
 <template>
   <div class="contact-info">
     <h1
-      style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
+      style="
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--secondary);
+        font-family: 'Poppins', sans-serif;
+      "
     >
       {{ t('support.contactUs.contactInformation') }}
     </h1>
     <div
       class="contact-info-content"
-      style="display: flex; flex-direction: column; gap: 15px; margin-top: 40px "
+      style="display: flex; flex-direction: column; gap: 15px; margin-top: 40px"
     >
       <div class="name">
         <h2
           style="
             font-size: 24px;
             font-weight: 600;
-            color: #052e5e;
+            color: var(--secondary);
             font-family: 'Poppins', sans-serif;
           "
         >

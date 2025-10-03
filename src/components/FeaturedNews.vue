@@ -134,15 +134,15 @@ onMounted(() => {
 h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   margin: 0;
   margin-bottom: 30px;
   text-align: center;
 }
 
 .news-button-item {
-  background-color: #ffb23f;
-  color: #052e5e;
+  background-color: #f49f1c;
+  color: var(--secondary);
   font-weight: bold;
 }
 
@@ -210,7 +210,7 @@ h1 {
   height: 30px;
   font-size: 35px;
   color: #000000;
-  background: #ffffff;
+  background: var(--primary);
   transition: ease all 0.3s;
   opacity: 0.8;
   z-index: 1;

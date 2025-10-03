@@ -35,7 +35,12 @@
   >
     <h1
       class="title"
-      style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
+      style="
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--secondary);
+        font-family: 'Poppins', sans-serif;
+      "
     >
       {{ $t('services.advantages') }}
     </h1>
@@ -62,13 +67,13 @@
   <section
     class="carousel-container"
     style="
-      background-color: #052e5e;
+      background-color: var(--secondary);
       clip-path: ellipse(100% 100% at 50% 100%);
       padding: 1px 0 50px 0;
       margin: 50px auto;
     "
   >
-    <CarouselCard :items="i18nSolutions" titleColor="#ffffff" />
+    <CarouselCard :items="i18nSolutions" titleColor="var(--primary)" />
   </section>
   <section style="margin: 50px auto">
     <SpecializedLogistics />
@@ -79,7 +84,7 @@
       width: 100%;
       height: auto;
       margin: 100px auto 0;
-      background-color: #052e5e;
+      background-color: var(--secondary);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -137,9 +142,7 @@ const overviewList = computed(() => [
   {
     id: 2,
     title: t('services.overview'),
-    paragraphs: [
-      t('services.logisticsAndSupplyChain.relatedSolutionsDescription'),
-    ],
+    paragraphs: [t('services.logisticsAndSupplyChain.relatedSolutionsDescription')],
     imageSrc: overviewLasc,
     height: '388px',
     reverse: true,
@@ -149,9 +152,7 @@ const advantagesList = computed(() => [
   {
     id: 1,
     title: t('services.logisticsAndSupplyChain.globalNetwork'),
-    paragraphs: [
-      t('services.logisticsAndSupplyChain.globalNetworkDescription'),
-    ],
+    paragraphs: [t('services.logisticsAndSupplyChain.globalNetworkDescription')],
     imageSrc: globalNetwork,
     height: '221px',
     reverse: false,
@@ -160,9 +161,7 @@ const advantagesList = computed(() => [
   {
     id: 2,
     title: t('services.logisticsAndSupplyChain.costOptimization'),
-    paragraphs: [
-      t('services.logisticsAndSupplyChain.costOptimizationDescription'),
-    ],
+    paragraphs: [t('services.logisticsAndSupplyChain.costOptimizationDescription')],
     imageSrc: costOptimization,
     height: '221px',
     reverse: true,
@@ -171,9 +170,7 @@ const advantagesList = computed(() => [
   {
     id: 3,
     title: t('services.logisticsAndSupplyChain.technologyIntegration'),
-    paragraphs: [
-      t('services.logisticsAndSupplyChain.technologyIntegrationDescription'),
-    ],
+    paragraphs: [t('services.logisticsAndSupplyChain.technologyIntegrationDescription')],
     imageSrc: technologyIntegration,
     height: '221px',
     reverse: false,
@@ -182,9 +179,7 @@ const advantagesList = computed(() => [
   {
     id: 4,
     title: t('services.logisticsAndSupplyChain.customerSupport'),
-    paragraphs: [
-      t('services.logisticsAndSupplyChain.customerSupportDescription'),
-    ],
+    paragraphs: [t('services.logisticsAndSupplyChain.customerSupportDescription')],
     imageSrc: customerSupport,
     height: '221px',
     reverse: true,
@@ -192,18 +187,16 @@ const advantagesList = computed(() => [
   },
 ])
 const i18nSolutions = computed(() => {
-  return solutions.map(solution => ({
+  return solutions.map((solution) => ({
     ...solution,
     title: t(`services.${solution.title}`),
-    description: t(`services.${solution.description}`)
+    description: t(`services.${solution.description}`),
   }))
 })
 const relatedServices = computed(() => ({
   title: t('services.transportation.title'),
   imageSrc: overviewTransportation,
-  paragraphs: [
-    t('services.transportation.relatedSolutionsDescription'),
-  ],
+  paragraphs: [t('services.transportation.relatedSolutionsDescription')],
   path: '/transportation',
 }))
 </script>

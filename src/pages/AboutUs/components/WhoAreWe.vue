@@ -9,9 +9,7 @@
         <span>{{ $t('about.whoAreWe') }}</span>
       </div>
       <div class="who-are-we-description">
-        <span
-          >{{ $t('about.whoAreWeDescription') }}</span
-        >
+        <span>{{ $t('about.whoAreWeDescription') }}</span>
       </div>
     </div>
   </section>
@@ -50,7 +48,7 @@
 .who-are-we-title {
   font-size: 32px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   margin-bottom: 25px;
   font-family: 'Poppins', sans-serif;
 }

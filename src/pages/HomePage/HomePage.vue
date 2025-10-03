@@ -49,10 +49,10 @@ import { computed } from 'vue'
 const { t } = useI18n()
 
 const i18nSolutions = computed(() => {
-  return solutions.map(solution => ({
+  return solutions.map((solution) => ({
     ...solution,
     title: t(`services.${solution.title}`),
-    description: t(`services.${solution.description}`)
+    description: t(`services.${solution.description}`),
   }))
 })
 </script>
@@ -105,6 +105,6 @@ const i18nSolutions = computed(() => {
   width: 100%;
   height: 1064px;
   /* margin-bottom: 50px; */
-  background-color: #052e5e;
+  background-color: var(--secondary);
 }
 </style>

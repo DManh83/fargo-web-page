@@ -55,7 +55,7 @@ const clickViewDetail = (job) => {
 
 .side {
   height: auto;
-  background: #e5f1fd;
+  background: #C8D9E6;
   border-radius: 12px;
   margin: 12px 0;
   padding: 12px;
@@ -74,7 +74,7 @@ const clickViewDetail = (job) => {
 
 .job-title {
   margin: 0 0 6px;
-  color: #052e5e; /* deep blue heading */
+  color: var(--secondary); /* deep blue heading */
   font-size: 24px;
   font-weight: 600;
   letter-spacing: 0.2px;
@@ -114,5 +114,4 @@ const clickViewDetail = (job) => {
   align-items: center;
   gap: 10px;
 }
-
 </style>

@@ -87,7 +87,7 @@ const { title, items, slidesToShow, slidesToScroll, height, bgImage } = definePr
 h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #ffb23f;
+  color: #f49f1c;
   margin: 0;
 }
 
@@ -96,8 +96,8 @@ h1 {
 }
 
 .slide-button-item {
-  background-color: #ffb23f;
-  color: #052e5e;
+  background-color: #f49f1c;
+  color: var(--secondary);
   font-weight: bold;
 }
 .slide-carousel :deep(.slick-slide > div) {
@@ -122,13 +122,12 @@ h1 {
   padding-top: 10px;
 }
 
-
 :deep(.slick-arrow.custom-slick-arrow) {
   width: 30px;
   height: 30px;
   font-size: 30px;
   color: #000000;
-  background: #ffffff;
+  background: var(--primary);
   transition: ease all 0.3s;
   opacity: 0.8;
   z-index: 1;
@@ -143,7 +142,7 @@ h1 {
 }
 
 :deep(.slick-arrow.custom-slick-arrow:hover) {
-  color: #fff;
+  color: var(--primary);
   opacity: 0.5;
 }
 

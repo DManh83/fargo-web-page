@@ -3,7 +3,10 @@
     <div>
       <p>{{ itemRender.paragraphs[0] }}</p>
     </div>
-    <div v-if="itemRender.image && itemRender.image.length > 0 && itemRender.image[0] !== checker" class="hero">
+    <div
+      v-if="itemRender.image && itemRender.image.length > 0 && itemRender.image[0] !== checker"
+      class="hero"
+    >
       <a-carousel autoplay dots arrows effect="fade">
         <template #prevArrow>
           <div class="custom-slick-arrow" style="left: 10px; z-index: 1">
@@ -31,12 +34,7 @@
         <h2>{{ child.title }}</h2>
         <p>{{ child.paragraphs[0] }}</p>
         <div v-if="child.image && child.image.length > 0" class="hero">
-          <a-carousel
-            autoplay
-            dots
-            arrows
-            effect="fade"
-          >
+          <a-carousel autoplay dots arrows effect="fade">
             <template #prevArrow>
               <div class="custom-slick-arrow" style="left: 10px; z-index: 1">
                 <LeftCircleOutlined />
@@ -47,11 +45,11 @@
                 <RightCircleOutlined />
               </div>
             </template>
-              <template v-for="img in child.image" :key="img">
-                <div class="hero_slide">
-                  <img :src="img" alt="" @error="onImgErr" />
-                </div>
-              </template>
+            <template v-for="img in child.image" :key="img">
+              <div class="hero_slide">
+                <img :src="img" alt="" @error="onImgErr" />
+              </div>
+            </template>
           </a-carousel>
         </div>
         <p v-for="(p, i) in child.paragraphs.slice(1)" :key="i">{{ p }}</p>
@@ -94,7 +92,7 @@ const children = computed(() =>
     const paraText = safeT(child.paragraphs, '')
     const paragraphs = formatToParagraphs(paraText)
     return { ...child, title, paragraphs }
-  })
+  }),
 )
 </script>
 
@@ -173,7 +171,7 @@ const children = computed(() =>
   height: 35px;
   font-size: 35px;
   color: #000000;
-  background: #ffffff;
+  background: var(--primary);
   transition: ease all 0.3s;
   opacity: 0.8;
   z-index: 1;

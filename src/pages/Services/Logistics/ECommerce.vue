@@ -34,7 +34,12 @@
   >
     <h1
       class="title"
-      style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
+      style="
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--secondary);
+        font-family: 'Poppins', sans-serif;
+      "
     >
       {{ $t('services.advantages') }}
     </h1>
@@ -61,13 +66,17 @@
   <section
     class="carousel-container"
     style="
-      background-color: #052e5e;
+      background-color: var(--secondary);
       clip-path: ellipse(100% 100% at 50% 100%);
       padding: 1px 0 50px 0;
       margin: 50px auto;
     "
   >
-    <CarouselCard :title="$t('services.relatedSolutions')" :items="i18nSolutions" titleColor="#ffffff" />
+    <CarouselCard
+      :title="$t('services.relatedSolutions')"
+      :items="i18nSolutions"
+      titleColor="var(--primary)"
+    />
   </section>
   <section style="margin: 50px auto">
     <FeaturedNews title="News" />
@@ -116,9 +125,7 @@ const overviewList = computed(() => [
   {
     id: 2,
     title: t('services.overview'),
-    paragraphs: [
-      t('services.eCommerce.overviewDescription'),
-    ],
+    paragraphs: [t('services.eCommerce.overviewDescription')],
     imageSrc: overviewECommerce,
     height: '388px',
     reverse: true,
@@ -128,9 +135,7 @@ const advantagesList = computed(() => [
   {
     id: 1,
     title: t('services.eCommerce.fastFulfillment'),
-    paragraphs: [
-      t('services.eCommerce.fastFulfillmentDescription'),
-    ],
+    paragraphs: [t('services.eCommerce.fastFulfillmentDescription')],
     imageSrc: fastFulfillment,
     height: '221px',
     reverse: false,
@@ -139,9 +144,7 @@ const advantagesList = computed(() => [
   {
     id: 2,
     title: t('services.eCommerce.scalableSolutions'),
-    paragraphs: [
-      t('services.eCommerce.scalableSolutionsDescription'),
-    ],
+    paragraphs: [t('services.eCommerce.scalableSolutionsDescription')],
     imageSrc: scalableSolutions,
     height: '221px',
     reverse: true,
@@ -150,9 +153,7 @@ const advantagesList = computed(() => [
   {
     id: 3,
     title: t('services.eCommerce.customerExperience'),
-    paragraphs: [
-      t('services.eCommerce.customerExperienceDescription'),
-    ],
+    paragraphs: [t('services.eCommerce.customerExperienceDescription')],
     imageSrc: customerExperience,
     height: '221px',
     reverse: false,
@@ -161,9 +162,7 @@ const advantagesList = computed(() => [
   {
     id: 4,
     title: 'Technology Driven',
-    paragraphs: [
-      t('services.eCommerce.technologyDrivenDescription'),
-    ],
+    paragraphs: [t('services.eCommerce.technologyDrivenDescription')],
     imageSrc: technologyDriven,
     height: '221px',
     reverse: true,
@@ -172,11 +171,13 @@ const advantagesList = computed(() => [
 ])
 
 const i18nSolutions = computed(() => {
-  const relatedSolutions = solutions.filter((solution) => solution.title !== t(`services.eCommerce.title`))
-  return relatedSolutions.map(solution => ({
+  const relatedSolutions = solutions.filter(
+    (solution) => solution.title !== t(`services.eCommerce.title`),
+  )
+  return relatedSolutions.map((solution) => ({
     ...solution,
     title: t(`services.${solution.title}`),
-    description: t(`services.${solution.description}`)
+    description: t(`services.${solution.description}`),
   }))
 })
 </script>
@@ -187,4 +188,4 @@ const i18nSolutions = computed(() => {
   font-size: 32px !important;
   font-weight: 600 !important;
 }
-</style> 
+</style>

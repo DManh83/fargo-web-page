@@ -34,7 +34,12 @@
   >
     <h1
       class="title"
-      style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
+      style="
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--secondary);
+        font-family: 'Poppins', sans-serif;
+      "
     >
       {{ $t('services.advantages') }}
     </h1>
@@ -61,13 +66,17 @@
   <section
     class="carousel-container"
     style="
-      background-color: #052e5e;
+      background-color: var(--secondary);
       clip-path: ellipse(100% 100% at 50% 100%);
       padding: 1px 0 50px 0;
       margin: 50px auto;
     "
   >
-    <CarouselCard :title="$t('services.relatedSolutions')" :items="i18nSolutions" titleColor="#ffffff" />
+    <CarouselCard
+      :title="$t('services.relatedSolutions')"
+      :items="i18nSolutions"
+      titleColor="var(--primary)"
+    />
   </section>
   <section style="margin: 50px auto">
     <FeaturedNews title="News" />
@@ -102,7 +111,6 @@ import customerSupport from '@/assets/images/customer_support.png'
 
 const { t } = useI18n()
 
-
 const overviewList = computed(() => [
   {
     id: 1,
@@ -117,9 +125,7 @@ const overviewList = computed(() => [
   {
     id: 2,
     title: t('services.overview'),
-    paragraphs: [
-      t('services.customsBrokerage.overviewDescription'),
-    ],
+    paragraphs: [t('services.customsBrokerage.overviewDescription')],
     imageSrc: overviewCustomsBroker,
     height: '388px',
     reverse: true,
@@ -129,9 +135,7 @@ const advantagesList = computed(() => [
   {
     id: 1,
     title: t('services.customsBrokerage.regulatoryExpertise'),
-    paragraphs: [
-      t('services.customsBrokerage.regulatoryExpertiseDescription'),
-    ],
+    paragraphs: [t('services.customsBrokerage.regulatoryExpertiseDescription')],
     imageSrc: regulatoryExpertise,
     height: '221px',
     reverse: false,
@@ -140,9 +144,7 @@ const advantagesList = computed(() => [
   {
     id: 2,
     title: t('services.customsBrokerage.timeEfficiency'),
-    paragraphs: [
-      t('services.customsBrokerage.timeEfficiencyDescription'),
-    ],
+    paragraphs: [t('services.customsBrokerage.timeEfficiencyDescription')],
     imageSrc: timeEfficiency,
     height: '221px',
     reverse: true,
@@ -151,9 +153,7 @@ const advantagesList = computed(() => [
   {
     id: 3,
     title: t('services.customsBrokerage.costSavings'),
-    paragraphs: [
-      t('services.customsBrokerage.costSavingsDescription'),
-    ],
+    paragraphs: [t('services.customsBrokerage.costSavingsDescription')],
     imageSrc: costSavings2,
     height: '221px',
     reverse: false,
@@ -162,9 +162,7 @@ const advantagesList = computed(() => [
   {
     id: 4,
     title: t('services.customsBrokerage.dedicatedSupport'),
-    paragraphs: [
-      t('services.customsBrokerage.dedicatedSupportDescription'),
-    ],
+    paragraphs: [t('services.customsBrokerage.dedicatedSupportDescription')],
     imageSrc: customerSupport,
     height: '221px',
     reverse: true,
@@ -173,11 +171,13 @@ const advantagesList = computed(() => [
 ])
 
 const i18nSolutions = computed(() => {
-  const relatedSolutions = solutions.filter((solution) => solution.title !== t(`services.customsBrokerage.title`))
-  return relatedSolutions.map(solution => ({
+  const relatedSolutions = solutions.filter(
+    (solution) => solution.title !== t(`services.customsBrokerage.title`),
+  )
+  return relatedSolutions.map((solution) => ({
     ...solution,
     title: t(`services.${solution.title}`),
-    description: t(`services.${solution.description}`)
+    description: t(`services.${solution.description}`),
   }))
 })
 </script>

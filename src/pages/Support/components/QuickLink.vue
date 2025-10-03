@@ -5,7 +5,7 @@
         style="
           font-size: 32px;
           font-weight: 600;
-          color: #052e5e;
+          color: var(--secondary);
           font-family: 'Poppins', sans-serif;
         "
       >
@@ -13,11 +13,15 @@
       </h1>
       <ul style="list-style: none; padding: 0; margin: 0">
         <li>
-          <RouterLink to="/support/faqs" style="color: #052e5e">{{ $t('support.quickLink.faqs') }}</RouterLink>
+          <RouterLink to="/support/faqs" style="color: var(--secondary)">{{
+            $t('support.quickLink.faqs')
+          }}</RouterLink>
         </li>
         <li>{{ $t('support.quickLink.trackAndTrace') }}</li>
         <li>
-          <RouterLink to="/support/contact-us" style="color: #052e5e">{{ $t('support.quickLink.contactUs') }}</RouterLink>
+          <RouterLink to="/support/contact-us" style="color: var(--secondary)">{{
+            $t('support.quickLink.contactUs')
+          }}</RouterLink>
         </li>
         <li>{{ $t('support.quickLink.resources') }}</li>
       </ul>
@@ -31,7 +35,7 @@ import { RouterLink } from 'vue-router'
 
 <style scoped>
 aside {
-  background-color: #cee5ff;
+  background-color: #C8D9E6;
   width: 305px;
   height: 200px;
   border-radius: 10px;

@@ -1,9 +1,22 @@
 <template>
   <div class="form-request">
-    <h1 style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif">{{ $t('support.contactUs.contactFargoLogistics') }}</h1>
+    <h1
+      style="
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--secondary);
+        font-family: 'Poppins', sans-serif;
+      "
+    >
+      {{ $t('support.contactUs.contactFargoLogistics') }}
+    </h1>
     <a-form layout="vertical" :model="form" class="form-request-form">
       <a-form-item :label="$t('form.fullName')">
-        <a-input v-model:value="form.fullName" size="large" :placeholder="$t('form.fullNamePlaceholder')" />
+        <a-input
+          v-model:value="form.fullName"
+          size="large"
+          :placeholder="$t('form.fullNamePlaceholder')"
+        />
       </a-form-item>
       <a-form-item :label="$t('form.phoneNumber')">
         <a-input
@@ -13,7 +26,11 @@
         />
       </a-form-item>
       <a-form-item :label="$t('form.email')">
-        <a-input v-model:value="form.email" size="large" :placeholder="$t('form.emailPlaceholder')" />
+        <a-input
+          v-model:value="form.email"
+          size="large"
+          :placeholder="$t('form.emailPlaceholder')"
+        />
       </a-form-item>
       <a-form-item :label="$t('form.companyName')">
         <a-input
@@ -34,11 +51,15 @@
       <a-form-item>
         <a-checkbox v-model:checked="form.termsAndConditions">
           {{ $t('form.termsAndConditionsPlaceholder') }}
-          <RouterLink to="/terms-and-conditions">{{ $t('form.termsAndConditionsLinkPlaceholder') }}</RouterLink>
+          <RouterLink to="/terms-and-conditions">{{
+            $t('form.termsAndConditionsLinkPlaceholder')
+          }}</RouterLink>
         </a-checkbox>
       </a-form-item>
       <a-form-item>
-        <a-button type="primary" @click="handleSubmit" size="large">{{ $t('btn.submit') }}</a-button>
+        <a-button type="primary" @click="handleSubmit" size="large">{{
+          $t('btn.submit')
+        }}</a-button>
       </a-form-item>
     </a-form>
   </div>

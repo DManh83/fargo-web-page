@@ -89,7 +89,7 @@ const pagedItems = computed(() => {
   line-height: 1.2;
   margin: 0 0 40px;
   font-weight: 700;
-  color: #0f172a;
+  color: var(--secondary);
 }
 
 .news-grid {
@@ -119,14 +119,14 @@ const pagedItems = computed(() => {
   aspect-ratio: 16 / 9;
   border-radius: 12px;
   object-fit: cover;
-  background: #f3f4f6;
+  background: var(--primary);
   margin-bottom: 12px;
 }
 
 .news-card_title {
   font-size: 18px;
   font-weight: 700;
-  color: #0b2b5b;
+  color: var(--secondary);
   margin: 0 0 6px;
   display: -webkit-box;
   -webkit-line-clamp: 2;

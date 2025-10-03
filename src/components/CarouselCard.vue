@@ -50,7 +50,7 @@
 </template>
 
 <script setup>
-import { useRouter } from 'vue-router';
+import { useRouter } from 'vue-router'
 
 const router = useRouter()
 
@@ -65,7 +65,7 @@ defineProps({
   },
   titleColor: {
     type: String,
-    default: '#052e5e',
+    default: 'var(--secondary)',
   },
 })
 
@@ -106,8 +106,8 @@ h1 {
 }
 
 .cc-button-item {
-  background-color: #ffb23f;
-  color: #052e5e;
+  background-color: #f49f1c;
+  color: var(--secondary);
   font-weight: bold;
 }
 
@@ -171,7 +171,7 @@ h1 {
 .card-title {
   font-size: 24px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   font-family: 'Poppins', sans-serif;
   text-align: start;
   padding: 4px 0;
@@ -185,7 +185,7 @@ h1 {
 .card-description {
   font-size: 16px;
   font-weight: 400;
-  color: #052e5e;
+  color: var(--secondary);
   text-align: start;
   font-family: 'Poppins', sans-serif;
   display: -webkit-box;
@@ -200,19 +200,33 @@ h1 {
 }
 /* ===== Custom arrows ===== */
 :deep(.slick-arrow.custom-slick-arrow) {
-  width: 30px; height: 30px; font-size: 35px;
+  width: 30px;
+  height: 30px;
+  font-size: 35px;
   color: #000000;
-  transition: ease all 0.3s; opacity: 0.8; z-index: 1;
-  border-radius: 50%; position: absolute; top: 50%; transform: translateY(-50%);
+  transition: ease all 0.3s;
+  opacity: 0.8;
+  z-index: 1;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
-:deep(.slick-arrow.custom-slick-arrow:before) { display: none; }
-:deep(.slick-arrow.custom-slick-arrow:hover) { color: #5e5c5c; opacity: 0.5; }
+:deep(.slick-arrow.custom-slick-arrow:before) {
+  display: none;
+}
+:deep(.slick-arrow.custom-slick-arrow:hover) {
+  color: #5e5c5c;
+  opacity: 0.5;
+}
 
 /* Căn giữa slide, KHÔNG dùng line-height để khỏi phá layout */
 .cc-carousel :deep(.slick-slide),
 .cc-carousel :deep(.slick-slide > div) {
   height: auto;
   line-height: normal;
-  display: flex; justify-content: center; align-items: stretch;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
 }
 </style>

@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <section class="thumbnail-content">
+  <section class="bg-header-content">
     <div class="overlay">
       <div class="overlay-title">
         <span class="title">{{ title }}</span>
@@ -10,7 +10,7 @@
         <span class="subtitle">{{ subtitle }}</span>
       </div>
     </div>
-    <img :src="imageSrc" alt="thumbnail" class="thumbnail" />
+    <img :src="imageSrc" alt="thumbnail" class="bg-header-image" />
   </section>
   <div class="description">
     <span>{{ description }}</span>
@@ -27,14 +27,14 @@ defineProps({
 </script>
 
 <style scoped>
-.thumbnail-content {
+.bg-header-content {
   position: relative;
   width: 100%;
   height: 532px;
   overflow: hidden;
 }
 
-.thumbnail {
+.bg-header-image {
   width: 1920px;
   height: 532px;
   object-fit: cover;
@@ -45,7 +45,7 @@ defineProps({
   inset: 0;
 }
 
-.thumbnail-content::before {
+.bg-header-content::before {
   content: '';
   position: absolute;
   inset: 0;
@@ -65,7 +65,7 @@ defineProps({
   top: 20%;
   left: 10%;
   text-align: left;
-  color: #fff;
+  color: var(--primary);
   z-index: 2;
   display: flex;
   flex-direction: column;
@@ -82,26 +82,26 @@ defineProps({
   width: auto;
 }
 
-.title {
+.bg-header-content .title {
   font-size: 128px;
   font-weight: 400;
-  color: #ffb23f;
+  color: var(--tertiary);
   font-family: 'Qwitcher Grypen';
   letter-spacing: 0.04em;
   font-style: italic;
   margin: none;
 }
 
-.subtitle {
+.bg-header-content .subtitle {
   font-size: 96px;
   font-weight: 400;
-  color: #ffb23f;
+  color: var(--tertiary);
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;
   margin: none;
   justify-self: end;
 }
-.subtitle:lang(vi) {
+.bg-header-content .subtitle:lang(vi) {
   font-family: var(--font-vi) !important;
   font-size: 96px !important;
   font-weight: 700 !important;
@@ -109,7 +109,7 @@ defineProps({
 }
 .description {
   height: 81px;
-  background-color: #052e5e;
+  background-color: var(--secondary);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -121,11 +121,17 @@ defineProps({
   font-size: 32px;
   line-height: 129%;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--primary);
 }
 .description span:lang(vi) {
   font-family: var(--font-vi) !important;
   font-size: 32px !important;
+  font-weight: 400 !important;
+  font-style: italic;
+}
+.bg-header-content .title:lang(vi) {
+  font-family: 'Qwitcher Grypen' !important;
+  font-size: 128px !important;
   font-weight: 400 !important;
   font-style: italic;
 }

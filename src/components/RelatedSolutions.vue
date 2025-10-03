@@ -60,7 +60,7 @@ function handleClick(item) {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #052e5e;
+  background-color: var(--secondary);
   clip-path: ellipse(100% 100% at 50% 100%);
 }
 
@@ -77,7 +77,7 @@ function handleClick(item) {
 .rs-title h1 {
   font-size: 32px;
   font-weight: 600;
-  color: #fff;
+  color: var(--primary);
   font-family: 'Poppins', sans-serif;
 }
 .rs-title h1:lang(vi) {
@@ -112,7 +112,7 @@ function handleClick(item) {
 .rs-item-title h2 {
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: var(--primary);
   font-family: 'Poppins', sans-serif;
 }
 .rs-item-title h2:lang(vi) {

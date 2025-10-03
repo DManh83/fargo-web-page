@@ -34,7 +34,12 @@
   >
     <h1
       class="title"
-      style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
+      style="
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--secondary);
+        font-family: 'Poppins', sans-serif;
+      "
     >
       {{ $t('services.advantages') }}
     </h1>
@@ -61,13 +66,17 @@
   <section
     class="carousel-container"
     style="
-      background-color: #052e5e;
+      background-color: var(--secondary);
       clip-path: ellipse(100% 100% at 50% 100%);
       padding: 1px 0 50px 0;
       margin: 50px auto;
     "
   >
-    <CarouselCard :title="$t('services.relatedSolutions')" :items="i18nSolutions" titleColor="#ffffff" />
+    <CarouselCard
+      :title="$t('services.relatedSolutions')"
+      :items="i18nSolutions"
+      titleColor="var(--primary)"
+    />
   </section>
   <section style="margin: 50px auto">
     <FeaturedNews title="News" />
@@ -111,9 +120,7 @@ const overviewList = computed(() => [
   {
     id: 2,
     title: t('services.overview'),
-    paragraphs: [
-      t('services.cargoInsurance.overviewDescription'),
-    ],
+    paragraphs: [t('services.cargoInsurance.overviewDescription')],
     imageSrc: overviewCargoInsurance,
     height: '388px',
     reverse: true,
@@ -123,9 +130,7 @@ const advantagesList = [
   {
     id: 1,
     title: t('services.cargoInsurance.comprehensiveCoverage'),
-    paragraphs: [
-      t('services.cargoInsurance.comprehensiveCoverageDescription'),
-    ],
+    paragraphs: [t('services.cargoInsurance.comprehensiveCoverageDescription')],
     imageSrc: comprehensiveCoverage,
     height: '221px',
     reverse: false,
@@ -134,9 +139,7 @@ const advantagesList = [
   {
     id: 2,
     title: t('services.cargoInsurance.costProtection'),
-    paragraphs: [
-      t('services.cargoInsurance.costProtectionDescription'),
-    ],
+    paragraphs: [t('services.cargoInsurance.costProtectionDescription')],
     imageSrc: costProtection,
     height: '221px',
     reverse: true,
@@ -145,9 +148,7 @@ const advantagesList = [
   {
     id: 3,
     title: t('services.cargoInsurance.flexibleOptions'),
-    paragraphs: [
-      t('services.cargoInsurance.flexibleOptionsDescription'),
-    ],
+    paragraphs: [t('services.cargoInsurance.flexibleOptionsDescription')],
     imageSrc: flexibleOptions,
     height: '221px',
     reverse: false,
@@ -156,9 +157,7 @@ const advantagesList = [
   {
     id: 4,
     title: t('services.cargoInsurance.peaceOfMind'),
-    paragraphs: [
-      t('services.cargoInsurance.peaceOfMindDescription'),
-    ],
+    paragraphs: [t('services.cargoInsurance.peaceOfMindDescription')],
     imageSrc: peaceOfMind,
     height: '221px',
     reverse: true,
@@ -167,14 +166,15 @@ const advantagesList = [
 ]
 
 const i18nSolutions = computed(() => {
-  const relatedSolutions = solutions.filter((solution) => solution.title !== t(`services.cargoInsurance.title`))
-  return relatedSolutions.map(solution => ({
+  const relatedSolutions = solutions.filter(
+    (solution) => solution.title !== t(`services.cargoInsurance.title`),
+  )
+  return relatedSolutions.map((solution) => ({
     ...solution,
     title: t(`services.${solution.title}`),
-    description: t(`services.${solution.description}`)
+    description: t(`services.${solution.description}`),
   }))
 })
-
 </script>
 
 <style>
@@ -183,5 +183,4 @@ const i18nSolutions = computed(() => {
   font-size: 32px !important;
   font-weight: 600 !important;
 }
-
 </style>

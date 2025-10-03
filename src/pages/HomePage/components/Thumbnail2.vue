@@ -54,7 +54,7 @@ defineProps({
   right: 15%;
   transform: translateY(-50%);
   text-align: left;
-  color: #fff;
+  color: var(--primary);
   z-index: 1;
 }
 
@@ -74,7 +74,7 @@ defineProps({
 .title1 {
   font-size: 48px;
   font-weight: 400;
-  color: #ffb23f;
+  color: #f49f1c;
   margin-bottom: 20px;
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;
@@ -82,7 +82,7 @@ defineProps({
 .title2 {
   font-size: 48px;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--primary);
   margin-bottom: 20px;
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;
@@ -98,7 +98,7 @@ defineProps({
 .title3 {
   font-size: 48px;
   font-weight: 400;
-  color: #ffffff;
+  color: var(--primary);
   margin-bottom: 20px;
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;
@@ -106,7 +106,7 @@ defineProps({
 .title4 {
   font-size: 48px;
   font-weight: 400;
-  color: #ffb23f;
+  color: #f49f1c;
   margin-bottom: 20px;
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;

@@ -55,8 +55,8 @@ const router = useRouter()
 }
 
 .read-more-button {
-  background-color: #ffb23f;
-  color: #052e5e;
+  background-color: #f49f1c;
+  color: var(--secondary);
   font-weight: bold;
 }
 
@@ -64,7 +64,7 @@ h1 {
   font-size: 32px;
   font-weight: 600;
   font-family: 'Poppins', sans-serif;
-  color: #052e5e;
+  color: var(--secondary);
   line-height: 1.1;
 }
 h1:lang(vi) {

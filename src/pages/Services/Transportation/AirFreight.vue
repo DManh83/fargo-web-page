@@ -101,9 +101,7 @@ const advantagesList = computed(() => [
   {
     id: 1,
     title: t('services.airFreight.speedAndEfficiency'),
-    paragraphs: [
-      t('services.airFreight.speedAndEfficiencyDescription'),
-    ],
+    paragraphs: [t('services.airFreight.speedAndEfficiencyDescription')],
     imageSrc: speedAndEfficiency,
     height: '221px',
     reverse: false,
@@ -112,9 +110,7 @@ const advantagesList = computed(() => [
   {
     id: 2,
     title: t('services.airFreight.globalReach'),
-    paragraphs: [
-      t('services.airFreight.globalReachDescription'),
-    ],
+    paragraphs: [t('services.airFreight.globalReachDescription')],
     imageSrc: globalReach,
     height: '221px',
     reverse: true,
@@ -123,9 +119,7 @@ const advantagesList = computed(() => [
   {
     id: 3,
     title: t('services.airFreight.secureHandling'),
-    paragraphs: [
-      t('services.airFreight.secureHandlingDescription'),
-    ],
+    paragraphs: [t('services.airFreight.secureHandlingDescription')],
     imageSrc: secureHandling,
     height: '221px',
     reverse: false,
@@ -134,9 +128,7 @@ const advantagesList = computed(() => [
   {
     id: 4,
     title: t('services.airFreight.flexibleSolutions'),
-    paragraphs: [
-      t('services.airFreight.flexibleSolutionsDescription'),
-    ],
+    paragraphs: [t('services.airFreight.flexibleSolutionsDescription')],
     imageSrc: flexibleSolutions,
     height: '221px',
     reverse: true,
@@ -170,12 +162,10 @@ const relatedSolutions = computed(() => [
     id: 'transportation/sea-freight',
     title: t('services.seaFreight.title'),
     image: overviewSea,
-    paragraphs: [
-      t('services.seaFreight.description'),
-    ],
+    paragraphs: [t('services.seaFreight.description')],
     height: '356px',
-    titleColor: '#ffff',
-    textColor: '#ffff',
+    titleColor: 'var(--primary)',
+    textColor: 'var(--primary)',
     reverse: true,
   },
 ])
@@ -202,7 +192,7 @@ const relatedSolutions = computed(() => [
 .advantages-container .title {
   font-size: 32px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   font-family: 'Poppins', sans-serif;
 }
 .advantages-container .title:lang(vi) {

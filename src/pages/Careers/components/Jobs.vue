@@ -77,7 +77,7 @@ h3 {
 h1 {
   font-size: 40px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   text-align: center;
 }
 </style>

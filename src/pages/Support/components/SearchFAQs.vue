@@ -153,7 +153,7 @@ const expandIcon = ({ isActive }) =>
   font-weight: 600 !important;
 }
 .faq-item :deep(.ant-collapse-content) {
-  background: #fff;
+  background: var(--primary);
   border-radius: 12px !important;
   border: 1px solid #f0f0f0;
   margin-top: 8px;

@@ -2,7 +2,7 @@
 <script setup>
 defineProps({
   size: { type: [Number, String], default: 60 }, // px
-  stroke: { type: String, default: '#052E5E' }, // màu viền
+  stroke: { type: String, default: 'var(--secondary)' }, // màu viền
   shape: { type: String, default: 'hex' }, // 'pentagon' | 'hex'
   strokeWidth: { type: [Number, String], default: 1 },
 })

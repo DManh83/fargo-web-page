@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section class="sl">
-    <h1> {{ $t('services.specializedLogistics') }} </h1>
+    <h1>{{ $t('services.specializedLogistics') }}</h1>
     <div class="sl-content">
       <a-carousel
         :dots="false"
@@ -25,10 +25,10 @@
 
         <div v-for="(item, i) in items" :key="i" class="card-item">
           <!-- <RouterLink :to="`/logistics-and-supply-chain/specialized-logistics/${item.id}`"> -->
-            <div class="card-img-wrap">
-              <img :src="item.image" :alt="`sl-${item.id}`" class="card-img" />
-            </div>
-            <div class="card-title">{{ item.title }}</div>
+          <div class="card-img-wrap">
+            <img :src="item.image" :alt="`sl-${item.id}`" class="card-img" />
+          </div>
+          <div class="card-title">{{ item.title }}</div>
           <!-- </RouterLink> -->
         </div>
       </a-carousel>
@@ -100,7 +100,7 @@ const items = computed(() => [
 h1 {
   font-size: 32px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   margin: 0;
   margin-bottom: 30px;
   text-align: center;
@@ -158,7 +158,7 @@ h1 {
 .card-title {
   font-size: 24px;
   font-weight: 600;
-  color: #ffff;
+  color: var(--primary);
   text-align: start;
   width: 100%;
   max-width: 285px;
@@ -180,7 +180,7 @@ h1 {
   height: 30px;
   font-size: 35px;
   color: #000000;
-  background: #ffffff;
+  background: var(--primary);
   transition: ease all 0.3s;
   opacity: 0.8;
   z-index: 1;

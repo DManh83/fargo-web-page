@@ -51,8 +51,7 @@
     <FeaturedNews title="News" />
   </section>
   <section class="banner-container">
-    <Banner
-    />
+    <Banner />
   </section>
 </template>
 
@@ -96,9 +95,7 @@ const items = computed(() => [
 const relatedServices = computed(() => ({
   title: t('services.logisticsAndSupplyChain.title'),
   imageSrc: overviewLasc,
-  paragraphs: [
-    t('services.logisticsAndSupplyChain.relatedSolutionsDescription'),
-  ],
+  paragraphs: [t('services.logisticsAndSupplyChain.relatedSolutionsDescription')],
   path: '/logistics-and-supply-chain',
 }))
 
@@ -116,9 +113,7 @@ const overviewList = computed(() => [
   {
     id: 2,
     title: t('services.overview'),
-    paragraphs: [
-      t('services.transportation.overviewDescription'),
-    ],
+    paragraphs: [t('services.transportation.overviewDescription')],
     imageSrc: overviewTransportation,
     height: '388px',
     reverse: true,
@@ -129,9 +124,7 @@ const advantagesList = computed(() => [
   {
     id: 1,
     title: t('services.transportation.globalCoverage'),
-    paragraphs: [
-      t('services.transportation.globalCoverageDescription'),
-    ],
+    paragraphs: [t('services.transportation.globalCoverageDescription')],
     imageSrc: globalCoverage,
     height: '221px',
     reverse: false,
@@ -140,9 +133,7 @@ const advantagesList = computed(() => [
   {
     id: 2,
     title: t('services.transportation.costEfficiency'),
-    paragraphs: [
-      t('services.transportation.costEfficiencyDescription'),
-    ],
+    paragraphs: [t('services.transportation.costEfficiencyDescription')],
     imageSrc: costEfficiency,
     height: '221px',
     reverse: true,
@@ -151,9 +142,7 @@ const advantagesList = computed(() => [
   {
     id: 3,
     title: t('services.transportation.onTimeDelivery'),
-    paragraphs: [
-      t('services.transportation.onTimeDeliveryDescription'),
-    ],
+    paragraphs: [t('services.transportation.onTimeDeliveryDescription')],
     imageSrc: onTimeDelivery,
     height: '221px',
     reverse: false,
@@ -162,9 +151,7 @@ const advantagesList = computed(() => [
   {
     id: 4,
     title: t('services.transportation.customerSupport'),
-    paragraphs: [
-      t('services.transportation.customerSupportDescription'),
-    ],
+    paragraphs: [t('services.transportation.customerSupportDescription')],
     imageSrc: customerSupport,
     height: '221px',
     reverse: true,
@@ -194,7 +181,7 @@ const advantagesList = computed(() => [
 .advantages-container .title {
   font-size: 32px;
   font-weight: 600;
-  color: #052e5e;
+  color: var(--secondary);
   font-family: 'Poppins', sans-serif;
 }
 .advantages-container .title:lang(vi) {
@@ -218,7 +205,7 @@ const advantagesList = computed(() => [
   width: 100%;
   height: 100%;
   margin: 100px auto 0;
-  background-color: #052e5e;
+  background-color: var(--secondary);
   display: flex;
   flex-direction: column;
   align-items: center;

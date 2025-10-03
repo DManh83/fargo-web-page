@@ -37,7 +37,6 @@ defineProps({
   overflow: hidden;
 }
 
-
 .thumbnail {
   width: 3700px;
   height: 100%;
@@ -53,22 +52,22 @@ defineProps({
   top: 40%;
   right: 15%;
   text-align: left;
-  color: #fff;
+  color: var(--primary);
   z-index: 1;
 }
 
-.title {
+.thumbnail-content .title {
   font-size: 70px;
   font-weight: 400;
-  color: #ffb23f;
+  color: #f49f1c;
   margin-bottom: 20px;
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;
 }
-.title:lang(vi) {
+.thumbnail-content .title:lang(vi) {
   font-family: var(--font-vi) !important;
   font-size: 70px !important;
-  font-weight: 400 !important;
+  font-weight: 600 !important;
 }
 
 .buttons {
@@ -86,7 +85,7 @@ defineProps({
 
 .learn-more {
   background-color: #90caf9;
-  color: #052e5e;
+  color: var(--secondary);
   font-weight: bold;
 }
 </style>

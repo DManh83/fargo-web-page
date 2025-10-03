@@ -51,7 +51,7 @@ import bgAbout from '@/assets/images/bg_about.png'
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #052e5e;
+  background-color: var(--secondary);
   position: relative;
   overflow: hidden;
 }
@@ -62,7 +62,7 @@ import bgAbout from '@/assets/images/bg_about.png'
   left: 0;
   width: 100%;
   height: 150px;
-  background: white;
+  background: var(--primary);
   clip-path: ellipse(70% 100% at 50% 100%);
 }
 

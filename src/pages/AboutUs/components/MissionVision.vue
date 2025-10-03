@@ -6,12 +6,20 @@
       </div>
       <div class="description">
         <div class="our_mission">
-          <span style="font-size: 20px; font-weight: 500; font-style: italic;">{{ $t('about.ourMission') }}</span>
-          <span style="font-size: 20px; font-weight: 300;">{{ $t('about.ourMissionDescription') }}</span>
+          <span style="font-size: 20px; font-weight: 500; font-style: italic">{{
+            $t('about.ourMission')
+          }}</span>
+          <span style="font-size: 20px; font-weight: 300">{{
+            $t('about.ourMissionDescription')
+          }}</span>
         </div>
         <div class="our_vision">
-          <span style="font-size: 20px; font-weight: 500; font-style: italic;">{{ $t('about.ourVision') }}</span>
-          <span style="font-size: 20px; font-weight: 300;">{{ $t('about.ourVisionDescription') }}</span>
+          <span style="font-size: 20px; font-weight: 500; font-style: italic">{{
+            $t('about.ourVision')
+          }}</span>
+          <span style="font-size: 20px; font-weight: 300">{{
+            $t('about.ourVisionDescription')
+          }}</span>
         </div>
       </div>
     </div>
@@ -24,7 +32,6 @@
 <script setup></script>
 
 <style scoped>
-
 .container {
   width: 1200px;
   height: 617px;
@@ -47,7 +54,7 @@
 .title {
   font-size: 32px;
   font-weight: 600;
-  color: #ffffff;
+  color: var(--primary);
   margin-bottom: 25px;
   font-family: 'Poppins', sans-serif;
 }
@@ -59,7 +66,7 @@
 
 .description {
   font-family: 'Poppins', sans-serif;
-  color: #ffffff;
+  color: var(--primary);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -73,7 +80,8 @@
   font-weight: 500 !important;
 }
 
-.our_mission, .our_vision {
+.our_mission,
+.our_vision {
   display: flex;
   flex-direction: column;
   align-items: flex-start;

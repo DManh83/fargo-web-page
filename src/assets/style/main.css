@@ -1,6 +1,14 @@
+/* @font-face {
+  font-family: 'Granjon Light';
+  src: url('../fonts/GranjonLTStd.ttf') format('truetype');
+} */
+
 :root {
   --font-vi: 'Roboto', 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
   --font-accent: 'Racing Sans One', var(--font-vi);
+  --primary: #f5efeb;
+  --secondary: #0d0858;
+  --tertiary: #e67b14;
 }
 
 body {

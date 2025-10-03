@@ -58,7 +58,7 @@
 import { ref, computed } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import { setLocale } from '@/i18n'
-import logoFargo from '@/assets/images/logo_fargo.png'
+import logoFargo from '@/assets/images/logo_fargo 3.png'
 import us from '@/assets/images/us.png'
 import vn from '@/assets/images/vn.png'
 import cn from '@/assets/images/cn.png'
@@ -130,7 +130,7 @@ const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
   justify-content: space-evenly;
   align-items: center;
   padding: 0 24px;
-  background: #fff;
+  background: var(--primary);
   position: relative;
   z-index: 20;
   width: 100%;
@@ -147,7 +147,7 @@ const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
 .logo {
   font-size: 24px;
   font-weight: bold;
-  color: #052e5e;
+  color: var(--secondary);
   align-content: center;
 }
 
@@ -160,12 +160,13 @@ const selectedKeys = computed(() => (activeKey.value ? [activeKey.value] : []))
   margin-top: 7px;
   justify-content: center;
   width: 35%;
+  background: var(--primary);
 }
 
 .menu :deep(.ant-menu-title-content) {
   font-size: 16px;
   font-weight: 600;
-  color: #000;
+  color: #0d0858;
   font-family: 'Poppins', sans-serif;
 }
 

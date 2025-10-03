@@ -70,7 +70,7 @@ const cards = computed(() => [
 h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #fff;
+  color: var(--primary);
   margin: 0;
   z-index: 1;
 }
@@ -105,6 +105,6 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: var(--primary);
 }
 </style>

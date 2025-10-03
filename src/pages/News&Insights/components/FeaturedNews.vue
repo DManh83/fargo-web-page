@@ -105,7 +105,7 @@ onMounted(() => {
 .fn_title {
   font-size: 32px;
   font-weight: 800;
-  color: #0b2e5e;
+  color: var(--secondary);
   margin: 16px 0 16px;
   font-family: var(--font-vi);
   margin-bottom: 30px;
@@ -174,7 +174,7 @@ onMounted(() => {
   font-size: 22px;
   font-weight: 800;
   line-height: 1.35;
-  color: #0b2e5e;
+  color: var(--secondary);
   margin: 0 0 6px;
   font-family: var(--font-vi);
 }

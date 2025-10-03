@@ -9,7 +9,12 @@
   </section>
   <section style="width: 1200px; display: flex; flex-direction: column; margin: 50px auto">
     <h1
-      style="font-size: 32px; font-weight: 600; color: #052e5e; font-family: 'Poppins', sans-serif"
+      style="
+        font-size: 32px;
+        font-weight: 600;
+        color: var(--secondary);
+        font-family: 'Poppins', sans-serif;
+      "
     >
       {{ $t('support.quoteRequest.title') }}
     </h1>
@@ -35,7 +40,6 @@ import bgTransportation from '@/assets/images/bg_transportation.png'
 import FormRequest from './components/FormRequest.vue'
 import QuickLink from './components/QuickLink.vue'
 import Banner from '@/components/Banner.vue'
-
 </script>
 <style scoped>
 .container {

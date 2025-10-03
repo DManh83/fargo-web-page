@@ -68,7 +68,7 @@
 </template>
 
 <script setup>
-import logoFargo from '@/assets/images/logo_fargo 2.png'
+import logoFargo from '@/assets/images/logo_fargo 4.png'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
@@ -122,7 +122,7 @@ function handleClick(path) {
   margin-top: 25px;
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: var(--primary);
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;
 }
@@ -150,14 +150,14 @@ function handleClick(path) {
 .phone-icon,
 .email-icon {
   font-size: 24px;
-  color: #fff;
+  color: var(--primary);
 }
 
 .address-text,
 .phone-text,
 .email-text {
   font-size: 16px;
-  color: #fff;
+  color: var(--primary);
   font-family: 'Poppins';
   letter-spacing: 0.04em;
   line-height: 1.4;
@@ -181,15 +181,15 @@ function handleClick(path) {
 
 .info-icon {
   font-size: 40px;
-  color: #fff;
+  color: var(--primary);
   border-radius: 50%;
-  /* background-color: #fff; */
+  /* background-color: var(--primary); */
 }
 
 .footer-right {
   width: 50%;
   height: 100%;
-  background-color: #052e5e;
+  background-color: var(--secondary);
   align-content: center;
 }
 
@@ -207,14 +207,14 @@ function handleClick(path) {
   align-items: flex-start;
 }
 
-.title {
+.footer-right .title {
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: var(--primary);
   font-family: 'Racing Sans One';
   margin-bottom: 20px;
 }
-.title:lang(vi) {
+.footer-right .title:lang(vi) {
   font-family: var(--font-vi) !important;
   font-size: 24px !important;
   font-weight: 600 !important;
@@ -228,7 +228,7 @@ ul {
 li {
   font-size: 16px;
   font-weight: 400;
-  color: #fff;
+  color: var(--primary);
   font-family: 'Poppins';
   letter-spacing: 0.04em;
   line-height: 1.4;
@@ -240,7 +240,7 @@ li {
   width: 100%;
   height: 50px;
   border-top: 1px solid #1a3c74;
-  color: #fff;
+  color: var(--primary);
   text-align: center;
   font-size: 12px;
   padding-top: 20px;
