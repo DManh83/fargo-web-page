@@ -5,6 +5,7 @@ import Header from './components/Header.vue'
 import { RouterView, useRoute } from 'vue-router'
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
+import ButtonContact from './components/ButtonContact.vue'
 
 const route = useRoute()
 const { t } = useI18n()
@@ -71,6 +72,7 @@ const showHeader = computed(() => !route.meta?.hideHeader)
     </a-layout-header>
     <a-layout-content class="app-content">
       <RouterView />
+      <ButtonContact />
     </a-layout-content>
     <a-layout-footer class="app-footer">
       <Footer />

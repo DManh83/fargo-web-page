@@ -236,6 +236,12 @@ li {
   cursor: pointer;
 }
 
+li:lang(vi) {
+  font-family: var(--font-vi) !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+}
+
 .footer-bottom {
   width: 100%;
   height: 50px;
