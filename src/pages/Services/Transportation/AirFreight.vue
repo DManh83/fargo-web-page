@@ -64,8 +64,6 @@ import { computed } from 'vue'
 
 import airFreight from '@/assets/images/air_freight.png'
 import overviewSea from '@/assets/images/overview_sea.png'
-import aboutAirFreight from '@/assets/images/about_air_freight.png'
-import overviewAir from '@/assets/images/overview_air.png'
 import speedAndEfficiency from '@/assets/images/speed_and_efficiency.png'
 import globalReach from '@/assets/images/wide_global_network.png'
 import secureHandling from '@/assets/images/secure_handling.png'
@@ -82,7 +80,7 @@ const overviewList = computed(() => [
     id: 1,
     title: t('contact.description'),
 
-    imageSrc: aboutAirFreight,
+    imageSrc: '../../../../public/images/about_air_freight.png',
     height: '388px',
     reverse: false,
     buttonText: t('btn.requestQuote'),
@@ -92,7 +90,7 @@ const overviewList = computed(() => [
     id: 2,
     title: t('services.overview'),
     paragraphs: [t('services.airFreight.overviewDescription')],
-    imageSrc: overviewAir,
+    imageSrc: '../../../../public/images/overview_air.png',
     height: '388px',
     reverse: true,
   },

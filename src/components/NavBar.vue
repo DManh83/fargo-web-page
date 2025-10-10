@@ -26,13 +26,13 @@
               </a-menu-item>
             </a-sub-menu>
 
-            <a-menu-item v-else :key="child.name">
+            <a-menu-item v-else :key="child.nameOther">
               <RouterLink :to="child.path">{{ $t(child.name) }}</RouterLink>
             </a-menu-item>
           </template>
         </a-sub-menu>
         <!-- if item has no children -->
-        <a-menu-item v-else :key="item.name">
+        <a-menu-item v-else :key="item.nameOther">
           <RouterLink :to="item.path">{{ $t(item.name) }}</RouterLink>
         </a-menu-item>
       </template>
@@ -64,41 +64,57 @@ import vn from '@/assets/images/icons/vn.png'
 import cn from '@/assets/images/icons/cn.png'
 
 const menu = ref([
-  { name: 'menu.about', path: '/about-us' },
+  { name: 'menu.about', path: '/about-us', nameOther: 'menu.about' },
   {
     name: 'menu.services',
     children: [
       {
         name: 'menu.transportation',
+        nameOther: 'menu.transportation',
         path: '/transportation',
         children: [
-          { name: 'menu.sea', path: '/transportation/sea-freight' },
-          { name: 'menu.air', path: '/transportation/air-freight' },
+          { name: 'menu.sea', path: '/transportation/sea-freight', nameOther: 'menu.sea' },
+          { name: 'menu.air', path: '/transportation/air-freight', nameOther: 'menu.air' },
         ],
       },
       {
         name: 'menu.logistics',
+        nameOther: 'menu.logistics',
         path: '/logistics-and-supply-chain',
         children: [
-          { name: 'menu.customsBroker', path: '/logistics-and-supply-chain/customs-broker' },
-          { name: 'menu.cargoInsurance', path: '/logistics-and-supply-chain/cargo-insurance' },
+          {
+            name: 'menu.customsBroker',
+            path: '/logistics-and-supply-chain/customs-broker',
+            nameOther: 'menu.customsBroker',
+          },
+          {
+            name: 'menu.cargoInsurance',
+            path: '/logistics-and-supply-chain/cargo-insurance',
+            nameOther: 'menu.cargoInsurance',
+          },
           {
             name: 'menu.warehouseAndStorage',
+            nameOther: 'menu.warehouseAndStorage',
             path: '/logistics-and-supply-chain/warehouse-and-storage',
           },
-          { name: 'menu.eCommerce', path: '/logistics-and-supply-chain/e-commerce' },
+          {
+            name: 'menu.eCommerce',
+            path: '/logistics-and-supply-chain/e-commerce',
+            nameOther: 'menu.eCommerce',
+          },
         ],
       },
     ],
   },
-  { name: 'menu.news', path: '/news-insights' },
-  { name: 'menu.careers', path: '/careers' },
+  { name: 'menu.news', path: '/news-insights', nameOther: 'menu.news' },
+  { name: 'menu.careers', path: '/careers', nameOther: 'menu.careers' },
   {
     name: 'menu.support',
+    nameOther: 'menu.support',
     children: [
-      { name: 'menu.quoteRequest', path: '/support/quote-request' },
-      { name: 'menu.faqs', path: '/support/faqs' },
-      { name: 'menu.contactUs', path: '/support/contact-us' },
+      { name: 'menu.quoteRequest', path: '/support/quote-request', nameOther: 'menu.quoteRequest' },
+      { name: 'menu.faqs', path: '/support/faqs', nameOther: 'menu.faqs' },
+      { name: 'menu.contactUs', path: '/support/contact-us', nameOther: 'menu.contactUs' },
     ],
   },
 ])
