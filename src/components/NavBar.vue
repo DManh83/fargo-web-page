@@ -58,10 +58,10 @@
 import { ref, computed } from 'vue'
 import { RouterLink, useRoute } from 'vue-router'
 import { setLocale } from '@/i18n'
-import logoFargo from '@/assets/images/logo_fargo 3.png'
-import us from '@/assets/images/us.png'
-import vn from '@/assets/images/vn.png'
-import cn from '@/assets/images/cn.png'
+import logoFargo from '@/assets/images/icons/logo_fargo 4.png'
+import us from '@/assets/images/icons/us.png'
+import vn from '@/assets/images/icons/vn.png'
+import cn from '@/assets/images/icons/cn.png'
 
 const menu = ref([
   { name: 'menu.about', path: '/about-us' },

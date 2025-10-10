@@ -1,6 +1,6 @@
 <template>
   <section style="width: 1200px; margin: 50px auto">
-    <a-form-item>
+    <!-- <a-form-item>
       <a-input
         class="search-input"
         :placeholder="$t('form.searchFAQs')"
@@ -10,7 +10,7 @@
           <SearchOutlined style="font-size: 24px; color: #bebdbf; margin-right: 10px" />
         </template>
       </a-input>
-    </a-form-item>
+    </a-form-item> -->
     <a-row :gutter="[24, 24]" style="margin-top: 40px">
       <!-- Left: categories -->
       <a-col :span="6">
@@ -52,7 +52,7 @@
 
 <script setup>
 import { ref, computed, h } from 'vue'
-import { SearchOutlined, PlusOutlined } from '@ant-design/icons-vue'
+import { PlusOutlined } from '@ant-design/icons-vue'
 import { faqs } from '@/data/fags'
 import { useI18n } from 'vue-i18n'
 

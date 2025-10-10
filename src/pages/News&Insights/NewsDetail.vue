@@ -56,7 +56,7 @@ function sampleSize(arr, n) {
 const related = computed(() => {
   const currentId = item.value?.id
   const pool = (items.value || [])
-    .filter(it => it && it.id !== currentId)
+    .filter(it => it && it.id !== currentId && it.image && it.image.length > 0 && it.image[0])
     // .filter(it => it.category === item.value?.category)
 
   const picked = sampleSize(pool, 3)

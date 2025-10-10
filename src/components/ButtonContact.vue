@@ -1,11 +1,11 @@
 <template>
-  <a-float-button-group shape="circle" :style="{ right: '24px' }">
+  <a-float-button-group shape="circle" :style="{ right: '24px', width: '50px' }">
     <a-float-button class="phone-button" @click="handlePhone">
       <template #icon>
-        <PhoneFilled />
+        <img :src="phone" alt="Phone" class="phone-icon" />
       </template>
     </a-float-button>
-    <a-float-button class="zalo-button" type="primary" @click="handleZalo">
+    <a-float-button class="zalo-button" @click="handleZalo">
       <template #icon>
         <img :src="zalo" alt="Zalo" class="zalo-icon" />
       </template>
@@ -14,36 +14,60 @@
   </a-float-button-group>
 </template>
 <script lang="ts" setup>
-import { PhoneFilled } from '@ant-design/icons-vue'
-import zalo from '@/assets/images/zalo.png'
+import zalo from '@/assets/images/icons/zalo.png'
+import phone from '@/assets/images/icons/phone.png'
 import { ref } from 'vue'
 
-const phone = ref('+84866412239')
+const phoneNumber = ref('+84866412239')
 
 const handlePhone = () => {
-  window.open(`tel:${phone.value}`, '_blank')
+  window.open(`tel:${phoneNumber.value}`, '_blank')
 }
 
 const handleZalo = () => {
-  window.open(`https://zalo.me/${phone.value}`, '_blank')
+  window.open(`https://zalo.me/${phoneNumber.value}`, '_blank')
 }
 </script>
 
 <style scoped>
-.phone-button :deep(.ant-float-btn-body) {
-  background-color: #ff3737 !important;
+
+:deep(.ant-float-btn-circle) {
+  height: 50px !important;
 }
-.zalo-button :deep(.ant-float-btn-content) {
-  width: 40px !important;
-  height: 40px !important;
+
+:deep(.ant-float-btn-circle) {
+  width: 50px !important;
+}
+
+.phone-button :deep(.ant-float-btn-body) {
+  background-color: #f9e7be !important;
+  width: 50px !important;
+  height: 50px !important;
+}
+.phone-button :deep(.ant-float-btn-icon) {
+  width: 50px !important;
+  height: 50px !important;
+  align-content: center;
+  margin: 0 !important;
+}
+.phone-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.zalo-button :deep(.ant-float-btn-body) {
+  background-color: #2962ff!important;
+  width: 50px !important;
+  height: 50px !important;
 }
 .zalo-button :deep(.ant-float-btn-icon) {
-  width: 40px !important;
-  height: 40px !important;
+  width: 50px !important;
+  height: 50px !important;
   margin: 0 !important;
 }
 .zalo-icon {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 </style>

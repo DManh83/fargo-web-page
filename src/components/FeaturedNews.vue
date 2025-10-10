@@ -99,6 +99,7 @@ defineProps({
 
 function shuffle(array) {
   return array
+    .filter((item) => item.image && item.image.length > 0 && item.image[0])
     .map((item) => ({ item, sort: Math.random() }))
     .sort((a, b) => a.sort - b.sort)
     .map(({ item }) => item)

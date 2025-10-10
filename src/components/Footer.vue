@@ -68,7 +68,7 @@
 </template>
 
 <script setup>
-import logoFargo from '@/assets/images/logo_fargo 4.png'
+import logoFargo from '@/assets/images/icons/logo_fargo 4.png'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
