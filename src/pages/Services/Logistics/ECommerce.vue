@@ -92,7 +92,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgTransportation from '@/assets/images/bg_transportation.png'
+import bgTransportation from '../../../../public/images/bg_transportation.png'
 import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
@@ -102,12 +102,12 @@ import { computed } from 'vue'
 
 import { solutions } from '@/data/solutions'
 
-import overviewECommerce from '@/assets/images/e_commerce.png'
+import overviewECommerce from '../../../../public/images/e_commerce.png'
 import introECommerce from '@/assets/images/intro_about_us.png'
 import fastFulfillment from '@/assets/images/fast_fulfillment.png'
-import scalableSolutions from '@/assets/images/scalable_solutions.png'
-import customerExperience from '@/assets/images/customer_experience.png'
-import technologyDriven from '@/assets/images/technology_driven.png'
+import scalableSolutions from '../../../../public/images/scalable_solutions.png'
+import customerExperience from '../../../../public/images/customer_experience.png'
+import technologyDriven from '../../../../public/images/technology_driven.png'
 
 const { t } = useI18n()
 

@@ -62,16 +62,16 @@ import Banner from '@/components/Banner.vue'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 
-import airFreight from '@/assets/images/air_freight.png'
-import overviewSea from '@/assets/images/overview_sea.png'
+import airFreight from '../../../../public/images/air_freight.png'
+import overviewSea from '../../../../public/images/overview_sea.png'
 import speedAndEfficiency from '@/assets/images/speed_and_efficiency.png'
 import globalReach from '@/assets/images/wide_global_network.png'
-import secureHandling from '@/assets/images/secure_handling.png'
-import flexibleSolutions from '@/assets/images/flexible_solutions.png'
-import LCL from '@/assets/images/lcl.png'
+import secureHandling from '../../../../public/images/secure_handling.png'
+import flexibleSolutions from '../../../../public/images/flexible_solutions.png'
+import LCL from '../../../../public/images/lcl.png'
 import FCL from '@/assets/images/fcl.png'
-import CLAS from '@/assets/images/clas.png'
-import BC from '@/assets/images/bc.png'
+import CLAS from '../../../../public/images/clas.png'
+import BC from '../../../../public/images/bc.png'
 
 const { t } = useI18n()
 

@@ -34,7 +34,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgTransportation from '@/assets/images/bg_transportation.png'
+import bgTransportation from '../../../public/images/bg_transportation.png'
 import Banner from '@/components/Banner.vue'
 import SearchFAQs from './components/SearchFAQs.vue'
 </script>

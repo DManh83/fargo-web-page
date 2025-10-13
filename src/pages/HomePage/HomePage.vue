@@ -39,7 +39,7 @@ import Thumbnail from '@/components/Thumbnail.vue'
 import { AboutUs, DeliveryService, Intro, Thumbnail2 } from './components'
 import CarouselCard from '@/components/CarouselCard.vue'
 
-import thumbnail2 from '@/assets/images/thumbnail2.png'
+import thumbnail2 from '../../../public/images/thumbnail2.png'
 import thumbnail3 from '@/assets/images/thumbnail3.png'
 import { solutions } from '@/data/solutions'
 import { useI18n } from 'vue-i18n'

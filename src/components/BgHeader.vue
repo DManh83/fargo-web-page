@@ -71,6 +71,10 @@ defineProps({
   flex-direction: column;
 }
 
+.overlay:lang(vi) {
+  top: 10% !important;
+}
+
 .overlay-title {
   margin-right: 650px;
   margin-bottom: -20px;

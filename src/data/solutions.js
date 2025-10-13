@@ -1,7 +1,7 @@
-import customs_brokerage from '@/assets/images/customs_brokerage.png'
+import customs_brokerage from '../../public/images/customs_brokerage.png'
 import cargo_insurance from '@/assets/images/cargo_insurance.png'
-import warehousing from '@/assets/images/warehousing.png'
-import e_commerce from '@/assets/images/e_commerce.png'
+import warehousing from '../../public/images/warehousing.png'
+import e_commerce from '../../public/images/e_commerce.png'
 
 export const solutions = [
   {

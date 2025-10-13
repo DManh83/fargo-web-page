@@ -2,7 +2,7 @@
 <template>
   <section class="container">
     <div class="who-are-we-image">
-      <img src="@/assets/images/who-are-we.png" alt="who-are-we" />
+      <img src="../../../../public/images/who-are-we.png" alt="who-are-we" />
     </div>
     <div class="who-are-we-content">
       <div class="who-are-we-title">

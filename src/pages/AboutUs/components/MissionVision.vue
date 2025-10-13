@@ -24,7 +24,7 @@
       </div>
     </div>
     <div class="image">
-      <img src="@/assets/images/mission-vision.png" alt="mission-vision" />
+      <img src="../../../../public/images/mission-vision.png" alt="mission-vision" />
     </div>
   </section>
 </template>

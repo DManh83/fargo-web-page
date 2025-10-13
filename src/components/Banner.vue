@@ -3,7 +3,7 @@
   <section class="banner">
     <div class="banner-content">
       <div class="banner-image-container">
-        <img :src="introBanner" alt="intro-banner" class="banner-image" />
+        <img :src="`../../../public/images/intro_banner.png`" alt="intro-banner" class="banner-image" />
       </div>
       <div class="banner-content-text">
         <h1 class="banner-title">
@@ -21,7 +21,6 @@
 </template>
 
 <script setup>
-import introBanner from '@/assets/images/intro_banner.png'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
