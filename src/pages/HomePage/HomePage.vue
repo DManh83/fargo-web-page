@@ -1,6 +1,6 @@
 <template>
   <section class="thumbnail-container">
-    <Thumbnail title="FARGO LOGISTICS" :imageSrc="`../../../public/images/thumbnail.png`" showButtons />
+    <Thumbnail title="FARGO LOGISTICS" :imageSrc="thumbnail" showButtons />
   </section>
   <section class="about-us-container">
     <AboutUs />
@@ -41,6 +41,7 @@ import CarouselCard from '@/components/CarouselCard.vue'
 
 import thumbnail2 from '../../../public/images/thumbnail2.png'
 import thumbnail3 from '@/assets/images/thumbnail3.png'
+import thumbnail from '../../../public/images/thumbnail.png'
 import { solutions } from '@/data/solutions'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
