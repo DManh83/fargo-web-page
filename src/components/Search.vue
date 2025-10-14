@@ -32,7 +32,7 @@
       style="
         width: 153px;
         height: 54px;
-        background-color: #f49f1c;
+        background-color: var(--tertiary);
         font-size: 20px;
         font-weight: 500;
         color: var(--primary);

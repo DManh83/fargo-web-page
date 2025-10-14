@@ -15,7 +15,7 @@
 </template>
 <script lang="ts" setup>
 import zalo from '@/assets/images/icons/zalo.png'
-import phone from '@/assets/images/icons/phone1.png'
+import phone from '@/assets/images/icons/phone2.png'
 import { ref } from 'vue'
 
 const phoneNumber = ref('+84866412239')

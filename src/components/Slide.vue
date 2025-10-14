@@ -87,7 +87,7 @@ const { title, items, slidesToShow, slidesToScroll, height, bgImage } = definePr
 h1 {
   font-size: 48px;
   font-weight: 600;
-  color: #f49f1c;
+  color: var(--tertiary);
   margin: 0;
 }
 
@@ -96,7 +96,7 @@ h1 {
 }
 
 .slide-button-item {
-  background-color: #f49f1c;
+  background-color: var(--tertiary);
   color: var(--secondary);
   font-weight: bold;
 }

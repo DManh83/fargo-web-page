@@ -96,7 +96,7 @@ const handleClick = () => {
   font-weight: 400;
   font-family: var(--font-accent);
   letter-spacing: 0.04em;
-  color: #f49f1c;
+  color: var(--tertiary);
 }
 .banner-title:lang(vi) {
   font-family: var(--font-vi) !important;
@@ -108,7 +108,7 @@ const handleClick = () => {
   width: 156px;
   height: 54px;
   border-radius: 20px;
-  background-color: #f49f1c;
+  background-color: var(--tertiary);
   color: var(--secondary);
   font-weight: 600;
   font-size: 24px;

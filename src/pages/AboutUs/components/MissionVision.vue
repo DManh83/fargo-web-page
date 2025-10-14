@@ -6,7 +6,7 @@
       </div>
       <div class="description">
         <div class="our_mission">
-          <span style="font-size: 20px; font-weight: 500; font-style: italic">{{
+          <span style="font-size: 25px; font-weight: 500; font-style: italic">{{
             $t('about.ourMission')
           }}</span>
           <span style="font-size: 20px; font-weight: 300">{{
@@ -14,7 +14,7 @@
           }}</span>
         </div>
         <div class="our_vision">
-          <span style="font-size: 20px; font-weight: 500; font-style: italic">{{
+          <span style="font-size: 25px; font-weight: 500; font-style: italic">{{
             $t('about.ourVision')
           }}</span>
           <span style="font-size: 20px; font-weight: 300">{{

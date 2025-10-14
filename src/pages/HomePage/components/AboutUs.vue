@@ -55,7 +55,7 @@ const router = useRouter()
 }
 
 .read-more-button {
-  background-color: #f49f1c;
+  background-color: var(--tertiary);
   color: var(--secondary);
   font-weight: bold;
 }

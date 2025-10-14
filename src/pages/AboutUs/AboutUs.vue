@@ -35,7 +35,6 @@ import bgAbout from '../../../public/images/bg_about.png'
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
   margin-bottom: 100px;
 }
 .who-are-we-container {
@@ -68,7 +67,7 @@ import bgAbout from '../../../public/images/bg_about.png'
 
 .core-value-container {
   width: 1200px;
-  height: 528px;
+  height: 500px;
   margin: 0 auto;
   margin-bottom: 100px;
   display: flex;

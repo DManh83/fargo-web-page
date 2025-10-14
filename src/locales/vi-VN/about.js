@@ -21,9 +21,9 @@ export default {
     transparencyIntegrityDescription: `Thông tin rõ ràng, giá cả minh bạch – phí bổ sung – tài liệu`,
     safetyCompliance: 'An toàn và tuân thủ',
     safetyComplianceDescription: `Tuân thủ các quy định về hải quan, tiêu chuẩn an toàn kho và vận chuyển.`,
-    operationalExcellenceContinuousImprovement: 'Sự hoàn thiện và cải tiến liên tục',
+    operationalExcellenceContinuousImprovement: 'Hoàn thiện và cải tiến liên tục',
     operationalExcellenceContinuousImprovementDescription: `Tiêu chuẩn hóa quy trình, sử dụng dữ liệu để giảm chi phí và thời gian giao hàng.`,
-    sustainabilitySocialResponsibility: 'Bền vững và trách nhiệm xã hội',
+    sustainabilitySocialResponsibility: 'Bền vững và trách nhiệm',
     sustainabilitySocialResponsibilityDescription: `Cung cấp giải pháp bền vững và duy trì các hợp đồng cung ứng đạo đức.`,
   },
 };

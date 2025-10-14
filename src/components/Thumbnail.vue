@@ -57,17 +57,12 @@ defineProps({
 }
 
 .thumbnail-content .title {
-  font-size: 70px;
-  font-weight: 400;
-  color: #f49f1c;
-  margin-bottom: 20px;
-  font-family: 'Racing Sans One';
-  letter-spacing: 0.04em;
-}
-.thumbnail-content .title:lang(vi) {
-  font-family: var(--font-vi) !important;
   font-size: 70px !important;
-  font-weight: 600 !important;
+  font-weight: 400 !important;
+  color: var(--tertiary) !important;
+  margin-bottom: 20px !important;
+  font-family: 'Racing Sans One' !important;
+  letter-spacing: 0.04em !important;
 }
 
 .buttons {

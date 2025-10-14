@@ -132,7 +132,7 @@ function handleCardClick(path) {
 }
 .button-text {
   font-size: 16px;
-  background-color: #f49f1c;
+  background-color: var(--tertiary);
   font-weight: 600;
   color: var(--secondary);
   font-family: 'Poppins', sans-serif;

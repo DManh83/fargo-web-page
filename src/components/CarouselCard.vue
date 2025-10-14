@@ -106,7 +106,7 @@ h1 {
 }
 
 .cc-button-item {
-  background-color: #f49f1c;
+  background-color: var(--tertiary);
   color: var(--secondary);
   font-weight: bold;
 }

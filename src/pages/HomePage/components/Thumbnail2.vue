@@ -74,7 +74,7 @@ defineProps({
 .title1 {
   font-size: 48px;
   font-weight: 400;
-  color: #f49f1c;
+  color: var(--tertiary);
   margin-bottom: 20px;
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;
@@ -106,7 +106,7 @@ defineProps({
 .title4 {
   font-size: 48px;
   font-weight: 400;
-  color: #f49f1c;
+  color: var(--tertiary);
   margin-bottom: 20px;
   font-family: 'Racing Sans One';
   letter-spacing: 0.04em;

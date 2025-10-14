@@ -201,6 +201,8 @@ function handleClick(path) {
 .about-us,
 .services,
 .support {
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
