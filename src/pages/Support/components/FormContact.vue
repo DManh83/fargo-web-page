@@ -50,9 +50,9 @@
       </a-form-item>
       <a-form-item>
         <a-checkbox v-model:checked="form.termsAndConditions">
-          {{ $t('form.termsAndConditionsPlaceholder') }}
+          {{ $t('form.termsAndConditions') }}
           <RouterLink to="/terms-and-conditions">{{
-            $t('form.termsAndConditionsLinkPlaceholder')
+            $t('form.termsAndConditionsLink')
           }}</RouterLink>
         </a-checkbox>
       </a-form-item>
