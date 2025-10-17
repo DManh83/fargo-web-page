@@ -1,6 +1,6 @@
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgCareers from '../../../public/images/bg_careers.png'
+import bgCareers from '@/assets/images/bg_careers.png'
 import Jobs from '@/pages/Careers/components/Jobs.vue'
 import JobRender from '@/pages/Careers/components/JobRender.vue'
 import Related from '@/pages/Careers/components/Related.vue'

@@ -36,7 +36,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgTransportation from '../../../public/images/bg_transportation.png'
+import bgTransportation from '@/assets/images/bg_transportation.png'
 import FormRequest from './components/FormRequest.vue'
 import QuickLink from './components/QuickLink.vue'
 import Banner from '@/components/Banner.vue'

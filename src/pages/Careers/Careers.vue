@@ -23,15 +23,15 @@
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
 import Card from '@/components/Card.vue'
-import bgCareers from '../../../public/images/bg_careers.png'
+import bgCareers from '@/assets/images/bg_careers.png'
 import WhyFargo from '@/components/WhyFargo.vue'
 import Jobs from '@/pages/Careers/components/Jobs.vue'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 const { t } = useI18n()
-import job_opportunities from '../../../public/images/job_opportunities.png'
-import working_environment from '../../../public/images/working_environment.png'
-import company_culture from '../../../public/images/company_culture.png'
+import job_opportunities from '@/assets/images/job_opportunities.png'
+import working_environment from '@/assets/images/working_environment.avif'
+import company_culture from '@/assets/images/company_culture.png'
 import { careers } from '@/data/careers'
 
 const cardList = computed(() => [

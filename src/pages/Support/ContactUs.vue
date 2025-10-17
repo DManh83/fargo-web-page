@@ -18,7 +18,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgTransportation from '../../../public/images/bg_transportation.png'
+import bgTransportation from '@/assets/images/bg_transportation.png'
 import FormContact from './components/FormContact.vue'
 import ContactInfor from './components/ContactInfor.vue'
 import Banner from '@/components/Banner.vue'

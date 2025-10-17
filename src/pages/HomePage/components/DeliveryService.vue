@@ -15,8 +15,8 @@
 </template>
 
 <script setup>
-import air_freight from '../../../../public/images/air_freight.png'
-import sea_freight from '../../../../public/images/sea_freight.png'
+import air_freight from '@/assets/images/air_freight.png'
+import sea_freight from '@/assets/images/sea_freight.avif'
 import { RouterLink } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
@@ -42,7 +42,7 @@ const cards = computed(() => [
   position: relative;
   isolation: isolate;
   height: 100%;
-  background: url('../../../../public/images/service_thumb.png') center/cover no-repeat;
+  background: url('@/assets/images/service_thumb.avif') center/cover no-repeat;
 }
 
 .delivery-service::before {

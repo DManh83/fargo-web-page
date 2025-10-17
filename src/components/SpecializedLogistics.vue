@@ -40,11 +40,11 @@
 import { computed } from 'vue'
 import { useI18n } from 'vue-i18n'
 
-import frozenGoodsLogistics from '../../public/images/frozen_goods_logistics.png'
-import projectCargo from '../../public/images/project_cargo.png'
+import frozenGoodsLogistics from '@/assets/images/frozen_goods_logistics.png'
+import projectCargo from '@/assets/images/project_cargo.avif'
 import oogBreakBulk from '@/assets/images/oog_break_bulk.png'
-import dangerousGoodsTransportation from '../../public/images/dangerous_goods_transportation.png'
-import healthcareLogistics from '../../public/images/healthcare_logistics.png'
+import dangerousGoodsTransportation from '@/assets/images/dangerous_goods_transportation.png'
+import healthcareLogistics from '@/assets/images/healthcare_logistics.png'
 
 const { t } = useI18n()
 

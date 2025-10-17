@@ -88,7 +88,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgTransportation from '../../../../public/images/bg_transportation.png'
+import bgTransportation from '@/assets/images/bg_transportation.png'
 import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
@@ -99,10 +99,10 @@ import { solutions } from '@/data/solutions'
 
 import overviewCargoInsurance from '@/assets/images/cargo_insurance.png'
 import introCargoInsurance from '@/assets/images/intro_about_us.png'
-import comprehensiveCoverage from '../../../../public/images/comprehensive_coverage.png'
-import costProtection from '../../../../public/images/cost_protection.png'
-import flexibleOptions from '../../../../public/images/flexible_options.png'
-import peaceOfMind from '../../../../public/images/peace_of_mind.png'
+import comprehensiveCoverage from '@/assets/images/comprehensive_coverage.png'
+import costProtection from '@/assets/images/cost_protection.png'
+import flexibleOptions from '@/assets/images/flexible_options.png'
+import peaceOfMind from '@/assets/images/peace_of_mind.avif'
 
 const { t } = useI18n()
 

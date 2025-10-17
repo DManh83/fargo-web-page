@@ -107,7 +107,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgTransportation from '../../../../public/images/bg_transportation.png'
+import bgTransportation from '@/assets/images/bg_transportation.png'
 import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import SpecializedLogistics from '@/components/SpecializedLogistics.vue'
@@ -118,13 +118,13 @@ import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 import { solutions } from '@/data/solutions'
 
-import overviewLasc from '../../../../public/images/overview_lasc.png'
+import overviewLasc from '@/assets/images/overview_lasc.png'
 import aboutLasc from '@/assets/images/intro_about_us.png'
 import globalNetwork from '@/assets/images/wide_global_network.png'
-import costOptimization from '../../../../public/images/cost_optimization.png'
-import technologyIntegration from '../../../../public/images/technology_integration.png'
+import costOptimization from '@/assets/images/cost_optimization.png'
+import technologyIntegration from '@/assets/images/technology_integration.avif'
 import customerSupport from '@/assets/images/customer_support2.png'
-import overviewTransportation from '../../../../public/images/overview_transportation.png'
+import overviewTransportation from '@/assets/images/overview_transportation.avif'
 
 const { t } = useI18n()
 

@@ -92,7 +92,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgTransportation from '../../../../public/images/bg_transportation.png'
+import bgTransportation from '@/assets/images/bg_transportation.png'
 import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
@@ -101,12 +101,12 @@ import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 import { solutions } from '@/data/solutions'
 
-import overviewWarehousing from '../../../../public/images/warehousing.png'
+import overviewWarehousing from '@/assets/images/warehousing.avif'
 import introWarehousing from '@/assets/images/intro_about_us.png'
-import secureFacilities from '../../../../public/images/secure_facilities.png'
-import flexibleSolutions from '../../../../public/images/flexible_solutions2.png'
-import costEfficiency from '../../../../public/images/cost_efficiency.png'
-import technologyIntegration from '../../../../public/images/technology_integration2.png'
+import secureFacilities from '@/assets/images/secure_facilities.avif'
+import flexibleSolutions from '@/assets/images/flexible_solutions2.png'
+import costEfficiency from '@/assets/images/cost_efficiency.png'
+import technologyIntegration from '@/assets/images/technology_integration2.avif'
 
 const { t } = useI18n()
 

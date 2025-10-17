@@ -62,16 +62,18 @@ import Banner from '@/components/Banner.vue'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 
-import airFreight from '../../../../public/images/air_freight.png'
-import overviewSea from '../../../../public/images/overview_sea.png'
+import airFreight from '@/assets/images/air_freight.png'
+import overviewSea from '@/assets/images/overview_sea.png'
 import speedAndEfficiency from '@/assets/images/speed_and_efficiency.png'
 import globalReach from '@/assets/images/wide_global_network.png'
-import secureHandling from '../../../../public/images/secure_handling.png'
-import flexibleSolutions from '../../../../public/images/flexible_solutions.png'
-import LCL from '../../../../public/images/lcl.png'
+import secureHandling from '@/assets/images/secure_handling.avif'
+import flexibleSolutions from '@/assets/images/flexible_solutions.png'
+import LCL from '@/assets/images/lcl.png'
 import FCL from '@/assets/images/fcl.png'
-import CLAS from '../../../../public/images/clas.png'
-import BC from '../../../../public/images/bc.png'
+import CLAS from '@/assets/images/clas.png'
+import BC from '@/assets/images/bc.png'
+import aboutAirFreight from '@/assets/images/about_air_freight.png'
+import overviewAir from '@/assets/images/overview_air.avif'
 
 const { t } = useI18n()
 
@@ -80,7 +82,7 @@ const overviewList = computed(() => [
     id: 1,
     title: t('contact.description'),
 
-    imageSrc: '../../../../public/images/about_air_freight.png',
+    imageSrc: aboutAirFreight,
     height: '388px',
     reverse: false,
     buttonText: t('btn.requestQuote'),
@@ -90,7 +92,7 @@ const overviewList = computed(() => [
     id: 2,
     title: t('services.overview'),
     paragraphs: [t('services.airFreight.overviewDescription')],
-    imageSrc: '../../../../public/images/overview_air.png',
+    imageSrc: overviewAir,
     height: '388px',
     reverse: true,
   },

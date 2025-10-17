@@ -22,7 +22,7 @@
 
 <script setup>
 import { useRouter } from 'vue-router'
-import introBanner from '../../public/images/intro_banner.png'
+import introBanner from '@/assets/images/intro_banner.png'
 
 const router = useRouter()
 

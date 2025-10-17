@@ -26,7 +26,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgNews from '../../../public/images/news-insights.png'
+import bgNews from '@/assets/images/news-insights.png'
 import { LatestNews, FeaturedNews } from './components'
 import Banner from '@/components/Banner.vue'
 

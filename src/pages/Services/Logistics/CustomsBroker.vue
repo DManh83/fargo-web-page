@@ -92,7 +92,7 @@
 
 <script setup>
 import BgHeader from '@/components/BgHeader.vue'
-import bgTransportation from '../../../../public/images/bg_transportation.png'
+import bgTransportation from '@/assets/images/bg_transportation.png'
 import Card from '@/components/Card.vue'
 import CarouselCard from '@/components/CarouselCard.vue'
 import FeaturedNews from '@/components/FeaturedNews.vue'
@@ -102,11 +102,11 @@ import { computed } from 'vue'
 
 import { solutions } from '@/data/solutions'
 
-import overviewCustomsBroker from '../../../../public/images/customs_brokerage.png'
+import overviewCustomsBroker from '@/assets/images/customs_brokerage.png'
 import introCustomsBroker from '@/assets/images/intro_about_us.png'
-import regulatoryExpertise from '../../../../public/images/regulatory_expertise.png'
+import regulatoryExpertise from '@/assets/images/regulatory_expertise.avif'
 import timeEfficiency from '@/assets/images/time_efficiency.png'
-import costSavings2 from '../../../../public/images/cost_savings2.png'
+import costSavings2 from '@/assets/images/cost_savings2.png'
 import customerSupport from '@/assets/images/customer_support.png'
 
 const { t } = useI18n()
