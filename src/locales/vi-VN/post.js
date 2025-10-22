@@ -695,6 +695,43 @@ export default {
         #PHAATA
         `,
       },
-    }
+    },
+    p29: {
+      title: 'Cảng Los Angeles Vẫn Lập Kỷ Lục Quý Mới Bất Chấp Biến Động Từ Cuộc chiến Thương Mại Mỹ-Trung',
+      paragraphs: `
+Cảng Los Angeles đã xử lý 883.053 TEU trong tháng 9, giảm 7,5% so với cùng kỳ năm ngoái, nhưng con số này vẫn đủ để giúp cửa ngõ nhập khẩu bận rộn nhất Hoa Kỳ có được quý hoạt động tốt nhất trong lịch sử
+Sản lượng kỷ lục này được ghi nhận trong bối cảnh thị trường liên tục biến động bởi các chính sách thuế quan thất thường, những quyết định thương mại khó lường và các chỉ số kinh tế không chắc chắn.
+“Khi chính sách thương mại được hé lộ, chúng ta chỉ có thể dự đoán thêm về sự khó lường,” Giám đốc Điều hành Cảng Los Angeles, ông Gene Seroka, cho biết trong một cuộc họp báo. “Khi những thay đổi sâu rộng lần đầu tiên được công bố, các nhà nhập khẩu đã đột ngột dừng đơn đặt hàng từ Trung Quốc. Khi các chính sách đó được nới lỏng và thời hạn được gia hạn, sản lượng hàng hóa lại tăng trở lại.”
+“Chuỗi cung ứng đã trải qua một chuyến tàu lượn siêu tốc suốt cả năm và hành trình đó vẫn đang tiếp diễn.”
+Trong tháng 9, sản lượng hàng nhập nguyên container (loaded imports) đạt 460.044 TEU, giảm 7,6% so với cùng kỳ năm ngoái, trong khi hàng xuất nguyên container (loaded exports) gần như không thay đổi ở mức 114.693 TEU. Trung tâm này đã xử lý 308.317 container rỗng, thường là một chỉ báo cho sản lượng nhập khẩu trong tương lai, giảm 10% so với cùng tháng năm 2024.
+Mặc dù vậy, Cảng Los Angeles đã ghi nhận sản lượng quý 3 đạt 2,9 triệu TEU, quý ba tháng tốt nhất từ trước đến nay. Tính từ đầu năm đến nay, tổng sản lượng đạt 7.817.057 TEU, tăng 3% so với cùng kỳ năm ngoái.
+Tuyên bố của Tổng thống Donald Trump vào thứ Tư rằng Hoa Kỳ đang trong một cuộc chiến thương mại toàn diện với Trung Quốc là loạt đạn mới nhất giữa hai đối tác thương mại xuyên Thái Bình Dương. Mối quan hệ ngày càng xấu đi đã bị tàn phá bởi các loại thuế quan trả đũa và các khoản phí tương tự thuế áp lên tàu của nhau cũng như cần cẩu container và các thiết bị cảng khác chủ yếu được sản xuất tại Trung Quốc.
+“Khoảng 20% tàu ghé Cảng Los Angeles là do Trung Quốc sản xuất,” ông Seroka cho biết, đề cập đến các khoản phụ phí cảng mang tính trừng phạt của Hoa Kỳ, và cho biết thêm chỉ có một tàu như vậy cập cảng trong tuần này. “Một số thiết bị xếp dỡ hàng hóa và cần cẩu cũng được sản xuất tại Trung Quốc. Thuế quan trong một lĩnh vực có xu hướng dẫn đến việc tăng giá ở các phân khúc khác, và cuối cùng làm cho hàng hóa trở nên đắt đỏ hơn.”
+      `,
+    },
+    p30: {
+      title: 'Sản Lượng Hàng Hóa Cảng Oakland Tháng 9 Sụt Giảm, Phản Ánh Sự Dịch Chuyển Dòng Chảy Thương Mại',
+      paragraphs: `
+Cảng Oakland đã xử lý 178.942 TEU trong tháng 9 năm 2025, giảm 6,6% so với năm ngoái và 7% so với sản lượng của tháng 8. Các quan chức cho biết sự sụt giảm này phản ánh những thay đổi trên thị trường liên quan đến thuế quan hơn là xu hướng mùa vụ thông thường.
+Theo số liệu công bố, sản lượng nhập khẩu nguyên container (full imports) đạt 75.716 TEU, giảm 7,9% so với cùng kỳ năm ngoái, trong khi xuất khẩu nguyên container (full exports) đạt 60.123 TEU, giảm 2,2%. Mặc dù có sự sụt giảm, dòng chảy thương mại vẫn được duy trì ổn định nhờ các chuyến tàu ghé cảng đều đặn và hoạt động hiệu quả tại các bến.
+Tính từ tháng 1 đến tháng 9, các bến cảng Oakland đã xử lý tổng cộng 1,72 triệu TEU  - tăng 0,7% so với cùng kỳ năm 2024. Trong đó, hàng nhập khẩu tăng 1,6% và hàng xuất khẩu tăng 0,5%, cho thấy hiệu suất hoạt động ổn định bất chấp những biến động của thương mại toàn cầu.
+Trong tháng 9, cảng đã ghi nhận 82 lượt tàu ghé cảng so với 90 lượt vào năm ngoái, nhưng kích thước và hệ số sử dụng tàu trung bình đã tăng lên 2.193 TEU mỗi lượt, tăng 1,8%. Việc sử dụng các tàu lớn hơn tiếp tục giúp nâng cao hiệu quả vận hành.
+“Trong khi các mô hình thương mại đang thay đổi do sự không chắc chắn về thuế quan, Oakland vẫn duy trì sự ổn định và linh hoạt,” ông Bryan Brandes, Giám đốc Hàng hải của Cảng, cho biết. “Các tàu lớn hơn và sự tăng trưởng ổn định cho thấy sự tin tưởng mà các hãng tàu và chủ hàng dành cho vai trò của Oakland như một cửa ngõ quan trọng của Hoa Kỳ.”
+Các quan chức cảng cho biết một số nhà nhập khẩu đã đẩy nhanh các lô hàng vào đầu năm để tránh rủi ro thuế quan, làm giảm hoạt động thường thấy vào mùa thu. Hàng nông sản và hàng lạnh xuất khẩu cũng phải đối mặt với nhu cầu yếu hơn và áp lực về chi phí.
+“Cảng Oakland đang đầu tư vào cơ sở hạ tầng và tính bền vững để đảm bảo khả năng cạnh tranh lâu dài,” bà Kristi McKenney, Giám đốc Điều hành, cho biết. “Ngay cả khi thị trường biến động, chúng tôi vẫn tiếp tục hỗ trợ việc làm trong khu vực và củng cố vai trò của mình trong thương mại toàn cầu.
+#PHAATA
+      `,
+    },
+    p31: {
+      title: 'Việt Nam dẫn đầu Đông Nam Á về tốc độ tăng trưởng thương mại điện tử',
+      paragraphs: `
+Theo báo cáo “The Next Leap for E-Commerce in Southeast Asia” của Blackbox Research, Việt Nam hiện là quốc gia có tốc độ tăng trưởng thương mại điện tử cao nhất khu vực Đông Nam Á.
+Theo khảo sát, 69% chuyên gia cho rằng các quy định mới về thuế, đặc biệt là chính sách khấu trừ thuế giá trị gia tăng (VAT), đang tạo ra khó khăn ngắn hạn cho người bán hàng trực tuyến nhỏ lẻ. Tuy nhiên, 85% chuyên gia vẫn bày tỏ niềm tin mạnh mẽ vào tiềm năng dài hạn của Việt Nam, nhấn mạnh rằng tinh thần đổi mới sáng tạo, cùng khả năng thích ứng nhanh của doanh nghiệp, đang là động lực then chốt giúp Việt Nam duy trì đà tăng trưởng
+Các chuyên gia đánh giá Việt Nam vượt trội hơn nhiều nước trong khu vực ở những yếu tố thúc đẩy thương mại điện tử như hạ tầng logistics (84%), tính cạnh tranh của nền tảng (77%) và đổi mới trải nghiệm người dùng (70%). Tuy nhiên, chỉ 39% chuyên gia nhận định Việt Nam có môi trường pháp lý linh hoạt, cho thấy chính sách vẫn cần được hoàn thiện để theo kịp tốc độ phát triển của thị trường. Ông David Black - Nhà sáng lập kiêm Giám đốc điều hành Blackbox Research, nhận định: “Những gì đang diễn ra tại Việt Nam là câu chuyện về sự kiên cường. Đây là quốc gia có mức độ lạc quan tăng trưởng cao nhất Đông Nam Á, được thúc đẩy bởi khả năng thích ứng vượt trội và niềm tin sâu sắc vào các yếu tố nền tảng”
+Bức tranh Việt Nam cũng phản ánh tình hình chung của khu vực, khi 48% chuyên gia Đông Nam Á cho rằng sự phân mảnh chính sách là rào cản lớn nhất đối với thương mại điện tử; tiếp theo là chi phí logistics cao (37%) và hạn chế về năng lực số của doanh nghiệp nhỏ (28%).
+Theo báo cáo, khoảng 80% doanh thu thương mại điện tử Việt Nam hiện tập trung tại Hà Nội và TP.HCM, cho thấy khoảng cách số giữa thành thị và nông thôn vẫn lớn. Bên cạnh đó, rào cản thương mại xuyên biên giới vẫn tồn tại khi các quy định về hải quan, thuế và kiểm định chưa được thống nhất, khiến chi phí mở rộng thị trường quốc tế của doanh nghiệp nhỏ còn cao.
+Tuy nhiên, giới chuyên gia cho rằng Việt Nam vẫn là điểm sáng lớn của khu vực, khi vừa là “hình mẫu tiềm năng” cho các nước đang phát triển, vừa là “lời cảnh báo” về nhu cầu cấp thiết phải điều chỉnh chính sách để bắt nhịp tốc độ số hóa. Nếu cân bằng được giữa thực thi và hỗ trợ, Việt Nam hoàn toàn có thể dẫn dắt giai đoạn hội nhập số mới của Đông Nam Á.
+      `,
+    },
   },
 };

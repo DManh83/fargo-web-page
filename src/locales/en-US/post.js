@@ -655,39 +655,90 @@ To cope, many firms are diversifying to Asia, the Middle East, and South America
       title:
         'Global container market bifurcation: Tariffs “sink” U.S. lanes while others keep growing',
       paragraphs: `
-BIMCO’s latest report shows unprecedented divergence: trades to the U.S. are slumping under tariffs while other lanes keep expanding.
-“The Shipping Market Overview & Outlook — Sept 2025” notes a striking split: U.S.-bound trades are weakening sharply even as flows to other regions remain surprisingly strong.
+      BIMCO’s latest report shows unprecedented divergence: trades to the U.S. are slumping under tariffs while other lanes keep expanding.
+      “The Shipping Market Overview & Outlook — Sept 2025” notes a striking split: U.S.-bound trades are weakening sharply even as flows to other regions remain surprisingly strong.
 
-Niels Rasmussen, BIMCO’s chief shipping analyst: “Based on strong demand on non-U.S. trades, we raise 2025 container-ship demand growth to 4.5–5.5%, while keeping 2026 at 2.5–3.5%. We now expect supply–demand balance in 2026 and a weaker 2025 than 2024.”
+      Niels Rasmussen, BIMCO’s chief shipping analyst: “Based on strong demand on non-U.S. trades, we raise 2025 container-ship demand growth to 4.5–5.5%, while keeping 2026 at 2.5–3.5%. We now expect supply–demand balance in 2026 and a weaker 2025 than 2024.”
 
-The contrast between U.S. imports and global trends has sharpened after tariff hikes.
-`,
+      The contrast between U.S. imports and global trends has sharpened after tariff hikes.
+      `,
       c1: {
         title: 'U.S.-bound trades “slide”',
         paragraphs: `
-North American imports have recorded negative Y/Y growth since April; BIMCO forecasts a 2% decline for full-year 2025 before growth returns in 2026.
-John McCown says the drop may rank among the largest in six decades. August data show imports at the top ten U.S. ports rose just 0.1% Y/Y.
-The small August uptick may reflect a transit exemption after retaliatory tariffs took effect Aug 7: “New tariffs do not apply to containers loaded at the last foreign port before Aug 7 if they enter the U.S. before Oct 5,” McCown said.
-Conditions could worsen if currently paused retaliatory tariffs on China are enforced in mid-November, potentially causing a broader decline in China-origin imports to the U.S.
-On top of that, USTR’s planned fees on China-built/Chinese-operated ships from mid-October push U.S.-related trades into uncharted territory with global ripple effects.
-`,
+        North American imports have recorded negative Y/Y growth since April; BIMCO forecasts a 2% decline for full-year 2025 before growth returns in 2026.
+        John McCown says the drop may rank among the largest in six decades. August data show imports at the top ten U.S. ports rose just 0.1% Y/Y.
+        The small August uptick may reflect a transit exemption after retaliatory tariffs took effect Aug 7: “New tariffs do not apply to containers loaded at the last foreign port before Aug 7 if they enter the U.S. before Oct 5,” McCown said.
+        Conditions could worsen if currently paused retaliatory tariffs on China are enforced in mid-November, potentially causing a broader decline in China-origin imports to the U.S.
+        On top of that, USTR’s planned fees on China-built/Chinese-operated ships from mid-October push U.S.-related trades into uncharted territory with global ripple effects.
+        `,
       },
       c2: {
         title: 'Other regions still firm',
         paragraphs: `
-Despite U.S. headwinds, most other trades remain resilient. BIMCO sees global volumes up 2.5–3.5% in both 2025 and 2026. Asia’s exports to Sub-Saharan Africa, Latin America, and Europe & the Med are particularly strong.
-`,
+        Despite U.S. headwinds, most other trades remain resilient. BIMCO sees global volumes up 2.5–3.5% in both 2025 and 2026. Asia’s exports to Sub-Saharan Africa, Latin America, and Europe & the Med are particularly strong.
+        `,
       },
       c3: {
         title: 'Market outlook',
         paragraphs: `
-The U.S. outlook remains gloomy. NRF cut its 2025 forecast; it now expects total U.S. imports down 3.4%. That implies the last four months of 2025 will be 15.7% below the same period in 2024.
-On supply, BIMCO raised fleet growth to 7.3% for 2025 and trimmed to 3.1% for 2026.
-Rasmussen adds: “We expect conditions and rates to soften further through 2025. So far, time-charter and second-hand prices have been mostly resilient to lower freight, but we see that changing from Q4 2025. With stable supply–demand growth, we expect rates to stabilize in 2026.”
-This bifurcation signals a fundamental shift in global trade dynamics. As McCown notes: “The U.S. today is a less relevant player in world trade than before these various tariff initiatives—and will become even less so as announced plans are implemented.”
-#PHAATA
-`,
+        The U.S. outlook remains gloomy. NRF cut its 2025 forecast; it now expects total U.S. imports down 3.4%. That implies the last four months of 2025 will be 15.7% below the same period in 2024.
+        On supply, BIMCO raised fleet growth to 7.3% for 2025 and trimmed to 3.1% for 2026.
+        Rasmussen adds: “We expect conditions and rates to soften further through 2025. So far, time-charter and second-hand prices have been mostly resilient to lower freight, but we see that changing from Q4 2025. With stable supply–demand growth, we expect rates to stabilize in 2026.”
+        This bifurcation signals a fundamental shift in global trade dynamics. As McCown notes: “The U.S. today is a less relevant player in world trade than before these various tariff initiatives—and will become even less so as announced plans are implemented.”
+        #PHAATA
+        `,
       },
     },
-  },
+    p29: {
+      title: 'Los Angeles port records record September, despite trade war',
+      paragraphs: `
+The Port of Los Angeles handled 883,053 TEUs in September, a 7.5% decline year-over-year, yet the figure was still strong enough to give the busiest import gateway in the United States the best-performing quarter in its history.
+
+This record-setting performance came amid a market marked by volatile tariff policies, unpredictable trade decisions, and uncertain economic indicators.
+“When trade policy is revealed, we can only predict further unpredictability,” said Gene Seroka, Executive Director of the Port of Los Angeles, during a press briefing. “When major changes were first announced, importers abruptly halted orders from China. Once those policies were eased and deadlines extended, cargo volumes surged again.”
+“The supply chain has been on a roller coaster all year — and that ride isn’t over yet,” he added.
+
+In September, loaded imports totaled 460,044 TEUs, down 7.6% from the same month last year, while loaded exports remained nearly flat at 114,693 TEUs. The port also handled 308,317 empty containers, often a leading indicator of future import activity — a 10% decrease compared with September 2024.
+
+Despite the September dip, the Port of Los Angeles recorded 2.9 million TEUs in the third quarter, its strongest Q3 ever.
+From January through September, total cargo throughput reached 7,817,057 TEUs, up 3% year-over-year.
+
+President Donald Trump’s statement on Wednesday declaring that the United States is in a full-scale trade war with China marked the latest escalation between the two trans-Pacific trading partners. The worsening relationship has been marred by retaliatory tariffs and levies on each other’s ships, container cranes, and other port equipment — most of which are manufactured in China.
+
+“About 20% of the vessels calling at the Port of Los Angeles are built in China,” Seroka noted, referring to the U.S. punitive port surcharges, and added that only one such vessel docked at the port this week. “Some cargo-handling equipment and cranes are also made in China. Tariffs in one area tend to drive up costs in others, ultimately making goods more expensive.”
+      `,
+    },
+    p30: {
+      title: 'Oakland port records record September, despite trade war',
+      paragraphs: `
+The Port of Oakland handled 178,942 TEUs in September 2025, marking a 6.6% decline year-over-year and a 7% decrease from August’s volume. Officials stated that this drop reflects market shifts related to tariffs rather than the usual seasonal trends.
+According to the released data, full imports totaled 75,716 TEUs, down 7.9% compared to the same period last year, while full exports reached 60,123 TEUs, a 2.2% decrease. Despite the decline, trade flows remained stable thanks to consistent vessel calls and efficient terminal operations.
+From January to September, Oakland’s terminals processed a total of 1.72 million TEUs — a 0.7% increase from the same period in 2024. Imports rose by 1.6% and exports by 0.5%, reflecting stable operational performance despite global trade fluctuations.
+In September, the port recorded 82 vessel calls compared to 90 last year, but the average vessel size and utilization increased to 2,193 TEUs per call, up 1.8%. The use of larger vessels continues to improve operational efficiency.
+“While trade patterns are shifting amid tariff uncertainties, Oakland remains steady and adaptable,” said Bryan Brandes, the Port’s Maritime Director. “Larger ships and steady growth demonstrate the confidence that carriers and shippers have in Oakland’s role as a key U.S. gateway.”
+Port officials noted that some importers accelerated shipments earlier in the year to avoid tariff risks, leading to lower-than-usual fall activity. Agricultural and refrigerated exports also faced weaker demand and cost pressures.
+“The Port of Oakland is investing in infrastructure and sustainability to ensure long-term competitiveness,” said Executive Director Kristi McKenney. “Even amid market volatility, we continue to support regional jobs and strengthen our role in global trade.”
+#PHAATA
+      `,
+    },
+    p31: {
+      title: 'Vietnam leads Southeast Asia in e-commerce growth',
+      paragraphs: `
+According to the report “The Next Leap for E-Commerce in Southeast Asia” by Blackbox Research, Vietnam is currently the fastest-growing e-commerce market in Southeast Asia.
+The survey shows that 69% of experts believe new tax regulations, particularly those related to value-added tax (VAT) deductions, are creating short-term difficulties for small online sellers. However, 85% of experts still express strong confidence in Vietnam’s long-term potential, emphasizing that the country’s spirit of innovation and agility of businesses are key drivers sustaining its growth momentum.
+
+Experts assessed that Vietnam outperforms many countries in the region in key areas driving e-commerce growth, such as logistics infrastructure (84%), platform competitiveness (77%), and user experience innovation (70%). However, only 39% believe that Vietnam has a flexible regulatory environment, suggesting that policies still need improvement to keep pace with the market’s rapid development.
+David Black, Founder and CEO of Blackbox Research, commented:
+
+“What we’re witnessing in Vietnam is a story of resilience. This is the most optimistic market in Southeast Asia, driven by its remarkable adaptability and deep confidence in its fundamental strengths.”
+
+Vietnam’s outlook also mirrors broader regional trends, as 48% of Southeast Asian experts identify policy fragmentation as the biggest barrier to e-commerce, followed by high logistics costs (37%) and limited digital capabilities among small businesses (28%).
+
+The report also notes that around 80% of Vietnam’s e-commerce revenue is concentrated in Hanoi and Ho Chi Minh City, indicating a significant digital divide between urban and rural areas. In addition, cross-border trade barriers remain due to inconsistent regulations on customs, taxation, and inspection, which increase the cost for small businesses seeking international expansion.
+
+Nevertheless, experts agree that Vietnam remains one of the brightest spots in the region—both as a “model of potential” for developing economies and as a “warning” highlighting the urgent need for policy reform to keep pace with digital transformation.
+If Vietnam can balance regulation and support, it is well-positioned to lead Southeast Asia’s next phase of digital integration.
+      `,
+    },
+  }
 };

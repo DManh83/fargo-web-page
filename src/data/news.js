@@ -43,6 +43,9 @@ import news26_1 from '@/assets/images/news/news26_1.jpg'
 import news27_1 from '@/assets/images/news/news27_1.jpg'
 import news27_2 from '@/assets/images/news/news27_2.jpg'
 import news28_1 from '@/assets/images/news/news28_1.webp'
+import news29_1 from '@/assets/images/news/news29_1.webp'
+import news30_1 from '@/assets/images/news/news30_1.webp'
+import news31_1 from '@/assets/images/news/news31_1.jpg'
 
 export const news = [
   {
@@ -479,5 +482,29 @@ export const news = [
         paragraphs: 'post.p28.c3.paragraphs',
       },
     ],
+  },
+  {
+    id: 29,
+    title: 'post.p29.title',
+    paragraphs: 'post.p29.paragraphs',
+    date: '2025-10-21',
+    image: [news29_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 30,
+    title: 'post.p30.title',
+    paragraphs: 'post.p30.paragraphs',
+    date: '2025-10-21',
+    image: [news30_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 31,
+    title: 'post.p31.title',
+    paragraphs: 'post.p31.paragraphs',
+    date: '2025-10-21',
+    image: [news31_1],
+    category: 'fargoNews',
   },
 ]
