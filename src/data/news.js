@@ -46,6 +46,10 @@ import news28_1 from '@/assets/images/news/news28_1.webp'
 import news29_1 from '@/assets/images/news/news29_1.webp'
 import news30_1 from '@/assets/images/news/news30_1.webp'
 import news31_1 from '@/assets/images/news/news31_1.jpg'
+import news32_1 from '@/assets/images/news/news32_1.jpg'
+import news33_1 from '@/assets/images/news/news33_1.jpg'
+import news33_2 from '@/assets/images/news/news33_2.png'
+import news34_1 from '@/assets/images/news/news34_1.jpg'
 
 export const news = [
   {
@@ -506,5 +510,41 @@ export const news = [
     date: '2025-10-21',
     image: [news31_1],
     category: 'fargoNews',
+  },
+  {
+    id: 32,
+    title: 'post.p32.title',
+    paragraphs: 'post.p32.paragraphs',
+    date: '2025-11-03',
+    image: [news32_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 33,
+    title: 'post.p33.title',
+    paragraphs: 'post.p33.paragraphs',
+    date: '2025-11-03',
+    image: [news33_1, news33_2],
+    category: 'fargoNews',
+  },
+  {
+    id: 34,
+    title: 'post.p34.title',
+    paragraphs: 'post.p34.paragraphs',
+    date: '2025-11-03',
+    image: [news34_1],
+    category: 'fargoNews',
+    children: [
+      {
+        id: 1,
+        title: 'post.p34.c1.title',
+        paragraphs: 'post.p34.c1.paragraphs',
+      },
+      {
+        id: 2,
+        title: 'post.p34.c2.title',
+        paragraphs: 'post.p34.c2.paragraphs',
+      },
+    ],
   },
 ]

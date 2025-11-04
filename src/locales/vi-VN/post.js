@@ -733,5 +733,81 @@ Theo báo cáo, khoảng 80% doanh thu thương mại điện tử Việt Nam hi
 Tuy nhiên, giới chuyên gia cho rằng Việt Nam vẫn là điểm sáng lớn của khu vực, khi vừa là “hình mẫu tiềm năng” cho các nước đang phát triển, vừa là “lời cảnh báo” về nhu cầu cấp thiết phải điều chỉnh chính sách để bắt nhịp tốc độ số hóa. Nếu cân bằng được giữa thực thi và hỗ trợ, Việt Nam hoàn toàn có thể dẫn dắt giai đoạn hội nhập số mới của Đông Nam Á.
       `,
     },
+    p32: {
+      title: 'NHẬP KHẨU HÀNG HÓA TỪ MỸ TĂNG MẠNH',
+      paragraphs: `
+      Nhập khẩu hàng hóa từ Mỹ đang tăng tốc, kim ngạch nhập khẩu 9 tháng đạt 13,7 tỷ USD, tăng gần 24%, tương ứng tăng gần 2,6 tỷ USD về giá trị tuyệt đối so với cùng kỳ năm trước.
+Tiến tới thương mại hai chiều công bằng và cân bằng, từ đầu năm tới nay, hoạt động nhập khẩu hàng hóa từ Mỹ đã gia tăng 2 con số.
+Theo Cục Hải quan, 9 tháng năm 2025, Việt Nam nhập khẩu hàng hóa từ Mỹ đạt gần 13,7 tỷ USD, tăng hơn 23,6% so với cùng kỳ, tương ứng tăng thêm 2,5 tỷ USD về giá trị tuyệt đối.
+Trong đó, nhóm hàng nhập khẩu có kim ngạch lớn nhất, gồm: sản phẩm như máy vi tính, sản phẩm điện tử và linh kiện chiếm hơn 4 tỷ USD, tăng khoảng 24% so với cùng kỳ năm ngoái. Đây là nhóm có quy mô lớn nhất trong sản phẩm nhập khẩu từ thị trường này phản ánh làn sóng nâng cấp công nghệ, thay thế linh kiện và tăng công suất ở các ngành điện tử, viễn thông, thiết bị y tế…
+Nhóm nhập khẩu lớn thứ 2 là máy móc, thiết bị, dụng cụ, phụ tùng khác đạt 915,3 triệu USD, tăng 14,6%; chất dẻo nguyên liệu đạt 854,9 triệu USD, tăng khoảng 46%.
+Nhóm sản phẩm của ngành nông nghiệp cũng ghi nhận tốc độ nhập khẩu tăng cao, như rau quả, bông nguyên liệu.
+Cụ thể, 9 tháng qua, Việt Nam đã nhập 650.000 tấn bông từ Mỹ, trị giá 1,1 tỷ USD, tăng 84,2% so với cùng kỳ năm ngoái, nhập khẩu đậu tương tăng gấp 2,5 lần so với năm ngoái; nhập rau quả tăng 35,8%...
+Với ngành dệt may, nguồn cung ứng bông từ Mỹ là một trong những sự lựa chọn hiệu quả, đáp ứng nhu cầu mở rộng sản xuất sợi, vải, tạo điều kiện thuận lợi để sản xuất và xuất khẩu hàng may mặc. Việt Nam là quốc gia nhập khẩu bông lớn thứ 3 trên thế giới với sản lượng tiêu thụ 1,5 triệu tấn/năm, trong đó có hơn 800.000 tấn bông nhập từ Mỹ.
+
+Mức nhập khẩu từ Mỹ gia tăng mạnh sau 9 tháng, với 13,7 tỷ USD, tức chỉ kém mức nhập từ thị trường này trong năm ngoái trên 1 tỷ USD. Thống kê cho thấy, năm 2024, nhập khẩu hàng hóa Mỹ đạt 15,1 tỷ USD, tăng 9,3 % và chiếm tỷ trọng 4% kim ngạch nhập khẩu của Việt Nam. 
+Theo nội dung Tuyên bố chung Việt - Mỹ về Hiệp định Thương mại đối ứng, công bằng và cân bằng vừa được Bộ Công thương công bố, nhằm tạo thuận lợi cho dòng chảy thương mại hàng hóa giữa hai bên, Việt Nam sẽ dành quyền tiếp cận thị trường ưu đãi cho gần như toàn bộ hàng xuất khẩu nông nghiệp và công nghiệp của Mỹ.
+Cụ thể, Việt Nam sẽ xử lý các rào cản, chấp nhận phương tiện được sản xuất theo tiêu chuẩn an toàn và khí thải của Mỹ; giải quyết các vấn đề liên quan đến giấy phép nhập khẩu thiết bị y tế; đồng thời đơn giản hóa quy trình phê duyệt đối với dược phẩm của Mỹ.
+Hai nước cũng cam kết xử lý và ngăn ngừa các rào cản đối với sản phẩm nông nghiệp của Mỹ tại thị trường Việt Nam, trong đó có cơ chế giám sát theo quy định của Mỹ và chấp nhận các giấy chứng nhận thống nhất do cơ quan quản lý Mỹ cấp.
+Như vậy, hàng hóa sản xuất tại Mỹ sẽ rộng đường nhập khẩu vào Việt Nam. Dự báo, nhập khẩu từ Mỹ có thể tăng thêm hơn chục tỷ USD trong ngắn và trung hạn.
+Được biết, Vietnam Airlines đã ký hợp đồng với Boeing mua 50 máy bay với tổng giá trị trên 8 tỷ USD. Ngoài ra, các doanh nghiệp Việt Nam cũng đã ký 20 biên bản ghi nhớ với doanh nghiệp Mỹ về nhập khẩu nông sản, tổng giá trị ước tính gần 3 tỷ USD.
+      `,
+    },
+    p33: {
+      title: 'XUẤT KHẨU THỨC ĂN GIA SÚC THU VỀ HƠN 1 TỶ USD',
+      paragraphs: `
+      Xuất khẩu nhóm hàng thức ăn gia súc tháng 9/2025 tăng mạnh 71,04% so với tháng 9/2024, đạt gần 135,34 triệu USD, đưa kim ngạch 9 tháng năm 2025 đạt trên 1 tỷ USD, tăng 33,43% so với cùng kỳ.
+Theo số liệu thống kê sơ bộ của Cục Hải quan, xuất khẩu nhóm hàng thức ăn gia súc tháng 9/2025 tăng mạnh 71,04% so với tháng 9/2024, đạt gần 135,34 triệu USD. Tính chung 9 tháng năm 2025 xuất khẩu nhóm hàng này đạt trên 1 tỷ USD, tăng 33,43% so với cùng kỳ.
+Mức thực hiện của tháng 10 ước tương đương so với tháng 9, giúp nhóm hàng này duy trì tăng trưởng xuất khẩu cao trong 10 tháng của năm.
+Thức ăn gia súc xuất khẩu nhiều nhất sang thị trường Trung Quốc  9 tháng qua, chiếm 44,23% trong tổng kim ngạch xuất khẩu nhóm hàng này, đạt trên 444,44 triệu USD, tăng 48,52% so với cùng kỳ.
+Đứng thứ 2 về kim ngạch là thị trường Campuchia chiếm tỷ trọng 12,81%, đạt trên 128,73 triệu USD, tăng 38,79%.
+Tiếp đến thị trường Mỹ trong tháng 9/2025 đạt 9,99 triệu USD; cộng chung cả 9 tháng năm 2025 xuất khẩu sang thị trường này giảm 13,44% so với 9 tháng năm 2024, đạt 85,97 triệu USD, chiếm 8,56% trong tổng kim ngạch xuất khẩu nhóm hàng này của cả nước.
+Xuất khẩu sang thị trường Malaysia trong tháng 9/2025 tăng 35,3% so với tháng 9/2024, đạt 9,92 triệu USD; cộng chung cả 9 tháng năm 2025 xuất khẩu sang thị trường Malaysia tăng 10,45%, đạt 82,68 triệu USD, chiếm 8,23% trong tổng kim ngạch xuất khẩu nhóm hàng này của cả nước.
+Ngược lại, ở chiều nhập khẩu nhóm hàng thức ăn gia súc trong 9 tháng giảm hơn 4% so vói cùng kỳ, với kim ngạch gần 3,47 tỷ USD.
+Thị trường cung cấp thức ăn gia súc lớn nhất cho Việt Nam là Achentina, chiếm 38,57% trong tổng kim ngạch nhập khẩu nhóm hàng, đạt gần 1,34 tỷ USD, tăng 20,38% so với 9 tháng năm 2024.
+Đứng thứ 2 về kim ngạch là thị trường Mỹ chiếm tỷ trọng 17,04%, đạt trên 591,59 triệu USD, giảm 22,28% so với cùng kỳ năm 2024; 
+Thị trường Brazil đứng thứ 3, đạt 414,54 triệu USD, chiếm 11,94% trong tổng kim ngạch nhập khẩu nhóm hàng này của cả nước.
+Như vậy, tổng kim ngạch xuất nhập khẩu thức ăn gia súc 9 tháng của năm đạt trên 4,5 tỷ USD, trong đó, nhập siêu mặt hàng này trên 2 tỷ USD.
+      `,
+    },
+    p34: {
+      title: 'NÂNG BƯỚC THƯƠNG MẠI VIỆT-MỸ ',
+      paragraphs: `
+      Việt Nam và Mỹ công bố Tuyên bố chung về Khuôn khổ Hiệp định thương mại đối ứng, công bằng và cân bằng, tạo bước tiến mới cho thương mại song phương. Riêng với Việt Nam, nhiều ngành hàng kỳ vọng sẽ hưởng thêm lợi ích từ các ưu đãi thuế quan đối ứng.
+      `,
+      c1: {
+        title: 'Tín hiệu tích cực',
+        paragraphs: `
+        Sau Tuyên bố chung Việt - Mỹ về Khuôn khổ Hiệp định thương mại đối ứng, công bằng và cân bằng, hai bên sẽ tiếp tục thảo luận và triển khai các công việc tiếp theo hướng đến hoàn thành hiệp định trên nguyên tắc cởi mở, xây dựng, bình đẳng, tôn trọng độc lập, tự chủ, thể chế chính trị, cùng có lợi và cân nhắc tới trình độ phát triển của nhau.
+Mỹ và Việt Nam sẽ hợp tác trên tinh thần xây dựng nhằm nỗ lực giải quyết các mối quan tâm liên quan đến những rào cản phi thuế quan ảnh hưởng đến thương mại song phương trong các lĩnh vực ưu tiên. Hai bên thống nhất các cam kết về thương mại số, dịch vụ, đầu tư, phát triển bền vững cũng như tăng cường hợp tác để nâng cao khả năng chống chịu của chuỗi cung ứng.
+Bộ Công thương cho biết, Tuyên bố chung về Khuôn khổ Hiệp định thương mại đối ứng, công bằng và cân bằng được hai nước thống nhất sẽ tăng cường quan hệ kinh tế song phương, qua đó tạo điều kiện tiếp cận thị trường sâu rộng hơn cho hàng xuất khẩu của mỗi bên. Sự linh hoạt này giúp doanh nghiệp hai nước dễ dàng tiếp cận thị trường của nhau, giảm nguy cơ xung đột thương mại.
+Thông cáo do Nhà Trắng công bố ngày 26/10 cũng khẳng định đây là “cơ hội chưa từng có để các nhà xuất khẩu hai nước tiếp cận thị trường của nhau”.
+ Doanh nghiệp Việt Nam cần minh bạch hóa chuỗi cung ứng, đảm bảo nguồn nguyên liệu đầu vào và quy trình sản xuất đáp ứng đầy đủ tiêu chí xuất xứ “Made in Vietnam”. Nếu hàng xuất khẩu không chứng minh được xuất xứ rõ ràng hoặc có dấu hiệu “mượn đường” từ nước thứ ba để hưởng ưu đãi, doanh nghiệp sẽ đối mặt với nguy cơ cao bị điều tra và áp dụng các biện pháp trừng phạt thương mại. 
+TS. Hồ Quốc Tuấn, Giảng viên cao cấp Đại học Bristol (Anh), nhận định Khuôn khổ Hiệp định thương mại đối ứng, công bằng và cân bằng Việt - Mỹ vừa được công bố là một tín hiệu tích cực cho thương mại Việt Nam.
+Phía Mỹ sẽ duy trì mức thuế đối ứng 20% như quy định tại Sắc lệnh Hành pháp số 14257 ngày 2/4 (đã được sửa đổi) “đối với hàng hóa có xuất xứ từ Việt Nam”. Đồng thời, Mỹ sẽ xác định các sản phẩm trong danh mục nêu tại Phụ lục III của Sắc lệnh Hành pháp số 14356, ngày 5/9 là “Điều chỉnh thuế tiềm năng đối với các đối tác có định hướng tương đồng” để được hưởng mức thuế đối ứng 0%.
+So với thuế đối ứng mà Mỹ áp cho nhiều nước khác, Việt Nam không bị bất lợi và đang ở mức tương đương với hàng hóa trong khu vực. Đây là tín hiệu tốt, cho thấy Tổng thống Mỹ Donald Trump đánh giá cao thiện chí của Việt Nam trong quan hệ thương mại, đặc biệt là nỗ lực hướng tới cân bằng cán cân thương mại.
+Ở chiều xuất khẩu, Tuyên bố chung về Khuôn khổ Hiệp định thương mại đối ứng, công bằng và cân bằng nêu rõ Mỹ sẽ xem xét danh mục hàng hóa Việt Nam được hưởng thuế đối ứng 0%. Đây là một trong những nội dung nổi bật và có giá trị với các ngành hàng xuất khẩu của nước ta, càng ý nghĩa hơn khi Mỹ hiện là thị trường xuất khẩu lớn nhất.
+Theo số liệu của Hải quan Việt Nam, tính đến hết tháng 9 năm 2025, tổng kim ngạch thương mại song phương đạt khoảng 126,4 tỷ USD (tăng 27,3% so với cùng kỳ năm 2024). Năm ngoái, kim ngạch thương mại hai chiều đạt 134,6 tỷ USD, tăng 21,5%; trong đó xuất khẩu đạt 119,5 tỷ USD, tăng 23,2%, còn nhập khẩu đạt 15,1 tỷ USD, tăng 9,3%.
+Các doanh nghiệp thuộc một số ngành hàng như dệt may, giày dép, gỗ, nông - thủy sản... đang kỳ vọng thuế quan đối với hàng hóa xuất khẩu sang Mỹ sẽ được giảm so với mức 20% hiện nay.
+Ông Đặng Phúc Nguyên, Tổng thư ký Hiệp hội Rau quả Việt Nam cho rằng, nếu được giảm thuế về 0%, rau quả Việt sẽ thuận đường hơn khi vào thị trường Mỹ. 9 tháng qua, mặt hàng này vẫn tăng trưởng hơn 60% tại thị trường Mỹ, đạt trên 400 triệu USD. Việc giảm thuế sẽ là lợi thế lớn cho Việt Nam trong cạnh tranh với các quốc gia cùng xuất khẩu rau quả sang Mỹ như Thái Lan, Indonesia, Mexico và một số nước Nam Mỹ khác.
+Ngành dệt may, với kim ngạch xuất khẩu gần 17 tỷ USD sang Mỹ trong năm 2024, cũng kỳ vọng các vòng đàm phán tiếp theo về thuế đối ứng sẽ mở ra cơ hội đưa thuế về mức thấp hơn.
+Về tổng thể, Tuyên bố chung về Khuôn khổ Hiệp định thương mại đối ứng, công bằng và cân bằng giúp Việt Nam tránh được kịch bản xấu nhất, duy trì hiện trạng xuất nhập khẩu và có cơ hội tận dụng giai đoạn Mỹ hạ nhiệt căng thẳng thương mại. Đây là yếu tố quan trọng góp phần giúp Việt Nam đạt mục tiêu tăng trưởng xuất khẩu hai con số trong thời gian tới, TS. Hồ Quốc Tuấn nhấn mạnh.
+Trong vài tuần tới, Mỹ và Việt Nam sẽ tiếp tục trao đổi để hoàn tất nội dung Khuôn khổ Hiệp định thương mại đối ứng, công bằng và cân bằng, chuẩn bị cho việc ký kết chính thức và tiến hành các thủ tục nội bộ cần thiết để hiệp định sớm có hiệu lực.
+        `,
+      },
+      c2: {
+        title: 'Tiếp tục cải thiện cán cân thương mại',
+        paragraphs: `
+        Nhập khẩu hàng hóa từ Mỹ trong 9 tháng năm nay ghi nhận cải thiện tích cực, đạt gần 14 tỷ USD, tăng hơn 23,6% so với cùng kỳ, tương ứng tăng thêm khoảng 2,6 tỷ USD.
+Trong đó, nhóm máy vi tính, sản phẩm điện tử và linh kiện dẫn đầu với hơn 4 tỷ USD, tăng khoảng 24%. Nhóm lớn thứ hai là máy móc, thiết bị, dụng cụ, phụ tùng khác, đạt 915,3 triệu USD, tăng 14,6%; tiếp theo là chất dẻo nguyên liệu với 855 triệu USD, tăng 46%...
+Với mục tiêu tạo thuận lợi cho dòng chảy thương mại hàng hóa giữa hai bên, một nội dung quan trọng của Khuôn khổ Hiệp định thương mại đối ứng là Việt Nam sẽ dành quyền tiếp cận thị trường ưu đãi cho gần như toàn bộ hàng xuất khẩu nông nghiệp và công nghiệp của Mỹ. Theo đó, Việt Nam sẽ xử lý các rào cản, chấp nhận phương tiện được sản xuất theo tiêu chuẩn an toàn và khí thải của Mỹ; giải quyết các vấn đề liên quan đến giấy phép nhập khẩu thiết bị y tế; đồng thời đơn giản hóa quy trình phê duyệt đối với dược phẩm của Mỹ.
+Như vậy, hàng hóa sản xuất tại Mỹ sẽ rộng đường nhập khẩu vào Việt Nam. Dự báo, nhập khẩu từ Mỹ có thể tăng thêm hơn chục tỷ USD trong ngắn và trung hạn.
+Đơn cử, Vietnam Airlines đã ký hợp đồng với Boeing mua 50 máy bay với tổng giá trị trên 8 tỷ USD. Ngoài ra, các doanh nghiệp Việt Nam cũng đã ký 20 biên bản ghi nhớ với doanh nghiệp Mỹ về nhập khẩu nông sản, tổng giá trị ước tính gần 3 tỷ USD.
+Những chỉ dấu tích cực về nội dung của Khuôn khổ Hiệp định thương mại đối ứng, công bằng và cân bằng với Mỹ đã hé lộ, tạo xung lực mới cho quan hệ thương mại và đầu tư song phương. Tuy nhiên, ông Nguyễn Ngọc Anh, chuyên gia kinh tế, Giám đốc Công ty cổ phần Trung tâm Nghiên cứu và Phát triển (Depocen), vẫn khuyến nghị: “Bức tranh dài hạn vẫn cần thận trọng; điều quan trọng là làm sao rút ngắn được chênh lệch thương mại”.
+Ông nhấn mạnh: “Mỹ hiện chiếm khoảng 30% tổng kim ngạch xuất khẩu của Việt Nam, với mức xuất siêu còn lớn. Do đó, khi các rào cản thương mại cho hàng hóa Mỹ được gỡ bỏ, Việt Nam cần có chiến lược cụ thể để đưa chênh lệch thương mại về mức cân bằng, bền vững hơn”.
+Cùng với đó, cần đẩy nhanh đa dạng hóa thị trường, giảm tỷ trọng xuất khẩu tập trung vào một thị trường duy nhất, qua đó giảm thiểu rủi ro và nâng cao khả năng thích ứng của nền kinh tế.
+        `,
+      },
+    },
   },
 };

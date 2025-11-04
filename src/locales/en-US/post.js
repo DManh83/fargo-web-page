@@ -740,5 +740,129 @@ Nevertheless, experts agree that Vietnam remains one of the brightest spots in t
 If Vietnam can balance regulation and support, it is well-positioned to lead Southeast Asia’s next phase of digital integration.
       `,
     },
+    p32: {
+      title: 'Vietnam’s Imports from the U.S. Rise Sharply',
+      paragraphs: `
+      Vietnam’s imports of goods from the United States are accelerating, with total import turnover in the first nine months reaching USD 13.7 billion, up nearly 24%, equivalent to an increase of nearly USD 2.6 billion in absolute value compared to the same period last year.
+
+In pursuit of reciprocal, fair, and balanced bilateral trade, Vietnam’s imports from the U.S. have grown by double digits since the beginning of the year.
+
+According to the General Department of Customs, in the first nine months of 2025, Vietnam imported goods worth nearly USD 13.7 billion from the U.S., up 23.6% year-on-year, equivalent to an additional USD 2.5 billion in value.
+
+The largest import categories include computers, electronic products, and components, accounting for more than USD 4 billion, up about 24% from the same period last year. This group, the largest among imports from the U.S., reflects the wave of technological upgrades, component replacement, and capacity expansion in industries such as electronics, telecommunications, and medical equipment.
+
+The second-largest group consists of machinery, equipment, tools, and spare parts, reaching USD 915.3 million, up 14.6%; while raw plastics reached USD 854.9 million, up 46%.
+
+Agricultural imports also saw strong growth, including fruits, vegetables, and raw cotton. Specifically, in the past nine months, Vietnam imported 650,000 tons of cotton from the U.S., valued at USD 1.1 billion, up 84.2% year-on-year; soybean imports increased 2.5 times, and fruit and vegetable imports rose 35.8%.
+
+For the textile and garment industry, cotton from the U.S. is one of the most effective supply options, supporting the expansion of yarn and fabric production and facilitating apparel manufacturing and exports. Vietnam is the third-largest cotton importer in the world, consuming about 1.5 million tons per year, of which more than 800,000 tons come from the U.S.
+
+After nine months, Vietnam’s imports from the U.S. surged to USD 13.7 billion, just USD 1 billion less than the total recorded last year. Statistics show that in 2024, imports from the U.S. reached USD 15.1 billion, up 9.3%, accounting for 4% of Vietnam’s total import turnover.
+
+According to the Vietnam–U.S. Joint Declaration on the Reciprocal, Fair, and Balanced Trade Agreement recently announced by the Ministry of Industry and Trade, the two sides aim to facilitate trade flows between the countries. Vietnam will grant preferential market access to nearly all U.S. agricultural and industrial exports.
+
+Specifically, Vietnam will address trade barriers, recognize vehicles manufactured under U.S. safety and emission standards, resolve issues related to the import licensing of medical equipment, and simplify approval procedures for U.S. pharmaceuticals.
+
+Both sides also pledged to resolve and prevent trade barriers to U.S. agricultural products in the Vietnamese market, including implementing U.S.-style regulatory supervision mechanisms and accepting unified certification documents issued by U.S. authorities.
+
+As a result, U.S.-made goods will have much broader access to the Vietnamese market. It is forecast that imports from the U.S. could increase by more than USD 10 billion in the short and medium term.
+
+Notably, Vietnam Airlines has signed a contract with Boeing to purchase 50 aircraft worth over USD 8 billion. In addition, Vietnamese enterprises have signed 20 memoranda of understanding with U.S. companies to import agricultural products, with a total estimated value of nearly USD 3 billion.
+      `,
+    },
+    p33: {
+      title: 'Animal Feed Exports Exceed USD 1 Billion',
+      paragraphs: `
+      Vietnam’s animal feed exports in September 2025 surged by 71.04% compared to September 2024, reaching nearly USD 135.34 million, bringing the total export value for the first nine months of 2025 to over USD 1 billion, up 33.43% year-on-year.
+
+According to preliminary statistics from the General Department of Customs, the export value of the animal feed category in September 2025 increased sharply by 71.04% from the same month last year, reaching nearly USD 135.34 million. In total, exports of this category in the first nine months of 2025 exceeded USD 1 billion, up 33.43% compared to the same period of 2024.
+
+The export performance in October is estimated to remain similar to September, helping this category maintain strong export growth over the first ten months of the year.
+
+China was the largest export market for Vietnamese animal feed in the past nine months, accounting for 44.23% of total export turnover, with a value of over USD 444.44 million, up 48.52% year-on-year.
+
+The second-largest market was Cambodia, which accounted for 12.81%, reaching over USD 128.73 million, up 38.79%.
+
+The U.S. market in September 2025 recorded USD 9.99 million in exports; cumulatively, in the first nine months of 2025, exports to the U.S. decreased by 13.44% compared to the same period in 2024, reaching USD 85.97 million, accounting for 8.56% of Vietnam’s total animal feed export turnover.
+
+Exports to Malaysia in September 2025 rose 35.3% year-on-year to USD 9.92 million; overall, in the first nine months of 2025, exports to Malaysia increased 10.45%, reaching USD 82.68 million, accounting for 8.23% of the country’s total animal feed export turnover.
+
+On the import side, Vietnam’s animal feed imports in the first nine months declined by more than 4% compared to the same period last year, with a total value of nearly USD 3.47 billion.
+
+Argentina remained the largest supplier, accounting for 38.57% of Vietnam’s total animal feed imports, with nearly USD 1.34 billion, up 20.38% compared to the first nine months of 2024.
+
+The U.S. ranked second, accounting for 17.04%, reaching over USD 591.59 million, down 22.28% year-on-year.
+
+The third-largest supplier was Brazil, with USD 414.54 million, accounting for 11.94% of the total import value.
+
+Overall, the total import and export turnover of animal feed in the first nine months of 2025 reached over USD 4.5 billion, with a trade deficit of more than USD 2 billion in this category.
+      `,
+    },
+    p34: {
+      title: 'Strengthening Vietnam–US Trade Relations',
+      paragraphs: `
+      Vietnam and the United States have announced a Joint Statement on the Framework for a Reciprocal, Fair, and Balanced Trade Agreement, marking a new step forward in bilateral trade. For Vietnam in particular, many industries expect to gain additional benefits from reciprocal tariff preferences.
+      `,
+      c1: {
+        title: 'Positive Signals',
+        paragraphs: `
+        Following the Vietnam–US Joint Statement on the Framework for a Reciprocal, Fair, and Balanced Trade Agreement, both sides will continue discussions and subsequent actions toward completing the agreement based on principles of openness, mutual respect, equality, sovereignty, political independence, and mutual benefit, while taking into account each side’s development level.
+
+The US and Vietnam will cooperate in a constructive spirit to address concerns related to non-tariff barriers affecting bilateral trade in priority sectors. Both sides have agreed on commitments in digital trade, services, investment, and sustainable development, as well as enhancing cooperation to strengthen supply chain resilience.
+
+According to Vietnam’s Ministry of Industry and Trade, the Joint Statement on the Framework for a Reciprocal, Fair, and Balanced Trade Agreement aims to strengthen bilateral economic relations, thereby enabling broader market access for exports from both sides. This flexibility allows businesses in both countries to access each other’s markets more easily, reducing the risk of trade conflicts.
+
+A White House statement issued on October 26 also affirmed that this is an “unprecedented opportunity for exporters from both nations to access each other’s markets.”
+
+Vietnamese enterprises are advised to ensure supply chain transparency, verify input material sources, and strictly comply with the “Made in Vietnam” rules of origin. If exported goods fail to prove clear origin or show signs of transshipment through third countries to benefit from tariff incentives, they will face a high risk of investigation and trade sanctions.
+
+Dr. Ho Quoc Tuan, Senior Lecturer at the University of Bristol (UK), assessed that the newly announced Framework for a Reciprocal, Fair, and Balanced Trade Agreement between Vietnam and the US is a positive signal for Vietnam’s trade.
+
+Under this framework, the US will maintain a reciprocal tariff rate of 20% as stipulated in Executive Order No. 14257 (amended) dated April 2, “for goods originating from Vietnam.” At the same time, the US will determine products listed in Appendix III of Executive Order No. 14356 (dated September 5) as “potential tariff adjustments for like-minded partners”, which may enjoy a 0% reciprocal tariff rate.
+
+Compared to the reciprocal tariffs imposed by the US on many other countries, Vietnam is not at a disadvantage and remains on par with regional goods. This is a positive sign, showing that US President Donald Trump appreciates Vietnam’s goodwill in trade relations, particularly its efforts to balance trade between the two nations.
+
+On the export side, the Joint Statement specifies that the US will review the list of Vietnamese goods eligible for a 0% reciprocal tariff rate. This is one of the most notable and valuable points for Vietnam’s export sectors, especially given that the US is currently Vietnam’s largest export market.
+
+According to Vietnam Customs, as of the end of September 2025, total bilateral trade reached about 126.4 billion USD, up 27.3% from the same period in 2024. Last year, two-way trade reached 134.6 billion USD, up 21.5%, with exports at 119.5 billion USD (up 23.2%) and imports at 15.1 billion USD (up 9.3%).
+
+Industries such as textiles, footwear, wood, agriculture, and seafood are hoping for reduced tariffs on exports to the US compared to the current 20% rate.
+
+Mr. Dang Phuc Nguyen, General Secretary of the Vietnam Fruit and Vegetable Association, said that if tariffs are reduced to 0%, Vietnamese fruits and vegetables will gain easier access to the US market. Over the past nine months, this sector has grown over 60% in the US market, reaching over 400 million USD. A tariff reduction would give Vietnam a major advantage over competitors such as Thailand, Indonesia, Mexico, and some South American countries.
+
+The textile and garment industry, with exports of nearly 17 billion USD to the US in 2024, also expects that future negotiation rounds on reciprocal tariffs will open opportunities for further reductions.
+
+Overall, the Joint Statement on the Framework for a Reciprocal, Fair, and Balanced Trade Agreement helps Vietnam avoid the worst-case scenario, maintain export–import stability, and seize the opportunity as the US eases trade tensions. This is a crucial factor contributing to Vietnam’s goal of achieving double-digit export growth in the near future, Dr. Ho Quoc Tuan emphasized.
+
+In the coming weeks, the US and Vietnam will continue discussions to finalize the Framework for the Reciprocal, Fair, and Balanced Trade Agreement, preparing for official signing and internal procedures to bring the agreement into effect as soon as possible.
+        `,
+      },
+      c2: {
+        title: 'Continuing to Improve the Trade Balance',
+        paragraphs: `
+        Imports of goods from the US in the first nine months of 2025 recorded a significant improvement, reaching nearly 14 billion USD, up 23.6% year-on-year, equivalent to an increase of about 2.6 billion USD.
+
+Among them, the computers, electronic products, and components group led with over 4 billion USD, up about 24%. The second-largest group was machinery, equipment, tools, and spare parts, reaching 915.3 million USD, up 14.6%; followed by plastic materials, at 855 million USD, up 46%.
+
+To facilitate trade flows between the two countries, an important part of the Framework for a Reciprocal, Fair, and Balanced Trade Agreement is that Vietnam will grant preferential market access to nearly all US agricultural and industrial exports. Accordingly, Vietnam will remove barriers, recognize US safety and emission standards for manufactured goods, resolve issues related to medical device import licenses, and simplify the approval process for US pharmaceuticals.
+
+As a result, US-manufactured goods will have easier access to Vietnam’s market. Imports from the US are expected to increase by over 10 billion USD in the short to medium term.
+
+For example, Vietnam Airlines has signed a contract with Boeing to purchase 50 aircraft worth over 8 billion USD. In addition, Vietnamese enterprises have signed 20 memorandums of understanding with US companies to import agricultural products worth nearly 3 billion USD.
+
+These positive signals from the Framework for a Reciprocal, Fair, and Balanced Trade Agreement with the US have revealed a new momentum for bilateral trade and investment relations.
+
+However, economist Nguyen Ngoc Anh, Director of the Development and Research Center (Depocen), cautioned:
+
+“In the long term, we still need to be careful; the key is to narrow the trade gap.”
+
+He emphasized:
+
+“The US currently accounts for about 30% of Vietnam’s total exports, with a large trade surplus. Therefore, as trade barriers for US goods are removed, Vietnam needs a clear strategy to bring the trade balance to a more equitable and sustainable level.”
+
+In parallel, Vietnam must accelerate market diversification, reduce overreliance on a single market, and thereby minimize risks while enhancing the economy’s adaptability.
+        `,
+      },
+    },
   }
 };
