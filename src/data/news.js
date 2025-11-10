@@ -50,6 +50,8 @@ import news32_1 from '@/assets/images/news/news32_1.jpg'
 import news33_1 from '@/assets/images/news/news33_1.jpg'
 import news33_2 from '@/assets/images/news/news33_2.png'
 import news34_1 from '@/assets/images/news/news34_1.jpg'
+import news35_1 from '@/assets/images/news/news35_1.jpg'
+import news36_1 from '@/assets/images/news/news36_1.webp'
 
 export const news = [
   {
@@ -546,5 +548,21 @@ export const news = [
         paragraphs: 'post.p34.c2.paragraphs',
       },
     ],
+  },
+  {
+    id: 35,
+    title: 'post.p35.title',
+    paragraphs: 'post.p35.paragraphs',
+    date: '2025-11-10',
+    image: [news35_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 36,
+    title: 'post.p36.title',
+    paragraphs: 'post.p36.paragraphs',
+    date: '2025-11-10',
+    image: [news36_1],
+    category: 'fargoNews',
   },
 ]

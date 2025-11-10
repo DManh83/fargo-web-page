@@ -809,5 +809,40 @@ Cùng với đó, cần đẩy nhanh đa dạng hóa thị trường, giảm t�
         `,
       },
     },
+    p35: {
+      title: 'APM Terminals đầu tư 2 tỷ USD mở rộng cảng Pipavav ở Ấn Độ',
+      paragraphs: `
+      Khoản đầu tư nằm trong kế hoạch 5 tỷ USD của tập đoàn AP Moller - Maersk vào hạ tầng hàng hải Ấn Độ.
+  
+  APM Terminals Pipavav - đơn vị thuộc tập đoàn AP Moller - Maersk (Đan Mạch) vừa ký biên bản ghi nhớ (MoU) với Cơ quan Hàng hải bang Gujarat (Gujarat Maritime Board) về kế hoạch mở rộng Cảng Pipavav, với tổng vốn dự kiến khoảng 2 tỷ USD.
+  
+  Thỏa thuận này là một phần trong kế hoạch đầu tư 5 tỷ USD mà Maersk công bố từ tháng 2, nhằm mở rộng năng lực cảng biển và hạ tầng logistics tại Ấn Độ. Dự án sẽ được triển khai trên cơ sở hợp đồng nhượng quyền dài hạn giữa APM Terminals và chính quyền bang Gujarat.
+  
+  Theo kế hoạch, việc mở rộng sẽ giúp tăng đáng kể công suất và năng lực khai thác của Cảng Pipavav, củng cố vị thế là một trong những cảng hiệu quả, an toàn và bền vững hàng đầu Ấn Độ. Các hạng mục đầu tư bao gồm nâng cấp hệ thống bốc xếp container, hàng lỏng và mở rộng kết nối đa phương thức với Hành lang vận tải chuyên dụng (Dedicated Freight Corridor) cùng mạng lưới giao thông nội địa.
+  
+  "Khoản đầu tư này không chỉ là mở rộng Cảng Pipavav, mà còn mở ra cơ hội mới cho bang Gujarat, cho Ấn Độ và thương mại toàn cầu", ông Jon Goldner, Tổng Giám đốc APM Terminals khu vực Châu Á & Trung Đông, chia sẻ. "Mục tiêu của chúng tôi là biến Pipavav thành hình mẫu về hiệu quả và tăng trưởng xanh, đồng thời mang lại thịnh vượng lâu dài cho cộng đồng địa phương và củng cố vai trò dẫn dắt của Ấn Độ trong thương mại hàng hải".
+  
+  Cảng Pipavav là mô hình cảng công - tư đầu tiên của Ấn Độ, hiện có năng lực xử lý 1,35 triệu TEU container và 4 triệu tấn hàng rời khô mỗi năm.
+      `,
+    },
+    p36: {
+      title: 'Maersk Đẩy Mạnh Đội Tàu Xanh: Đặt Thêm 8 Tàu 18.000 TEU Chạy Bằng LNG tại Trung Quốc',
+      paragraphs: `
+      Maersk tiếp tục chiến lược trẻ hóa đội tàu, đặt hàng 8 tàu container 18.000 TEU sử dụng nhiên liệu kép LNG tại nhà máy New Times Shipbuilding (Trung Quốc), dự kiến giao hàng vào năm 2028-2029.
+  Theo nhiều báo cáo môi giới hàng hải, Maersk đã quay trở lại làm việc với nhà máy đóng tàu New Times Shipbuilding (NTS) của Trung Quốc, đặt một đơn hàng lớn cho 8 tàu container 18.000 TEU sử dụng nhiên liệu kép LNG (LNG dual-fuel).
+  Hợp đồng này, với giá trị khoảng 193 triệu USD cho mỗi tàu, cũng bao gồm tùy chọn (options) cho bốn tàu bổ sung. Lịch trình bàn giao các tàu này dự kiến sẽ diễn ra trong năm 2028 và 2029.
+  
+  Củng Cố Quan Hệ Đối Tác và Chiến Lược "Xanh Hóa"
+  
+  Thỏa thuận này đánh dấu giai đoạn mới nhất trong chiến dịch làm mới đội tàu quy mô lớn của Maersk và thắt chặt hơn nữa mối quan hệ đối tác của hãng tàu Đan Mạch với nhà máy đóng tàu tại Giang Tô (NTS).
+  Trong bốn năm tới, Maersk đã có kế hoạch nhận bàn giao 26 tàu đóng mới sử dụng nhiên liệu kép LNG từ NTS, bao gồm cả các tàu thuộc sở hữu của hãng và các tàu thuê dài hạn (long-term chartered tonnage).
+  Danh sách các tàu đang chờ giao này bao gồm:
+  •    Mười (10) tàu 16.800 TEU (chia đều 5 tàu từ SFL Corp và 5 tàu từ Seaspan).
+  •    Sáu (6) tàu 15.000 TEU do Maersk sở hữu.
+  •    Mười (10) tàu 8.700 TEU từ Capital Ship Management.
+  Khi loạt tàu 18.000 TEU mới nhất này được bàn giao, Maersk sẽ nhận được tổng cộng hơn 30 tàu lớn chạy bằng LNG chỉ riêng từ nhà máy đóng tàu NTS
+  #PHAATA
+      `,
+    }
   },
 };

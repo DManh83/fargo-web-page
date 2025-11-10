@@ -864,5 +864,42 @@ In parallel, Vietnam must accelerate market diversification, reduce overreliance
         `,
       },
     },
+    p35: {
+      title: 'APM Terminals Invests USD 2 Billion to Expand Pipavav Port in India',
+      paragraphs: `
+      The investment is part of AP Moller - Maersk’s USD 5 billion plan to develop India’s maritime infrastructure.
+
+APM Terminals Pipavav — a subsidiary of Denmark’s AP Moller - Maersk Group — has signed a Memorandum of Understanding (MoU) with the Gujarat Maritime Board for the expansion of Pipavav Port, with a total estimated investment of about USD 2 billion.
+
+This agreement is part of the USD 5 billion investment plan Maersk announced in February, aimed at expanding port capacity and logistics infrastructure in India. The project will be carried out under a long-term concession agreement between APM Terminals and the Gujarat state government.
+
+According to the plan, the expansion will significantly increase Pipavav Port’s capacity and operational efficiency, strengthening its position as one of India’s most efficient, safe, and sustainable ports. The investment includes upgrades to the container and liquid cargo handling systems, and the development of multimodal connections to the Dedicated Freight Corridor and domestic transport networks.
+
+“This investment is not just about expanding Pipavav Port, but about opening new opportunities for Gujarat, for India, and for global trade,” said Jon Goldner, Managing Director of APM Terminals for Asia & Middle East. “Our goal is to make Pipavav a model of efficiency and green growth, while bringing lasting prosperity to the local community and reinforcing India’s leadership role in maritime trade.”
+
+Pipavav Port, India’s first public-private partnership port model, currently handles 1.35 million TEU containers and 4 million tons of dry bulk cargo annually.
+      `,
+    },
+    p36: {
+      title: 'Maersk Expands Its Green Fleet: Orders Eight 18,000 TEU LNG-Powered Vessels in China',
+      paragraphs: `
+      Maersk continues its fleet modernization strategy by ordering eight 18,000 TEU dual-fuel LNG container ships from New Times Shipbuilding (China), with deliveries scheduled between 2028 and 2029.
+
+According to multiple shipping brokerage reports, Maersk has returned to collaborate with China’s New Times Shipbuilding (NTS), placing a major order for eight 18,000 TEU dual-fuel LNG container vessels. The contract, valued at approximately USD 193 million per ship, also includes options for four additional vessels. Delivery of the ships is expected in 2028 and 2029.
+
+Strengthening Partnerships and Green Transformation Strategy
+
+This agreement marks the latest stage in Maersk’s large-scale fleet renewal campaign and further strengthens the Danish shipping giant’s partnership with the Jiangsu-based NTS shipyard.
+
+Over the next four years, Maersk plans to take delivery of 26 new dual-fuel LNG vessels from NTS, including both owned and long-term chartered ships. The list of upcoming vessels includes:
+• Ten (10) 16,800 TEU vessels (five from SFL Corp and five from Seaspan).
+• Six (6) 15,000 TEU vessels owned by Maersk.
+• Ten (10) 8,700 TEU vessels from Capital Ship Management.
+
+Once the newly ordered 18,000 TEU ships are delivered, Maersk will have received over 30 large LNG-powered vessels from the NTS shipyard alone.
+
+#PHAATA
+      `,
+    },
   }
 };
