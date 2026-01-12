@@ -28,8 +28,7 @@ CMA CGM is ramping up operations in Southeast Asia to meet rising cargo flows. S
 Hoa Phat’s container plant is in phase one with annual capacity of 200,000 TEU, focused on standard 20- and 40-foot dry boxes. Once the project is fully completed, design capacity will reach 500,000 TEU per year. At its current scale, Hoa Phat is a leading container manufacturer in Vietnam and Southeast Asia.`,
     },
     p4: {
-      title:
-        'The world’s top rice-importing ASEAN country buys 75% of its rice from Vietnam',
+      title: 'The world’s top rice-importing ASEAN country buys 75% of its rice from Vietnam',
       paragraphs: `Vietnam’s product plays a pivotal role in this economy’s food security.
 The Philippines and Vietnam hold strategic, mutually reinforcing roles in the global rice trade. The Philippines—the world’s largest rice importer—is a key market for food security and domestic price stability. Vietnam has consolidated its position as a top rice exporter with stable, high-quality supply.
 The relationship is not a one-way dependency but deep interdependence. Reuters reports that in the first seven months of 2025, Vietnam accounted for 44.3% of total Philippine rice imports—about 2.44 million tons.
@@ -89,8 +88,7 @@ Even so, Vietnamese agribusinesses see opportunity in the U.S. if they simultane
 Deputy Minister Nam outlined priorities: building raw material regions—key to value and competitiveness—plus stronger trade promotion and export market expansion/pivoting.`,
     },
     p6: {
-      title:
-        '🚨 HOT NEWS: Turkey immediately bans Israel-linked ships — ZIM heavily impacted',
+      title: '🚨 HOT NEWS: Turkey immediately bans Israel-linked ships — ZIM heavily impacted',
       paragraphs: `ZIM, the world’s 9th-largest container line, has confirmed Turkey has enacted a ban on Israel-linked vessels. Per the Turkish Port Authority, all ships owned, managed, or operated by Israeli entities are barred from Turkish ports, effective since last weekend.
 
 A ZIM vessel was denied at Istanbul on Friday and diverted to Piraeus (Greece), leaving cargo planned for Istanbul in limbo.
@@ -98,8 +96,8 @@ A ZIM vessel was denied at Istanbul on Friday and diverted to Piraeus (Greece), 
 Wider scope
 
 Beyond Israeli ships, the new rules also ban:
-• Any ship carrying military cargo destined for Israel.
-• Turkish-flagged ships from calling Israel.
+  • Any ship carrying military cargo destined for Israel.
+  • Turkish-flagged ships from calling Israel.
 
 This expands the 15-month trade embargo. Major carriers like MSC and Maersk say they await formal guidance as “flag nationality” no longer guarantees access.
 
@@ -116,8 +114,7 @@ Amid pressure, market rumors suggest ZIM could consider a sale to an investor gr
 ✅ This is one of the year’s most consequential geopolitics-shipping events, particularly affecting the East Med–Israel corridor. Vietnamese shippers/consignees tied to the region should monitor closely and adjust logistics plans to limit disruption.`,
     },
     p7: {
-      title:
-        '🇻🇳 VIETNAM SURGES: #1 GLOBAL CONTAINER GROWTH IN 2024',
+      title: '🇻🇳 VIETNAM SURGES: #1 GLOBAL CONTAINER GROWTH IN 2024',
       paragraphs: `Global logistics in 2024 saw a dramatic reshuffle: Vietnam became the fastest-growing country by container throughput, outpacing traditional rivals and cementing itself as Asia’s emerging logistics hub.
 
 DynaLiners Millionaires 2024 reports the top 157 container ports handled 820.6M TEU (88% of global volume), up 8% Y/Y. Vietnam surprised with +16% to 23.4M TEU—the highest growth in the global Top 10.
@@ -261,8 +258,7 @@ Maersk & other majors (Hapag-Lloyd, ONE, CMA CGM, Evergreen) have already rotate
 The policy targets China directly, pressuring COSCO & OOCL, and could shift capacity if networks are overhauled.`,
     },
     p12: {
-      title:
-        'HOT NEWS: CMA CGM MERMAID hits berth in Estonia — Major damage, urgent investigation',
+      title: 'HOT NEWS: CMA CGM MERMAID hits berth in Estonia — Major damage, urgent investigation',
       paragraphs: `On Sept 8, Muuga (Estonia) became the focus after CMA CGM Mermaid—a next-gen CMA CGM feeder—struck a berth and the bulker Belasitza. Photos show the sharp bow penetrating the quay, leaving a large crack. Fortunately, no injuries were reported.`,
       c1: {
         title: 'Timeline',
@@ -285,8 +281,7 @@ Ports and carriers need strict handling protocols for new-generation ships to av
       },
     },
     p13: {
-      title:
-        'CMA CGM says no USTR surcharge — A sharp competitive edge',
+      title: 'CMA CGM says no USTR surcharge — A sharp competitive edge',
       c1: {
         title: 'The backdrop',
         paragraphs: `On Oct 14, the USTR policy imposing extra fees on China-built ships calling U.S. ports takes effect, following the Section 301 investigation into China’s shipbuilding. While many carriers fear higher costs, CMA CGM—the world’s No. 3 container line—says it will not apply a USTR surcharge for U.S.-bound cargo at this time.
@@ -323,8 +318,7 @@ For Vietnam, the move may stabilize logistics costs for U.S.-bound exports—our
       },
     },
     p14: {
-      title:
-        'U.S. cold-chain carriers stay cautious despite recovery signals',
+      title: 'U.S. cold-chain carriers stay cautious despite recovery signals',
       paragraphs: `Climbing costs, oversupply, and changing demand are making U.S. refrigerated carriers cautious about a recovery.
 Reefer truckers remain guarded as excess capacity, higher equipment costs, and shifting consumption patterns persist. Many leaders ask: “Is this the new normal?” Yet fresh data show “political tailwinds” could end the long freight recession.
 At the Truckload Carriers Association event on Jul 16 in Colorado Springs, John Larkin of Clarendon Capital offered some optimism, citing: deregulation, tax cuts in the “Big Beautiful Bill,” and reshoring incentives. “In the last 18 months, the political wind has shifted positively,” he said.
@@ -345,8 +339,7 @@ Nhu Y (via Fleet Owner)
 `,
     },
     p15: {
-      title:
-        'Guangzhou port container volume up 9.5% in H1',
+      title: 'Guangzhou port container volume up 9.5% in H1',
       paragraphs: `China’s largest inland container port handled 287M tons (+2.9% Y/Y); containers reached 13.4M TEU (+9.5%).
 Operator revenue hit RMB 6.9B, profit RMB 853M. The port leveraged Nansha growth, optimized service networks, and improved terminal efficiency to maintain volume gains.
 Cargo mix improved with foreign trade containers surpassing 50%. In H1, the port added seven foreign trade services, totaling 224 container loops (179 international). Foreign trade boxes reached 6.9M TEU (+21.4% Y/Y). Nansha outpaced peers at +25.5%.
@@ -394,8 +387,7 @@ Source: Phaata.com (via Trans.info)
       },
     },
     p18: {
-      title:
-        'Container lines’ profits fall sharply in Q2/2025',
+      title: 'Container lines’ profits fall sharply in Q2/2025',
       paragraphs: `Operating profits of major carriers more than halved in Q2/2025 versus Q1 as spot rates fell and Transpacific volumes slipped—though results remained positive overall.
 In Q1 2025, despite market uncertainty and geopolitics, top carriers booked total EBIT of USD 5.89B—second only to Q1 in the 2021–2023 boom. But volatility persisted into Q2 with shifting volumes and relentless rate pressure.
 As a result, aggregate EBIT fell to USD 2.73B in Q2—below Q2 levels in 2021–2024 and only slightly above 2020. Profitability remained positive but comparatively weak versus recent years.
@@ -409,8 +401,7 @@ A closer look shows pronounced performance dispersion among carriers
       },
     },
     p19: {
-      title:
-        'CMA CGM to acquire Freightliner UK — A strategic pivot to reshape European transport',
+      title: 'CMA CGM to acquire Freightliner UK — A strategic pivot to reshape European transport',
       paragraphs: `
 CMA CGM just delivered a major jolt to the logistics map, announcing plans to acquire Freightliner’s UK intermodal operations, including rail-road services, inland depots, and the Freightliner brand. The deal, subject to regulatory approval, is expected to close in early 2026.
 `,
@@ -444,8 +435,7 @@ Alongside Latakia port expansion (€200M) and the KILIMA Asia–Africa loop, th
       },
     },
     p20: {
-      title:
-        'U.S.–China trade: Imports down, supply chains pivot',
+      title: 'U.S.–China trade: Imports down, supply chains pivot',
       paragraphs: `
 A mix of new U.S. tariffs, geopolitics, and rising logistics costs is reshaping global trade. Q2/2025 data show the U.S. is importing less from China while China pivots exports elsewhere—signaling deep changes in container shipping.
 `,
@@ -495,8 +485,7 @@ James Hookham (Global Shippers’ Forum) adds: tariff uncertainty drives “fron
       },
     },
     p21: {
-      title:
-        'Ahead of new USTR port fees, COSCO pledges stable U.S. services',
+      title: 'Ahead of new USTR port fees, COSCO pledges stable U.S. services',
       paragraphs: `
 COSCO SHIPPING Lines issued a notice addressing upcoming U.S. port fees from USTR, committing to stable services and capacity in the U.S. market despite operational challenges ahead.
 In a Sept 16 advisory, COSCO referenced USTR’s Apr 17, 2025 announcement that the U.S. will begin assessing port service fees on Chinese operators/owners and on operators using China-built ships, effective Oct 14, 2025.
@@ -552,8 +541,7 @@ Alphaliner says Ocean Alliance’s NEU7 (FE–North Europe) by Evergreen is wors
       },
     },
     p24: {
-      title:
-        'Rising burden of repositioning empties for carriers',
+      title: 'Rising burden of repositioning empties for carriers',
       paragraphs: `
 Sea-Intelligence finds empty-box moves are rising faster than loaded moves, sharply increasing empty repositioning costs—exacerbated by the Red Sea crisis.
 Since 2019, empties have grown as a share of total TEU-miles (includes distance). In July, empties were 41% of TEU-miles, up from 31% in early 2019.
@@ -901,5 +889,260 @@ Once the newly ordered 18,000 TEU ships are delivered, Maersk will have received
 #PHAATA
       `,
     },
-  }
-};
+    p37: {
+      title: '🚢 Maersk Plans Major Investment in a Large-Scale Container Port in Vietnam',
+      paragraphs: `
+      Global shipping and logistics giant Maersk has expressed its intention to invest in the development of a modern, large-scale container port in Vietnam.
+
+During a recent meeting with Vietnamese leaders, Maersk stated its ambition to build a “green and smart” port, focusing on emission reduction and advanced technology adoption—fully aligned with Vietnam’s green transformation strategy.
+
+If realized, the project could become a major boost for Vietnam’s logistics infrastructure by:
+🤝 Attracting more international mother vessels
+🤝 Increasing import-export capacity
+🤝 Reducing logistics costs for businesses
+🤝 Driving development in port-related and supporting industries
+
+Vietnam is currently prioritizing investment in its seaport system, and Maersk’s proposed project could represent a strategic turning point in the regional supply chain.
+
+🌱 A green port – high technology – global connectivity.
+Hopefully, the project will soon be implemented, elevating Vietnam’s logistics sector to a new level.
+      `,
+    },
+    p38: {
+      title: 'Vietnam–China Pilot Two-Way Cargo Transportation via Lang Son',
+      paragraphs: `
+      Starting from December 10, 2025, Vietnam and China will pilot a two-way cargo transportation scheme through the Huu Nghi border gate, aiming to reduce costs and improve customs clearance capacity.
+
+According to the Dong Dang–Lang Son Border Gate Economic Zone Authority, the pilot program will operate via dedicated transport routes and clearance lanes at the Huu Nghi (Vietnam) – Youyi Pass (China) international border gate. The pilot will run until December 9, 2026.
+
+Under this scheme, vehicles exporting goods to the neighboring country may carry imported goods on their return journey. The routes include:
+
+Dedicated cargo lanes at border markers 1119–1120 (Huu Nghi – Youyi Pass)
+
+Dedicated cargo lanes at markers 1088/2–1089 (Tan Thanh – Po Chai)
+
+Clearance lanes at markers 1104–1105 (Coc Nam – Lung Nghiu)
+
+The initiative is expected to improve traffic flow management, simplify document inspection, reduce transport costs, and enhance clearance capacity.
+
+Enterprises must register transportation needs with Border Guard and Customs authorities. Vehicles must conduct transshipment and cargo handling at designated yards meeting inspection and regulatory requirements.
+
+Vehicles may stay in the neighboring country’s yard for no more than 36 hours after delivery. Non-two-way vehicles must return within 24 hours.
+
+Cargo for each trip must belong to a single enterprise. Agricultural products are limited to one type per vehicle, while electronics and other goods must be transported in standard containers. Consolidated cargo vehicles are excluded during the pilot phase.
+
+The Border Gate Management Center will coordinate implementation and initially assist enterprises with information exchange.
+
+(Source: VNA)
+      `,
+    },
+    p39: {
+      title: 'COSCO’s Historic USD 7 Billion Order: 87 New Vessels for Fleet Restructuring',
+      paragraphs: `
+      COSCO Shipping has shaken the maritime industry with a USD 7 billion agreement to build 87 new vessels across all segments, marking the largest shipbuilding order ever between a shipping company and Chinese shipyards.
+
+In an industry already familiar with mega-deals, China’s COSCO Shipping Group has drawn exceptional attention by signing an order for 87 new vessels covering all operational segments of its current fleet. China State Shipbuilding Corporation (CSSC) reported that the total value of the order is approximately USD 7 billion, while noting in stock exchange filings that final terms may change as projects progress.
+
+Chinese media reported that this is the largest order ever placed between a shipping company and a Chinese shipbuilder. The agreement was announced with a level of formality befitting its scale.
+
+COSCO described the contract as an important measure to adapt to market trends. The group emphasized that the order is intended to maintain its scale advantage while optimizing its fleet. The company stated that the vessels will reflect emerging trends toward “large-scale, green, and smart” development.
+
+Comprehensive Coverage Across All Segments
+
+Although delivery schedules have not been disclosed, the cooperation framework will cover all COSCO business segments, including container shipping, dry bulk, oil and gas transportation, specialized vessels, and passenger transport.
+
+The vessel types mentioned include:
+• Ultra-large container ships
+• Ultra-large bulk carriers
+• Very Large Crude Carriers (VLCCs)
+• Grain carriers
+• Multi-purpose heavy lift vessels
+• Medium-range (MR) tankers
+• Ro-Ro vessels and small container ships
+
+Strategic Partnership with CSSC
+
+The agreement comes just months after CSSC completed its latest restructuring aimed at improving efficiency and competitiveness. Most CSSC subsidiaries will participate in the project, including Jiangnan Shipyard, Dalian Heavy Industry, Wuchang Shipbuilding Industry, Guangzhou Shipbuilding International (GSI), China Shipbuilding Chengxi, and Beihai Shipbuilding.
+
+This move suggests that COSCO is largely unconcerned about potential U.S. port fees on Chinese-built and Chinese-owned vessels. Observers previously noted that COSCO could face billions of dollars in fees if the U.S. does not agree to delay such charges for one year as part of trade negotiations.
+
+Expanding an Already Massive Orderbook
+
+Although the new framework may incorporate previously announced orders, it also signals an expansion of COSCO’s already substantial orderbook.
+
+According to Alphaliner, COSCO currently has 82 container ships with a total capacity of 1.1 million TEU on order. Media reports indicate that the group has also ordered 25 Capesize bulk carriers this year, and two months ago added 23 bulk carriers and 6 VLCCs to its order list.
+
+Analysts note that an order of this magnitude is likely to create ripple effects across the global shipping industry for many months.
+
+(Source: Phaata)
+      `,
+    },
+    p40: {
+      title: 'FESCO Restructures Service Network Between Russia, China, and Vietnam',
+      paragraphs: `
+      FESCO has officially reinstated the FCDL-2 service and comprehensively adjusted the routes of FCDL-1 and FCDL-3 to optimize capacity and connectivity between Vladivostok, China, and Vietnam.
+
+According to Alphaliner, the reinstatement of FCDL-2 allows Chinese ports previously served by FCDL-3 to be redistributed. FCDL-3 will now include port calls at Shantou and Xiamen, previously part of FCDL-1/FVDL.
+
+Updated service rotations:
+
+FCDL-1/FVDL (Vietnam-focused): Vladivostok → Ho Chi Minh City → Hai Phong → Guangzhou (Nansha) → Vladivostok
+
+FCDL-2: Vladivostok → Tianjin → Dalian → Rizhao → Lianyungang → Vladivostok
+
+FCDL-3: Vladivostok → Shantou → Xiamen → Wenzhou (biweekly) → Ningbo → Shanghai → Vladivostok
+
+These strategic adjustments aim to streamline operations and enhance coverage along the vital Russia–China–Vietnam trade corridor.
+
+(Source: Phaata)
+      `,
+    },
+    p41: {
+      title: 'Major M&A Shock: Hapag-Lloyd Makes Initial Offer for ZIM',
+      paragraphs: `
+      Hapag-Lloyd has submitted a preliminary offer to acquire ZIM Integrated Shipping Services, the world’s ninth-largest shipping company. However, the multi-billion-dollar deal is facing major obstacles from Israeli labor unions due to concerns over foreign ownership and national maritime security.
+
+According to Globes, Israel’s leading financial newspaper, Hapag-Lloyd has made an initial offer to acquire ZIM, although formal negotiations have not yet begun. The deal has attracted significant attention, as other industry giants—including MSC and Maersk—have also expressed interest in the Israeli carrier.
+
+ZIM currently ranks ninth globally with a 2.5% market share and is valued at approximately USD 2.4 billion. The move comes amid changes in ZIM’s ownership structure after its former controlling shareholder, Kenon Holdings, sold its stake. ZIM’s CEO, Eli Glickman, has also submitted a buyout proposal together with shipping tycoon Rami Ungar.
+
+Labor and National Security Barriers
+
+However, Hapag-Lloyd’s ambitions are facing strong resistance. ZIM’s workers committee has voiced firm opposition, citing serious national security concerns.
+
+The committee’s chairman, Oren Ksafim, warned that foreign ownership involving Qatari and Saudi investors—through Hapag-Lloyd’s shareholder structure—could threaten Israel’s maritime supply chain during future conflicts. As a result, the committee has urged the Israeli government to activate its “golden share” rights to block the transaction.
+
+Financial Market Reaction
+
+On the financial front, ZIM’s shares closed at USD 19.87, significantly above the analysts’ target price of USD 14.30. Market sentiment remains divided among seven analysts, with one “Buy” recommendation, three “Hold” ratings, and three “Sell” ratings.
+      `,
+    },
+    p42: {
+      title: '🇻🇳 Vietnam Introduces Its First Fully Electric Container Tractor Trucks! ⚡️🚛',
+      paragraphs: `
+      Maersk will officially put into operation a fleet of heavy-duty electric trucks in Vietnam starting early next year—marking a new milestone in the development of green logistics.
+
+🔹 Transporting cargo between Maersk CFS warehouses and major ports: Cat Lai – Binh Duong – Dong Nai
+🔹 Electric trucks will be charged at a dedicated charging station located 5 km from the CFS facility
+🔹 Supporting the ECO Delivery Inland service, enabling customers to track greenhouse gas (GHG) emission reductions for ESG reporting purposes
+🔹 Smoother operation – lower vibration and noise – reduced maintenance costs
+
+Key specifications of the Qingling EVC61 electric tractor unit:
+⚡ Maximum power output: 483 HP
+🔋 LFP battery capacity: 282–314 kWh
+🚛 Towing capacity: up to 39 tons
+🔌 Driving range: up to 250–300 km per charge
+
+A major step forward toward green transportation in Vietnam! 🌱🚛⚡
+      `,
+    },
+    p43: {
+      title: 'Guangzhou Shipyard International Launches Eight Next-Generation Ship Designs',
+      paragraphs: `
+    Guangzhou Shipyard International (GSI) announced eight ship designs independently developed by the company, covering a wide range of vessel types such as oil tankers, container ships and liquefied CO₂ carriers.
+    
+    The new designs include a large 135,000 DWT crude and product tanker; the methanol fuel-cell passenger vessel 'Artist'; a 5,000-ton floating crane; a 3,440-TEU ice-class container ship; a luxury methanol-powered ro-pax vessel capable of carrying 2,700 passengers and 2,500 lane meters of vehicles; a 15,000-cubic-meter liquefied CO₂ carrier; a zero-emission livestock carrier with a total area of 25,000 square meters; and a hybrid MR oil tanker designed for energy efficiency.
+    
+    According to GSI, this series of designs meets the latest environmental standards of the International Maritime Organization (IMO) and integrates core technologies such as optimized ship design and clean-energy propulsion systems. Several of these models are considered the first of their kind in China’s specialized ship segments.
+    
+    Among the eight designs, the 135,000-DWT oil tanker has received dual Approval in Principle (AIP) certification from both the China Classification Society (CCS) and Lloyd’s Register (LR). The luxury methanol-powered ro-pax vessel has also been granted dual AIP certification from Lloyd’s Register and Bureau Veritas (BV). The remaining six designs have all received AIP certification from CCS, LR, BV and DNV.
+    
+    Guangzhou Shipyard International (GSI) is one of the oldest and largest shipyards in China and operates under China State Shipbuilding Corporation (CSSC). Founded in 1954 in Guangzhou, GSI specializes in the construction and repair of various commercial and specialized vessels such as oil tankers, container ships, ro-pax ferries, offshore support vessels and clean-fuel ships. The company is well known for its independent design capability, green technology applications and its ability to meet strict IMO standards. In recent years, GSI has accelerated the development of environmentally friendly vessels, becoming a prominent brand in China’s modern shipbuilding industry.
+    
+    Ngoc Minh (source: Seatrade Maritime News)
+    `,
+    },
+
+    p44: {
+      title: 'EU Tightens Controls on Imported Agricultural and Food Products',
+      paragraphs: `
+    Vietnamese agricultural exporters need to pay close attention to quality and chemical residues in order to avoid shipments being returned or destroyed in the EU, which would damage corporate reputation and generate additional costs.
+    
+    According to the Vietnam Trade Office in Belgium, information released by the European Commission on December 10, 2025 indicated that the EU will implement a series of measures to tighten controls on imported agricultural and food products.
+    
+    These measures include a 50% increase in food safety and sanitary and phytosanitary (SPS) inspections for third-country imports, as well as a 33% increase in audits at border control posts of EU member states.
+    
+    This move is intended to ensure that imported products fully comply with food safety, environmental and animal-welfare standards that are already applied to farmers and businesses within the EU.
+    
+    The European Commission stated that a new task force will be established to coordinate inspection activities, focusing on pesticide residues, food and feed safety, and animal welfare, and to promote targeted monitoring campaigns for certain imported product groups.
+    
+    These new measures will apply uniformly to all non-EU trading partners and represent the EU’s response to growing concerns among European farmers, who fear unfair competition if imported products do not meet the same standards as those applied within the EU.
+    
+    The EU’s objective is to ensure that farmers do not face unfair competition and that all imported food products comply with exactly the same regulations that EU farmers are required to follow.
+    
+    In addition to SPS inspections, the European Commission will review pesticide residue monitoring regulations, especially for substances that are banned in the EU but may appear in imported agricultural products. Some active substances have been reclassified by international organizations, and these changes must be incorporated into EU legislation.
+    
+    According to the Commission, this initiative was launched at the request of farmers and with the support of EU member states, in order to prevent hazardous pesticides from “re-entering” the EU market through imports.
+    
+    As part of the new measures, the European Commission will organize training programs for 500 inspectors to strengthen enforcement capacity at borders and within distribution systems across EU member states. At the same time, the new task force will improve coordination among agencies to ensure consistency in monitoring imports throughout the EU single market.
+    
+    As one of the world’s largest food importers and exporters, the EU stated that the objective of these measures is to strengthen the existing control system in order to protect consumers, support European farmers, and ensure that all products entering the EU market meet strict health and safety standards.
+    
+    The Vietnam Trade Office in Belgium warned Vietnamese agricultural exporters to pay special attention to product quality and chemical residues to avoid shipments being returned or destroyed in the EU, which would harm corporate reputation and lead to additional costs.
+    
+    Vietnam currently exports to the EU more than USD 2 billion worth of coffee per year, over USD 1 billion of seafood, nearly USD 900 million of cashew nuts, USD 260 million of fruits and vegetables, USD 240 million of pepper, as well as timber, wood products and processed agricultural goods.
+    `,
+    },
+
+    p45: {
+      title: 'Rice Export Market Update: Opportunities and Challenges in Australia and China',
+      paragraphs: `
+    At the Rice Export Business Conference organized by the Ministry of Industry and Trade, the Vietnam Trade Offices in Australia and China provided many important updates on two major markets that have a direct impact on Vietnam’s rice exports and logistics activities.
+    
+    Australia is a multicultural country with diverse rice consumption demand. In 2024, Australia imported approximately USD 290 million worth of rice, with Vietnam ranking third and accounting for about 15% of market share. Notably, despite having domestic rice production, Australia continues to increase rice imports, creating opportunities for overseas suppliers.
+    
+    The Australian rice market is divided into three main segments: premium and specialty rice such as ST25, which competes directly with Thai rice; rice for Asian communities, which is Vietnam’s traditional strength; and mainstream consumer rice that requires reasonable pricing and stable quality.
+    
+    Trends toward green consumption, traceability and low-emission supply chains are becoming increasingly prominent, creating opportunities but also requiring exporters to meet certification, documentation and formal distribution-channel requirements. The Vietnamese community of more than 360,000 people in Australia serves as an important natural channel for consumption and promotion.
+    
+    China imported 2.54 million tons of rice in the first ten months of 2025, up 131%, but the average import price dropped sharply, indicating increasingly fierce competition. Vietnam is currently China’s second-largest supplier, but both volume and price are under pressure.
+    
+    China will continue to maintain its 2026 rice import quota at 5.32 million tons, while tightening quarantine, food safety and enterprise licensing requirements. Only companies approved by Chinese authorities are permitted to export.
+    
+    In the fourth quarter of 2025, China’s rice imports are expected to remain high due to year-end stockpiling demand, but prices are unlikely to rise. This requires Vietnamese exporters to strictly control costs, quality and technical compliance.
+    
+    Message for businesses and logistics providers: exporting rice to major markets is not only about selling price, but also about supply-chain stability, regulatory compliance, inspection and customs-clearance risk management, and the selection of appropriate distribution channels. Companies should work closely with trade offices, regulators and logistics partners to seize opportunities and minimize risks.
+    `,
+    },
+
+    p46: {
+      title: 'COSCO Shipping Energy Signs Contracts for 19 New Vessels Worth Over USD 1 Billion',
+      paragraphs: `
+    COSCO Shipping Energy Transportation (CSET) has signed contracts for the construction of 19 new vessels, including 18 oil tankers and one ethylene carrier, with a total value of USD 1.08 billion, as part of its fleet restructuring and transition to dual-fuel LNG and methanol systems.
+    
+    The large-scale order, valued at CNY 7.88 billion, has been awarded to three shipyards under COSCO Shipping Heavy Industry. All 19 vessels are scheduled for delivery between 2027 and 2029.
+    
+    COSCO Shipping Heavy Industry Yangzhou will build four vessels for Hainan COSCO Energy with a total value of CNY 2.48 billion, including two 114,200-DWT Aframax crude oil tankers powered by methanol dual fuel and two 109,900-DWT LR2 product/crude tankers also powered by methanol dual fuel.
+    
+    COSCO Shipping Heavy Industry Dalian will build one 9,000-cubic-meter LNG-powered ethylene carrier for Dalian COSCO Energy, two LR1 product/crude tankers directly for CSET, and three MR product/crude tankers for CSET.
+    
+    In addition, COSCO Shipping Heavy Industry Guangdong will build five MR product/crude tankers.
+    
+    CSET stated that this investment aims to optimize its fleet structure, enhance market competitiveness, and adopt LNG and methanol dual-fuel systems. This move demonstrates CSET’s commitment to modernizing its energy fleet, anticipating stricter environmental regulations, and preparing for a greener and more efficient future in maritime transportation.
+    `,
+    },
+
+    p47: {
+      title: 'Vietnam’s Prominent Role in the Global Supply Chain Gains International Recognition',
+      paragraphs: `
+    Amid ongoing global economic challenges, Vietnam has been widely recognized by international news agencies and observers as one of Asia’s most notable growth performers and as an increasingly important player in the global supply chain.
+    
+    Major international media including Reuters, AFP and NHK cited official data showing that Vietnam’s GDP growth in 2025 reached 8.02%, placing the country among the world’s high-growth economies.
+    
+    International analyses noted that this result is particularly remarkable at a time when global trade is affected by rising protectionism, high logistics costs and supply-chain disruptions. Vietnam has nevertheless maintained strong growth thanks to a balanced combination of exports, domestic consumption and public investment.
+    
+    IMF Regional Representative Jochen Schittmann stated that Vietnam is pursuing an ambitious structural reform agenda, and if these reforms are implemented effectively, economic growth could be lifted by about two percentage points above the baseline scenario.
+    
+    Reuters highlighted Vietnam’s rising role in global supply chains in electronics, textiles, footwear and high-tech manufacturing. Industrial production and construction grew nearly 9%, services rose over 8.5%, and retail sales continued to expand. High public infrastructure spending has improved logistics and connectivity, supporting long-term growth.
+    
+    NHK and Nikkei Asia reported that Vietnam maintained macroeconomic stability in 2025, with inflation around 3.3% and FDI reaching more than USD 27 billion.
+    
+    Analysts emphasized that Vietnam’s exports are increasingly meeting high standards in sustainability, traceability and environmental compliance, allowing continued access to major global markets.
+    
+    VinaCapital’s chief economist Michael Kokalari expressed optimism about future GDP growth, driven by recovering consumer confidence and retail sales growth of around 7%, supported largely by tourism recovery.
+    
+    However, the IMF warned that external risks in 2026 remain significant due to slowing global growth and changing trade policies, making Vietnam’s high-growth targets for 2026–2030 an important test of its sustainable development strategy.
+    `,
+    },
+  },
+}

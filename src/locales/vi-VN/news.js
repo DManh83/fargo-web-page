@@ -10,4 +10,4 @@ export default {
     marketUpdates: 'Cập nhật thị trường',
     latestNews: 'Tin tức mới nhất',
   },
-};
+}

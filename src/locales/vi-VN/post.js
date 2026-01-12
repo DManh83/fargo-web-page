@@ -2,8 +2,7 @@ export default {
   post: {
     p1: {
       title: 'Nhập khẩu container Mỹ tháng 7 cao kỷ lục',
-      paragraphs:
-      `Lượng container nhập khẩu của Mỹ tăng mạnh, đạt hơn 2,62 triệu TEU, cho thấy nhu cầu mùa vụ và tác động từ các chính sách thuế quan mới.
+      paragraphs: `Lượng container nhập khẩu của Mỹ tăng mạnh, đạt hơn 2,62 triệu TEU, cho thấy nhu cầu mùa vụ và tác động từ các chính sách thuế quan mới.
       Theo Báo cáo Vận tải toàn cầu của Descartes Systems Group, tháng 7 vừa qua, lượng container nhập khẩu của Mỹ đạt hơn 2,621 triệu TEU (đơn vị tương đương container 20 feet), tăng 18,2% so với tháng 6 và cao hơn 2,6% so với cùng kỳ năm 2024. Mức này chỉ thấp hơn kỷ lục mọi thời đại được thiết lập vào tháng 5/2022 đúng 555 TEU. So với tháng 7/2019 (trước đại dịch), khối lượng nhập khẩu tăng 19,3%.
       Nguồn hàng từ Trung Quốc tăng vọt lên 923.075 TEU, cao hơn 44,4% so với tháng trước, đạt mức cao nhất từ đầu năm 2025. Dù vẫn thấp hơn đỉnh kỷ lục tháng 7/2024 khoảng 9,8%, thị phần hàng hóa từ Trung Quốc đã lên 35,2%, cao nhất từ đầu năm nhưng vẫn thấp hơn mức 41,5% vào tháng 2/2022. Hong Kong (Trung Quốc) cũng ghi nhận mức tăng đáng kể 47,8%, tương đương 25.185 TEU.
 
@@ -14,25 +13,23 @@ export default {
       Gia Hân`,
     },
     p2: {
-      title: 'Mỹ áp thuế 50% đối với 407 sản phẩm chứa thép hoặc nhôm, trong khi Tổng thống Donald Trump tiếp tục gây sức ép để hạ lãi suất trong nước, bất chấp lo ngại lạm phát.',
-      paragraphs:
-      `Đài NBC News ngày 20.8 đưa tin Bộ Thương mại Mỹ vừa thông báo mức thuế 50% được mở rộng cho 407 danh mục sản phẩm mới, mà theo Thứ trưởng Bộ Thương mại Mỹ Jeffrey Kessler gọi là bước đi nhằm ứng phó tình trạng lợi dụng các lỗ hổng để lách thuế.
+      title:
+        'Mỹ áp thuế 50% đối với 407 sản phẩm chứa thép hoặc nhôm, trong khi Tổng thống Donald Trump tiếp tục gây sức ép để hạ lãi suất trong nước, bất chấp lo ngại lạm phát.',
+      paragraphs: `Đài NBC News ngày 20.8 đưa tin Bộ Thương mại Mỹ vừa thông báo mức thuế 50% được mở rộng cho 407 danh mục sản phẩm mới, mà theo Thứ trưởng Bộ Thương mại Mỹ Jeffrey Kessler gọi là bước đi nhằm ứng phó tình trạng lợi dụng các lỗ hổng để lách thuế.
       Có hiệu lực từ ngày 18.8 (giờ Mỹ), mức thuế mới mở rộng phạm vi các mặt hàng bị đánh thuế mà chính quyền Tổng thống Donald Trump từng công bố trước đây đối với 2 nguyên liệu quan trọng là thép và nhôm. Danh sách bị áp mức thuế 50% bao gồm những sản phẩm như bình chữa cháy, máy móc, vật liệu xây dựng và hóa chất chuyên dụng có chứa hoặc được sản xuất từ nhôm hoặc thép.
       Bộ Thương mại Mỹ cũng bổ sung các bộ phận nhập khẩu dùng cho hệ thống xả ô tô và thép điện từ cần thiết cho xe điện vào danh sách áp thuế mới, cùng với linh kiện cho xe buýt, máy điều hòa không khí cũng như các thiết bị gia dụng như tủ lạnh, tủ đông và máy sấy. Nhà Trắng cho biết thuế quan đối với các sản phẩm trên "không nên gây ngạc nhiên". "Vào tháng 2, tổng thống đã kêu gọi lập quy trình mới về việc bổ sung sản phẩm thép và nhôm", phát ngôn viên Nhà Trắng Kush Desai cho biết. Sau đó, Cục Công nghiệp và An ninh đã xây dựng quy trình này vào tháng 4 và các công ty đã nộp đơn đề nghị bổ sung sản phẩm vào giữa tháng 5.
       Liên quan vấn đề thương mại, Đài Fox News ngày 20.8 dẫn lời Bộ trưởng Tài chính Mỹ Scott Bessent cho hay phía Mỹ đang đối thoại rất tốt với Trung Quốc, trong bối cảnh 2 nước cố gắng đạt thỏa thuận trước thời hạn áp thuế. Ngoài ra, Mỹ đồng ý đề nghị từ Brazil về tham vấn tại Tổ chức Thương mại thế giới (WTO) liên quan vấn đề thuế quan. Trước đó hôm 30.7, ông Trump công bố thuế quan 50% đối với hầu hết hàng hóa từ Brazil.`,
     },
     p3: {
       title: 'Hòa Phát bàn giao 1.000 container cho hãng tàu CMA CGM',
-      paragraphs:
-      `Ngày 19/8, Hòa Phát bàn giao 1.000 vỏ container loại 20 feet cho CMA CGM, hãng tàu tầm cỡ toàn cầu trong cung cấp các giải pháp vận tải biển, đường bộ, hàng không và logistics.
+      paragraphs: `Ngày 19/8, Hòa Phát bàn giao 1.000 vỏ container loại 20 feet cho CMA CGM, hãng tàu tầm cỡ toàn cầu trong cung cấp các giải pháp vận tải biển, đường bộ, hàng không và logistics.
       Đây là đơn hàng đầu tiên giữa hai bên và cũng là lần đầu CMA CGM sử dụng container do doanh nghiệp Việt Nam sản xuất.
       CMA CGM hiện tăng cường hoạt động tại Đông Nam Á nhằm đáp ứng lưu lượng hàng hóa ngày càng lớn trong khu vực. Việc đặt hàng container trực tiếp từ Hòa Phát giúp hãng chủ động nguồn thiết bị tại Việt Nam, đồng thời rút ngắn thời gian luân chuyển và tối ưu chi phí trong chuỗi khai thác.
       Nhà máy container của Hòa Phát đang vận hành giai đoạn một với công suất 200.000 TEU mỗi năm, tập trung sản xuất vỏ container khô tiêu chuẩn 20 và 40 feet. Sau khi hoàn thiện toàn bộ dự án, công suất thiết kế sẽ đạt 500.000 TEU mỗi năm. Với quy mô hiện tại, Hòa Phát là nhà sản xuất container hàng đầu Việt Nam và khu vực Đông Nam Á.`,
     },
     p4: {
       title: 'Nước ĐNÁ nhập khẩu gạo nhiều nhất thế giới mua 75% sản phẩm từ Việt Nam',
-      paragraphs:
-      `Sản phẩm của Việt Nam đóng vai trò quan trọng trong an ninh lương thực của nền kinh tế này
+      paragraphs: `Sản phẩm của Việt Nam đóng vai trò quan trọng trong an ninh lương thực của nền kinh tế này
       Philippines và Việt Nam giữ vai trò chiến lược và mang tính tương hỗ trong bức tranh thương mại gạo toàn cầu. Philippines, với tư cách là quốc gia nhập khẩu gạo lớn nhất thế giới, là thị trường then chốt để duy trì an ninh lương thực và ổn định giá cả nội địa. Trong khi đó, Việt Nam đã củng cố vị thế là một trong những cường quốc xuất khẩu gạo hàng đầu, với khả năng cung ứng ổn định và chất lượng cao.
       Mối quan hệ giữa hai quốc gia không chỉ đơn thuần là phụ thuộc một chiều, mà là một sự tương thuộc sâu sắc. Hãng tin Reuters cho hay trong 7 tháng đầu năm 2025, Việt Nam chiếm 44,3% thị phần tổng lượng gạo nhập khẩu của Philippines, với khối lượng đạt khoảng 2,44 triệu tấn.
       Theo Philstar, năm 2024, quốc gia này nhập khẩu khoảng 4,68 triệu tấn gạo, trong đó 3,56 triệu tấn – tương đương 75% – đến từ Việt Nam.
@@ -40,8 +37,7 @@ export default {
       Con số này cho thấy Việt Nam không chỉ là đối tác thương mại lớn nhất, mà gần như là nguồn cung "xương sống" của thị trường gạo Philippines. Nhiều năm qua, tỷ trọng gạo Việt Nam trong tổng nhập khẩu của Philippines luôn duy trì ở mức 65–80%, bất chấp biến động giá hay thời tiết.`,
       c1: {
         title: 'Thiếu hụt nội địa',
-        paragraphs:
-          `Nhu cầu nhập khẩu gạo khổng lồ của Philippines bắt nguồn từ sự mất cân bằng cơ bản giữa nhu cầu tiêu dùng không ngừng tăng và năng lực sản xuất lúa gạo nội địa còn hạn chế.
+        paragraphs: `Nhu cầu nhập khẩu gạo khổng lồ của Philippines bắt nguồn từ sự mất cân bằng cơ bản giữa nhu cầu tiêu dùng không ngừng tăng và năng lực sản xuất lúa gạo nội địa còn hạn chế.
           Philippines có quy mô dân số lớn, với khoảng 113 triệu người vào năm 2023, đứng thứ 13 trên thế giới và thứ hai trong khối ASEAN. Tốc độ tăng trưởng dân số cùng với thói quen tiêu dùng đã tạo ra một nền tảng vững chắc cho nhu cầu gạo.
           Gạo là lương thực chính và không thể thiếu trong các bữa ăn của người dân Philippines, thường được ăn kèm với nước sốt hoặc nước dùng từ các món chính. Sự phụ thuộc vào gạo trong thói quen ăn uống khiến cho tổng nhu cầu tiêu thụ nội địa của quốc gia này rất lớn, được dự báo đạt khoảng 17,8 triệu tấn vào năm 2025.
           Ngoài ra, để đảm bảo an ninh lương thực, Philippines duy trì nhu cầu dự trữ tối thiểu từ 1,0 đến 1,2 triệu tấn gạo, nâng tổng nhu cầu lên tới trên 18 triệu tấn mỗi năm. Điều này tạo ra một sự mất cân bằng cung-cầu nội địa cố hữu, buộc Philippines phải tìm đến nguồn cung từ bên ngoài.
@@ -212,7 +208,7 @@ export default {
         title: `Ảnh hưởng toàn cầu`,
         paragraphs: `Một số bưu điện quốc tế đã tạm ngừng gửi hàng sang Mỹ vì thay đổi quá gấp.
         Tuy vậy, Anh, Canada, Ukraine xác nhận vẫn tiếp tục vận chuyển.`,
-      }
+      },
     },
     p9: {
       title: `Điều gì sẽ xảy ra nếu các mức thuế quan của Trump bị hủy bỏ?`,
@@ -330,7 +326,7 @@ export default {
         Nếu các hãng khác buộc phải áp phụ phí, cước vận tải trên tuyến Transpacific và Transatlantic có nguy cơ tăng mạnh.
         Với Việt Nam, động thái này có thể giúp ổn định chi phí logistics cho các doanh nghiệp xuất khẩu vào Mỹ – thị trường trọng điểm.
         `,
-      }
+      },
     },
     p14: {
       title: `Doanh nghiệp vận tải lạnh Mỹ thận trọng trước tín hiệu phục hồi thị trường`,
@@ -399,7 +395,7 @@ export default {
         Với nhu cầu khu vực được dự báo sẽ tiếp tục tăng khi Ấn Độ củng cố vai trò sản xuất và các nền kinh tế ASEAN tăng trưởng vượt trội so với toàn cầu, thị trường nội Á chắc chắn sẽ vẫn là tâm điểm trong các chiến lược của ngành vận tải container.
         Nguồn: Phaata.com (Theo Trans.info)
         `,
-      }
+      },
     },
     p18: {
       title: `Lợi Nhuận Của Các Hãng Tàu Container Sụt Giảm Mạnh Trong Quý 2/2025`,
@@ -413,7 +409,7 @@ export default {
         Để đánh giá lợi nhuận hoạt động trong ngành vận tải container, chỉ số EBIT/TEU (lợi nhuận trước lãi vay và thuế trên mỗi TEU) được sử dụng. Trong Quý 2/2025, tất cả các hãng tàu lớn đều báo cáo EBIT/TEU dương, dao động từ 12 USD/TEU (ONE) đến 249 USD/TEU (OOCL).
         Phân tích chi tiết cho thấy sự phân hóa rõ rệt về hiệu suất hoạt động giữa các hãng
         `,
-      }
+      },
     },
     p19: {
       title: `CMA CGM thâu tóm Freightliner UK – Bước ngoặt chiến lược định hình lại vận tải châu Âu`,
@@ -447,7 +443,7 @@ export default {
         Cùng với kế hoạch mở rộng cảng Latakia (200 triệu euro) và triển khai tuyến KILIMA kết nối Á – Phi, thương vụ này chứng minh chiến lược đa dạng hóa – xanh hóa – toàn cầu hóa của CMA CGM đang tăng tốc.
         #JOHNVU
         `,
-      }
+      },
     },
     p20: {
       title: `Thương mại Mỹ - Trung: Nhập khẩu giảm, chuỗi cung ứng xoay trục`,
@@ -497,7 +493,7 @@ export default {
         James Hookham (Global Shippers’ Forum) bổ sung: sự bất ổn từ chính sách thuế quan khiến doanh nghiệp phải “chạy hàng sớm”, tìm nguồn cung thay thế và đối mặt với tình trạng thiếu ổn định trong vận hành.
         #JOHNVU
         `,
-      }
+      },
     },
     p21: {
       title: `Trước Thềm Phí Cảng Mới Của USTR, Hãng tàu COSCO Cam Kết Duy Trì Dịch Vụ Ổn Định Tại Thị Trường Mỹ`,
@@ -697,7 +693,8 @@ export default {
       },
     },
     p29: {
-      title: 'Cảng Los Angeles Vẫn Lập Kỷ Lục Quý Mới Bất Chấp Biến Động Từ Cuộc chiến Thương Mại Mỹ-Trung',
+      title:
+        'Cảng Los Angeles Vẫn Lập Kỷ Lục Quý Mới Bất Chấp Biến Động Từ Cuộc chiến Thương Mại Mỹ-Trung',
       paragraphs: `
 Cảng Los Angeles đã xử lý 883.053 TEU trong tháng 9, giảm 7,5% so với cùng kỳ năm ngoái, nhưng con số này vẫn đủ để giúp cửa ngõ nhập khẩu bận rộn nhất Hoa Kỳ có được quý hoạt động tốt nhất trong lịch sử
 Sản lượng kỷ lục này được ghi nhận trong bối cảnh thị trường liên tục biến động bởi các chính sách thuế quan thất thường, những quyết định thương mại khó lường và các chỉ số kinh tế không chắc chắn.
@@ -710,7 +707,8 @@ Tuyên bố của Tổng thống Donald Trump vào thứ Tư rằng Hoa Kỳ đa
       `,
     },
     p30: {
-      title: 'Sản Lượng Hàng Hóa Cảng Oakland Tháng 9 Sụt Giảm, Phản Ánh Sự Dịch Chuyển Dòng Chảy Thương Mại',
+      title:
+        'Sản Lượng Hàng Hóa Cảng Oakland Tháng 9 Sụt Giảm, Phản Ánh Sự Dịch Chuyển Dòng Chảy Thương Mại',
       paragraphs: `
 Cảng Oakland đã xử lý 178.942 TEU trong tháng 9 năm 2025, giảm 6,6% so với năm ngoái và 7% so với sản lượng của tháng 8. Các quan chức cho biết sự sụt giảm này phản ánh những thay đổi trên thị trường liên quan đến thuế quan hơn là xu hướng mùa vụ thông thường.
 Theo số liệu công bố, sản lượng nhập khẩu nguyên container (full imports) đạt 75.716 TEU, giảm 7,9% so với cùng kỳ năm ngoái, trong khi xuất khẩu nguyên container (full exports) đạt 60.123 TEU, giảm 2,2%. Mặc dù có sự sụt giảm, dòng chảy thương mại vẫn được duy trì ổn định nhờ các chuyến tàu ghé cảng đều đặn và hoạt động hiệu quả tại các bến.
@@ -843,6 +841,221 @@ Cùng với đó, cần đẩy nhanh đa dạng hóa thị trường, giảm t�
   Khi loạt tàu 18.000 TEU mới nhất này được bàn giao, Maersk sẽ nhận được tổng cộng hơn 30 tàu lớn chạy bằng LNG chỉ riêng từ nhà máy đóng tàu NTS
   #PHAATA
       `,
-    }
+    },
+    p37: {
+      title: '🚢 Maersk muốn đầu tư xây cảng container lớn tại Việt Nam!',
+      paragraphs: `
+      Tập đoàn vận tải biển và logistics hàng đầu thế giới Maersk vừa bày tỏ mong muốn đầu tư xây dựng cảng container hiện đại, quy mô lớn tại Việt Nam.
+
+Trong buổi làm việc với lãnh đạo Việt Nam, Maersk cho biết họ muốn phát triển cảng biển “xanh, thông minh”, giảm phát thải và ứng dụng công nghệ hiện đại – đúng định hướng chuyển đổi xanh của Việt Nam.
+
+Nếu dự án thành hiện thực, đây sẽ là cú hích lớn cho hạ tầng logistics, giúp:
+🤝Thu hút tàu mẹ quốc tế
+🤝Tăng năng lực xuất nhập khẩu
+🤝Giảm chi phí logistics cho doanh nghiệp
+🤝Phát triển mạnh khu vực cảng và công nghiệp phụ trợ
+
+Việt Nam hiện rất coi trọng thu hút đầu tư vào hệ thống cảng biển, và dự án của Maersk có thể trở thành một bước ngoặt chiến lược trong chuỗi cung ứng khu vực.
+
+🌱 Cảng xanh – công nghệ cao – kết nối toàn cầu.
+Hy vọng dự án sớm được triển khai để đưa logistics Việt Nam tiến lên tầm mới!
+      `,
+    },
+    p38: {
+      title: 'Việt Nam-Trung Quốc thí điểm vận chuyển hàng hóa hai chiều qua Lạng Sơn',
+      paragraphs: `
+      Từ ngày 10/12/2025, Việt Nam và Trung Quốc thử nghiệm vận chuyển hàng hóa hai chiều qua cửa khẩu Hữu Nghị nhằm giảm chi phí, nâng cao năng lực thông quan.
+Theo thông tin từ Ban Quản lý Khu Kinh tế cửa khẩu Đồng Đăng-Lạng Sơn, từ ngày 10/12/2025, sẽ thí điểm thực hiện phương thức vận chuyển hàng hóa hai chiều qua các đường chuyên dụng, lối thông quan thuộc cặp cửa khẩu quốc tế Hữu Nghị (Việt Nam)-Hữu Nghị Quan (Trung Quốc).
+Các phương tiện vận chuyển hàng hóa xuất cảnh sang nước đối diện, sau khi giao hàng xong được vận chuyển hàng hóa nhập cảnh trở về nước. Thời gian thực hiện thí điểm đến hết ngày 9/12/2026.
+Cặp cửa khẩu quốc tế Hữu Nghị (Việt Nam)-Hữu Nghị Quan (Trung Quốc) bao gồm đường chuyên dụng vận chuyển hàng hoá khu vực mốc 1119-1120 (Hữu Nghị-Hữu Nghị Quan), đường chuyên dụng vận chuyển hàng hoá khu vực mốc 1088/2-1089 (Tân Thanh-Pò Chài), lối thông quan khu vực mốc 1104-1105 (Cốc Nam-Lũng Nghịu).
+Việc thí điểm vận chuyển hàng hóa hai chiều qua cặp cửa khẩu quốc tế Hữu Nghị (Việt Nam)-Hữu Nghị Quan (Trung Quốc) được kỳ vọng sẽ tạo thuận lợi cho quản lý lưu lượng phương tiện và kiểm tra hồ sơ dễ dàng, qua đó giảm chi phí vận tải và tăng năng lực thông quan.
+Để thực hiện vận chuyển hàng hóa hai chiều thông suốt, Ban Quản lý Khu Kinh tế cửa khẩu Đồng Đăng-Lạng Sơn yêu cầu doanh nghiệp chở hàng xuất khẩu hoặc nhập khẩu phải khai báo, đăng ký nhu cầu với lực lượng Biên phòng và Hải quan tại cửa khẩu.
+Phương tiện vận chuyển hàng hóa hai chiều phải thực hiện việc sang tải, xếp dỡ hàng hóa tại khu vực bến bãi đảm bảo điều kiện kiểm tra, tập kết theo quy định pháp luật và đáp ứng yêu cầu quản lý của các lực lượng chức năng của mỗi bên.
+Phương tiện vận chuyển hàng hóa hai chiều sau khi hoàn thành thủ tục giao hàng chỉ được dừng đỗ tại bến bãi nước đối diện không vượt quá 36 giờ. Đối với các phương tiện vận tải hàng hóa không theo phương thức hai chiều, phải xuất cảnh về nước trong vòng 24 giờ sau khi hoàn thành thủ tục giao hàng.
+Ban Quản lý Khu Kinh tế cửa khẩu Đồng Đăng-Lạng Sơn lưu ý, hàng hoá trên phương tiện khi giao, nhận từng chiều (chiều xuất hoặc chiều nhập) phải là hàng hoá của 1 doanh nghiệp, chủ hàng.
+Đối với mặt hàng nông sản chỉ được vận chuyển 1 mặt hàng/xe; đối với linh kiện điện tử và hàng hoá khác phải được vận chuyển bằng container tiêu chuẩn hoặc phương tiện đảm bảo an toàn kỹ thuật theo yêu cầu của mỗi bên. Đối với xe ghép hàng, trước mắt chưa thực hiện phương thức vận chuyển hàng hóa hai chiều trong thời gian thí điểm.
+Trung tâm Quản lý cửa khẩu thuộc Ban Quản lý Khu Kinh tế cửa khẩu Đồng Đăng-Lạng Sơn là cơ quan đầu mối triển khai thực hiện thí điểm. Trong thời gian đầu thực hiện, Trung tâm sẽ hỗ trợ doanh nghiệp hai bên trao đổi về thông tin phương tiện, hàng hóa cho nhau để phối hợp thực hiện các công việc có liên quan.
+Sau khi hoạt động ổn định, các doanh nghiệp hai bên sẽ tự trao đổi, thống nhất thực hiện và đăng ký với lực lượng chức năng để quản lý, giám sát./.
+Theo TTXVN
+      `,
+    },
+    p39: {
+      title: `COSCO Với Đơn Đặt Hàng Lịch Sử 7 Tỷ USD: 87 Tàu Mới Cho Chiến Lược Tái Cấu Trúc Đội Tàu`,
+      paragraphs: `
+      COSCO Shipping vừa gây chấn động ngành hàng hải với thỏa thuận trị giá 7 tỷ USD để đóng mới 87 tàu trải rộng trên mọi phân khúc, đánh dấu đơn hàng lớn nhất lịch sử giữa một hãng tàu và nhà máy đóng tàu Trung Quốc.
+
+Trong một ngành công nghiệp vốn đã quen thuộc với các thương vụ khổng lồ, tập đoàn COSCO Shipping của Trung Quốc vẫn tạo ra sự chú ý đặc biệt với thông tin vừa ký kết một đơn đặt hàng đóng mới 87 tàu, bao phủ toàn bộ các phân khúc hoạt động của đội tàu hiện tại. Tập đoàn Đóng tàu Nhà nước Trung Quốc (China State Shipbuilding Corporation - CSSC) báo cáo giá trị đơn hàng này vào khoảng 7 tỷ USD, mặc dù họ cũng lưu ý trong hồ sơ gửi sở giao dịch chứng khoán rằng các điều khoản cuối cùng sẽ còn thay đổi khi các dự án tiến triển.
+Truyền thông Trung Quốc đưa tin rằng đây là đơn đặt hàng lớn nhất từng được thực hiện giữa một công ty vận tải biển và một nhà máy đóng tàu tại Trung Quốc. Thỏa thuận này đã được công bố với mức độ long trọng tương xứng với quy mô của nó.
+COSCO gọi hợp đồng này là một biện pháp quan trọng để thích ứng với các xu hướng thị trường. Tập đoàn nhấn mạnh đơn hàng này là một bước đi nhằm duy trì lợi thế về quy mô của công ty đồng thời tối ưu hóa đội tàu. Công ty cho biết các con tàu sẽ phản ánh các xu hướng thị trường mới nổi về “phát triển quy mô lớn, xanh và thông minh”.
+Phạm Vi Bao Phủ Toàn Diện Các Phân Khúc
+Chưa có thông tin cụ thể về thời gian biểu bàn giao, nhưng các công ty nhấn mạnh rằng khuôn khổ hợp tác này sẽ chạm đến tất cả các phân khúc kinh doanh của COSCO. Chúng bao gồm vận tải container, vận tải hàng rời (dry bulk), vận tải dầu khí, vận tải tàu chuyên dụng và vận tải hành khách.
+Trong số các loại tàu được đề cập có:
+  • Tàu container siêu lớn (Ultra-large container ships).
+  • Tàu hàng rời siêu lớn (Ultra-large bulk carriers).
+  • Tàu chở dầu siêu lớn (VLCCs).
+  • Tàu vận chuyển ngũ cốc.
+  • Tàu đa năng hạng nặng (Multi-purpose heavy lift vessels).
+  • Tàu chở dầu tầm trung (MR tankers).
+  • Tàu Ro-Ro và các tàu container cỡ nhỏ.
+Cú Bắt Tay Chiến Lược Với CSSC
+Thỏa thuận này diễn ra chỉ vài tháng sau khi CSSC hoàn tất đợt tái cơ cấu mới nhất được thiết kế để tăng hiệu quả và khả năng cạnh tranh. Trong thông báo, họ cho biết hầu hết các đơn vị thành viên của mình sẽ tham gia vào dự án này, bao gồm Nhà máy đóng tàu Jiangnan, Dalian Heavy Industry, Wuchang Shipbuilding Industry, Guangzhou Shipbuilding International (GSI), China Shipbuilding Chengxi và Beihai Shipbuilding.
+Động thái này cho thấy COSCO dường như ít quan tâm đến kế hoạch của Hoa Kỳ trong việc áp phí đối với các tàu do Trung Quốc đóng và sở hữu. Trước đó, giới quan sát đã chỉ ra rằng công ty có thể phải trả hàng tỷ đô la tiền phí nếu Hoa Kỳ không đồng ý hoãn áp dụng các khoản phí này trong một năm như một phần của các cuộc đàm phán thương mại.
+Mở Rộng Đơn Đặt Hàng Vốn Đã "Khủng"
+Mặc dù khuôn khổ mới có thể kết hợp một số đơn đặt hàng đã được công bố trước đó, nhưng nó cũng cho thấy sự mở rộng trên đơn đặt hàng (orderbook) vốn đã rất lớn của COSCO.
+Dữ liệu từ Alphaliner cho biết tập đoàn này hiện đã có 82 tàu container với tổng sức chở 1,1 triệu TEU đang được đặt đóng. Tính đến thời điểm này trong năm, theo các báo cáo truyền thông, COSCO đã đặt hàng 25 tàu hàng rời cỡ Capesize. Hai tháng trước, công ty cũng đã bổ sung thêm 23 tàu hàng rời và 6 tàu chở dầu siêu lớn vào danh sách đặt hàng của mình.
+Các nhà phân tích lưu ý rằng một đơn đặt hàng có quy mô như thế này có khả năng sẽ tạo ra làn sóng tác động lan tỏa trong toàn ngành trong nhiều tháng tới.
+Theo Phaata
+      `,
+    },
+    p40: {
+      title: 'FESCo Tái Cấu Trúc Mạng Lưới Dịch Vụ Tuyến Nga – Trung Quốc Và Việt Nam',
+      paragraphs: `
+      Hãng tàu FESCo chính thức khôi phục tuyến FCDL-2 và điều chỉnh toàn diện hải trình các tuyến FCDL-1 và FCDL-3, nhằm tối ưu hóa năng lực vận tải và kết nối giữa Vladivostok với các cảng trọng điểm tại Trung Quốc và Việt Nam.
+
+Hãng tàu FESCo (Far East Shipping Company) vừa thực hiện một loạt điều chỉnh quan trọng đối với mạng lưới dịch vụ kết nối giữa Viễn Đông Nga, Trung Quốc và Việt Nam. Động thái này bao gồm việc khôi phục một tuyến dịch vụ đã tạm ngưng và sắp xếp lại hải trình của các tuyến hiện hữu để tối ưu hóa phạm vi bao phủ cảng.
+Theo dữ liệu mới nhất từ Alphaliner, FESCo đã chính thức đưa tuyến Fesco China Direct Line 2 (FCDL-2) hoạt động trở lại sau khi bị tạm ngưng vào tháng 4 vừa qua. Với sự trở lại của FCDL-2, các cảng Trung Quốc trước đây được phục vụ bởi tuyến này đã được tách ra khỏi hải trình của tuyến FCDL-3.
+Để duy trì phạm vi bao phủ thị trường và cân bằng mạng lưới, tuyến FCDL-3 sẽ tiếp nhận các lượt ghé cảng (port calls) tại Sán Đầu (Shantou) và Hạ Môn (Xiamen) – vốn trước đây thuộc hải trình của tuyến FCDL-1/FVDL.
+Dưới đây là chi tiết hải trình (port rotation) cập nhật của các tuyến dịch vụ:
+• Tuyến FCDL-1/FVDL (Tập trung kết nối Việt Nam): Vladivostok → TP. Hồ Chí Minh → Hải Phòng → Quảng Châu (Nansha) → Vladivostok.
+• Tuyến FCDL-2 (Khôi phục lại): Vladivostok → Thiên Tân (Tianjin) → Đại Liên (Dalian) → Nhật Chiếu (Rizhao) → Liên Vân Cảng (Lianyungang) → Vladivostok.
+• Tuyến FCDL-3 (Điều chỉnh mới): Vladivostok → Sán Đầu (Shantou) → Hạ Môn (Xiamen) → Ôn Châu (Wenzhou - tần suất 2 tuần/chuyến) → Ninh Ba (Ningbo) → Thượng Hải → Vladivostok.
+Các điều chỉnh chiến lược này nhằm mục đích tối ưu hóa phạm vi bao phủ cảng và tinh gọn (streamline) hoạt động khai thác của FESCo trên hành lang vận tải huyết mạch giữa vùng Viễn Đông Nga và các trung tâm sản xuất lớn tại Trung Quốc và Việt Nam.
+Theo PHAATA 
+      `,
+    },
+    p41: {
+      title: 'Thương Vụ M&A Chấn Động: Hapag-Lloyd Hỏi Mua ZIM',
+      paragraphs: `
+      Hapag-Lloyd đã gửi đề nghị sơ bộ để thâu tóm ZIM, hãng tàu lớn thứ 9 thế giới. Tuy nhiên, thương vụ trị giá hàng tỷ USD này đang đối mặt với rào cản lớn từ nghiệp đoàn lao động Israel do lo ngại về cơ cấu cổ đông nước ngoài và an ninh hàng hải.
+
+
+Theo thông tin từ Globes – tờ báo kinh tế hàng đầu của Israel, gã khổng lồ vận tải biển quốc tế Hapag-Lloyd đã đưa ra một đề nghị ban đầu (initial offer) nhằm mua lại Zim Integrated Shipping Services. Mặc dù các cuộc đàm phán chính thức vẫn chưa bắt đầu, nhưng sức nóng của thương vụ này đang gia tăng khi các đối thủ sừng sỏ khác, bao gồm cả MSC và Maersk, cũng đã bày tỏ sự quan tâm đến hãng tàu của Israel.
+ZIM, hiện đang xếp thứ 9 trên bảng xếp hạng toàn cầu với 2,5% thị phần, đang được định giá khoảng 2,4 tỷ USD. Động thái hỏi mua này diễn ra trong bối cảnh cơ cấu sở hữu của ZIM đang có sự biến động, sau khi cổ đông kiểm soát cũ là Kenon Holdings đã bán cổ phần của mình, và Tổng Giám đốc ZIM, ông Eli Glickman, cũng đã đệ trình một đề xuất mua lại (buyout proposal) cùng với ông trùm vận tải biển Rami Ungar.
+Rào Cản Từ Người Lao Động và An Ninh Quốc Gia
+Tuy nhiên, tham vọng của Hapag-Lloyd đang vấp phải sự kháng cự mạnh mẽ. Ủy ban người lao động của ZIM (ZIM’s workers committee) đã lên tiếng phản đối kịch liệt việc bán công ty cho Hapag-Lloyd, viện dẫn các lo ngại nghiêm trọng về an ninh quốc gia.
+Chủ tịch Ủy ban, ông Oren Ksafim, đã đưa ra cảnh báo rằng quyền sở hữu nước ngoài bởi các nhà đầu tư Qatar và Ả Rập Xê Út (thông qua cơ cấu cổ đông hiện tại của Hapag-Lloyd) có thể gây nguy hiểm cho chuỗi cung ứng hàng hải của Israel trong các cuộc xung đột tương lai. Trước tình hình đó, Ủy ban đã khẩn thiết kêu gọi chính phủ Israel kích hoạt quyền "cổ phần vàng" (golden share) của nhà nước để ngăn chặn thương vụ này.
+Phản Ứng Của Thị Trường Tài Chính
+Về mặt tài chính, cổ phiếu của ZIM đã đóng cửa phiên giao dịch ở mức 19,87 USD, cao hơn đáng kể so với mức giá mục tiêu 14,30 USD mà các nhà phân tích đưa ra. Tâm lý thị trường hiện khá phân tán với các đánh giá trái chiều từ bảy nhà phân tích: một khuyến nghị "Mua", ba khuyến nghị "Giữ" và ba khuyến nghị "Bán".
+      `,
+    },
+    p42: {
+      title: '🇻🇳 Việt Nam lần đầu có xe đầu kéo container chạy hoàn toàn bằng điện! ⚡️🚛**',
+      paragraphs: `
+      Maersk sẽ chính thức đưa vào khai thác đội **xe tải điện hạng nặng** tại Việt Nam từ đầu năm tới – đánh dấu bước tiến mới trong logistics xanh.
+
+🔹 Vận chuyển hàng giữa kho CFS Maersk và các cảng lớn: **Cát Lái – Bình Dương – Đồng Nai**
+🔹 Xe điện được sạc tại trạm riêng đặt cách CFS 5km
+🔹 Hỗ trợ dịch vụ **ECO Delivery Inland**, giúp khách hàng theo dõi giảm phát thải GHG phục vụ báo cáo ESG
+🔹 Vận hành êm hơn – ít rung ồn – chi phí bảo dưỡng thấp hơn
+
+**Thông số nổi bật của đầu kéo điện Qingling EVC61:**
+⚡ Công suất tối đa: 483 HP
+🔋 Pin LFP 282–314 kWh
+🚛 Kéo tải lên tới **39 tấn**
+🔌 Chạy tối đa **250–300 km/sạc**
+
+Một bước tiến lớn hướng tới vận tải xanh tại Việt Nam! 🌱🚛⚡
+      `,
+    },
+    p43: {
+      title: 'Nhà máy đóng tàu Quảng Châu ra mắt 8 thiết kế tàu thế hệ mới',
+      paragraphs: `
+      Guangzhou Shipyard International (GSI) công bố 8 mẫu tàu do hãng tự phát triển, trải rộng nhiều chủng loại như tàu chở dầu, tàu container, tàu chở CO2 hóa lỏng...
+
+Các mẫu mới gồm: tàu chở dầu thô/sản phẩm dầu công suất lớn 135.000 DWT; tàu khách "Artist" chạy bằng pin nhiên liệu methanol; tàu cẩu nổi 5.000 tấn; tàu container hạng băng 3.440 TEU; tàu ro-pax hạng sang chạy methanol, sức chứa 2.700 hành khách và 2.500 m làn xe; tàu chở LCO2 dung tích 15.000 m3; tàu chở gia súc phát thải bằng 0, diện tích 25.000 m2; và tàu chở dầu MR hybrid tiết kiệm năng lượng.
+
+Theo GSI, loạt thiết kế này đáp ứng các tiêu chuẩn môi trường mới nhất của Tổ chức Hàng hải Quốc tế (IMO), tích hợp nhiều công nghệ cốt lõi như thiết kế tối ưu và hệ động lực dùng năng lượng sạch. Một số mẫu được đánh giá là lần đầu xuất hiện trong các phân khúc tàu chuyên dụng tại Trung Quốc.
+
+Trong số 8 mẫu tàu, tàu chở dầu 135.000 DWT đã nhận chứng chỉ AIP kép từ Đăng kiểm Trung Quốc (CCS) và Lloyd's Register (LR). Mẫu tàu ro-pax methanol hạng sang cũng được cấp AIP kép từ LR và Bureau Veritas (BV). Sáu thiết kế còn lại đồng loạt nhận chứng chỉ AIP từ CCS, LR, BV và DNV.
+
+Guangzhou Shipyard International (GSI) là một trong những nhà máy đóng tàu lâu đời và lớn nhất Trung Quốc, trực thuộc Tập đoàn Công nghiệp Đóng tàu Trung Quốc (CSSC). Thành lập năm 1954 tại Quảng Châu, GSI chuyên đóng mới và sửa chữa nhiều dòng tàu thương mại và tàu chuyên dụng như tàu chở dầu, tàu container, ro-pax, tàu hỗ trợ ngoài khơi và tàu sử dụng nhiên liệu sạch. Doanh nghiệp nổi tiếng với năng lực thiết kế độc lập, ứng dụng công nghệ xanh và đáp ứng các tiêu chuẩn khắt khe của IMO. Những năm gần đây, GSI đẩy mạnh đóng tàu thân thiện môi trường, trở thành thương hiệu nổi bật trong công nghiệp đóng tàu hiện đại của Trung Quốc.
+
+Ngọc Minh (theo Seatrade Maritime News)
+      `,
+    },
+    p44: {
+      title: 'EU siết chặt kiểm soát đối với nông sản, thực phẩm nhập khẩu',
+      paragraphs: `
+      Doanh nghiệp xuất khẩu nông sản của Việt Nam cần quan tâm đến chất lượng và dư lượng hóa chất để tránh hàng hóa bị trả lại hoặc tiêu hủy tại EU, gây ảnh hưởng uy tín của công ty và phát sinh thêm các chi phí
+Nguồn tin từ Thương vụ Việt Nam tại Bỉ cho hay, theo thông tin từ Ủy ban châu Âu hôm 10/12/2025, EU sẽ triển khai một loạt biện pháp siết chặt kiểm soát đối với hàng hóa nông sản - thực phẩm nhập khẩu.
+Biện pháp siết kiểm soát bao gồm việc tăng 50% số lượng kiểm tra an toàn thực phẩm và kiểm dịch động thực vật (SPS) đối với các nước thứ ba, đồng thời tăng 33% các cuộc kiểm toán tại các trạm kiểm soát biên giới của các quốc gia thành viên.
+Động thái này nhằm đảm bảo các sản phẩm nhập khẩu tuân thủ đầy đủ các tiêu chuẩn an toàn thực phẩm, môi trường và phúc lợi động vật vốn áp dụng cho nông dân và doanh nghiệp trong EU.
+EC cho biết một lực lượng đặc nhiệm mới sẽ được thành lập để điều phối hoạt động kiểm soát, tập trung vào dư lượng thuốc bảo vệ thực vật, an toàn thực phẩm - thức ăn chăn nuôi và phúc lợi động vật, đồng thời thúc đẩy các chiến dịch giám sát tập trung đối với một số nhóm sản phẩm nhập khẩu.
+Các biện pháp mới được áp dụng đồng loạt đối với tất cả các đối tác thương mại ngoài EU và việc tăng cường kiểm soát là cách EU đáp lại mối quan ngại ngày càng gia tăng của nông dân châu Âu, những người lo ngại cạnh tranh không công bằng nếu các sản phẩm nhập khẩu không đáp ứng các tiêu chuẩn tương tự như trong khối.
+Mục tiêu của EU là bảo đảm nông dân không phải đối mặt với sự cạnh tranh thiếu bình đẳng và rằng mọi thực phẩm nhập khẩu phải tuân theo “đúng các quy định mà nông dân EU đang phải thực hiện.
+Bên cạnh việc kiểm tra SPS, EC sẽ xem xét lại các quy định giám sát dư lượng thuốc bảo vệ thực vật, đặc biệt đối với những chất đã bị cấm sử dụng trong EU nhưng có khả năng xuất hiện trong nông sản nhập khẩu.
+Một số hoạt chất đã được các tổ chức quốc tế phân loại lại, và những thay đổi này cần được cập nhật vào luật của EU.
+Theo EC, sáng kiến này được triển khai theo đề nghị của nông dân và với sự ủng hộ của các quốc gia thành viên, nhằm ngăn chặn nguy cơ các loại thuốc bảo vệ thực vật độc hại bị “quay trở lại” thị trường EU thông qua hàng nhập khẩu.
+Ngoài ra, một phần của biện pháp áp dụng mới, EC sẽ tổ chức chương trình đào tạo cho 500 thanh tra nhằm tăng cường năng lực triển khai kiểm soát tại biên giới và trong hệ thống phân phối của các nước thành viên. Đồng thời, lực lượng đặc nhiệm mới sẽ cải thiện hiệu quả phối hợp giữa các cơ quan, bảo đảm tính nhất quán trong giám sát hàng nhập khẩu trên toàn thị trường chung EU.
+Với tư cách là một trong những nhà nhập khẩu và xuất khẩu thực phẩm lớn nhất thế giới, EU khẳng định mục tiêu của các biện pháp lần này là củng cố hệ thống kiểm soát hiện có để bảo vệ người tiêu dùng, hỗ trợ nông dân châu Âu và bảo đảm mọi sản phẩm vào thị trường EU đều đáp ứng các tiêu chuẩn sức khỏe và an toàn nghiêm ngặt.
+Thương vụ Việt Nam tại Bỉ lưu ý các doanh nghiệp xuất khẩu nông sản của Việt Nam đặc biệt quan tâm đến chất lượng và dư lượng hóa chất để tránh hàng hóa bị trả lại hoặc tiêu hủy tại EU, gây ảnh hưởng uy tín của công ty và phát sinh thêm các chi phí.
+Việt Nam hiện xuất khẩu sang EU khoảng hơn 2 tỷ USD cà phê mỗi năm, trên 1 tỷ USD hàng thủy sản, gần 900 triệu USD hạt điều, 260 triệu USD hàng rau quả, 240 triệu USD hạt tiêu, ngoài ra còn có gỗ và sản phẩm gỗ và các sản phẩm nông sản đã qua chế biến...
+#BAODAUTU
+      `,
+    },
+    p45: {
+      title: 'Cập nhật thị trường xuất khẩu gạo: Cơ hội & thách thức tại Úc và Trung Quốc',
+      paragraphs: `
+      Tại Hội nghị “Kinh doanh xuất khẩu gạo” do Bộ Công Thương tổ chức, Thương vụ Việt Nam tại Úc và Trung Quốc đã cung cấp nhiều thông tin đáng chú ý về hai thị trường lớn, có ảnh hưởng trực tiếp tới hoạt động xuất khẩu và logistics gạo của Việt Nam.
+🔹 Thị trường Úc: Nhiều dư địa, ưu tiên bền vững
+Úc có dân số đa sắc tộc, nhu cầu gạo đa dạng theo phân khúc. Năm 2024, Úc nhập khẩu khoảng 290 triệu USD gạo, trong đó Việt Nam đứng thứ 3, chiếm khoảng 15% thị phần. Đáng chú ý, dù có sản xuất gạo nội địa, Úc vẫn tăng nhập khẩu mạnh, mở ra cơ hội cho nhà cung ứng nước ngoài.
+Thị trường Úc chia thành 3 phân khúc chính:
+•	Gạo cao cấp, đặc sản (ST25…) – cạnh tranh trực tiếp với Thái Lan
+•	Gạo phục vụ cộng đồng châu Á – thế mạnh truyền thống của Việt Nam
+•	Gạo tiêu dùng phổ thông – yêu cầu giá hợp lý, chất lượng ổn định
+Xu hướng tiêu dùng xanh, truy xuất nguồn gốc và phát thải thấp ngày càng rõ rệt, tạo cơ hội nhưng cũng đòi hỏi doanh nghiệp đáp ứng tốt về chứng nhận, hồ sơ và kênh phân phối chính thống. Cộng đồng hơn 360.000 người Việt tại Úc là kênh tiêu thụ và quảng bá tự nhiên rất quan trọng.
+🔹 Thị trường Trung Quốc: Nhu cầu lớn nhưng “luật chơi” chặt chẽ
+10 tháng đầu năm 2025, Trung Quốc nhập khẩu 2,54 triệu tấn gạo, tăng 131%, nhưng giá nhập khẩu bình quân giảm mạnh, cho thấy cạnh tranh ngày càng gay gắt. Việt Nam hiện là nhà cung cấp lớn thứ 2, song khối lượng và giá đang chịu áp lực giảm.
+Trung Quốc tiếp tục duy trì hạn ngạch nhập khẩu gạo năm 2026 ở mức 5,32 triệu tấn, đồng thời siết chặt kiểm dịch, an toàn thực phẩm và điều kiện cấp phép doanh nghiệp. Doanh nghiệp chỉ có thể xuất khẩu nếu nằm trong danh sách được phía Trung Quốc phê duyệt.
+Dự báo quý IV/2025, nhập khẩu gạo Trung Quốc vẫn ở mức cao nhờ nhu cầu dự trữ cuối năm, nhưng giá khó tăng, đòi hỏi doanh nghiệp Việt phải kiểm soát tốt chi phí, chất lượng và tuân thủ chặt các quy định kỹ thuật.
+👉 Thông điệp cho doanh nghiệp & logistics:
+Xuất khẩu gạo sang các thị trường lớn không chỉ là câu chuyện giá bán, mà còn là chuỗi cung ứng ổn định, tuân thủ tiêu chuẩn, kiểm soát rủi ro kiểm tra – thông quan và lựa chọn kênh phân phối phù hợp. Doanh nghiệp cần phối hợp chặt với Thương vụ, cơ quan quản lý và đối tác logistics để tận dụng cơ hội, hạn chế rủi ro.
+#BAOCONGTHUONG
+      `,
+    },
+    p46: {
+      title: 'COSCO Shipping Energy Ký Hợp Đồng Đóng 19 Tàu Mới Trị Giá Hơn 1 Tỷ USD',
+      paragraphs: `
+COSCO Shipping Energy Transportation (CSET) vừa ký hợp đồng đóng 19 tàu mới, bao gồm 18 tàu chở dầu và 1 tàu chở ethylene, với tổng trị giá 1,08 tỷ USD, nhằm tái cơ cấu đội tàu và chuyển đổi sang sử dụng hệ thống nhiên liệu kép (dual-fuel) LNG và Methanol.
+ 
+COSCO Shipping Energy Transportation (CSET), công ty chuyên về vận tải năng lượng thuộc tập đoàn COSCO Shipping, đã ký kết các hợp đồng đóng mới 19 tàu với tổng giá trị lên tới 7,88 tỷ CNY (tương đương 1,08 tỷ USD).
+Đơn đặt hàng quy mô lớn này được giao cho ba công ty đóng tàu con thuộc công ty mẹ, COSCO Shipping Heavy Industry (COSCO Shipping Heavy Industry). Toàn bộ 19 tàu, bao gồm một tàu chở ethylene và 18 tàu chở dầu, dự kiến sẽ được bàn giao trong giai đoạn từ năm 2027 đến năm 2029.
+
+Phân Bổ Đơn Hàng Tại Các Xưởng Đóng Tàu
+
+Chi tiết về phân bổ đơn hàng và loại tàu như sau:
+•    COSCO Shipping Heavy Industry Yangzhou: Đảm nhận việc đóng bốn tàu cho công ty con Hainan COSCO Energy, với tổng giá trị 2,48 tỷ CNY:
+o    Hai tàu chở dầu thô Aframax 114.200 DWT, chạy bằng nhiên liệu kép Methanol.
+o    Hai tàu chở sản phẩm/dầu thô LR2 109.900 DWT, chạy bằng nhiên liệu kép Methanol.
+•    COSCO Shipping Heavy Industry Dalian: Đảm nhận việc đóng một số lượng lớn các tàu, bao gồm:
+o    Một tàu chở ethylene 9.000 mét khối, chạy bằng nhiên liệu kép LNG, cho Dalian COSCO Energy.
+o    Hai tàu chở sản phẩm/dầu thô LR1 trực tiếp cho CSET.
+o    Ba tàu chở sản phẩm/dầu thô MR trực tiếp cho CSET.
+•	Bốn tàu chở dầu thô MR trực tiếp cho CSET.
+
+•    COSCO Shipping Heavy Industry Guangdong: Được giao đóng năm tàu chở sản phẩm/dầu thô MR.
+
+Mục Tiêu Chiến Lược: Tối Ưu Hóa và Bền Vững
+
+CSET cho biết khoản đầu tư lớn này nhằm mục đích tối ưu hóa cấu trúc đội tàu (fleet structure), tăng cường khả năng cạnh tranh trên thị trường, và đặc biệt là áp dụng các hệ thống nhiên liệu kép LNG và Methanol.
+Công ty tuyên bố rằng khoản đầu tư nhằm mục đích tối ưu hóa cấu trúc đội tàu, nâng cao khả năng cạnh tranh thị trường, và áp dụng các hệ thống nhiên liệu kép LNG và methanol.
+Động thái này khẳng định cam kết của CSET trong việc hiện đại hóa đội tàu năng lượng, đón đầu các tiêu chuẩn môi trường nghiêm ngặt hơn và chuẩn bị cho một tương lai vận tải biển "xanh" và hiệu quả hơn.
+
+#PHAATA
+      `,
+    },
+    p47: {
+      title: 'Quốc tế đánh giá cao vai trò nổi bật của Việt Nam trong chuỗi cung ứng toàn cầu',
+      paragraphs: `Trong bối cảnh kinh tế toàn cầu tiếp tục đối mặt nhiều thách thức, Việt Nam được các hãng thông tấn và giới quan sát quốc tế đánh giá là một trong những điểm sáng tăng trưởng đáng chú ý của khu vực châu Á và đóng vai trò ngày càng nổi bật trong chuỗi cung ứng toàn cầu.
+  Nhiều hãng thông tấn lớn, trong đó có Reuters, AFP, NHK,… dẫn các số liệu chính thức cho thấy, tăng trưởng GDP của Việt Nam trong năm 2025 đạt 8,02% và thuộc nhóm các nước tăng trưởng cao của khu vực và thế giới.
+  Các phân tích quốc tế nhận định kết quả này đặc biệt đáng chú ý khi thương mại toàn cầu chịu tác động đồng thời từ xu hướng bảo hộ gia tăng, chi phí logistics ở mức cao và những biến động khó lường của chuỗi cung ứng. Trong bối cảnh đó, Việt Nam vẫn duy trì được đà tăng trưởng mạnh mẽ nhờ sự kết hợp tương đối cân bằng giữa xuất khẩu, tiêu dùng nội địa và đầu tư công, phản ánh mức độ đa dạng và linh hoạt ngày càng rõ của mô hình tăng trưởng.
+  Tiến sĩ Jochen Schittmann, Đại diện thường trú khu vực của Quỹ tiền tệ quốc tế (IMF) khẳng định: “Việt Nam tiếp tục thể hiện quyết tâm mạnh mẽ trong việc hội nhập sâu rộng vào nền kinh tế toàn cầu, trong bối cảnh môi trường thương mại quốc tế nhiều biến động. Những thay đổi này tất nhiên đặt ra không ít thách thức cho Việt Nam trong quá trình duy trì và nâng cao tốc độ tăng trưởng, nhất là khi tác động của các rào cản thương mại và thuế quan đối với nền kinh tế toàn cầu bắt đầu bộc lộ rõ hơn và ảnh hưởng tới những nền kinh tế có độ mở lớn như Việt Nam. Tuy nhiên, điều quan trọng là Việt Nam đang theo đuổi một chương trình cải cách cơ cấu rất mạnh mẽ và đầy tham vọng. Trong báo cáo của mình, chúng tôi đã xây dựng một kịch bản trong đó các cải cách này được triển khai hiệu quả và chúng tôi tin rằng tăng trưởng của Việt Nam có thể được nâng lên đáng kể, cao hơn mức cơ sở khoảng hai điểm phần trăm”.
+  Hãng tin Reuters của Anh đặc biệt nhấn mạnh vai trò ngày càng nổi bật của Việt Nam trong chuỗi cung ứng toàn cầu, đặc biệt ở các ngành điện tử, dệt may, da giày và thiết bị công nghệ cao - những lĩnh vực gắn chặt với mạng lưới sản xuất khu vực và toàn cầu. Không chỉ xuất khẩu, tăng trưởng năm 2025 còn được hỗ trợ đáng kể bởi các động lực trong nước. Sản xuất công nghiệp và xây dựng tăng gần 9%, khu vực dịch vụ tăng hơn 8,5%, trong khi doanh số bán lẻ và tiêu dùng nội địa tiếp tục mở rộng. Chi tiêu công cho hạ tầng được duy trì ở mức cao, đóng vai trò “bệ đỡ” cho nền kinh tế, đồng thời cải thiện năng lực logistics, kết nối và tạo dư địa cho tăng trưởng trung và dài hạn.
+  Trong khi đó, NHK, Nikkei Asia, The dailyStar,… ghi nhận những thành công của Việt Nam trong duy trì được ổn định kinh tế vĩ mô trong suốt năm 2025. Lạm phát được kiểm soát ở mức khoảng 3,3%, nằm trong ngưỡng mục tiêu của Chính phủ. Dòng vốn đầu tư trực tiếp nước ngoài thực hiện tăng 9%, đạt hơn 27 tỷ USD, phản ánh niềm tin của nhà đầu tư quốc tế đối với triển vọng trung và dài hạn của nền kinh tế.
+  Một điểm được giới quan sát quốc tế đặc biệt nhấn mạnh là sự chuyển dịch về chất của tăng trưởng. Thay vì chỉ dựa vào lợi thế chi phí thấp, hàng hóa Việt Nam ngày càng đáp ứng tốt hơn các yêu cầu về tiêu chuẩn kỹ thuật, môi trường, truy xuất nguồn gốc và tính bền vững. Đây được coi là yếu tố then chốt giúp Việt Nam duy trì khả năng tiếp cận các thị trường lớn trong bối cảnh các rào cản thương mại và tiêu chuẩn mới ngày càng khắt khe.
+  Ông Michael Kokalari, Chuyên gia Kinh tế Trưởng tại VinaCapital đánh giá: “Hiện tại, tôi khá lạc quan về triển vọng GDP trong năm tới. Một trong những yếu tố quan trọng nhất là sự cải thiện rõ rệt trong tâm lý người tiêu dùng. Từ giữa năm ngoái, niềm tin của người dân đã phục hồi dần và duy trì ổn định trong suốt năm qua. Mặc dù mức tiết kiệm của hộ gia đình chưa quay lại hoàn toàn như trước, xu hướng tích lũy đang được tái lập.
+  Hiện doanh số bán lẻ đang tăng khoảng 7% mỗi năm, trong đó phần lớn đến từ sự phục hồi của du lịch. Với đà cải thiện bền vững của tâm lý tiêu dùng, cùng các động lực kinh tế vĩ mô hỗ trợ, tôi tin rằng trong năm tới, tăng trưởng tiêu dùng nội địa có thể trở lại mức khoảng 8%. Đây sẽ là nguồn đóng góp quan trọng cho GDP và điều đáng chú ý là nó không phụ thuộc vào các biện pháp chính sách mang tính bất thường hay ngắn hạn."
+  Dù vậy, các tổ chức quốc tế như Quỹ Tiền tệ Quốc tế (IMF) cũng lưu ý triển vọng năm 2026 vẫn tiềm ẩn rủi ro từ môi trường bên ngoài, đặc biệt là sự chậm lại của kinh tế toàn cầu và những điều chỉnh trong chính sách thương mại quốc tế. Trong bối cảnh đó, mục tiêu tăng trưởng cao cho giai đoạn 2026–2030 được xem là phép thử quan trọng đối với nỗ lực tái cân bằng mô hình tăng trưởng theo hướng bền vững và tự chủ hơn của Việt Nam.`,
+    },
   },
-};
+}
