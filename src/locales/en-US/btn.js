@@ -9,4 +9,4 @@ export default {
     viewDetail: 'View Detail',
     submit: 'Submit',
   },
-};
+}

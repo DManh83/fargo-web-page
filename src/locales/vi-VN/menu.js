@@ -17,4 +17,4 @@ export default {
     faqs: 'Câu hỏi thường gặp',
     contactUs: 'Liên hệ',
   },
-};
+}

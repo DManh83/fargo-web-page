@@ -40,7 +40,7 @@ defineProps({
   align-items: center;
   width: 30%;
   height: 350px;
-  background-color: #C8D9E6;
+  background-color: #c8d9e6;
   /* padding: 20px; */
 }
 

@@ -26,4 +26,4 @@ export default {
     sustainabilitySocialResponsibility: 'Sustainability & Social Responsibility',
     sustainabilitySocialResponsibilityDescription: `Provide eco-friendly solutions and maintain ethical supply chain partnerships.`,
   },
-};
+}

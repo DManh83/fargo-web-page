@@ -6,7 +6,7 @@ import BgHeader from '@/components/BgHeader.vue'
 import bgNews from '@/assets/images/news-insights.png'
 import Banner from '@/components/Banner.vue'
 import { formatDate } from '@/utils/formatDate'
-import {  NewRender, Related } from './components'
+import { NewRender, Related } from './components'
 import FeaturedNews from '@/components/FeaturedNews.vue'
 import { useI18n } from 'vue-i18n'
 
@@ -55,24 +55,29 @@ function sampleSize(arr, n) {
 
 const related = computed(() => {
   const currentId = item.value?.id
-  const pool = (items.value || [])
-    .filter(it => it && it.id !== currentId && it.image && it.image.length > 0 && it.image[0])
-    // .filter(it => it.category === item.value?.category)
+  const pool = (items.value || []).filter(
+    (it) => it && it.id !== currentId && it.image && it.image.length > 0 && it.image[0],
+  )
+  // .filter(it => it.category === item.value?.category)
 
   const picked = sampleSize(pool, 3)
-  return picked.map(it => ({
+  return picked.map((it) => ({
     id: it.id,
     title: it.title,
     date: it.date,
     image: it.image || [],
   }))
 })
-
 </script>
 
 <template>
   <section>
-    <BgHeader :title="$t('about.about')" :subtitle="$t('news.title')" :imageSrc="bgNews" :description="$t('news.description')" />
+    <BgHeader
+      :title="$t('about.about')"
+      :subtitle="$t('news.title')"
+      :imageSrc="bgNews"
+      :description="$t('news.description')"
+    />
   </section>
 
   <section class="content-container">

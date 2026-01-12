@@ -9,4 +9,4 @@ export default {
     viewDetail: '查看详情',
     submit: '提交',
   },
-};
+}

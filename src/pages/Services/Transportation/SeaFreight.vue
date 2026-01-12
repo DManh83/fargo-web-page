@@ -62,7 +62,7 @@ import CarouselCard from '@/components/CarouselCard.vue'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 
-import bgTransportation from  '@/assets/images/bg_transportation.png'
+import bgTransportation from '@/assets/images/bg_transportation.png'
 import introAboutUs from '@/assets/images/intro_about_us.png'
 import overviewSea from '@/assets/images/overview_sea.png'
 import airFreight from '@/assets/images/air_freight.png'

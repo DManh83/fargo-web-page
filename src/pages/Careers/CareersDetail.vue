@@ -41,7 +41,12 @@ console.log(related.value)
 
 <template>
   <section>
-    <BgHeader :title="$t('about.about')" :subtitle="$t('careers.title')" :imageSrc="bgCareers" :description="$t('careers.description')" />
+    <BgHeader
+      :title="$t('about.about')"
+      :subtitle="$t('careers.title')"
+      :imageSrc="bgCareers"
+      :description="$t('careers.description')"
+    />
   </section>
   <section class="grid">
     <div class="job-render-container">

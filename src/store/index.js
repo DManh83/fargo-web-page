@@ -20,10 +20,7 @@ const persistPlugin = (store) => {
 
   store.subscribe((_mutation, state) => {
     try {
-      localStorage.setItem(
-        STORAGE_KEY,
-        JSON.stringify({ news: state.news, career: state.career })
-      )
+      localStorage.setItem(STORAGE_KEY, JSON.stringify({ news: state.news, career: state.career }))
     } catch (e) {
       console.warn('Failed to persist state', e)
     }
@@ -37,7 +34,7 @@ export default createStore({
       namespaced: true,
       state: () => ({
         byId: {},
-        currentId: null
+        currentId: null,
       }),
       getters: {
         currentItem: (s) => (s.currentId ? s.byId[s.currentId] : null),
@@ -69,13 +66,13 @@ export default createStore({
         selectById({ commit }, id) {
           commit('SELECT_BY_ID', id)
         },
-      }
+      },
     },
     career: {
       namespaced: true,
       state: () => ({
         byId: {},
-        currentId: null
+        currentId: null,
       }),
       getters: {
         currentItem: (s) => (s.currentId ? s.byId[s.currentId] : null),
@@ -109,5 +106,5 @@ export default createStore({
         },
       },
     },
-  }
+  },
 })

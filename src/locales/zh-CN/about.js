@@ -26,4 +26,4 @@ export default {
     sustainabilitySocialResponsibility: '可持续性和社会责任',
     sustainabilitySocialResponsibilityDescription: `提供环保解决方案并维护道德供应链合作伙伴关系。`,
   },
-};
+}

@@ -18,9 +18,19 @@ import FAQs from './pages/Support/FAQs.vue'
 import ContactUs from './pages/Support/ContactUs.vue'
 
 const routes = [
-  { name: 'Home', path: '/', component: HomePage, meta: { hideHeader: true, titleKey: 'routes.home' } },
+  {
+    name: 'Home',
+    path: '/',
+    component: HomePage,
+    meta: { hideHeader: true, titleKey: 'routes.home' },
+  },
   { name: 'About Us', path: '/about-us', component: AboutUs, meta: { titleKey: 'routes.aboutUs' } },
-  { name: 'News & Insights', path: '/news-insights', component: NewsInsights, meta: { titleKey: 'routes.newsInsights' } },
+  {
+    name: 'News & Insights',
+    path: '/news-insights',
+    component: NewsInsights,
+    meta: { titleKey: 'routes.newsInsights' },
+  },
   {
     name: 'News Detail',
     path: '/news-insights/:id',
@@ -33,7 +43,7 @@ const routes = [
           { titleKey: 'routes.newsInsights', path: '/news-insights' },
           hasTitle
             ? { title: route.query.title, noI18n: true } // KHÔNG dịch tiêu đề bài viết
-            : { titleKey: 'routes.newsDetail' },         // fallback: dịch key
+            : { titleKey: 'routes.newsDetail' }, // fallback: dịch key
         ]
       },
     },
@@ -50,10 +60,10 @@ const routes = [
     component: CareersDetail,
     meta: {
       titleKey: 'routes.careersDetail',
-      breadcrumb: (route) => ([
+      breadcrumb: (route) => [
         { titleKey: 'routes.careers', path: '/careers' },
-        { title: route.query.title || 'Careers detail' }
-      ]),
+        { title: route.query.title || 'Careers detail' },
+      ],
     },
   },
   {
@@ -62,11 +72,8 @@ const routes = [
     component: Transportation,
     meta: {
       titleKey: 'routes.transportation',
-      breadcrumb: () => ([
-        { titleKey: 'routes.services' },
-        { titleKey: 'routes.transportation' },
-      ]),
-    }
+      breadcrumb: () => [{ titleKey: 'routes.services' }, { titleKey: 'routes.transportation' }],
+    },
   },
   {
     name: 'Sea Freight',
@@ -74,12 +81,12 @@ const routes = [
     component: SeaFreight,
     meta: {
       title: 'Sea Freight',
-      breadcrumb: () => ([
+      breadcrumb: () => [
         { titleKey: 'routes.services' },
         { titleKey: 'routes.transportation', path: '/transportation' },
-        { titleKey: 'routes.seaFreight' }
-      ]),
-    }
+        { titleKey: 'routes.seaFreight' },
+      ],
+    },
   },
   {
     name: 'Air Freight',
@@ -87,12 +94,12 @@ const routes = [
     component: AirFreight,
     meta: {
       title: 'Air Freight',
-      breadcrumb: () => ([
+      breadcrumb: () => [
         { titleKey: 'routes.services' },
         { titleKey: 'routes.transportation', path: '/transportation' },
-        { titleKey: 'routes.airFreight' }
-      ]),
-    }
+        { titleKey: 'routes.airFreight' },
+      ],
+    },
   },
   {
     name: 'Logistics and Supply Chain',
@@ -100,11 +107,11 @@ const routes = [
     component: LogisticsSupplyChain,
     meta: {
       titleKey: 'routes.logisticsAndSupplyChain',
-      breadcrumb: () => ([
+      breadcrumb: () => [
         { titleKey: 'routes.services' },
         { titleKey: 'routes.logisticsAndSupplyChain' },
-      ]),
-    }
+      ],
+    },
   },
   {
     name: 'Customs Broker',
@@ -112,12 +119,12 @@ const routes = [
     component: CustomsBroker,
     meta: {
       titleKey: 'routes.customsBroker',
-      breadcrumb: () => ([
+      breadcrumb: () => [
         { titleKey: 'routes.services' },
         { titleKey: 'routes.logisticsAndSupplyChain', path: '/logistics-and-supply-chain' },
-        { titleKey: 'routes.customsBroker' }
-      ]),
-    }
+        { titleKey: 'routes.customsBroker' },
+      ],
+    },
   },
   {
     name: 'Cargo Insurance',
@@ -125,12 +132,12 @@ const routes = [
     component: CargoInsurance,
     meta: {
       titleKey: 'routes.cargoInsurance',
-      breadcrumb: () => ([
+      breadcrumb: () => [
         { titleKey: 'routes.services' },
         { titleKey: 'routes.logisticsAndSupplyChain', path: '/logistics-and-supply-chain' },
-        { titleKey: 'routes.cargoInsurance' }
-      ]),
-    }
+        { titleKey: 'routes.cargoInsurance' },
+      ],
+    },
   },
   {
     name: 'Warehouse and Storage',
@@ -138,12 +145,12 @@ const routes = [
     component: WarehouseStorage,
     meta: {
       titleKey: 'routes.warehouseAndStorage',
-      breadcrumb: () => ([
+      breadcrumb: () => [
         { titleKey: 'routes.services' },
         { titleKey: 'routes.logisticsAndSupplyChain', path: '/logistics-and-supply-chain' },
-        { titleKey: 'routes.warehouseAndStorage' }
-      ]),
-    }
+        { titleKey: 'routes.warehouseAndStorage' },
+      ],
+    },
   },
   {
     name: 'E-Commerce',
@@ -151,12 +158,12 @@ const routes = [
     component: ECommerce,
     meta: {
       titleKey: 'routes.eCommerce',
-      breadcrumb: () => ([
+      breadcrumb: () => [
         { titleKey: 'routes.services' },
         { titleKey: 'routes.logisticsAndSupplyChain', path: '/logistics-and-supply-chain' },
-        { titleKey: 'routes.eCommerce' }
-      ]),
-    }
+        { titleKey: 'routes.eCommerce' },
+      ],
+    },
   },
   {
     name: 'Quote Request',
@@ -164,11 +171,8 @@ const routes = [
     component: QuoteRequest,
     meta: {
       titleKey: 'routes.quoteRequest',
-      breadcrumb: () => ([
-        { titleKey: 'routes.support' },
-        { titleKey: 'routes.quoteRequest' }
-      ]),
-    }
+      breadcrumb: () => [{ titleKey: 'routes.support' }, { titleKey: 'routes.quoteRequest' }],
+    },
   },
   {
     name: 'FAQs',
@@ -176,11 +180,8 @@ const routes = [
     component: FAQs,
     meta: {
       titleKey: 'routes.faqs',
-      breadcrumb: () => ([
-        { titleKey: 'routes.support' },
-        { titleKey: 'routes.faqs' }
-      ]),
-    }
+      breadcrumb: () => [{ titleKey: 'routes.support' }, { titleKey: 'routes.faqs' }],
+    },
   },
   {
     name: 'Contact Us',
@@ -188,11 +189,8 @@ const routes = [
     component: ContactUs,
     meta: {
       titleKey: 'routes.contactUs',
-      breadcrumb: () => ([
-        { titleKey: 'routes.support' },
-        { titleKey: 'routes.contactUs' }
-      ]),
-    }
+      breadcrumb: () => [{ titleKey: 'routes.support' }, { titleKey: 'routes.contactUs' }],
+    },
   },
 ]
 

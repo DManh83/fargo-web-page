@@ -26,4 +26,4 @@ export default {
     sustainabilitySocialResponsibility: 'Bền vững và trách nhiệm',
     sustainabilitySocialResponsibilityDescription: `Cung cấp giải pháp bền vững và duy trì các hợp đồng cung ứng đạo đức.`,
   },
-};
+}

@@ -1,7 +1,12 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 <template>
   <section>
-    <BgHeader :title="$t('about.about')" :subtitle="$t('careers.title')" :imageSrc="bgCareers" :description="$t('careers.description')" />
+    <BgHeader
+      :title="$t('about.about')"
+      :subtitle="$t('careers.title')"
+      :imageSrc="bgCareers"
+      :description="$t('careers.description')"
+    />
   </section>
   <section v-for="card in cardList" :key="card.id" class="card-container">
     <Card
@@ -76,20 +81,17 @@ const cards = computed(() => [
   {
     id: 1,
     title: t('careers.careerGrowthOpportunities'),
-    content:
-      t('careers.careerGrowthOpportunitiesDescription'),
+    content: t('careers.careerGrowthOpportunitiesDescription'),
   },
   {
     id: 2,
     title: t('careers.dynamicAndSupportiveEnvironment'),
-    content:
-      t('careers.dynamicAndSupportiveEnvironmentDescription'),
+    content: t('careers.dynamicAndSupportiveEnvironmentDescription'),
   },
   {
     id: 3,
     title: t('careers.globalExposureAndStability'),
-    content:
-      t('careers.globalExposureAndStabilityDescription'),
+    content: t('careers.globalExposureAndStabilityDescription'),
   },
 ])
 </script>

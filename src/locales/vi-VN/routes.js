@@ -20,4 +20,4 @@ export default {
     trackAndTrace: 'Theo dõi và truy xuất ',
     resources: 'Tài nguyên',
   },
-};
+}

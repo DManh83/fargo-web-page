@@ -12,7 +12,7 @@
     <ContactInfor />
   </section>
   <section style="width: 1200px; margin: 50px auto">
-    <Banner/>
+    <Banner />
   </section>
 </template>
 
@@ -22,5 +22,4 @@ import bgTransportation from '@/assets/images/bg_transportation.png'
 import FormContact from './components/FormContact.vue'
 import ContactInfor from './components/ContactInfor.vue'
 import Banner from '@/components/Banner.vue'
-
 </script>

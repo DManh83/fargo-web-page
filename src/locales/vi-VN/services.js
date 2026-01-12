@@ -8,55 +8,79 @@ export default {
     news: 'Tin tức & Thông tin',
     customsBrokerage: {
       title: 'Môi giới hải quan',
-      description: 'Dịch vụ môi giới hải quan nhanh chóng và đáng tin cậy để đảm bảo rằng hàng hóa của bạn tuân theo các quy định và di chuyển mượt mà qua biên giới.',
-      overviewDescription: 'Môi giới hải quan là một phần quan trọng của logistics, cung cấp dịch vụ môi giới hải quan nhanh chóng và đáng tin cậy để đảm bảo rằng hàng hóa của bạn tuân theo các quy định và di chuyển mượt mà qua biên giới.',
+      description:
+        'Dịch vụ môi giới hải quan nhanh chóng và đáng tin cậy để đảm bảo rằng hàng hóa của bạn tuân theo các quy định và di chuyển mượt mà qua biên giới.',
+      overviewDescription:
+        'Môi giới hải quan là một phần quan trọng của logistics, cung cấp dịch vụ môi giới hải quan nhanh chóng và đáng tin cậy để đảm bảo rằng hàng hóa của bạn tuân theo các quy định và di chuyển mượt mà qua biên giới.',
       regulatoryExpertise: 'Chuyên môn hải quan',
-      regulatoryExpertiseDescription: 'Chúng tôi hiểu các quy định hải quan và cung cấp hướng dẫn chính xác để giảm thiểu rủi ro, tránh sai sót đắt tiền và đảm bảo quy trình thanh toán hải quan mượt mà.',
+      regulatoryExpertiseDescription:
+        'Chúng tôi hiểu các quy định hải quan và cung cấp hướng dẫn chính xác để giảm thiểu rủi ro, tránh sai sót đắt tiền và đảm bảo quy trình thanh toán hải quan mượt mà.',
       timeEfficiency: 'Hiệu quả thời gian',
-      timeEfficiencyDescription: 'Chúng tôi đơn giản hóa quy trình tài liệu và hợp tác với các cơ quan hải quan để giảm thời gian chờ đợi, đảm bảo hàng hóa được xử lý nhanh chóng và mượt mà mọi lần.',
+      timeEfficiencyDescription:
+        'Chúng tôi đơn giản hóa quy trình tài liệu và hợp tác với các cơ quan hải quan để giảm thời gian chờ đợi, đảm bảo hàng hóa được xử lý nhanh chóng và mượt mà mọi lần.',
       costSavings: 'Tiết kiệm chi phí',
-      costSavingsDescription: 'Bằng cách tối ưu hóa phân loại thuế và quản lý thuế, chúng tôi giúp các công ty giảm chi phí trong khi vẫn đảm bảo tuân thủ các tiêu chuẩn thương mại quốc tế.',
+      costSavingsDescription:
+        'Bằng cách tối ưu hóa phân loại thuế và quản lý thuế, chúng tôi giúp các công ty giảm chi phí trong khi vẫn đảm bảo tuân thủ các tiêu chuẩn thương mại quốc tế.',
       dedicatedSupport: 'Hỗ trợ chuyên nghiệp',
-      dedicatedSupportDescription: 'Đội ngũ chúng tôi cung cấp hỗ trợ 24/7 với cập nhật rõ ràng và giải pháp tiên tiến, đảm bảo khách hàng nhận được dịch vụ đáng tin cậy tại mọi giai đoạn logistics vận chuyển quốc tế.',
+      dedicatedSupportDescription:
+        'Đội ngũ chúng tôi cung cấp hỗ trợ 24/7 với cập nhật rõ ràng và giải pháp tiên tiến, đảm bảo khách hàng nhận được dịch vụ đáng tin cậy tại mọi giai đoạn logistics vận chuyển quốc tế.',
     },
     cargoInsurance: {
       title: 'Bảo hiểm hàng hóa',
-      description: 'Bảo hiểm toàn diện cho hàng hóa của bạn, giảm thiểu rủi ro và đảm bảo hàng hóa trên toàn bộ hành trình.',
-      overviewDescription: 'Bảo hiểm hàng hóa bảo vệ hàng hóa khỏi mất mát hoặc hư hỏng trong quá trình vận chuyển biển, không khí hoặc đất. Nó bao gồm tai nạn, thiên tai và đánh cắp, giúp các doanh nghiệp giảm thiểu rủi ro và duy trì an toàn tài chính. Với các kế hoạch được thiết kế phù hợp, các công ty có thể tập trung vào sự phát triển trong khi biết rằng hàng hóa của họ luôn được bảo hiểm, theo dõi và đảm bảo an toàn trên toàn bộ hành trình quốc tế.',
+      description:
+        'Bảo hiểm toàn diện cho hàng hóa của bạn, giảm thiểu rủi ro và đảm bảo hàng hóa trên toàn bộ hành trình.',
+      overviewDescription:
+        'Bảo hiểm hàng hóa bảo vệ hàng hóa khỏi mất mát hoặc hư hỏng trong quá trình vận chuyển biển, không khí hoặc đất. Nó bao gồm tai nạn, thiên tai và đánh cắp, giúp các doanh nghiệp giảm thiểu rủi ro và duy trì an toàn tài chính. Với các kế hoạch được thiết kế phù hợp, các công ty có thể tập trung vào sự phát triển trong khi biết rằng hàng hóa của họ luôn được bảo hiểm, theo dõi và đảm bảo an toàn trên toàn bộ hành trình quốc tế.',
       comprehensiveCoverage: 'Bảo hiểm toàn diện',
-      comprehensiveCoverageDescription: 'Chúng tôi bảo vệ hàng hóa khỏi tai nạn, thiên tai và đánh cắp, đảm bảo hàng hóa vẫn an toàn, được bảo vệ đầy đủ và an toàn tài chính trên toàn bộ hành trình quốc tế.',
+      comprehensiveCoverageDescription:
+        'Chúng tôi bảo vệ hàng hóa khỏi tai nạn, thiên tai và đánh cắp, đảm bảo hàng hóa vẫn an toàn, được bảo vệ đầy đủ và an toàn tài chính trên toàn bộ hành trình quốc tế.',
       costProtection: 'Bảo vệ chi phí',
-      costProtectionDescription: 'Bảo hiểm giảm thiểu mất mát bất ngờ và ngăn ngừa tổn thất tài chính lớn, giúp các doanh nghiệp ổn định hơn, tự tin hơn và linh hoạt hơn trong hoạt động thương mại quốc tế.',
+      costProtectionDescription:
+        'Bảo hiểm giảm thiểu mất mát bất ngờ và ngăn ngừa tổn thất tài chính lớn, giúp các doanh nghiệp ổn định hơn, tự tin hơn và linh hoạt hơn trong hoạt động thương mại quốc tế.',
       flexibleOptions: 'Tùy chọn linh hoạt',
-      flexibleOptionsDescription: 'Chúng tôi cung cấp cả dịch vụ vận chuyển biển, không khí và đất được tùy chỉnh để đáp ứng nhu cầu của thương mại quốc tế. Với mạng lưới đối tác mạnh mẽ và công nghệ theo dõi tiên tiến, chúng tôi đảm bảo rằng hàng hóa được vận chuyển an toàn, đúng hạn và có hiệu quả. Từ vận chuyển hàng hóa quốc tế đến phân phối trong nước, chúng tôi cung cấp logistícs liên tục để kết nối doanh nghiệp và thị trường trên toàn cầu.',
+      flexibleOptionsDescription:
+        'Chúng tôi cung cấp cả dịch vụ vận chuyển biển, không khí và đất được tùy chỉnh để đáp ứng nhu cầu của thương mại quốc tế. Với mạng lưới đối tác mạnh mẽ và công nghệ theo dõi tiên tiến, chúng tôi đảm bảo rằng hàng hóa được vận chuyển an toàn, đúng hạn và có hiệu quả. Từ vận chuyển hàng hóa quốc tế đến phân phối trong nước, chúng tôi cung cấp logistícs liên tục để kết nối doanh nghiệp và thị trường trên toàn cầu.',
       peaceOfMind: 'Bình tâm',
-      peaceOfMindDescription: 'Với bảo hiểm mạnh mẽ và hỗ trợ tin cậy, các công ty có thể tập trung vào sự phát triển trong khi biết rằng hàng hóa của họ luôn được bảo hiểm, theo dõi và đảm bảo an toàn trên toàn bộ hành trình quốc tế.',
+      peaceOfMindDescription:
+        'Với bảo hiểm mạnh mẽ và hỗ trợ tin cậy, các công ty có thể tập trung vào sự phát triển trong khi biết rằng hàng hóa của họ luôn được bảo hiểm, theo dõi và đảm bảo an toàn trên toàn bộ hành trình quốc tế.',
     },
     warehousing: {
       title: 'Kho hàng và kho lưu trữ',
-      description: 'Kho hàng an toàn, hiện đại và định vị cụ thể để tối ưu hóa kho lưu trữ và đơn giản hóa chuỗi cung ứng của bạn.',
-      overviewDescription: 'Kho hàng là một phần quan trọng của logistics, cung cấp kho lưu trữ an toàn, điều hòa nhiệt độ cho hàng hóa. Fargo Logistics cung cấp các giải pháp kho lưu trữ từ kho ngắn hạn đến kho dài hạn, đảm bảo hàng hóa của bạn luôn an toàn và an toàn.',
+      description:
+        'Kho hàng an toàn, hiện đại và định vị cụ thể để tối ưu hóa kho lưu trữ và đơn giản hóa chuỗi cung ứng của bạn.',
+      overviewDescription:
+        'Kho hàng là một phần quan trọng của logistics, cung cấp kho lưu trữ an toàn, điều hòa nhiệt độ cho hàng hóa. Fargo Logistics cung cấp các giải pháp kho lưu trữ từ kho ngắn hạn đến kho dài hạn, đảm bảo hàng hóa của bạn luôn an toàn và an toàn.',
       secureFacilities: 'Kho lưu trữ an toàn',
-      secureFacilitiesDescription: 'Kho lưu trữ của chúng tôi được trang bị đầy đủ các hệ thống bảo mật, theo dõi và phòng cháy chữa cháy, đảm bảo hàng hóa vẫn an toàn trong mọi điều kiện khả thi trên toàn thế giới.',
+      secureFacilitiesDescription:
+        'Kho lưu trữ của chúng tôi được trang bị đầy đủ các hệ thống bảo mật, theo dõi và phòng cháy chữa cháy, đảm bảo hàng hóa vẫn an toàn trong mọi điều kiện khả thi trên toàn thế giới.',
       flexibleSolutions: 'Giải phán linh hoạt',
-      flexibleSolutionsDescription: 'Chúng tôi cung cấp cả kho ngắn hạn và kho dài hạn, cho phép doanh nghiệp điều chỉnh nhanh chóng và quản lý kho hàng hiệu quả và linh hoạt hơn.',
+      flexibleSolutionsDescription:
+        'Chúng tôi cung cấp cả kho ngắn hạn và kho dài hạn, cho phép doanh nghiệp điều chỉnh nhanh chóng và quản lý kho hàng hiệu quả và linh hoạt hơn.',
       costEfficiency: 'Hiệu quả chi phí',
-      costEfficiencyDescription: 'Kế hoạch lưu trữ tối ưu giảm chi phí xử lý và giúp các doanh nghiệp đạt được lợi ích từ chi phí chuỗi cung ứng mà vẫn đảm bảo chất lượng dịch vụ tổng thể.',
+      costEfficiencyDescription:
+        'Kế hoạch lưu trữ tối ưu giảm chi phí xử lý và giúp các doanh nghiệp đạt được lợi ích từ chi phí chuỗi cung ứng mà vẫn đảm bảo chất lượng dịch vụ tổng thể.',
       technologyIntegration: 'Tích hợp công nghệ',
-      technologyIntegrationDescription: 'Với hệ thống theo dõi thời gian thực và công cụ quản lý kho hàng hiện đại, khách hàng có thể theo dõi hàng tồn kho, lập kế hoạch hoạt động và cải thiện năng suất một cách mượt mà mỗi ngày.',
+      technologyIntegrationDescription:
+        'Với hệ thống theo dõi thời gian thực và công cụ quản lý kho hàng hiện đại, khách hàng có thể theo dõi hàng tồn kho, lập kế hoạch hoạt động và cải thiện năng suất một cách mượt mà mỗi ngày.',
     },
     eCommerce: {
       title: 'Thương mại điện tử (Chuyển phát nhanh hàng không)',
-      description: 'Giải pháp chuyển phát nhanh hàng không hiệu quả được thiết kế cho thương mại điện tử, cung cấp tốc độ, độ tin cậy và phạm vi toàn cầu.',
-      overviewDescription: 'Thương mại điện tử (Chuyển phát nhanh hàng không) là giải pháp nhanh chóng và hiệu quả cho các lô hàng cấp bách. Fargo Logistics cung cấp các giải pháp chuyển phát nhanh hàng không được thiết kế để đáp ứng nhu cầu của thương mại điện tử, cung cấp tốc độ, độ tin cậy và phạm vi toàn cầu.',
+      description:
+        'Giải pháp chuyển phát nhanh hàng không hiệu quả được thiết kế cho thương mại điện tử, cung cấp tốc độ, độ tin cậy và phạm vi toàn cầu.',
+      overviewDescription:
+        'Thương mại điện tử (Chuyển phát nhanh hàng không) là giải pháp nhanh chóng và hiệu quả cho các lô hàng cấp bách. Fargo Logistics cung cấp các giải pháp chuyển phát nhanh hàng không được thiết kế để đáp ứng nhu cầu của thương mại điện tử, cung cấp tốc độ, độ tin cậy và phạm vi toàn cầu.',
       fastFulfillment: 'Nhanh chóng',
-      fastFulfillmentDescription: 'Chúng tôi xử lý và chuyển hàng nhanh chóng, đảm bảo khách hàng nhận được mua hàng đúng hạn, chính xác và đồng đều.',
+      fastFulfillmentDescription:
+        'Chúng tôi xử lý và chuyển hàng nhanh chóng, đảm bảo khách hàng nhận được mua hàng đúng hạn, chính xác và đồng đều.',
       scalableSolutions: 'Giải phán phát triển',
-      scalableSolutionsDescription: 'Hệ thống của chúng tôi thích nghi với các đợt khởi nghiệp, khuyến mại hoặc tăng trưởng kinh doanh, cung cấp hỗ trợ đáng tin cậy cho phát triển bền vững trên toàn cầu.',
+      scalableSolutionsDescription:
+        'Hệ thống của chúng tôi thích nghi với các đợt khởi nghiệp, khuyến mại hoặc tăng trưởng kinh doanh, cung cấp hỗ trợ đáng tin cậy cho phát triển bền vững trên toàn cầu.',
       customerExperience: 'Trải nghiệm khách hàng',
-      customerExperienceDescription: 'Bằng cách cung cấp theo dõi chính xác, tùy chọn giao hàng linh hoạt và trao đổi thông tin đúng thời điểm, chúng tôi nâng cao độ tin cậy, hài lòng và tính thanh khoản của thương hiệu.',
+      customerExperienceDescription:
+        'Bằng cách cung cấp theo dõi chính xác, tùy chọn giao hàng linh hoạt và trao đổi thông tin đúng thời điểm, chúng tôi nâng cao độ tin cậy, hài lòng và tính thanh khoản của thương hiệu.',
       technologyDriven: 'Công nghệ đằng sau',
-      technologyDrivenDescription: 'Chúng tôi tích hợp các nền tảng và phân tích thông minh để tối ưu hóa hoạt động, cải thiện quyết định và cung cấp kết quả mạnh mẽ trên toàn bộ chuỗi cung ứng thương mại điện tử.',
+      technologyDrivenDescription:
+        'Chúng tôi tích hợp các nền tảng và phân tích thông minh để tối ưu hóa hoạt động, cải thiện quyết định và cung cấp kết quả mạnh mẽ trên toàn bộ chuỗi cung ứng thương mại điện tử.',
     },
     // customsBrokerageDescription: 'Dịch vụ môi giới hải quan nhanh chóng và đáng tin cậy để đảm bảo rằng hàng hóa của bạn tuân theo các quy định và di chuyển mượt mà qua biên giới.',
     // cargoInsuranceDescription: 'Bảo hiểm toàn diện cho hàng hóa của bạn, giảm thiểu rủi ro và đảm bảo hàng hóa trên toàn bộ hành trình.',
@@ -101,7 +125,8 @@ export default {
     relatedServices: 'Dịch vụ liên quan',
     seaFreight: {
       title: 'Vận chuyển biển',
-      description: 'Dịch vụ vận chuyển biển đáng tin cậy cho thương mại quốc tế. Đảm bảo giao hàng tiết kiệm và an toàn.',
+      description:
+        'Dịch vụ vận chuyển biển đáng tin cậy cho thương mại quốc tế. Đảm bảo giao hàng tiết kiệm và an toàn.',
       overviewDescription: `Vận tải biển vẫn luôn là phương thức hiệu quả và tiết kiệm nhất để vận chuyển khối lượng lớn hàng hóa trên thị trường toàn cầu. Tại Fargo Logistics, chúng tôi cung cấp đầy đủ các dịch vụ FCL (nguyên container) và LCL (ghép container), với lịch trình linh hoạt và giá cước cạnh tranh.
       Nhờ vào mạng lưới đối tác chiến lược với các hãng tàu lớn trên thế giới, Fargo Logistics cam kết mang đến cho khách hàng giải pháp vận chuyển an toàn, đúng tiến độ và hiệu quả tối ưu, cho dù là những lô hàng lớn hay nhỏ.`,
       wideGlobalNetwork: 'Mạng lưới quốc tế',
@@ -123,7 +148,8 @@ export default {
     buyersConsolidationDescription: `Tổng hợp hàng hóa từ nhiều nhà cung cấp vào một lô hàng, giảm chi phí và đơn giản hóa logistics quốc tế.`,
     airFreight: {
       title: 'Vận chuyển hàng không',
-      description: 'Giải pháp nhanh chóng và linh hoạt cho các lô hàng cấp bách. Thiết kế để đáp ứng các thời gian giao hàng cực ngắn trên toàn cầu.',
+      description:
+        'Giải pháp nhanh chóng và linh hoạt cho các lô hàng cấp bách. Thiết kế để đáp ứng các thời gian giao hàng cực ngắn trên toàn cầu.',
       overviewDescription: `Vận tải hàng không là cách nhanh nhất để vận chuyển hàng hóa quốc tế, lý tưởng cho các lô hàng khẩn cấp và giá trị cao. Tại Fargo Logistics, chúng tôi hợp tác với các hãng hàng không hàng đầu để cung cấp lịch trình đáng tin cậy, giá cả cạnh tranh và phạm vi phủ sóng toàn cầu. Với hệ thống theo dõi tiên tiến và quy trình xử lý chuyên nghiệp, mọi lô hàng đều được giao an toàn và đúng hẹn.`,
       speedAndEfficiency: 'Tốc độ và hiệu quả',
       speedAndEfficiencyDescription: `Vận chuyển không khí cung cấp thời gian chuyển đổi nhanh nhất có thể, làm cho nó lựa chọn tốt nhất cho các lô hàng cấp bách, thời gian quan trọng và giá trị cao trên toàn cầu.`,
@@ -137,4 +163,4 @@ export default {
     relatedSolutions: 'Giải pháp liên quan',
     advantages: 'Ưu điểm',
   },
-};
+}

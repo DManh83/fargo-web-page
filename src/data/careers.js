@@ -234,7 +234,6 @@ export const careers = [
   //     },
   //   ],
   // },
-
   // {
   //   id: '5',
   //   title: 'Fleet Manager',
@@ -291,7 +290,6 @@ export const careers = [
   //     },
   //   ],
   // },
-
   // {
   //   id: '6',
   //   title: 'Customer Care Specialist',

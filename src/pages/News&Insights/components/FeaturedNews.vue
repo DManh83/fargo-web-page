@@ -17,16 +17,13 @@ const activeKey = ref('1')
 const allNews = news
 const featuredNews = allNews.filter((it) => it.featured).sort(() => Math.random() - 0.5)
 
-const fargoNews = allNews
-  .filter((it) => it.category === 'fargoNews')
+const fargoNews = allNews.filter((it) => it.category === 'fargoNews')
 
-const marketUpdates = allNews
-  .filter((it) => it.category === 'marketUpdates')
+const marketUpdates = allNews.filter((it) => it.category === 'marketUpdates')
 
 onMounted(() => {
   store.dispatch('news/setItems', [...allNews])
 })
-
 </script>
 
 <template>

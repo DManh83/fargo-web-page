@@ -28,5 +28,4 @@ export const solutions = [
     description: 'eCommerce.description',
     image: [e_commerce],
   },
-
 ]

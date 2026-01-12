@@ -8,55 +8,79 @@ export default {
     news: 'News & Insights',
     customsBrokerage: {
       title: 'Customs brokerage',
-      description: 'Fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
-      overviewDescription: 'Customs brokerage is a critical part of logistics, providing fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
+      description:
+        'Fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
+      overviewDescription:
+        'Customs brokerage is a critical part of logistics, providing fast and reliable customs clearance services to ensure your shipments comply with regulations and move smoothly across borders.',
       regulatoryExpertise: 'Regulatory Expertise',
-      regulatoryExpertiseDescription: 'Our specialists understand customs laws and provide accurate guidance to minimize risks, avoid costly errors, and ensure smooth customs clearance processes.',
+      regulatoryExpertiseDescription:
+        'Our specialists understand customs laws and provide accurate guidance to minimize risks, avoid costly errors, and ensure smooth customs clearance processes.',
       timeEfficiency: 'Time Efficiency',
-      timeEfficiencyDescription: 'We streamline documentation and coordinate with customs authorities to reduce delays, allowing shipments to pass through quickly and efficiently every time.',
+      timeEfficiencyDescription:
+        'We streamline documentation and coordinate with customs authorities to reduce delays, allowing shipments to pass through quickly and efficiently every time.',
       costSavings: 'Cost Savings',
-      costSavingsDescription: 'By optimizing tariff classifications and duty management, we help companies cut expenses while staying fully compliant with global trade regulations standards.',
+      costSavingsDescription:
+        'By optimizing tariff classifications and duty management, we help companies cut expenses while staying fully compliant with global trade regulations standards.',
       dedicatedSupport: 'Dedicated Support',
-      dedicatedSupportDescription: 'Our team offers 24/7 assistance with clear updates and proactive solutions, ensuring clients receive reliable service at every logistics shipment stage worldwide.',
+      dedicatedSupportDescription:
+        'Our team offers 24/7 assistance with clear updates and proactive solutions, ensuring clients receive reliable service at every logistics shipment stage worldwide.',
     },
     cargoInsurance: {
       title: 'Cargo insurance',
-      description: 'Comprehensive protection for your goods, minimizing risks and securing your cargo throughout the journey.',
-      overviewDescription: 'Cargo insurance protects shipments from loss or damage during sea, air, or land transit. It covers accidents, natural disasters, and theft, helping businesses reduce risks and maintain financial security. With tailored plans, companies gain peace of mind and stronger trust across the supply chain.',
+      description:
+        'Comprehensive protection for your goods, minimizing risks and securing your cargo throughout the journey.',
+      overviewDescription:
+        'Cargo insurance protects shipments from loss or damage during sea, air, or land transit. It covers accidents, natural disasters, and theft, helping businesses reduce risks and maintain financial security. With tailored plans, companies gain peace of mind and stronger trust across the supply chain.',
       comprehensiveCoverage: 'Comprehensive Coverage',
-      comprehensiveCoverageDescription: 'We protect cargo against accidents, natural disasters, and theft, ensuring goods remain safe, fully protected, and financially secure throughout the entire international journey.',
+      comprehensiveCoverageDescription:
+        'We protect cargo against accidents, natural disasters, and theft, ensuring goods remain safe, fully protected, and financially secure throughout the entire international journey.',
       costProtection: 'Cost Protection',
-      costProtectionDescription: 'Insurance reduces unexpected losses and prevents major financial setbacks, giving businesses greater stability, confidence, and resilience in their ongoing global trading activities.',
+      costProtectionDescription:
+        'Insurance reduces unexpected losses and prevents major financial setbacks, giving businesses greater stability, confidence, and resilience in their ongoing global trading activities.',
       flexibleOptions: 'Flexible Options',
-      flexibleOptionsDescription: 'Policies can be tailored to shipment size, transport mode, and client requirements, providing reliable, practical solutions that fit every unique logistics operation worldwide.',
+      flexibleOptionsDescription:
+        'Policies can be tailored to shipment size, transport mode, and client requirements, providing reliable, practical solutions that fit every unique logistics operation worldwide.',
       peaceOfMind: 'Peace of Mind',
-      peaceOfMindDescription: 'With strong protection and trusted support, companies can focus on growth while knowing their valuable cargo is always insured, monitored, and completely safeguarded everywhere.',
+      peaceOfMindDescription:
+        'With strong protection and trusted support, companies can focus on growth while knowing their valuable cargo is always insured, monitored, and completely safeguarded everywhere.',
     },
     warehousing: {
       title: 'Warehouse and Storage',
-      description: 'Safe, modern, and strategically located warehouses to optimize storage and streamline your supply chain.',
-      overviewDescription: 'Warehousing is a critical part of logistics, providing secure, temperature-controlled storage for goods. Fargo Logistics offers a range of warehousing solutions, from short-term storage to long-term solutions, ensuring your goods are always safe and secure.',
+      description:
+        'Safe, modern, and strategically located warehouses to optimize storage and streamline your supply chain.',
+      overviewDescription:
+        'Warehousing is a critical part of logistics, providing secure, temperature-controlled storage for goods. Fargo Logistics offers a range of warehousing solutions, from short-term storage to long-term solutions, ensuring your goods are always safe and secure.',
       secureFacilities: 'Secure Facilities',
-      secureFacilitiesDescription: 'Our warehouses are fully equipped with advanced security, monitoring, and fire prevention systems, ensuring goods remain safe under every possible condition worldwide.',
+      secureFacilitiesDescription:
+        'Our warehouses are fully equipped with advanced security, monitoring, and fire prevention systems, ensuring goods remain safe under every possible condition worldwide.',
       flexibleSolutions: 'Flexible Solutions',
-      flexibleSolutionsDescription: 'We provide both short-term and long-term storage options, allowing businesses to adapt quickly and manage inventory with greater efficiency and flexibility.',
+      flexibleSolutionsDescription:
+        'We provide both short-term and long-term storage options, allowing businesses to adapt quickly and manage inventory with greater efficiency and flexibility.',
       costEfficiency: 'Cost Efficiency',
-      costEfficiencyDescription: 'Optimized storage plans reduce handling expenses and help companies achieve better supply chain savings without compromising overall service quality levels.',
+      costEfficiencyDescription:
+        'Optimized storage plans reduce handling expenses and help companies achieve better supply chain savings without compromising overall service quality levels.',
       technologyIntegration: 'Technology Integration',
-      technologyIntegrationDescription: 'With real-time tracking and smart warehouse management tools, clients can monitor inventory, plan operations, and improve productivity seamlessly every single day.',
+      technologyIntegrationDescription:
+        'With real-time tracking and smart warehouse management tools, clients can monitor inventory, plan operations, and improve productivity seamlessly every single day.',
     },
     eCommerce: {
       title: 'E-commerce (Air-express)',
-      description: 'Efficient air-express solutions designed for e-commerce, delivering speed, reliability, and global reach.',
-      overviewDescription: 'E-commerce (Air-express) is a fast and efficient solution for urgent shipments, ideal for high-value and time-sensitive goods. Fargo Logistics offers tailored air-express services, ensuring timely delivery and seamless logistics for e-commerce businesses.',
+      description:
+        'Efficient air-express solutions designed for e-commerce, delivering speed, reliability, and global reach.',
+      overviewDescription:
+        'E-commerce (Air-express) is a fast and efficient solution for urgent shipments, ideal for high-value and time-sensitive goods. Fargo Logistics offers tailored air-express services, ensuring timely delivery and seamless logistics for e-commerce businesses.',
       fastFulfillment: 'Fast Fulfillment',
-      fastFulfillmentDescription: 'We process and dispatch orders quickly, ensuring customers receive their purchases on time, with accuracy, and consistent quality service delivery.',
+      fastFulfillmentDescription:
+        'We process and dispatch orders quickly, ensuring customers receive their purchases on time, with accuracy, and consistent quality service delivery.',
       scalableSolutions: 'Scalable Solutions',
-      scalableSolutionsDescription: 'Our systems adapt to seasonal peaks, promotions, or business growth, giving companies reliable support for sustainable long-term expansion worldwide.',
+      scalableSolutionsDescription:
+        'Our systems adapt to seasonal peaks, promotions, or business growth, giving companies reliable support for sustainable long-term expansion worldwide.',
       customerExperience: 'Customer Experience',
-      customerExperienceDescription: 'By offering accurate tracking, flexible delivery options, and timely communication, we enhance customer trust, satisfaction, and overall strong brand loyalty.',
+      customerExperienceDescription:
+        'By offering accurate tracking, flexible delivery options, and timely communication, we enhance customer trust, satisfaction, and overall strong brand loyalty.',
       technologyDriven: 'Technology Driven',
-      technologyDrivenDescription: 'We integrate advanced platforms and smart analytics to optimize operations, improve decision-making, and deliver stronger results across the entire e-commerce supply chain.',
+      technologyDrivenDescription:
+        'We integrate advanced platforms and smart analytics to optimize operations, improve decision-making, and deliver stronger results across the entire e-commerce supply chain.',
     },
 
     overview: 'Overview',
@@ -99,7 +123,8 @@ export default {
     relatedServices: 'Related Services',
     seaFreight: {
       title: 'Sea Freight',
-      description: 'Reliable ocean shipping services for global trade. Ensures cost-effective and secure transportation.',
+      description:
+        'Reliable ocean shipping services for global trade. Ensures cost-effective and secure transportation.',
       overviewDescription: `Sea freight remains the most cost-effective and reliable method for transporting large volumes across international markets. Fargo Logistics offers both FCL (Full Container Load) and LCL (Less-than-Container Load) services with flexible schedules and competitive rates. With strong partnerships with major carriers, we ensure smooth operations, safe handling, and timely delivery for all shipments.`,
       wideGlobalNetwork: 'Wide Global Network',
       wideGlobalNetworkDescription: `Direct access to major international ports with strong global partnerships ensures reliable shipping routes and smooth connections across all major global trade lanes.`,
@@ -120,7 +145,8 @@ export default {
     buyersConsolidationDescription: `Consolidate goods from multiple suppliers into one shipment, lowering costs and simplifying international logistics.`,
     airFreight: {
       title: 'Air Freight',
-      description: 'Fast and flexible solutions for urgent shipments. Designed to meet tight deadlines worldwide.',
+      description:
+        'Fast and flexible solutions for urgent shipments. Designed to meet tight deadlines worldwide.',
       overviewDescription: `Air freight is the fastest way to move goods internationally, ideal for urgent and high-value shipments. At Fargo Logistics, we partner with leading airlines to provide reliable schedules, competitive rates, and global coverage. With advanced tracking and professional handling, every shipment is delivered safely and on time.`,
       speedAndEfficiency: 'Speed and Efficiency',
       speedAndEfficiencyDescription: `Air freight provides the fastest possible transit times available, making it the best choice for urgent, time-critical, and high-value shipments across international markets.`,
@@ -133,4 +159,4 @@ export default {
     },
     relatedSolutions: 'Related Solutions',
   },
-};
+}

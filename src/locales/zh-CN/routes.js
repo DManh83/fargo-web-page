@@ -20,4 +20,4 @@ export default {
     trackAndTrace: '跟踪和追踪',
     resources: '资源',
   },
-};
+}

@@ -20,4 +20,4 @@ export default {
     trackAndTrace: 'Track & Trace',
     resources: 'Resources',
   },
-};
+}

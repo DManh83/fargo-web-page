@@ -17,4 +17,4 @@ export default {
     faqs: '常见问题',
     contactUs: '联系我们',
   },
-};
+}

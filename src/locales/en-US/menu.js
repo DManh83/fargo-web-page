@@ -17,4 +17,4 @@ export default {
     warehouseAndStorage: 'Warehouse And Storage',
     eCommerce: 'E-Commerce',
   },
-};
+}

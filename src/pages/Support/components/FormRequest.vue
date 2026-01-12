@@ -2,15 +2,27 @@
   <div class="form-request">
     <a-form layout="vertical" :model="form" class="form-request-form">
       <a-form-item :label="$t('form.companyName')">
-        <a-input v-model:value="form.companyName" size="large" :placeholder="$t('form.companyNamePlaceholder')" />
+        <a-input
+          v-model:value="form.companyName"
+          size="large"
+          :placeholder="$t('form.companyNamePlaceholder')"
+        />
       </a-form-item>
 
       <div class="form-request-form-group">
         <a-form-item :label="$t('form.phoneNumber')">
-          <a-input v-model:value="form.phoneNumber" size="large" :placeholder="$t('form.phoneNumberPlaceholder')" />
+          <a-input
+            v-model:value="form.phoneNumber"
+            size="large"
+            :placeholder="$t('form.phoneNumberPlaceholder')"
+          />
         </a-form-item>
         <a-form-item :label="$t('form.email')">
-          <a-input v-model:value="form.email" size="large" :placeholder="$t('form.emailPlaceholder')" />
+          <a-input
+            v-model:value="form.email"
+            size="large"
+            :placeholder="$t('form.emailPlaceholder')"
+          />
         </a-form-item>
       </div>
 
@@ -54,10 +66,18 @@
 
       <div class="form-request-form-group">
         <a-form-item :label="$t('form.cargoName')">
-          <a-input v-model:value="form.cargoName" size="large" :placeholder="$t('form.cargoNamePlaceholder')" />
+          <a-input
+            v-model:value="form.cargoName"
+            size="large"
+            :placeholder="$t('form.cargoNamePlaceholder')"
+          />
         </a-form-item>
         <a-form-item :label="$t('form.cargoType')">
-          <a-select v-model:value="form.cargoType" size="large" :placeholder="$t('form.cargoTypePlaceholder')">
+          <a-select
+            v-model:value="form.cargoType"
+            size="large"
+            :placeholder="$t('form.cargoTypePlaceholder')"
+          >
             <a-select-option value="dry">{{ $t('form.dry') }}</a-select-option>
             <a-select-option value="refrigerated">{{ $t('form.refrigerated') }}</a-select-option>
             <a-select-option value="liquid">{{ $t('form.liquid') }}</a-select-option>
@@ -76,7 +96,11 @@
           />
         </a-form-item>
         <a-form-item :label="$t('form.hsCode')">
-          <a-input v-model:value="form.hsCode" size="large" :placeholder="$t('form.hsCodePlaceholder')" />
+          <a-input
+            v-model:value="form.hsCode"
+            size="large"
+            :placeholder="$t('form.hsCodePlaceholder')"
+          />
         </a-form-item>
       </div>
 
@@ -101,7 +125,11 @@
           />
         </a-form-item>
         <a-form-item :label="$t('form.targetPrice')">
-          <a-input v-model:value="form.targetPrice" size="large" :placeholder="$t('form.targetPricePlaceholder')" />
+          <a-input
+            v-model:value="form.targetPrice"
+            size="large"
+            :placeholder="$t('form.targetPricePlaceholder')"
+          />
         </a-form-item>
       </div>
 
@@ -124,7 +152,9 @@
       </a-form-item>
 
       <a-form-item>
-        <a-button type="primary" size="large" @click="handleSubmit">{{ $t('form.submit') }}</a-button>
+        <a-button type="primary" size="large" @click="handleSubmit">{{
+          $t('form.submit')
+        }}</a-button>
       </a-form-item>
     </a-form>
   </div>
@@ -163,7 +193,8 @@ const form = ref({
 const required = (v) => v !== null && v !== undefined && String(v).trim() !== ''
 
 const handleSubmit = async () => {
-  if (!required(form.value.companyName) || !required(form.value.contactName)) return message.error(t('form.companyNameOrContactNameRequired'))
+  if (!required(form.value.companyName) || !required(form.value.contactName))
+    return message.error(t('form.companyNameOrContactNameRequired'))
   if (!required(form.value.phoneNumber)) return message.error(t('form.phoneNumberRequired'))
   if (!required(form.value.email)) return message.error(t('form.emailRequired'))
   if (!required(form.value.service)) return message.error(t('form.serviceRequired'))
@@ -179,7 +210,13 @@ const handleSubmit = async () => {
 
   const lang = localStorage.getItem('lang') || 'vi-VN'
 
-  const date = new Date().toLocaleDateString(lang, { month: 'short', day: 'numeric', year: 'numeric', hour: '2-digit', minute: '2-digit' })
+  const date = new Date().toLocaleDateString(lang, {
+    month: 'short',
+    day: 'numeric',
+    year: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+  })
 
   const payload = {
     ...form.value,

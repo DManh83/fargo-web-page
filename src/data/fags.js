@@ -29,8 +29,7 @@ export const faqs = [
         question: 'support.faqs.qa.domestic.question5',
         answer: 'support.faqs.qa.domestic.answer5',
       },
-
-    ]
+    ],
   },
 
   // Export
@@ -48,14 +47,14 @@ export const faqs = [
         question: 'support.faqs.qa.export.question2',
         answer: 'support.faqs.qa.export.answer2',
       },
-    ]
+    ],
   },
 
   // Import
   {
     id: 3,
     category: 'import',
-    qa: []
+    qa: [],
   },
 
   // Order Support
@@ -68,7 +67,7 @@ export const faqs = [
         question: 'support.faqs.qa.order.question1',
         answer: 'support.faqs.qa.order.answer1',
       },
-    ]
+    ],
   },
 
   // Status
@@ -81,8 +80,7 @@ export const faqs = [
         question: 'support.faqs.qa.status.question1',
         answer: 'support.faqs.qa.status.answer1',
       },
-
-    ]
+    ],
   },
 
   // Billing
@@ -95,6 +93,6 @@ export const faqs = [
         question: 'support.faqs.qa.billing.question1',
         answer: 'support.faqs.qa.billing.answer1',
       },
-    ]
+    ],
   },
 ]

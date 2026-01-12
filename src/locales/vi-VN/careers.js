@@ -3,23 +3,35 @@ export default {
     title: 'Tuyển dụng',
     description: `"Điều khiển thế giới tiến lên — tham gia tương lai của logistics"`,
     jobOpportunities: 'Cơ hội nghề nghiệp',
-    jobOpportunitiesDescription1: 'Tại Fargo Logistics, chúng tôi cung cấp một loạt cơ hội nghề nghiệp trong logistics, vận hành, dịch vụ khách hàng và quản lý. Mục tiêu của chúng tôi là thu hút những người có đam mê phát triển và cam kết với chất lượng.',
-    jobOpportunitiesDescription2: 'Chúng tôi đầu tư vào con người thông qua các chương trình đào tạo có cấu trúc, hướng dẫn và dự án thực tế, giúp mỗi nhân viên xây dựng kỹ năng và giải phóng tiềm năng của họ.',
-    jobOpportunitiesDescription3: 'Trở thành một phần của Fargo Logistics có nghĩa là tham gia vào một đội ngũ toàn cầu mà giá trị đặc biệt là sự động viên, sáng tạo và phát triển nghề nghiệp dài hạn.',
+    jobOpportunitiesDescription1:
+      'Tại Fargo Logistics, chúng tôi cung cấp một loạt cơ hội nghề nghiệp trong logistics, vận hành, dịch vụ khách hàng và quản lý. Mục tiêu của chúng tôi là thu hút những người có đam mê phát triển và cam kết với chất lượng.',
+    jobOpportunitiesDescription2:
+      'Chúng tôi đầu tư vào con người thông qua các chương trình đào tạo có cấu trúc, hướng dẫn và dự án thực tế, giúp mỗi nhân viên xây dựng kỹ năng và giải phóng tiềm năng của họ.',
+    jobOpportunitiesDescription3:
+      'Trở thành một phần của Fargo Logistics có nghĩa là tham gia vào một đội ngũ toàn cầu mà giá trị đặc biệt là sự động viên, sáng tạo và phát triển nghề nghiệp dài hạn.',
     workingEnvironment: 'Môi trường làm việc',
-    workingEnvironmentDescription1: 'Chúng tôi tin rằng môi trường làm việc tốt giúp cả nhân viên và công ty đạt được thành công. Vì vậy, chúng tôi tạo ra không gian mà khuyến khích sự hợp tác, giao tiếp và chia sẻ ý tưởng.',
-    workingEnvironmentDescription2: 'Từ văn phòng hiện đại đến thực hành làm việc chuyên nghiệp, chúng tôi tập trung vào việc xây dựng một môi trường làm việc mà sự hợp tác và sáng tạo thịnh hành.',
-    workingEnvironmentDescription3: 'Tại Fargo Logistics, nhân viên được tự do hòa bình giữa công việc và cuộc sống, trong khi thưởng thức môi trường hỗ trợ mà khuyến khích họ đạt được mục tiêu của mình.',
+    workingEnvironmentDescription1:
+      'Chúng tôi tin rằng môi trường làm việc tốt giúp cả nhân viên và công ty đạt được thành công. Vì vậy, chúng tôi tạo ra không gian mà khuyến khích sự hợp tác, giao tiếp và chia sẻ ý tưởng.',
+    workingEnvironmentDescription2:
+      'Từ văn phòng hiện đại đến thực hành làm việc chuyên nghiệp, chúng tôi tập trung vào việc xây dựng một môi trường làm việc mà sự hợp tác và sáng tạo thịnh hành.',
+    workingEnvironmentDescription3:
+      'Tại Fargo Logistics, nhân viên được tự do hòa bình giữa công việc và cuộc sống, trong khi thưởng thức môi trường hỗ trợ mà khuyến khích họ đạt được mục tiêu của mình.',
     companyCulture: 'Văn hóa công ty',
-    companyCultureDescription1: 'Văn hóa công ty của chúng tôi được xây dựng trên sự công bằng, tôn trọng và trách nhiệm. Chúng tôi coi logistics không chỉ là vận chuyển – nó là về việc xây dựng kết nối và tin tưởng trên toàn thế giới.',
-    companyCultureDescription2: 'Sự đa dạng và bao quát là trung tâm của cách chúng tôi làm việc. Mỗi thành viên đội được khuyến khích chia sẻ ý tưởng và đóng góp vào sự thành công của tập thể.',
-    companyCultureDescription3: 'Chúng tôi cũng cam kết với các thực hành bền vững và trách nhiệm xã hội, đảm bảo rằng Fargo Logistics tạo ra ảnh hưởng dài hạn, tích cực trên cả khách hàng và cộng đồng.',
+    companyCultureDescription1:
+      'Văn hóa công ty của chúng tôi được xây dựng trên sự công bằng, tôn trọng và trách nhiệm. Chúng tôi coi logistics không chỉ là vận chuyển – nó là về việc xây dựng kết nối và tin tưởng trên toàn thế giới.',
+    companyCultureDescription2:
+      'Sự đa dạng và bao quát là trung tâm của cách chúng tôi làm việc. Mỗi thành viên đội được khuyến khích chia sẻ ý tưởng và đóng góp vào sự thành công của tập thể.',
+    companyCultureDescription3:
+      'Chúng tôi cũng cam kết với các thực hành bền vững và trách nhiệm xã hội, đảm bảo rằng Fargo Logistics tạo ra ảnh hưởng dài hạn, tích cực trên cả khách hàng và cộng đồng.',
     careerGrowthOpportunities: 'Cơ hội phát triển nghề nghiệp',
-    careerGrowthOpportunitiesDescription: 'Chúng tôi cung cấp các con đường nghề nghiệp rõ ràng, chương trình đào tạo và hướng dẫn để giúp bạn phát triển kỹ năng và trở thành những vai trò lãnh đạo trong ngành logistics.',
+    careerGrowthOpportunitiesDescription:
+      'Chúng tôi cung cấp các con đường nghề nghiệp rõ ràng, chương trình đào tạo và hướng dẫn để giúp bạn phát triển kỹ năng và trở thành những vai trò lãnh đạo trong ngành logistics.',
     dynamicAndSupportiveEnvironment: 'Môi trường động và hỗ trợ',
-    dynamicAndSupportiveEnvironmentDescription: 'Môi trường làm việc của chúng tôi khuyến khích sự hợp tác, sáng tạo và tôn trọng. Bạn sẽ là một phần của đội mà ý tưởng của bạn được đánh giá cao và nỗ lực của bạn thực sự có ảnh hưởng.',
+    dynamicAndSupportiveEnvironmentDescription:
+      'Môi trường làm việc của chúng tôi khuyến khích sự hợp tác, sáng tạo và tôn trọng. Bạn sẽ là một phần của đội mà ý tưởng của bạn được đánh giá cao và nỗ lực của bạn thực sự có ảnh hưởng.',
     globalExposureAndStability: 'Độ mở rộng và ổn định toàn cầu',
-    globalExposureAndStabilityDescription: 'Là một đối tác logistics đáng tin cậy trên toàn cầu, Fargo Logistics cung cấp cơ hội làm việc trên các dự án quốc tế, đảm bảo sự phát triển nghề nghiệp và bảo đảm việc làm dài hạn.',
+    globalExposureAndStabilityDescription:
+      'Là một đối tác logistics đáng tin cậy trên toàn cầu, Fargo Logistics cung cấp cơ hội làm việc trên các dự án quốc tế, đảm bảo sự phát triển nghề nghiệp và bảo đảm việc làm dài hạn.',
     workingWith: 'Làm việc với',
     openingPositions: 'Vị trí mới',
     weAreHiring: 'Chúng tôi đang tuyển dụng',

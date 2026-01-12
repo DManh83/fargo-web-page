@@ -9,14 +9,14 @@
 </template>
 
 <script setup>
-import { RouterLink } from 'vue-router';
+import { RouterLink } from 'vue-router'
 
 defineProps({
   breadcrumb: {
     type: Array,
     required: true,
   },
-});
+})
 </script>
 
 <style scoped>
@@ -27,5 +27,4 @@ defineProps({
   justify-content: flex-start;
   margin-left: 230px;
 }
-
 </style>

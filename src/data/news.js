@@ -52,6 +52,24 @@ import news33_2 from '@/assets/images/news/news33_2.png'
 import news34_1 from '@/assets/images/news/news34_1.jpg'
 import news35_1 from '@/assets/images/news/news35_1.jpg'
 import news36_1 from '@/assets/images/news/news36_1.webp'
+import news37_1 from '@/assets/images/news/news37_1.jpg'
+import news38_1 from '@/assets/images/news/news38_1.jpg'
+import news39_1 from '@/assets/images/news/news39_1.jpg'
+import news40_1 from '@/assets/images/news/news40_1.jpg'
+import news41_1 from '@/assets/images/news/news41_1.jpg'
+import news42_1 from '@/assets/images/news/news42_1.jpg'
+import news42_2 from '@/assets/images/news/news42_2.jpg'
+import news42_3 from '@/assets/images/news/news42_3.jpg'
+import news42_4 from '@/assets/images/news/news42_4.jpg'
+import news42_5 from '@/assets/images/news/news42_5.jpg'
+import news42_6 from '@/assets/images/news/news42_6.jpg'
+import news43_1 from '@/assets/images/news/news43_1.jpg'
+import news44_1 from '@/assets/images/news/news44_1.jpg'
+import news45_1 from '@/assets/images/news/news45_1.jpg'
+import news45_2 from '@/assets/images/news/news45_2.jpg'
+import news46_1 from '@/assets/images/news/news46_1.jpg'
+import news46_2 from '@/assets/images/news/news46_2.jpg'
+import news47_1 from '@/assets/images/news/news47_1.webp'
 
 export const news = [
   {
@@ -372,7 +390,7 @@ export const news = [
         title: 'post.p20.c4.title',
         paragraphs: 'post.p20.c4.paragraphs',
       },
-    ]
+    ],
   },
   {
     id: 21,
@@ -563,6 +581,94 @@ export const news = [
     paragraphs: 'post.p36.paragraphs',
     date: '2025-11-10',
     image: [news36_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 37,
+    title: 'post.p37.title',
+    paragraphs: 'post.p37.paragraphs',
+    date: '2025-11-27',
+    image: [news37_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 38,
+    title: 'post.p38.title',
+    paragraphs: 'post.p38.paragraphs',
+    date: '2025-12-10',
+    image: [news38_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 39,
+    title: 'post.p39.title',
+    paragraphs: 'post.p39.paragraphs',
+    date: '2025-12-10',
+    image: [news39_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 40,
+    title: 'post.p40.title',
+    paragraphs: 'post.p40.paragraphs',
+    date: '2025-12-10',
+    image: [news40_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 41,
+    title: 'post.p41.title',
+    paragraphs: 'post.p41.paragraphs',
+    date: '2025-12-10',
+    image: [news41_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 42,
+    title: 'post.p42.title',
+    paragraphs: 'post.p42.paragraphs',
+    date: '2025-12-11',
+    image: [news42_1, news42_2, news42_3, news42_4, news42_5, news42_6],
+    category: 'fargoNews',
+  },
+  {
+    id: 43,
+    title: 'post.p43.title',
+    paragraphs: 'post.p43.paragraphs',
+    date: '2025-12-15',
+    image: [news43_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 44,
+    title: 'post.p44.title',
+    paragraphs: 'post.p44.paragraphs',
+    date: '2025-12-15',
+    image: [news44_1],
+    category: 'fargoNews',
+  },
+  {
+    id: 45,
+    title: 'post.p45.title',
+    paragraphs: 'post.p45.paragraphs',
+    date: '2025-12-15',
+    image: [news45_1, news45_2],
+    category: 'fargoNews',
+  },
+  {
+    id: 46,
+    title: 'post.p46.title',
+    paragraphs: 'post.p46.paragraphs',
+    date: '2025-12-15',
+    image: [news46_1, news46_2],
+    category: 'fargoNews',
+  },
+  {
+    id: 47,
+    title: 'post.p47.title',
+    paragraphs: 'post.p47.paragraphs',
+    date: '2026-01-12',
+    image: [news47_1],
     category: 'fargoNews',
   },
 ]

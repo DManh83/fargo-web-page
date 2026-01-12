@@ -23,7 +23,7 @@ defineProps({
 <style scoped>
 .job-render {
   width: 100%;
-    margin: 0 auto;
+  margin: 0 auto;
   margin-top: 12px;
   font-size: 16px;
   line-height: 1.75;

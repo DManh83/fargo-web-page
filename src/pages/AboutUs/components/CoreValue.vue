@@ -33,8 +33,14 @@ const items = [
   { title: 'onTimeReliability', description: 'onTimeReliabilityDescription' },
   { title: 'transparencyIntegrity', description: 'transparencyIntegrityDescription' },
   { title: 'safetyCompliance', description: 'safetyComplianceDescription' },
-  { title: 'operationalExcellenceContinuousImprovement', description: 'operationalExcellenceContinuousImprovementDescription' },
-  { title: 'sustainabilitySocialResponsibility', description: 'sustainabilitySocialResponsibilityDescription' }
+  {
+    title: 'operationalExcellenceContinuousImprovement',
+    description: 'operationalExcellenceContinuousImprovementDescription',
+  },
+  {
+    title: 'sustainabilitySocialResponsibility',
+    description: 'sustainabilitySocialResponsibilityDescription',
+  },
 ]
 </script>
 
@@ -62,10 +68,12 @@ const items = [
 
 /* Card */
 .cv-card {
-  background: #C8D9E6;            /* xanh nhạt như hình */
+  background: #c8d9e6; /* xanh nhạt như hình */
   border-radius: 16px;
   box-shadow: 0 2px 10px rgba(9, 35, 74, 0.06);
-  transition: transform .15s ease, box-shadow .15s ease;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
   display: block;
   height: 100%;
 }
@@ -77,14 +85,14 @@ const items = [
 /* Bên trong card */
 .cv-row {
   display: grid;
-  grid-template-columns: 56px 1fr;               /* cột 1 là icon cố định, cột 2 là text */
-  grid-template-rows: auto 1fr;                  /* hàng 1 cho title, hàng 2 cho desc */
+  grid-template-columns: 56px 1fr; /* cột 1 là icon cố định, cột 2 là text */
+  grid-template-rows: auto 1fr; /* hàng 1 cho title, hàng 2 cho desc */
   grid-template-areas:
-    "icon title"
-    "icon desc";
-  align-items: center;                             /* icon + text đều bám đỉnh */
-  gap: 1px 12px;                                 /* (row-gap, col-gap) */
-  min-height: 96px;                               /* chiều cao tối thiểu đồng đều */
+    'icon title'
+    'icon desc';
+  align-items: center; /* icon + text đều bám đỉnh */
+  gap: 1px 12px; /* (row-gap, col-gap) */
+  min-height: 96px; /* chiều cao tối thiểu đồng đều */
 }
 
 .cv-icon {
@@ -130,7 +138,7 @@ const items = [
   font-weight: 400;
 
   /* đồng bộ chiều cao mô tả để các card bằng nhau ở hàng desc */
-  --desc-lines: 3;                                 /* chỉnh 2–4 tùy thiết kế */
+  --desc-lines: 3; /* chỉnh 2–4 tùy thiết kế */
   min-height: calc(1.6em * var(--desc-lines));
   display: -webkit-box;
   -webkit-line-clamp: var(--desc-lines);
@@ -145,14 +153,24 @@ const items = [
 
 /* Responsive */
 @media (max-width: 1200px) {
-  .core-values { max-width: 1000px; }
+  .core-values {
+    max-width: 1000px;
+  }
 }
 @media (max-width: 1024px) {
-  .cv-grid { grid-template-columns: repeat(2, 1fr); }
+  .cv-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media (max-width: 640px) {
-  .cv-title { font-size: 28px; }
-  .cv-grid { grid-template-columns: 1fr; }
-  .cv-card { border-radius: 14px; }
+  .cv-title {
+    font-size: 28px;
+  }
+  .cv-grid {
+    grid-template-columns: 1fr;
+  }
+  .cv-card {
+    border-radius: 14px;
+  }
 }
 </style>

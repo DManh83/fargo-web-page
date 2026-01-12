@@ -3,23 +3,35 @@ export default {
     title: '职业',
     description: `"驱动世界前进 — 加入物流的未来"`,
     jobOpportunities: '职业机会',
-    jobOpportunitiesDescription1: '在Fargo Logistics，我们提供物流、运营、客户服务和管理的广泛职业机会。我们的目标是吸引有激情和承诺卓越的个人。',
-    jobOpportunitiesDescription2: '我们通过结构化培训计划、指导和实际项目，投资于我们的员工，帮助每个员工建立技能并释放他们的全部潜力。',
-    jobOpportunitiesDescription3: '成为Fargo Logistics的一部分意味着加入一个全球团队，重视奉献、创新和长期职业发展。',
+    jobOpportunitiesDescription1:
+      '在Fargo Logistics，我们提供物流、运营、客户服务和管理的广泛职业机会。我们的目标是吸引有激情和承诺卓越的个人。',
+    jobOpportunitiesDescription2:
+      '我们通过结构化培训计划、指导和实际项目，投资于我们的员工，帮助每个员工建立技能并释放他们的全部潜力。',
+    jobOpportunitiesDescription3:
+      '成为Fargo Logistics的一部分意味着加入一个全球团队，重视奉献、创新和长期职业发展。',
     workingEnvironment: '工作环境',
-    workingEnvironmentDescription1: '我们相信一个伟大的工作环境可以推动员工满意度和公司成功。这就是为什么我们创造鼓励合作、沟通和共享想法的空间。',
-    workingEnvironmentDescription2: '从现代办公室到专业工作实践，我们专注于建立一个团队合作和创新蓬勃发展的工作场所。',
-    workingEnvironmentDescription3: '在Fargo Logistics，员工被赋予平衡工作和生活，同时享受支持的氛围，激励他们实现目标。',
+    workingEnvironmentDescription1:
+      '我们相信一个伟大的工作环境可以推动员工满意度和公司成功。这就是为什么我们创造鼓励合作、沟通和共享想法的空间。',
+    workingEnvironmentDescription2:
+      '从现代办公室到专业工作实践，我们专注于建立一个团队合作和创新蓬勃发展的工作场所。',
+    workingEnvironmentDescription3:
+      '在Fargo Logistics，员工被赋予平衡工作和生活，同时享受支持的氛围，激励他们实现目标。',
     companyCulture: '公司文化',
-    companyCultureDescription1: '我们的公司文化建立在诚信、尊重和责任的基础上。我们认为物流不仅仅是运输——它是关于建立全球联系和信任。',
-    companyCultureDescription2: '多样性和包容性是我们工作方式的核心。每个团队成员都被鼓励分享想法并贡献集体成功。',
-    companyCultureDescription3: '我们同样致力于可持续实践和社会责任，确保Fargo Logistics对客户和社区产生持久、积极的影响。',
+    companyCultureDescription1:
+      '我们的公司文化建立在诚信、尊重和责任的基础上。我们认为物流不仅仅是运输——它是关于建立全球联系和信任。',
+    companyCultureDescription2:
+      '多样性和包容性是我们工作方式的核心。每个团队成员都被鼓励分享想法并贡献集体成功。',
+    companyCultureDescription3:
+      '我们同样致力于可持续实践和社会责任，确保Fargo Logistics对客户和社区产生持久、积极的影响。',
     careerGrowthOpportunities: '职业发展机会',
-    careerGrowthOpportunitiesDescription: '我们提供清晰的职业道路、培训计划和指导，帮助您发展技能并成为物流行业的领导角色。',
+    careerGrowthOpportunitiesDescription:
+      '我们提供清晰的职业道路、培训计划和指导，帮助您发展技能并成为物流行业的领导角色。',
     dynamicAndSupportiveEnvironment: '动态和支持性环境',
-    dynamicAndSupportiveEnvironmentDescription: '我们的工作场所培养合作、创新和尊重。您将成为一个团队，您的想法被重视，您的努力真正产生影响。',
+    dynamicAndSupportiveEnvironmentDescription:
+      '我们的工作场所培养合作、创新和尊重。您将成为一个团队，您的想法被重视，您的努力真正产生影响。',
     globalExposureAndStability: '全球曝光和稳定性',
-    globalExposureAndStabilityDescription: '作为全球值得信赖的物流合作伙伴，Fargo Logistics提供在国际项目上工作的机会，确保专业成长和长期就业安全。',
+    globalExposureAndStabilityDescription:
+      '作为全球值得信赖的物流合作伙伴，Fargo Logistics提供在国际项目上工作的机会，确保专业成长和长期就业安全。',
     workingWith: '合作',
     openingPositions: '新职位',
     weAreHiring: '我们正在招聘',

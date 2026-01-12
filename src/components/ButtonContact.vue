@@ -30,7 +30,6 @@ const handleZalo = () => {
 </script>
 
 <style scoped>
-
 :deep(.ant-float-btn-circle) {
   height: 50px !important;
 }
@@ -57,7 +56,7 @@ const handleZalo = () => {
   border-radius: 50%;
 }
 .zalo-button :deep(.ant-float-btn-body) {
-  background-color: #2962ff!important;
+  background-color: #2962ff !important;
   width: 50px !important;
   height: 50px !important;
 }

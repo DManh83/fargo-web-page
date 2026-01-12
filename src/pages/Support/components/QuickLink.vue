@@ -35,7 +35,7 @@ import { RouterLink } from 'vue-router'
 
 <style scoped>
 aside {
-  background-color: #C8D9E6;
+  background-color: #c8d9e6;
   width: 305px;
   height: 200px;
   border-radius: 10px;
