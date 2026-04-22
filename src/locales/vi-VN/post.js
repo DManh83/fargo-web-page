@@ -1057,5 +1057,107 @@ Công ty tuyên bố rằng khoản đầu tư nhằm mục đích tối ưu hó
   Hiện doanh số bán lẻ đang tăng khoảng 7% mỗi năm, trong đó phần lớn đến từ sự phục hồi của du lịch. Với đà cải thiện bền vững của tâm lý tiêu dùng, cùng các động lực kinh tế vĩ mô hỗ trợ, tôi tin rằng trong năm tới, tăng trưởng tiêu dùng nội địa có thể trở lại mức khoảng 8%. Đây sẽ là nguồn đóng góp quan trọng cho GDP và điều đáng chú ý là nó không phụ thuộc vào các biện pháp chính sách mang tính bất thường hay ngắn hạn."
   Dù vậy, các tổ chức quốc tế như Quỹ Tiền tệ Quốc tế (IMF) cũng lưu ý triển vọng năm 2026 vẫn tiềm ẩn rủi ro từ môi trường bên ngoài, đặc biệt là sự chậm lại của kinh tế toàn cầu và những điều chỉnh trong chính sách thương mại quốc tế. Trong bối cảnh đó, mục tiêu tăng trưởng cao cho giai đoạn 2026–2030 được xem là phép thử quan trọng đối với nỗ lực tái cân bằng mô hình tăng trưởng theo hướng bền vững và tự chủ hơn của Việt Nam.`,
     },
+    p48: {
+      title: 'Maersk Báo Lỗ Và Bài Học Cho Doanh Nghiệp Việt Khi "Bữa Tiệc" Vận Tải Chấm Dứt',
+      paragraphs: `Thị trường vận tải biển toàn cầu đang chứng kiến những "đám mây đen" bao phủ khi gã khổng lồ Maersk chính thức báo lỗ mảng vận tải biển trong Quý 4/2025. Tiếp bước ONE, Maersk buộc phải cắt giảm 1.000 nhân sự và chuẩn bị cho một năm 2026 đầy biến động. Tình trạng này không chỉ là vấn đề của riêng các hãng tàu mà còn tác động trực tiếp đến dòng chảy hàng hóa của các doanh nghiệp xuất nhập khẩu (XNK) tại Việt Nam.
+      `,
+      c1: {
+        title: '1. "Cơn bão" tài chính càn quét các ông lớn',
+        paragraphs: `Sau kỷ nguyên lợi nhuận đột biến, mảng vận tải biển của Maersk ghi nhận lỗ EBIT 153 triệu USD trong quý cuối năm 2025 – một sự sụt giảm khủng khiếp so với mức lãi 1,6 tỷ USD cùng kỳ năm trước. Áp lực dư thừa công suất do làn sóng tàu mới gia nhập thị trường đã đẩy giá cước xuống mức thấp kỷ lục.
+        `,
+      },
+      c2: {
+        title: '2. Biến số Biển Đỏ và kịch bản 2026',
+        paragraphs: `Tương lai ngành vận tải hiện đang bị treo lơ lửng bởi tình hình địa chính trị tại Kênh đào Suez.
+•	Kịch bản mở cửa: Giá cước sẽ tiếp tục giảm sâu do năng lực vận tải được giải phóng (tăng 6-8%).
+•	Kịch bản đóng cửa: Các hãng tàu tiếp tục phải đi vòng qua Mũi Hảo Vọng, chi phí vận hành cao nhưng giúp kiềm tỏa tình trạng dư thừa cung.
+        `,
+      },
+      c3: {
+        title: '3. Tác động trực diện đến doanh nghiệp Việt Nam',
+        paragraphs: `Việt Nam với độ mở kinh tế lớn sẽ đứng trước cả cơ hội và thách thức:
+•	Về chi phí: Doanh nghiệp có lợi thế đàm phán cước phí thấp hơn trong ngắn hạn. Tuy nhiên, các hãng tàu có thể tăng phụ phí (surcharges) để bù đắp lỗ.
+•	Về vận hành: Rủi ro chậm chuyến (Blank Sailing) và thời gian vận chuyển kéo dài do đi vòng sẽ làm tăng chi phí lưu kho và đọng vốn.
+•	Về dịch vụ: Việc cắt giảm nhân sự của các hãng tàu lớn có thể khiến chất lượng hỗ trợ khách hàng và xử lý chứng từ chậm hơn trước.
+Lời kết và Khuyến nghị: Doanh nghiệp Việt cần tận dụng giai đoạn giá cước hạ nhiệt để chốt các hợp đồng dài hạn, đồng thời đa dạng hóa đối tác vận chuyển để tránh phụ thuộc vào một liên minh duy nhất trong bối cảnh đầy biến động này.
+        `,
+      },
+    },
+    p49: {
+      title: 'Căng Thẳng Panama - Trung Quốc: Khi Cảng Biển Trở Thành Tâm Điểm Đối Đầu Địa Chính Trị',
+      paragraphs: `Một cuộc khủng hoảng ngoại giao đang bùng phát tại Trung Mỹ sau khi Panama quyết định thu hồi quyền khai thác hai cảng chiến lược của tập đoàn CK Hutchison (Hồng Kông). Động thái này không chỉ làm rạn nứt mối quan hệ với Bắc Kinh mà còn dấy lên lo ngại về sự trỗi dậy của dự án kênh đào đối trọng tại Nicaragua.
+      `,
+      c1: {
+        title: 'Quyết định cứng rắn từ Panama',
+        paragraphs: `Tổng thống Panama, ông José Raúl Mulino, đã khẳng định vị thế quốc gia khi tuyên bố hủy bỏ các hợp đồng nhượng quyền kéo dài gần 30 năm tại hai cảng Balboa và Cristobal. Lý do được Tòa án Tối cao đưa ra là các hợp đồng này chứa đựng những đặc quyền và miễn trừ thuế không hợp lý, gây mất cân bằng lợi ích quốc gia. "Panama sẽ không cho phép mình bị đe dọa bởi bất kỳ quốc gia nào," Tổng thống Mulino nhấn mạnh.
+        `,
+      },
+      c2: {
+        title: 'Phản ứng "lạnh lùng" từ Bắc Kinh',
+        paragraphs: `Đáp lại, phía Trung Quốc đã có những động thái trả đũa kinh tế ngay lập tức:
+•	Đình chỉ dự án: Các doanh nghiệp nhà nước Trung Quốc được cho là đã tạm dừng các khoản đầu tư mới tại Panama.
+•	Hàng rào hải quan: Tăng cường kiểm tra gắt gao hàng hóa nhập khẩu từ quốc gia Trung Mỹ này.
+•	Truyền thông chỉ trích: Tờ China Daily gọi đây là ví dụ điển hình của việc "áp lực bên ngoài" làm tha hóa sự độc lập tư pháp.
+        `,
+      },
+      c3: {
+        title: `"Bóng ma" Kênh đào Nicaragua xuất hiện`,
+        paragraphs: `Sự đổ vỡ này khiến giới chuyên gia vận tải, điển hình là ông Lars Jensen (Vespucci Maritime), lo ngại về một kịch bản xa hơn: Trung Quốc có thể tái khởi động dự án Kênh đào Nicaragua. Đây vốn là dự án đối trọng với Kênh đào Panama từng bị gác lại một thập kỷ trước. Việc nhen nhóm lại dự án này có thể được xem là đòn bẩy địa chính trị mới của Bắc Kinh trong khu vực.
+Cuộc chiến pháp lý giữa CK Hutchison và chính phủ Panama dự kiến sẽ kéo dài nhiều năm tại trọng tài quốc tế. Tuy nhiên, hệ lụy về niềm tin đầu tư và sự ổn định của tuyến hàng hải huyết mạch này đang là dấu hỏi lớn cho ngành logistics toàn cầu trong năm 2026.
+        `,
+      },
+    },
+    p50: {
+      title: 'MSC, Zhonggu và SITC Chốt Đơn Đóng Tàu Khủng: Tham Vọng Mở Rộng Quy Mô Bất Chấp Biến Động',
+      paragraphs: `Bất chấp những dự báo về tình trạng dư thừa công suất toàn cầu, thị trường đóng tàu thế giới vẫn tiếp tục sôi động. Các hãng tàu lớn như MSC, Zhonggu Logistics và SITC vừa đồng loạt công bố các đơn hàng bổ sung, trải dài từ phân khúc tàu gom hàng (feeder) đến các siêu tàu Neo-Panamax chạy nhiên liệu sạch.
+      `,
+      c1: {
+        title: '1. MSC: Tiên phong công nghệ nhiên liệu kép (LNG)',
+        paragraphs: `Hãng tàu lớn nhất thế giới MSC tiếp tục khẳng định vị thế dẫn đầu khi đặt hàng thêm 8 tàu container 11.500 TEU.
+•	Điểm nhấn: Đây là loại tàu sử dụng nhiên liệu kép LNG (LNG dual-fuel), giúp giảm phát thải bền vững.
+•	Quy mô: Nâng tổng số tàu trong series này tại nhà máy Penglai Zhongbai Jinglu lên 16 chiếc, dự kiến bàn giao vào năm 2029.
+        `,
+      },
+      c2: {
+        title: '2. Zhonggu Logistics: Củng cố phân khúc tầm trung',
+        paragraphs: `Hãng tàu tập trung vào thị trường nội địa và khu vực – Zhonggu Logistics – cũng vừa chốt thêm 2 tàu 6.000 TEU.
+•	Giá trị: 83,5 triệu USD mỗi tàu.
+•	Thời gian: Dự kiến gia nhập đội tàu vào năm 2028, giúp hãng tối ưu hóa chi phí trên các tuyến vận tải trục.
+        `,
+      },
+      c3: {
+        title: '3. SITC: "Vua nội Á" gia tăng năng lực cạnh tranh',
+        paragraphs: `SITC tiếp tục chiến lược đánh chiếm ngách nội Á khi thực hiện quyền chọn đặt thêm 2 tàu 2.700 TEU.
+•	Tổng cộng: Loạt tàu này hiện đã lên tới 8 chiếc.
+•	Chiến lược: Việc bổ sung các tàu feeder hiện đại giúp SITC linh hoạt hơn trong việc kết nối các cảng khu vực, duy trì lịch trình dày đặc vốn là thế mạnh của hãng.
+
+Làn sóng đặt tàu mới kéo dài đến tận năm 2029 cho thấy các hãng tàu đang chuẩn bị cho một cuộc chơi dài hơi. Thay vì co cụm, họ chọn cách "trẻ hóa đội tàu" để vừa đáp ứng các quy định khắt khe về môi trường, vừa tối ưu hóa chi phí vận hành thông qua quy mô.
+        `,
+      },
+
+    },
+    p51: {
+      title: 'Gemini Cooperation Tái Khởi Động Tuyến Biển Đỏ: Bước Ngoặt Cho Logistics Toàn Cầu 2026',
+      paragraphs: `Sau một giai đoạn dài gián đoạn do bất ổn an ninh, liên minh Gemini Cooperation (Maersk và Hapag-Lloyd) đã chính thức thông báo kế hoạch dần đưa đội tàu trở lại khu vực Biển Đỏ và Kênh đào Suez từ giữa tháng 2/2026. Đây được xem là động thái quan trọng thúc đẩy sự phục hồi của tuyến hàng hải ngắn nhất nối liền Á – Âu.
+      `,
+      c1: {
+        title: '1. Sự thận trọng sau 6 tháng yên ắng',
+        paragraphs: `Quyết định được đưa ra sau khi khu vực này ghi nhận 6 tháng không có các cuộc tấn công xác nhận từ lực lượng Houthi. Tuy nhiên, Gemini Cooperation không chủ quan. Maersk nhấn mạnh rằng một "khung an ninh mạnh mẽ" với sự hỗ trợ từ hải quân đã được thiết lập để bảo vệ các tàu quá cảnh.
+        `,
+      },
+      c2: {
+        title: '2. Tiên phong bằng công nghệ tàu nhiên liệu kép',
+        paragraphs: `Trong lần trở lại này, liên minh ưu tiên sử dụng các thế hệ tàu mới nhất nhằm kết hợp mục tiêu xanh hóa và hiệu quả kinh tế:
+•	Hướng Tây: Tàu Albert Maersk (16.592 TEU, 2025).
+•	Hướng Đông: Tàu Astrid Maersk (16.592 TEU, 2024). Việc sử dụng tàu nhiên liệu kép giúp giảm phát thải carbon, đồng thời tận dụng lợi thế rút ngắn quãng đường qua Suez để tối ưu chi phí vận hành.
+        `,
+      },
+      c3: {
+        title: '3. Tín hiệu phục hồi cho thị trường',
+        paragraphs: `Cơ quan Quản lý Kênh đào Suez (SCA) đánh giá rất cao quyết định này. Việc các hãng tàu lớn như Maersk và Hapag-Lloyd quay lại sẽ giúp giảm áp lực lên giá cước vận tải và rút ngắn thời gian giao hàng vốn đã bị kéo dài do phải đi vòng qua Mũi Hảo Vọng.
+Sự trở lại của Gemini Cooperation tại Biển Đỏ là một "liều thuốc thử" cho sự ổn định của địa chính trị khu vực. Nếu tình hình an ninh tiếp tục được duy trì, thị trường vận tải biển thế giới kỳ vọng sẽ bước vào giai đoạn bình thường hóa mới trong năm 2026.
+        `,
+      },
+    },
   },
 }

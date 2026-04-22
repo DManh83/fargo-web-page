@@ -1040,15 +1040,15 @@ A major step forward toward green transportation in Vietnam! 🌱🚛⚡
       title: 'Guangzhou Shipyard International Launches Eight Next-Generation Ship Designs',
       paragraphs: `
     Guangzhou Shipyard International (GSI) announced eight ship designs independently developed by the company, covering a wide range of vessel types such as oil tankers, container ships and liquefied CO₂ carriers.
-    
+
     The new designs include a large 135,000 DWT crude and product tanker; the methanol fuel-cell passenger vessel 'Artist'; a 5,000-ton floating crane; a 3,440-TEU ice-class container ship; a luxury methanol-powered ro-pax vessel capable of carrying 2,700 passengers and 2,500 lane meters of vehicles; a 15,000-cubic-meter liquefied CO₂ carrier; a zero-emission livestock carrier with a total area of 25,000 square meters; and a hybrid MR oil tanker designed for energy efficiency.
-    
+
     According to GSI, this series of designs meets the latest environmental standards of the International Maritime Organization (IMO) and integrates core technologies such as optimized ship design and clean-energy propulsion systems. Several of these models are considered the first of their kind in China’s specialized ship segments.
-    
+
     Among the eight designs, the 135,000-DWT oil tanker has received dual Approval in Principle (AIP) certification from both the China Classification Society (CCS) and Lloyd’s Register (LR). The luxury methanol-powered ro-pax vessel has also been granted dual AIP certification from Lloyd’s Register and Bureau Veritas (BV). The remaining six designs have all received AIP certification from CCS, LR, BV and DNV.
-    
+
     Guangzhou Shipyard International (GSI) is one of the oldest and largest shipyards in China and operates under China State Shipbuilding Corporation (CSSC). Founded in 1954 in Guangzhou, GSI specializes in the construction and repair of various commercial and specialized vessels such as oil tankers, container ships, ro-pax ferries, offshore support vessels and clean-fuel ships. The company is well known for its independent design capability, green technology applications and its ability to meet strict IMO standards. In recent years, GSI has accelerated the development of environmentally friendly vessels, becoming a prominent brand in China’s modern shipbuilding industry.
-    
+
     Ngoc Minh (source: Seatrade Maritime News)
     `,
     },
@@ -1057,29 +1057,29 @@ A major step forward toward green transportation in Vietnam! 🌱🚛⚡
       title: 'EU Tightens Controls on Imported Agricultural and Food Products',
       paragraphs: `
     Vietnamese agricultural exporters need to pay close attention to quality and chemical residues in order to avoid shipments being returned or destroyed in the EU, which would damage corporate reputation and generate additional costs.
-    
+
     According to the Vietnam Trade Office in Belgium, information released by the European Commission on December 10, 2025 indicated that the EU will implement a series of measures to tighten controls on imported agricultural and food products.
-    
+
     These measures include a 50% increase in food safety and sanitary and phytosanitary (SPS) inspections for third-country imports, as well as a 33% increase in audits at border control posts of EU member states.
-    
+
     This move is intended to ensure that imported products fully comply with food safety, environmental and animal-welfare standards that are already applied to farmers and businesses within the EU.
-    
+
     The European Commission stated that a new task force will be established to coordinate inspection activities, focusing on pesticide residues, food and feed safety, and animal welfare, and to promote targeted monitoring campaigns for certain imported product groups.
-    
+
     These new measures will apply uniformly to all non-EU trading partners and represent the EU’s response to growing concerns among European farmers, who fear unfair competition if imported products do not meet the same standards as those applied within the EU.
-    
+
     The EU’s objective is to ensure that farmers do not face unfair competition and that all imported food products comply with exactly the same regulations that EU farmers are required to follow.
-    
+
     In addition to SPS inspections, the European Commission will review pesticide residue monitoring regulations, especially for substances that are banned in the EU but may appear in imported agricultural products. Some active substances have been reclassified by international organizations, and these changes must be incorporated into EU legislation.
-    
+
     According to the Commission, this initiative was launched at the request of farmers and with the support of EU member states, in order to prevent hazardous pesticides from “re-entering” the EU market through imports.
-    
+
     As part of the new measures, the European Commission will organize training programs for 500 inspectors to strengthen enforcement capacity at borders and within distribution systems across EU member states. At the same time, the new task force will improve coordination among agencies to ensure consistency in monitoring imports throughout the EU single market.
-    
+
     As one of the world’s largest food importers and exporters, the EU stated that the objective of these measures is to strengthen the existing control system in order to protect consumers, support European farmers, and ensure that all products entering the EU market meet strict health and safety standards.
-    
+
     The Vietnam Trade Office in Belgium warned Vietnamese agricultural exporters to pay special attention to product quality and chemical residues to avoid shipments being returned or destroyed in the EU, which would harm corporate reputation and lead to additional costs.
-    
+
     Vietnam currently exports to the EU more than USD 2 billion worth of coffee per year, over USD 1 billion of seafood, nearly USD 900 million of cashew nuts, USD 260 million of fruits and vegetables, USD 240 million of pepper, as well as timber, wood products and processed agricultural goods.
     `,
     },
@@ -1088,19 +1088,19 @@ A major step forward toward green transportation in Vietnam! 🌱🚛⚡
       title: 'Rice Export Market Update: Opportunities and Challenges in Australia and China',
       paragraphs: `
     At the Rice Export Business Conference organized by the Ministry of Industry and Trade, the Vietnam Trade Offices in Australia and China provided many important updates on two major markets that have a direct impact on Vietnam’s rice exports and logistics activities.
-    
+
     Australia is a multicultural country with diverse rice consumption demand. In 2024, Australia imported approximately USD 290 million worth of rice, with Vietnam ranking third and accounting for about 15% of market share. Notably, despite having domestic rice production, Australia continues to increase rice imports, creating opportunities for overseas suppliers.
-    
+
     The Australian rice market is divided into three main segments: premium and specialty rice such as ST25, which competes directly with Thai rice; rice for Asian communities, which is Vietnam’s traditional strength; and mainstream consumer rice that requires reasonable pricing and stable quality.
-    
+
     Trends toward green consumption, traceability and low-emission supply chains are becoming increasingly prominent, creating opportunities but also requiring exporters to meet certification, documentation and formal distribution-channel requirements. The Vietnamese community of more than 360,000 people in Australia serves as an important natural channel for consumption and promotion.
-    
+
     China imported 2.54 million tons of rice in the first ten months of 2025, up 131%, but the average import price dropped sharply, indicating increasingly fierce competition. Vietnam is currently China’s second-largest supplier, but both volume and price are under pressure.
-    
+
     China will continue to maintain its 2026 rice import quota at 5.32 million tons, while tightening quarantine, food safety and enterprise licensing requirements. Only companies approved by Chinese authorities are permitted to export.
-    
+
     In the fourth quarter of 2025, China’s rice imports are expected to remain high due to year-end stockpiling demand, but prices are unlikely to rise. This requires Vietnamese exporters to strictly control costs, quality and technical compliance.
-    
+
     Message for businesses and logistics providers: exporting rice to major markets is not only about selling price, but also about supply-chain stability, regulatory compliance, inspection and customs-clearance risk management, and the selection of appropriate distribution channels. Companies should work closely with trade offices, regulators and logistics partners to seize opportunities and minimize risks.
     `,
     },
@@ -1109,15 +1109,15 @@ A major step forward toward green transportation in Vietnam! 🌱🚛⚡
       title: 'COSCO Shipping Energy Signs Contracts for 19 New Vessels Worth Over USD 1 Billion',
       paragraphs: `
     COSCO Shipping Energy Transportation (CSET) has signed contracts for the construction of 19 new vessels, including 18 oil tankers and one ethylene carrier, with a total value of USD 1.08 billion, as part of its fleet restructuring and transition to dual-fuel LNG and methanol systems.
-    
+
     The large-scale order, valued at CNY 7.88 billion, has been awarded to three shipyards under COSCO Shipping Heavy Industry. All 19 vessels are scheduled for delivery between 2027 and 2029.
-    
+
     COSCO Shipping Heavy Industry Yangzhou will build four vessels for Hainan COSCO Energy with a total value of CNY 2.48 billion, including two 114,200-DWT Aframax crude oil tankers powered by methanol dual fuel and two 109,900-DWT LR2 product/crude tankers also powered by methanol dual fuel.
-    
+
     COSCO Shipping Heavy Industry Dalian will build one 9,000-cubic-meter LNG-powered ethylene carrier for Dalian COSCO Energy, two LR1 product/crude tankers directly for CSET, and three MR product/crude tankers for CSET.
-    
+
     In addition, COSCO Shipping Heavy Industry Guangdong will build five MR product/crude tankers.
-    
+
     CSET stated that this investment aims to optimize its fleet structure, enhance market competitiveness, and adopt LNG and methanol dual-fuel systems. This move demonstrates CSET’s commitment to modernizing its energy fleet, anticipating stricter environmental regulations, and preparing for a greener and more efficient future in maritime transportation.
     `,
     },
@@ -1126,23 +1126,145 @@ A major step forward toward green transportation in Vietnam! 🌱🚛⚡
       title: 'Vietnam’s Prominent Role in the Global Supply Chain Gains International Recognition',
       paragraphs: `
     Amid ongoing global economic challenges, Vietnam has been widely recognized by international news agencies and observers as one of Asia’s most notable growth performers and as an increasingly important player in the global supply chain.
-    
+
     Major international media including Reuters, AFP and NHK cited official data showing that Vietnam’s GDP growth in 2025 reached 8.02%, placing the country among the world’s high-growth economies.
-    
+
     International analyses noted that this result is particularly remarkable at a time when global trade is affected by rising protectionism, high logistics costs and supply-chain disruptions. Vietnam has nevertheless maintained strong growth thanks to a balanced combination of exports, domestic consumption and public investment.
-    
+
     IMF Regional Representative Jochen Schittmann stated that Vietnam is pursuing an ambitious structural reform agenda, and if these reforms are implemented effectively, economic growth could be lifted by about two percentage points above the baseline scenario.
-    
+
     Reuters highlighted Vietnam’s rising role in global supply chains in electronics, textiles, footwear and high-tech manufacturing. Industrial production and construction grew nearly 9%, services rose over 8.5%, and retail sales continued to expand. High public infrastructure spending has improved logistics and connectivity, supporting long-term growth.
-    
+
     NHK and Nikkei Asia reported that Vietnam maintained macroeconomic stability in 2025, with inflation around 3.3% and FDI reaching more than USD 27 billion.
-    
+
     Analysts emphasized that Vietnam’s exports are increasingly meeting high standards in sustainability, traceability and environmental compliance, allowing continued access to major global markets.
-    
+
     VinaCapital’s chief economist Michael Kokalari expressed optimism about future GDP growth, driven by recovering consumer confidence and retail sales growth of around 7%, supported largely by tourism recovery.
-    
+
     However, the IMF warned that external risks in 2026 remain significant due to slowing global growth and changing trade policies, making Vietnam’s high-growth targets for 2026–2030 an important test of its sustainable development strategy.
     `,
+    },
+    p48: {
+      title: 'Maersk Reports Losses: Lessons for Vietnamese Businesses as the Shipping “Feast” Comes to an End',
+      paragraphs: `The global maritime shipping market is now under dark clouds as industry giant Maersk officially reported losses in its ocean shipping segment in Q4 2025. Following ONE, Maersk was forced to cut 1,000 jobs and brace for a highly volatile 2026. This situation is not only a problem for shipping lines but also directly affects the cargo flows of Vietnamese import–export (I/E) enterprises.
+      `,
+      c1: {
+        title: '1. A financial “storm” sweeping through industry giants',
+        paragraphs: `After an era of extraordinary profits, Maersk’s ocean shipping division recorded an EBIT loss of USD 153 million in the final quarter of 2025, a dramatic collapse compared to a USD 1.6 billion profit in the same period last year. Excess capacity driven by a wave of new vessels entering the market has pushed freight rates down to historic lows.
+        `,
+      },
+
+      c2: {
+        title: '2. The Red Sea variable and 2026 scenarios',
+        paragraphs: `The future of the shipping industry is now hanging in the balance, largely dependent on geopolitical developments around the Suez Canal.
+•	Reopening scenario: Freight rates are expected to fall further as released capacity increases by 6–8%.
+•	Continued closure scenario: Shipping lines must keep rerouting via the Cape of Good Hope, raising operating costs but helping to contain oversupply.
+        `,
+      },
+
+      c3: {
+        title: '3. Direct Impact on Vietnamese Businesses',
+        paragraphs: `With its high degree of economic openness, Vietnam faces both opportunities and challenges:
+•	Cost perspective: Businesses may benefit from stronger bargaining power for lower freight rates in the short term. However, shipping lines may raise surcharges to offset losses.
+•	Operational perspective: Risks of blank sailings and longer transit times due to rerouting will increase warehousing costs and working capital pressure.
+•	Service perspective: Workforce reductions at major carriers may lead to slower customer support and documentation processing.
+
+Conclusion and Recommendations: Vietnamese enterprises should take advantage of the current cooling freight rate environment to secure long-term contracts, while also diversifying their shipping partners to avoid over-reliance on a single alliance amid ongoing market volatility.
+        `,
+      },
+    },
+    p49: {
+      title: 'Panama–China Tensions: When Ports Become the Center of Geopolitical Confrontation',
+      paragraphs: `A diplomatic crisis is unfolding in Central America after Panama decided to revoke operating rights at two strategic ports held by Hong Kong–based CK Hutchison. This move has not only strained relations with Beijing but also reignited concerns over the potential revival of a rival canal project in Nicaragua.
+      `,
+      c1: {
+        title: 'Panama’s hardline decision',
+        paragraphs: `Panamanian President José Raúl Mulino asserted national sovereignty by announcing the cancellation of nearly 30-year concession agreements at the ports of Balboa and Cristobal. According to the Supreme Court, these contracts contained unjustified privileges and tax exemptions that undermined the balance of national interests.
+
+President Mulino emphasized: “Panama will not allow itself to be threatened by any country.”
+        `,
+      },
+
+      c2: {
+        title: 'A “cold” response from Beijing',
+        paragraphs: `China responded swiftly with a series of economic countermeasures:
+•	Project suspensions: Chinese state-owned enterprises are reportedly halting new investments in Panama.
+•	Customs barriers: Stricter inspections are being imposed on imports from the Central American country.
+•	Media criticism: China Daily described the case as a textbook example of how “external pressure” can erode judicial independence.
+        `,
+      },
+
+      c3: {
+        title: 'The “ghost” of the Nicaragua Canal emerges',
+        paragraphs: `The fallout has raised concerns among shipping analysts, notably Lars Jensen of Vespucci Maritime, about a more far-reaching scenario: China may seek to revive the Nicaragua Canal project. The project, once envisioned as a competitor to the Panama Canal, was shelved a decade ago.
+Reactivating the project could serve as a new geopolitical lever for Beijing in the region.
+
+The legal battle between CK Hutchison and the Panamanian government is expected to drag on for years in international arbitration. However, the broader consequences—ranging from shaken investor confidence to concerns over the stability of this vital maritime corridor—are emerging as major question marks for the global logistics industry in 2026.
+        `,
+      },
+    },
+    p50: {
+      title: 'MSC, Zhonggu and SITC Seal Massive Shipbuilding Orders: Expansion Ambitions Persist Despite Market Volatility',
+      paragraphs: `Despite widespread forecasts of global overcapacity, the world shipbuilding market remains highly active. Major carriers such as MSC, Zhonggu Logistics, and SITC have recently announced additional orders, ranging from feeder vessels to large Neo-Panamax ships powered by cleaner fuels.
+      `,
+      c1: {
+        title: '1. MSC: A pioneer in LNG dual-fuel technology',
+        paragraphs: `As the world’s largest shipping line, MSC continues to reinforce its leadership by ordering an additional eight 11,500 TEU container vessels.
+
+•	Key highlight: These vessels are equipped with LNG dual-fuel technology, supporting more sustainable emissions reduction.
+•	Scale: The order increases MSC’s total vessels in this series at the Penglai Zhongbai Jinglu shipyard to 16 units, with delivery expected in 2029.
+        `,
+      },
+
+      c2: {
+        title: '2. Zhonggu Logistics: Strengthening the mid-size segment',
+        paragraphs: `Zhonggu Logistics, which focuses on domestic and regional markets, has also confirmed orders for two 6,000 TEU vessels.
+
+•	Value: Approximately USD 83.5 million per ship.
+•	Timeline: Scheduled to join the fleet in 2028, helping the company optimize costs on its core trunk routes.
+        `,
+      },
+
+      c3: {
+        title: '3. SITC: The “Intra-Asia King” boosts competitiveness',
+        paragraphs: `SITC continues its strategy of dominating the intra-Asia niche by exercising options for two additional 2,700 TEU vessels.
+
+•	Total: The series has now expanded to eight ships.
+•	Strategy: The addition of modern feeder vessels enhances SITC’s flexibility in connecting regional ports, while maintaining the dense sailing schedules that define its competitive edge.
+
+The wave of newbuilding orders stretching through 2029 signals that shipping lines are preparing for a long-term game. Rather than scaling back, they are opting to renew and modernize their fleets, both to comply with increasingly stringent environmental regulations and to optimize operating costs through economies of scale.
+        `,
+      },
+
+    },
+    p51: {
+      title: 'Gemini Cooperation Resumes Red Sea Operations: A Turning Point for Global Logistics in 2026',
+      paragraphs: `After a prolonged disruption caused by security instability, the Gemini Cooperation alliance (Maersk and Hapag-Lloyd) has officially announced plans to gradually redeploy its fleet to the Red Sea and the Suez Canal starting from mid-February 2026. This move is widely seen as a key step toward restoring the shortest maritime corridor linking Asia and Europe.
+      `,
+      c1: {
+        title: '1. A cautious return after six months of calm',
+        paragraphs: `The decision follows a period of six months without confirmed attacks by Houthi forces in the region. Nevertheless, Gemini Cooperation remains cautious. Maersk emphasized that a “robust security framework”, supported by naval forces, has been put in place to safeguard vessels transiting the area.
+        `,
+      },
+
+      c2: {
+        title: '2. Leading the way with dual-fuel vessel technology',
+        paragraphs: `For this return, the alliance is prioritizing the deployment of its newest-generation vessels, combining environmental goals with economic efficiency:
+
+•	Westbound services: Albert Maersk (16,592 TEU, built in 2025)
+•	Eastbound services: Astrid Maersk (16,592 TEU, built in 2024)
+
+The use of dual-fuel vessels helps reduce carbon emissions while taking advantage of the shorter Suez route to further optimize operating costs.
+        `,
+      },
+
+      c3: {
+        title: '3. A positive signal for market recovery',
+        paragraphs: `The Suez Canal Authority (SCA) has highly welcomed the decision. The return of major carriers such as Maersk and Hapag-Lloyd is expected to ease pressure on freight rates and shorten transit times that had been significantly extended due to rerouting via the Cape of Good Hope.
+The return of Gemini Cooperation to the Red Sea represents a stress test for regional geopolitical stability. If security conditions remain intact, the global shipping market is expected to enter a new phase of normalization in 2026.
+        `,
+      },
+
     },
   },
 }
