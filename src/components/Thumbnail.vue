@@ -33,17 +33,18 @@ defineProps({
 .thumbnail-content {
   position: relative;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   overflow: hidden;
+  aspect-ratio: 16 / 9;
 }
 
 .thumbnail {
-  width: 3700px;
-  height: 100%;
+  width: 100%;
+  height: 738px;
   object-fit: cover;
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   z-index: 0;
 }
 

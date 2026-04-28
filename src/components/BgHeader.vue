@@ -32,17 +32,18 @@ defineProps({
   width: 100%;
   height: 532px;
   overflow: hidden;
+  aspect-ratio: 16 / 9;
 }
 
 .bg-header-image {
-  width: 1920px;
+  width: 100%;
   height: 532px;
   object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
   z-index: 0;
-  inset: 0;
+  /* inset: 0; */
 }
 
 .bg-header-content::before {
