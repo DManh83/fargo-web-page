@@ -1319,7 +1319,7 @@ The dual crisis unfolding across the Strait of Hormuz and the Red Sea is placing
     },
     p54: {
       title: 'COSCO SHIPPING Resumes Middle East Bookings Through Multimodal Network: New Opportunities for Vietnamese Businesses',
-      paragraphs: `:contentReference[oaicite:0]{index=0} has officially announced the resumption of container shipping services from the Far East to seven Middle Eastern countries, including the UAE, Saudi Arabia, Bahrain, Qatar, Kuwait, Iraq, and Oman. The decision takes immediate effect and signals a potential easing of tensions around the strategic chokepoint of the Strait of Hormuz.
+      paragraphs: `COSCO SHIPPING Lines has officially announced the resumption of container shipping services from the Far East to seven Middle Eastern countries, including the UAE, Saudi Arabia, Bahrain, Qatar, Kuwait, Iraq, and Oman. The decision takes immediate effect and signals a potential easing of tensions around the strategic chokepoint of the Strait of Hormuz.
       `,
       c1: {
         title: 'Safe Transport Solutions Amid Regional Uncertainty',
@@ -1337,7 +1337,7 @@ The dual crisis unfolding across the Strait of Hormuz and the Red Sea is placing
       },
       c3: {
         title: 'Fargo Logistics – Your Trusted Logistics Partner',
-        paragraphs: `With extensive experience in handling complex international shipping routes, :contentReference[oaicite:1]{index=1} is fully prepared to support customers with comprehensive logistics solutions:
+        paragraphs: `With extensive experience in handling complex international shipping routes, Fargo Logistics is fully prepared to support customers with comprehensive logistics solutions:
     
     Fast Rate Checks: Offering competitive freight quotations for shipments from HCM/HPH to Middle Eastern destinations.
     
