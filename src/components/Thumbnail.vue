@@ -33,7 +33,7 @@ defineProps({
 .thumbnail-content {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 738px;
   overflow: hidden;
   aspect-ratio: 16 / 9;
 }
@@ -44,14 +44,15 @@ defineProps({
   object-fit: cover;
   position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
   z-index: 0;
 }
 
 .overlay {
   position: absolute;
-  top: 40%;
+  top: 60%;
   right: 15%;
+  transform: translateY(-50%);
   text-align: left;
   color: var(--primary);
   z-index: 1;

@@ -83,8 +83,8 @@ const showHeader = computed(() => !route.meta?.hideHeader)
 <style scoped>
 .app-layout {
   background: var(--primary);
-  max-width: 1920px;
-  min-width: 1200px;
+  /* max-width: 1920px;
+  min-width: 1200px; */
 }
 
 /* Header đứng yên trên cùng khi cuộn */

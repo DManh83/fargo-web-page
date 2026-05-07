@@ -1264,7 +1264,90 @@ The use of dual-fuel vessels helps reduce carbon emissions while taking advantag
 The return of Gemini Cooperation to the Red Sea represents a stress test for regional geopolitical stability. If security conditions remain intact, the global shipping market is expected to enter a new phase of normalization in 2026.
         `,
       },
+    },
+    p52: {
+      title: 'Massive Disruption in the Persian Gulf: Major Shipping Lines Withdraw from the Strait of Hormuz',
+      paragraphs: `Sapo: Escalating tensions in the Middle East have forced global shipping giants such as CMA CGM and Hapag-Lloyd to urgently suspend operations through the Persian Gulf and the Strait of Hormuz. The move is not only disrupting global supply chains but also posing a direct threat to global energy security.
+      `,
+      c1: {
+        title: 'Iran’s “Closure Warning” and the Response from Shipping Carriers',
+        paragraphs: `The ongoing conflict involving the United States, Israel, and Iran has pushed regional tensions to a critical level. Iran’s Islamic Revolutionary Guard Corps (IRGC) recently declared that the Strait of Hormuz — one of the world’s most vital oil transit routes — is “effectively closed.”
 
+In response, several of the world’s leading shipping lines have begun withdrawing operations from the region:
+
+- CMA CGM (France): Ordered all vessels in the area to seek immediate safe harbor. The company has also suspended transits through the Suez Canal and rerouted vessels around the Cape of Good Hope in South Africa, adding thousands of kilometers to voyage distances.
+- Hapag-Lloyd (Germany): Suspended all transits through the Strait of Hormuz until further notice.
+- Maersk (Denmark): Warned customers of widespread and severe shipping delays across global trade routes.
+        `,
+      },
+      c2: {
+        title: 'Global Oil Supply Chains Under Pressure',
+        paragraphs: `The Strait of Hormuz is widely regarded as the “chokepoint” of the global economy. According to 2024 data from the U.S. Energy Information Administration (EIA), approximately 20 million barrels of crude oil pass through the strait every day, accounting for nearly 20% of global oil consumption.
+
+Any military threat or blockade in the area could trigger serious consequences:
+
+- Surging transportation costs: Rerouting vessels around Africa significantly increases transit times and fuel expenses.
+- Heightened security risks: Shipping association BIMCO has warned that vessels linked to the United States or Israel are among the highest-risk targets in the region.
+- Maritime congestion: Data from Marine Tracker shows vessel traffic through the area has dropped sharply, with numerous oil tankers reportedly turning back near the entrance to the strait.
+
+The disruption is also spreading beyond maritime logistics. Airlines across the Middle East have canceled multiple flights amid rising security concerns. As airstrikes continue around Tehran, the global market is closely monitoring every new development in the region.
+        `,
+      }
+    },
+    p53: {
+      title: 'Dual Crisis in Hormuz and the Red Sea: Global Supply Chains Under Pressure as War Risk Surcharges Surge',
+      paragraphs: `Summary: 
+      Escalating conflict in the Middle East has triggered a large-scale withdrawal of major global container shipping lines from two of the world’s most critical maritime corridors: the Strait of Hormuz and the Red Sea. The suspension of transits, temporary port closures, and the imposition of war risk surcharges are driving freight costs to new highs, while forcing global supply chains to once again reroute vessels around the Cape of Good Hope.
+
+Key Developments
+Major Shipping Giants Pull Back
+Maersk and MSC Mediterranean Shipping Company: Suspended all transits through the Strait of Hormuz indefinitely, redirected vessels to secure shelter zones, and temporarily halted new bookings for Gulf-region cargo.
+Hapag-Lloyd: Introduced war risk surcharges effective from March 2, ranging from USD 1,500 to USD 3,500 per container depending on cargo type.
+CMA CGM: Suspended operations across the Gulf region and halted transits through the Suez Canal.
+Strategic Port Infrastructure Under Attack
+
+Key regional ports including Jebel Ali Port, Bahrain, and Duqm in Oman have reportedly come under drone attacks, leading to temporary shutdowns or severe operational disruptions.
+
+Market Impact Intensifies
+The Red Sea shipping corridor faces renewed paralysis amid retaliatory threats from Houthi forces.
+Rerouting vessels around the Cape of Good Hope has significantly extended transit times, while simultaneously absorbing excess vessel capacity in the global shipping market.
+Equity markets responded positively to the improved earnings outlook for shipping companies: shares of Maersk rose 2.5%, while Hapag-Lloyd gained 5.5%.
+Conclusion
+
+The dual crisis unfolding across the Strait of Hormuz and the Red Sea is placing unprecedented pressure on global supply chains, sharply increasing transportation costs and delivery times. Importers and exporters worldwide are now being urged to implement urgent contingency plans to mitigate growing logistical risks.
+      `,
+    },
+    p54: {
+      title: 'COSCO SHIPPING Resumes Middle East Bookings Through Multimodal Network: New Opportunities for Vietnamese Businesses',
+      paragraphs: `:contentReference[oaicite:0]{index=0} has officially announced the resumption of container shipping services from the Far East to seven Middle Eastern countries, including the UAE, Saudi Arabia, Bahrain, Qatar, Kuwait, Iraq, and Oman. The decision takes immediate effect and signals a potential easing of tensions around the strategic chokepoint of the Strait of Hormuz.
+      `,
+      c1: {
+        title: 'Safe Transport Solutions Amid Regional Uncertainty',
+        paragraphs: `In an effort to maintain supply chain stability despite ongoing geopolitical tensions, COSCO has established a multimodal transportation network combining sea and land freight solutions:
+    
+    Bonded Land Bridge: Cargo will be discharged at ports located outside the Strait of Hormuz, such as Khorfakkan and Fujairah, before being transported overland into the UAE, minimizing operational risks for mother vessels.
+    
+    India Connection: Shipments bound for Oman will be transshipped via Nhava Sheva Port in India, ensuring a more stable and secure logistics route for cargo movement.
+        `,
+      },
+      c2: {
+        title: 'Positive Signals from the Strait of Hormuz',
+        paragraphs: `The move follows statements from Tehran indicating that “non-hostile” and neutral vessels would be permitted safe passage through the Strait of Hormuz. This development creates significant opportunities for Vietnamese businesses to reconnect with the highly promising Middle Eastern market.
+        `,
+      },
+      c3: {
+        title: 'Fargo Logistics – Your Trusted Logistics Partner',
+        paragraphs: `With extensive experience in handling complex international shipping routes, :contentReference[oaicite:1]{index=1} is fully prepared to support customers with comprehensive logistics solutions:
+    
+    Fast Rate Checks: Offering competitive freight quotations for shipments from HCM/HPH to Middle Eastern destinations.
+    
+    Risk Management: Providing consulting services for cargo insurance solutions and flexible alternative routing options.
+    
+    24/7 Support: Closely monitoring regional security developments and continuously updating actual vessel schedules.
+    
+    As the situation in the region remains unpredictable, we strongly recommend customers contact Fargo Logistics’ sales team early to secure suitable booking and cargo planning arrangements.
+        `,
+      },
     },
   },
 }

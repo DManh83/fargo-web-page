@@ -1159,5 +1159,91 @@ Sự trở lại của Gemini Cooperation tại Biển Đỏ là một "liều t
         `,
       },
     },
+    p52: {
+      title: 'Biến Động Cực Lớn Tại Vịnh Ba Tư: Các Hãng Tàu Đồng Loạt Rời Bỏ Eo Biển Hormuz',
+      paragraphs: `Sapo: Xung đột leo thang tại Trung Đông đã buộc các "ông lớn" vận tải biển như CMA CGM và Hapag-Lloyd phải khẩn cấp đình chỉ hoạt động qua Vịnh Ba Tư và Eo biển Hormuz. Quyết định này không chỉ làm gián đoạn chuỗi cung ứng toàn cầu mà còn đe dọa trực tiếp đến an ninh năng lượng thế giới.
+      `,
+      c1: {
+        title: 'Cảnh báo "đóng cửa" từ Iran và phản ứng từ các hãng tàu',
+        paragraphs: `Tình hình chiến sự giữa Mỹ, Israel và Iran đã đẩy căng thẳng lên đỉnh điểm. Lực lượng Vệ binh Cách mạng Iran (IRGC) vừa phát đi thông báo Eo biển Hormuz — tuyến đường huyết mạch của ngành dầu mỏ — "về cơ bản đã bị đóng cửa".
+Ngay lập tức, các hãng tàu lớn nhất thế giới đã có động thái rút lui:
+•	CMA CGM (Pháp): Ra lệnh cho tất cả tàu trong khu vực tìm nơi trú ẩn khẩn cấp. Đồng thời, đình chỉ lưu thông qua Kênh đào Suez và chuyển hướng đi vòng qua Mũi Hảo Vọng (Nam Phi), khiến hành trình kéo dài thêm hàng nghìn km.
+•	Hapag-Lloyd (Đức): Đình chỉ toàn bộ hoạt động quá cảnh qua Eo biển Hormuz cho đến khi có thông báo mới.
+•	Maersk (Đan Mạch): Cảnh báo khách hàng về tình trạng chậm trễ giao hàng nghiêm trọng trên diện rộng.
+        `,
+      },
+      c2: {
+        title: 'Hệ lụy đối với chuỗi cung ứng dầu mỏ toàn cầu',
+        paragraphs: `Eo biển Hormuz được ví như "yết hầu" của kinh tế thế giới. Theo số liệu từ EIA (2024), mỗi ngày có khoảng 20 triệu thùng dầu thô đi qua đây, chiếm gần 20% lượng tiêu thụ toàn cầu.
+Việc tuyến đường này bị phong tỏa hoặc đe dọa quân sự dẫn đến:
+1.	Chi phí vận tải tăng vọt: Việc đi vòng qua châu Phi làm tăng thời gian và chi phí nhiên liệu.
+2.	Rủi ro an ninh cao: Hiệp hội BIMCO cảnh báo các tàu có liên hệ với Mỹ hoặc Israel là mục tiêu tấn công hàng đầu.
+3.	Tắc nghẽn hàng hải: Dữ liệu từ Marine Tracker cho thấy lưu lượng tàu qua khu vực đã sụt giảm nghiêm trọng, nhiều tàu chở dầu buộc phải quay đầu ngay tại cửa ngõ eo biển.
+Không chỉ đường biển, ngành hàng không cũng đang tê liệt với hàng loạt chuyến bay qua Trung Đông bị hủy bỏ. Thế giới đang nín thở theo dõi từng diễn biến mới từ Tehran khi các cuộc không kích vẫn tiếp tục dội xuống thủ đô này.
+        `,
+      },
+    },
+    p53: {
+      title: 'Khủng Hoảng Kép Tại Hormuz Và Biển Đỏ: Chuỗi Cung Ứng Toàn Cầu Điêu Đứng, Phụ Phí Chiến Tranh Tăng Vọt',
+      paragraphs: `Tóm tắt:
+Xung đột leo thang nghiêm trọng tại Trung Đông đã kích hoạt một cuộc "di cư" quy mô lớn của các hãng tàu container hàng đầu thế giới khỏi hai tuyến đường huyết mạch: Eo biển Hormuz và Biển Đỏ. Việc tạm ngừng quá cảnh, đóng cửa cảng biển và áp dụng phụ phí rủi ro chiến tranh đang đẩy chi phí vận tải lên một mặt bằng giá mới, đồng thời buộc chuỗi cung ứng quay lại kịch bản đi vòng qua Mũi Hảo Vọng.
+
+Các điểm chính:
+
+Sự rút lui của các "ông lớn":
+
+Maersk & MSC: Đình chỉ vô thời hạn tất cả các chuyến quá cảnh qua Eo biển Hormuz; điều hướng tàu đến khu vực trú ẩn an toàn và tạm dừng nhận booking mới cho khu vực Vùng Vịnh.
+
+Hapag-Lloyd: Áp dụng phụ phí rủi ro chiến tranh từ 02/03 (tăng từ 1.500 USD đến 3.500 USD/container tùy loại hàng).
+
+CMA CGM: Tạm dừng hoạt động tại Vùng Vịnh và đình chỉ quá cảnh qua Kênh đào Suez.
+
+Hạ tầng cảng biển bị tấn công:
+
+Các cảng chiến lược như Jebel Ali (UAE), Bahrain, và Duqm (Oman) đều hứng chịu các cuộc tấn công bằng máy bay không người lái (drone), dẫn đến tình trạng đóng cửa tạm thời hoặc gián đoạn hoạt động nghiêm trọng.
+
+Hệ quả đối với thị trường:
+
+Tuyến đường Biển Đỏ đối mặt nguy cơ tê liệt trở lại do đe dọa trả đũa từ lực lượng Houthi.
+
+Việc định tuyến lại qua Mũi Hảo Vọng kéo dài thời gian vận chuyển, giúp hấp thụ công suất tàu dư thừa trên thị trường.
+
+Thị trường chứng khoán phản ứng tích cực với triển vọng lợi nhuận của các hãng tàu: cổ phiếu Maersk tăng 2,5%, Hapag-Lloyd tăng 5,5%.
+
+Kết luận: Cuộc khủng hoảng kép đang đặt chuỗi cung ứng toàn cầu trước thử thách lớn về chi phí và thời gian giao hàng, đòi hỏi các doanh nghiệp xuất nhập khẩu phải có phương án ứng phó khẩn cấp.
+      `,
+    },
+    p54: {
+      title: 'COSCO SHIPPING Khôi Phục Booking Tuyến Trung Đông Qua Mạng Lưới Đa Phương Thức: Cơ Hội Cho Doanh Nghiệp Việt',
+      paragraphs: `Hãng tàu COSCO SHIPPING Lines vừa chính thức thông báo nối lại các dịch vụ vận chuyển container từ khu vực Viễn Đông đến 7 quốc gia Trung Đông, bao gồm: UAE, Saudi Arabia, Bahrain, Qatar, Kuwait, Iraq và Oman. Quyết định này có hiệu lực ngay lập tức, đánh dấu một tín hiệu hạ nhiệt tại "điểm nghẽn" eo biển Hormuz.
+      `,
+      c1: {
+        title: 'Giải pháp vận tải an toàn trong bối cảnh biến động',
+        paragraphs: `Nhằm duy trì chuỗi cung ứng bất chấp những căng thẳng địa chính trị, COSCO đã thiết lập hệ thống vận tải đa phương thức kết hợp đường biển và đường bộ:
+
+Tuyến đường bộ ngoại quan (Bonded Land Bridge): Sử dụng các cảng phía ngoài eo biển như Khorfakkan và Fujairah để dỡ hàng, sau đó vận chuyển bằng đường bộ vào nội địa UAE, giúp giảm thiểu rủi ro cho tàu mẹ.
+
+Kết nối qua Ấn Độ: Tuyến đi Oman sẽ được chuyển tải tại cảng Nhava Sheva, đảm bảo lộ trình ổn định cho hàng hóa.
+        `,
+      },
+      c2: {
+        title: 'Tín hiệu tích cực từ Eo biển Hormuz',
+        paragraphs: `Động thái này diễn ra sau tuyên bố của Tehran về việc cho phép các tàu "không mang tính thù địch" và trung lập đi qua eo biển Hormuz an toàn. Đây là cơ hội lớn để các doanh nghiệp Việt Nam nối lại hoạt động giao thương với thị trường Trung Đông đầy tiềm năng.
+        `,
+      },
+      c3: {
+        title: 'Fargo Logistics – Đối tác tin cậy của bạn',
+        paragraphs: `Với kinh nghiệm dày dặn trong việc xử lý các tuyến đường quốc tế phức tạp, Fargo Logistics luôn sẵn sàng hỗ trợ quý khách hàng:
+
+Check rate nhanh chóng: Cung cấp báo giá cạnh tranh nhất cho các tuyến từ HCM/HPH đi Trung Đông.
+
+Quản trị rủi ro: Tư vấn các giải pháp bảo hiểm và lộ trình thay thế linh hoạt.
+
+Hỗ trợ 24/7: Theo dõi sát sao tình hình an ninh và cập nhật lịch trình tàu thực tế.
+
+Do tình hình khu vực vẫn tiềm ẩn nhiều biến động, chúng tôi khuyến nghị quý khách hàng nên liên hệ bộ phận kinh doanh của Fargo Logistics sớm để có phương án đóng hàng và booking phù hợp.
+        `,
+      },
+    },
   },
 }

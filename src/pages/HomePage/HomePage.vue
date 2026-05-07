@@ -41,7 +41,7 @@ import CarouselCard from '@/components/CarouselCard.vue'
 
 import thumbnail2 from '@/assets/images/thumbnail2.avif'
 import thumbnail3 from '@/assets/images/thumbnail3.png'
-import thumbnail from '@/assets/images/thumbnail.avif'
+import thumbnail from '@/assets/images/thumbnail_2.avif'
 import { solutions } from '@/data/solutions'
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
